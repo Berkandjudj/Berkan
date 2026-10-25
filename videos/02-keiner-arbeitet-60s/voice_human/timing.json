@@ -1,0 +1,1342 @@
+{
+ "duration": 55.263,
+ "lines": [
+  {
+   "id": "hook1",
+   "start": 0.15,
+   "end": 1.96,
+   "words": [
+    {
+     "text": "Wenn",
+     "say": "Wenn",
+     "key": false,
+     "start": 0.17,
+     "end": 0.367
+    },
+    {
+     "text": "morgen",
+     "say": "morgen",
+     "key": false,
+     "start": 0.367,
+     "end": 0.688
+    },
+    {
+     "text": "niemand",
+     "say": "niemand",
+     "key": true,
+     "start": 0.688,
+     "end": 1.008
+    },
+    {
+     "text": "mehr",
+     "say": "mehr",
+     "key": false,
+     "start": 1.008,
+     "end": 1.205
+    },
+    {
+     "text": "zur",
+     "say": "zur",
+     "key": false,
+     "start": 1.205,
+     "end": 1.402
+    },
+    {
+     "text": "Arbeit",
+     "say": "Arbeit",
+     "key": false,
+     "start": 1.402,
+     "end": 1.723
+    },
+    {
+     "text": "geht,",
+     "say": "geht,",
+     "key": false,
+     "start": 1.723,
+     "end": 1.92
+    }
+   ]
+  },
+  {
+   "id": "hook2",
+   "start": 2.02,
+   "end": 3.24,
+   "words": [
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 2.04,
+     "end": 2.272
+    },
+    {
+     "text": "das",
+     "say": "das",
+     "key": false,
+     "start": 2.272,
+     "end": 2.504
+    },
+    {
+     "text": "kein",
+     "say": "kein",
+     "key": false,
+     "start": 2.504,
+     "end": 2.736
+    },
+    {
+     "text": "freier",
+     "say": "freier",
+     "key": true,
+     "start": 2.736,
+     "end": 2.968
+    },
+    {
+     "text": "Tag.",
+     "say": "Tag.",
+     "key": false,
+     "start": 2.968,
+     "end": 3.2
+    }
+   ]
+  },
+  {
+   "id": "hook3",
+   "start": 3.44,
+   "end": 4.86,
+   "words": [
+    {
+     "text": "Es",
+     "say": "Es",
+     "key": false,
+     "start": 3.46,
+     "end": 3.665
+    },
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 3.665,
+     "end": 3.871
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 3.871,
+     "end": 4.076
+    },
+    {
+     "text": "Anfang",
+     "say": "Anfang",
+     "key": false,
+     "start": 4.076,
+     "end": 4.409
+    },
+    {
+     "text": "vom",
+     "say": "vom",
+     "key": false,
+     "start": 4.409,
+     "end": 4.615
+    },
+    {
+     "text": "Chaos.",
+     "say": "Kaos.",
+     "key": true,
+     "start": 4.615,
+     "end": 4.82
+    }
+   ]
+  },
+  {
+   "id": "fact",
+   "start": 5.033,
+   "end": 8.013,
+   "words": [
+    {
+     "text": "Supermärkte",
+     "say": "Supermärkte",
+     "key": false,
+     "start": 5.033,
+     "end": 5.648
+    },
+    {
+     "text": "haben",
+     "say": "haben",
+     "key": false,
+     "start": 5.648,
+     "end": 5.995
+    },
+    {
+     "text": "oft",
+     "say": "oft",
+     "key": false,
+     "start": 5.995,
+     "end": 6.209
+    },
+    {
+     "text": "nur",
+     "say": "nur",
+     "key": false,
+     "start": 6.209,
+     "end": 6.423
+    },
+    {
+     "text": "Ware",
+     "say": "Ware",
+     "key": false,
+     "start": 6.423,
+     "end": 6.77
+    },
+    {
+     "text": "für",
+     "say": "für",
+     "key": false,
+     "start": 6.77,
+     "end": 6.984
+    },
+    {
+     "text": "2",
+     "say": "zwei",
+     "key": true,
+     "start": 6.984,
+     "end": 7.198
+    },
+    {
+     "text": "bis",
+     "say": "bis",
+     "key": false,
+     "start": 7.198,
+     "end": 7.412
+    },
+    {
+     "text": "3",
+     "say": "drei",
+     "key": true,
+     "start": 7.412,
+     "end": 7.626
+    },
+    {
+     "text": "Tage.",
+     "say": "Tage.",
+     "key": false,
+     "start": 7.626,
+     "end": 7.973
+    }
+   ]
+  },
+  {
+   "id": "fact2",
+   "start": 8.246,
+   "end": 10.686,
+   "words": [
+    {
+     "text": "Nachschub",
+     "say": "Nachschub",
+     "key": false,
+     "start": 8.266,
+     "end": 8.634
+    },
+    {
+     "text": "kommt",
+     "say": "kommt",
+     "key": false,
+     "start": 8.634,
+     "end": 8.861
+    },
+    {
+     "text": "fast",
+     "say": "fast",
+     "key": false,
+     "start": 8.861,
+     "end": 9.088
+    },
+    {
+     "text": "jeden",
+     "say": "jeden",
+     "key": true,
+     "start": 9.088,
+     "end": 9.456
+    },
+    {
+     "text": "Tag",
+     "say": "Tag",
+     "key": false,
+     "start": 9.456,
+     "end": 9.683
+    },
+    {
+     "text": "mit",
+     "say": "mit",
+     "key": false,
+     "start": 9.683,
+     "end": 9.909
+    },
+    {
+     "text": "dem",
+     "say": "dem",
+     "key": false,
+     "start": 9.909,
+     "end": 10.136
+    },
+    {
+     "text": "Lastwagen.",
+     "say": "Lastwagen.",
+     "key": true,
+     "start": 10.136,
+     "end": 10.646
+    }
+   ]
+  },
+  {
+   "id": "tag1_mark",
+   "start": 10.996,
+   "end": 12.466,
+   "words": [
+    {
+     "text": "Tag",
+     "say": "Tag",
+     "key": false,
+     "start": 11.016,
+     "end": 11.366
+    },
+    {
+     "text": "1,",
+     "say": "eins,",
+     "key": false,
+     "start": 11.366,
+     "end": 11.716
+    },
+    {
+     "text": "7",
+     "say": "sieben",
+     "key": false,
+     "start": 11.886,
+     "end": 12.22
+    },
+    {
+     "text": "Uhr.",
+     "say": "Uhr.",
+     "key": false,
+     "start": 12.22,
+     "end": 12.426
+    }
+   ]
+  },
+  {
+   "id": "tag1",
+   "start": 12.576,
+   "end": 14.406,
+   "words": [
+    {
+     "text": "Kein",
+     "say": "Kein",
+     "key": true,
+     "start": 12.596,
+     "end": 12.803
+    },
+    {
+     "text": "Bus",
+     "say": "Bus",
+     "key": false,
+     "start": 12.803,
+     "end": 13.009
+    },
+    {
+     "text": "fährt.",
+     "say": "fährt.",
+     "key": false,
+     "start": 13.009,
+     "end": 13.216
+    },
+    {
+     "text": "Die",
+     "say": "Die",
+     "key": false,
+     "start": 13.446,
+     "end": 13.676
+    },
+    {
+     "text": "Bahn",
+     "say": "Bahn",
+     "key": false,
+     "start": 13.676,
+     "end": 13.906
+    },
+    {
+     "text": "steht",
+     "say": "steht",
+     "key": false,
+     "start": 13.906,
+     "end": 14.136
+    },
+    {
+     "text": "still.",
+     "say": "still.",
+     "key": true,
+     "start": 14.136,
+     "end": 14.366
+    }
+   ]
+  },
+  {
+   "id": "tag1b",
+   "start": 14.731,
+   "end": 18.269,
+   "words": [
+    {
+     "text": "Schulen",
+     "say": "Schulen",
+     "key": false,
+     "start": 14.741,
+     "end": 15.186
+    },
+    {
+     "text": "und",
+     "say": "und",
+     "key": false,
+     "start": 15.186,
+     "end": 15.46
+    },
+    {
+     "text": "Kitas",
+     "say": "Kitas",
+     "key": false,
+     "start": 15.46,
+     "end": 15.904
+    },
+    {
+     "text": "bleiben",
+     "say": "bleiben",
+     "key": false,
+     "start": 15.904,
+     "end": 16.349
+    },
+    {
+     "text": "zu.",
+     "say": "zu.",
+     "key": true,
+     "start": 16.349,
+     "end": 16.623
+    },
+    {
+     "text": "Viele",
+     "say": "Viele",
+     "key": false,
+     "start": 16.623,
+     "end": 17.068
+    },
+    {
+     "text": "denken:",
+     "say": "denken:",
+     "key": false,
+     "start": 17.068,
+     "end": 17.512
+    },
+    {
+     "text": "Endlich",
+     "say": "Endlich",
+     "key": false,
+     "start": 17.512,
+     "end": 17.957
+    },
+    {
+     "text": "frei.",
+     "say": "frei.",
+     "key": true,
+     "start": 17.957,
+     "end": 18.231
+    }
+   ]
+  },
+  {
+   "id": "tag2_mark",
+   "start": 18.369,
+   "end": 19.215,
+   "words": [
+    {
+     "text": "Tag",
+     "say": "Tag,",
+     "key": false,
+     "start": 18.389,
+     "end": 18.679
+    },
+    {
+     "text": "2.",
+     "say": "zwei.",
+     "key": false,
+     "start": 18.819,
+     "end": 19.189
+    }
+   ]
+  },
+  {
+   "id": "tag2",
+   "start": 19.389,
+   "end": 24.046,
+   "words": [
+    {
+     "text": "Im",
+     "say": "Im",
+     "key": false,
+     "start": 19.409,
+     "end": 19.656
+    },
+    {
+     "text": "Krankenhaus",
+     "say": "Krankenhaus",
+     "key": false,
+     "start": 19.656,
+     "end": 20.211
+    },
+    {
+     "text": "fehlen",
+     "say": "fehlen",
+     "key": false,
+     "start": 20.211,
+     "end": 20.612
+    },
+    {
+     "text": "Ärzte",
+     "say": "Ärzte",
+     "key": true,
+     "start": 20.612,
+     "end": 21.013
+    },
+    {
+     "text": "und",
+     "say": "und",
+     "key": false,
+     "start": 21.013,
+     "end": 21.26
+    },
+    {
+     "text": "Pflegekräfte.",
+     "say": "Pflegekräfte.",
+     "key": false,
+     "start": 21.26,
+     "end": 21.969
+    },
+    {
+     "text": "Beim",
+     "say": "Beim",
+     "key": false,
+     "start": 22.259,
+     "end": 22.502
+    },
+    {
+     "text": "Notruf",
+     "say": "Notruf",
+     "key": true,
+     "start": 22.502,
+     "end": 22.896
+    },
+    {
+     "text": "geht",
+     "say": "geht",
+     "key": false,
+     "start": 22.896,
+     "end": 23.139
+    },
+    {
+     "text": "keiner",
+     "say": "keiner",
+     "key": false,
+     "start": 23.139,
+     "end": 23.533
+    },
+    {
+     "text": "mehr",
+     "say": "mehr",
+     "key": false,
+     "start": 23.533,
+     "end": 23.776
+    },
+    {
+     "text": "ran.",
+     "say": "ran.",
+     "key": false,
+     "start": 23.776,
+     "end": 24.019
+    }
+   ]
+  },
+  {
+   "id": "tag3_mark",
+   "start": 24.289,
+   "end": 25.029,
+   "words": [
+    {
+     "text": "Tag",
+     "say": "Tag,",
+     "key": false,
+     "start": 24.299,
+     "end": 24.644
+    },
+    {
+     "text": "3.",
+     "say": "drei.",
+     "key": false,
+     "start": 24.644,
+     "end": 24.989
+    }
+   ]
+  },
+  {
+   "id": "tag3",
+   "start": 25.169,
+   "end": 28.289,
+   "words": [
+    {
+     "text": "Die",
+     "say": "Die",
+     "key": false,
+     "start": 25.189,
+     "end": 25.391
+    },
+    {
+     "text": "Regale",
+     "say": "Regale",
+     "key": false,
+     "start": 25.391,
+     "end": 25.845
+    },
+    {
+     "text": "sind",
+     "say": "sind",
+     "key": false,
+     "start": 25.845,
+     "end": 26.047
+    },
+    {
+     "text": "leer.",
+     "say": "leer.",
+     "key": true,
+     "start": 26.047,
+     "end": 26.249
+    },
+    {
+     "text": "Auf",
+     "say": "Auf",
+     "key": false,
+     "start": 26.519,
+     "end": 26.729
+    },
+    {
+     "text": "den",
+     "say": "den",
+     "key": false,
+     "start": 26.729,
+     "end": 26.938
+    },
+    {
+     "text": "Straßen",
+     "say": "Straßen",
+     "key": false,
+     "start": 26.938,
+     "end": 27.279
+    },
+    {
+     "text": "stapelt",
+     "say": "stapelt",
+     "key": false,
+     "start": 27.279,
+     "end": 27.62
+    },
+    {
+     "text": "sich",
+     "say": "sich",
+     "key": false,
+     "start": 27.62,
+     "end": 27.83
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 27.83,
+     "end": 28.039
+    },
+    {
+     "text": "Müll.",
+     "say": "Müll.",
+     "key": true,
+     "start": 28.039,
+     "end": 28.249
+    }
+   ]
+  },
+  {
+   "id": "tag4_mark",
+   "start": 28.429,
+   "end": 29.099,
+   "words": [
+    {
+     "text": "Tag",
+     "say": "Tag,",
+     "key": false,
+     "start": 28.429,
+     "end": 28.744
+    },
+    {
+     "text": "4.",
+     "say": "vier.",
+     "key": false,
+     "start": 28.744,
+     "end": 29.059
+    }
+   ]
+  },
+  {
+   "id": "tag4",
+   "start": 29.469,
+   "end": 32.749,
+   "words": [
+    {
+     "text": "Die",
+     "say": "Die",
+     "key": false,
+     "start": 29.479,
+     "end": 29.693
+    },
+    {
+     "text": "Tankstellen",
+     "say": "Tankstellen",
+     "key": false,
+     "start": 29.693,
+     "end": 30.173
+    },
+    {
+     "text": "sind",
+     "say": "sind",
+     "key": false,
+     "start": 30.173,
+     "end": 30.387
+    },
+    {
+     "text": "trocken.",
+     "say": "trocken.",
+     "key": true,
+     "start": 30.387,
+     "end": 30.734
+    },
+    {
+     "text": "Wer",
+     "say": "Wer",
+     "key": false,
+     "start": 30.734,
+     "end": 30.947
+    },
+    {
+     "text": "noch",
+     "say": "noch",
+     "key": false,
+     "start": 30.947,
+     "end": 31.161
+    },
+    {
+     "text": "Vorräte",
+     "say": "Vorräte",
+     "key": false,
+     "start": 31.161,
+     "end": 31.641
+    },
+    {
+     "text": "hat,",
+     "say": "hat,",
+     "key": false,
+     "start": 31.641,
+     "end": 31.855
+    },
+    {
+     "text": "gibt",
+     "say": "gibt",
+     "key": false,
+     "start": 31.855,
+     "end": 32.068
+    },
+    {
+     "text": "nichts",
+     "say": "nichts",
+     "key": true,
+     "start": 32.068,
+     "end": 32.282
+    },
+    {
+     "text": "mehr",
+     "say": "mehr",
+     "key": false,
+     "start": 32.282,
+     "end": 32.495
+    },
+    {
+     "text": "ab.",
+     "say": "ab.",
+     "key": false,
+     "start": 32.495,
+     "end": 32.709
+    }
+   ]
+  },
+  {
+   "id": "tag5_mark",
+   "start": 32.879,
+   "end": 33.579,
+   "words": [
+    {
+     "text": "Tag",
+     "say": "Tag,",
+     "key": false,
+     "start": 32.879,
+     "end": 33.209
+    },
+    {
+     "text": "5.",
+     "say": "fünf.",
+     "key": false,
+     "start": 33.209,
+     "end": 33.539
+    }
+   ]
+  },
+  {
+   "id": "tag5",
+   "start": 33.734,
+   "end": 36.714,
+   "words": [
+    {
+     "text": "In",
+     "say": "In",
+     "key": false,
+     "start": 33.754,
+     "end": 33.962
+    },
+    {
+     "text": "den",
+     "say": "den",
+     "key": false,
+     "start": 33.962,
+     "end": 34.171
+    },
+    {
+     "text": "Kraftwerken",
+     "say": "Kraftwerken",
+     "key": false,
+     "start": 34.171,
+     "end": 34.639
+    },
+    {
+     "text": "sitzt",
+     "say": "sitzt",
+     "key": false,
+     "start": 34.639,
+     "end": 34.847
+    },
+    {
+     "text": "keiner",
+     "say": "keiner",
+     "key": true,
+     "start": 34.847,
+     "end": 35.186
+    },
+    {
+     "text": "mehr.",
+     "say": "mehr.",
+     "key": false,
+     "start": 35.186,
+     "end": 35.394
+    },
+    {
+     "text": "Der",
+     "say": "Der",
+     "key": false,
+     "start": 35.724,
+     "end": 35.964
+    },
+    {
+     "text": "Strom",
+     "say": "Strom",
+     "key": true,
+     "start": 35.964,
+     "end": 36.204
+    },
+    {
+     "text": "fällt",
+     "say": "fällt",
+     "key": false,
+     "start": 36.204,
+     "end": 36.444
+    },
+    {
+     "text": "aus.",
+     "say": "aus.",
+     "key": false,
+     "start": 36.444,
+     "end": 36.684
+    }
+   ]
+  },
+  {
+   "id": "wasser",
+   "start": 37.094,
+   "end": 41.034,
+   "words": [
+    {
+     "text": "Ohne",
+     "say": "Ohne",
+     "key": false,
+     "start": 37.114,
+     "end": 37.448
+    },
+    {
+     "text": "Strom",
+     "say": "Strom",
+     "key": false,
+     "start": 37.448,
+     "end": 37.653
+    },
+    {
+     "text": "laufen",
+     "say": "laufen",
+     "key": false,
+     "start": 37.653,
+     "end": 37.987
+    },
+    {
+     "text": "keine",
+     "say": "keine",
+     "key": false,
+     "start": 37.987,
+     "end": 38.32
+    },
+    {
+     "text": "Pumpen.",
+     "say": "Pumpen.",
+     "key": true,
+     "start": 38.32,
+     "end": 38.654
+    },
+    {
+     "text": "Aus",
+     "say": "Aus",
+     "key": false,
+     "start": 38.874,
+     "end": 39.097
+    },
+    {
+     "text": "vielen",
+     "say": "vielen",
+     "key": false,
+     "start": 39.097,
+     "end": 39.46
+    },
+    {
+     "text": "Wasserhähnen",
+     "say": "Wasserhähnen",
+     "key": false,
+     "start": 39.46,
+     "end": 40.101
+    },
+    {
+     "text": "kommt",
+     "say": "kommt",
+     "key": false,
+     "start": 40.101,
+     "end": 40.325
+    },
+    {
+     "text": "bald",
+     "say": "bald",
+     "key": false,
+     "start": 40.325,
+     "end": 40.548
+    },
+    {
+     "text": "nichts",
+     "say": "nichts",
+     "key": true,
+     "start": 40.548,
+     "end": 40.771
+    },
+    {
+     "text": "mehr.",
+     "say": "mehr.",
+     "key": false,
+     "start": 40.771,
+     "end": 40.994
+    }
+   ]
+  },
+  {
+   "id": "tag7_mark",
+   "start": 41.284,
+   "end": 42.084,
+   "words": [
+    {
+     "text": "Tag",
+     "say": "Tag,",
+     "key": false,
+     "start": 41.304,
+     "end": 41.586
+    },
+    {
+     "text": "7.",
+     "say": "sieben.",
+     "key": false,
+     "start": 41.586,
+     "end": 42.044
+    }
+   ]
+  },
+  {
+   "id": "netz",
+   "start": 42.324,
+   "end": 45.283,
+   "words": [
+    {
+     "text": "Das",
+     "say": "Das",
+     "key": false,
+     "start": 42.344,
+     "end": 42.542
+    },
+    {
+     "text": "Handy",
+     "say": "Handy",
+     "key": false,
+     "start": 42.542,
+     "end": 42.863
+    },
+    {
+     "text": "hat",
+     "say": "hat",
+     "key": false,
+     "start": 42.863,
+     "end": 43.061
+    },
+    {
+     "text": "kein",
+     "say": "kein",
+     "key": false,
+     "start": 43.061,
+     "end": 43.259
+    },
+    {
+     "text": "Netz",
+     "say": "Netz",
+     "key": true,
+     "start": 43.259,
+     "end": 43.456
+    },
+    {
+     "text": "mehr.",
+     "say": "mehr.",
+     "key": false,
+     "start": 43.456,
+     "end": 43.654
+    },
+    {
+     "text": "Die",
+     "say": "Die",
+     "key": false,
+     "start": 43.914,
+     "end": 44.119
+    },
+    {
+     "text": "Stadt",
+     "say": "Stadt",
+     "key": false,
+     "start": 44.119,
+     "end": 44.325
+    },
+    {
+     "text": "wird",
+     "say": "wird",
+     "key": false,
+     "start": 44.325,
+     "end": 44.53
+    },
+    {
+     "text": "dunkel",
+     "say": "dunkel",
+     "key": true,
+     "start": 44.53,
+     "end": 44.863
+    },
+    {
+     "text": "und",
+     "say": "und",
+     "key": false,
+     "start": 44.863,
+     "end": 45.069
+    },
+    {
+     "text": "still.",
+     "say": "still.",
+     "key": false,
+     "start": 45.069,
+     "end": 45.274
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "start": 45.383,
+   "end": 48.923,
+   "words": [
+    {
+     "text": "Und",
+     "say": "Und",
+     "key": false,
+     "start": 45.403,
+     "end": 45.596
+    },
+    {
+     "text": "plötzlich",
+     "say": "plötzlich",
+     "key": false,
+     "start": 45.596,
+     "end": 45.91
+    },
+    {
+     "text": "merkt",
+     "say": "merkt",
+     "key": false,
+     "start": 45.91,
+     "end": 46.104
+    },
+    {
+     "text": "jeder:",
+     "say": "jeder:",
+     "key": false,
+     "start": 46.104,
+     "end": 46.418
+    },
+    {
+     "text": "Ohne",
+     "say": "Ohne",
+     "key": false,
+     "start": 46.418,
+     "end": 46.732
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 46.732,
+     "end": 46.925
+    },
+    {
+     "text": "Arbeit",
+     "say": "Arbeit",
+     "key": false,
+     "start": 46.925,
+     "end": 47.24
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 47.24,
+     "end": 47.433
+    },
+    {
+     "text": "anderen",
+     "say": "anderen",
+     "key": true,
+     "start": 47.433,
+     "end": 47.868
+    },
+    {
+     "text": "hält",
+     "say": "hält",
+     "key": false,
+     "start": 47.868,
+     "end": 48.061
+    },
+    {
+     "text": "keiner",
+     "say": "keiner",
+     "key": false,
+     "start": 48.061,
+     "end": 48.375
+    },
+    {
+     "text": "lange",
+     "say": "lange",
+     "key": false,
+     "start": 48.375,
+     "end": 48.69
+    },
+    {
+     "text": "durch.",
+     "say": "durch.",
+     "key": true,
+     "start": 48.69,
+     "end": 48.883
+    }
+   ]
+  },
+  {
+   "id": "frage",
+   "start": 49.103,
+   "end": 51.063,
+   "words": [
+    {
+     "text": "Würdest",
+     "say": "Würdest",
+     "key": false,
+     "start": 49.113,
+     "end": 49.402
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": false,
+     "start": 49.402,
+     "end": 49.579
+    },
+    {
+     "text": "als",
+     "say": "als",
+     "key": false,
+     "start": 49.579,
+     "end": 49.757
+    },
+    {
+     "text": "Erster",
+     "say": "Erster",
+     "key": true,
+     "start": 49.757,
+     "end": 50.046
+    },
+    {
+     "text": "wieder",
+     "say": "wieder",
+     "key": false,
+     "start": 50.046,
+     "end": 50.335
+    },
+    {
+     "text": "arbeiten",
+     "say": "arbeiten",
+     "key": false,
+     "start": 50.335,
+     "end": 50.734
+    },
+    {
+     "text": "gehen?",
+     "say": "gehen?",
+     "key": false,
+     "start": 50.734,
+     "end": 51.023
+    }
+   ]
+  },
+  {
+   "id": "cta1",
+   "start": 51.213,
+   "end": 52.463,
+   "words": [
+    {
+     "text": "Schreib",
+     "say": "Schreib",
+     "key": false,
+     "start": 51.213,
+     "end": 51.389
+    },
+    {
+     "text": "es",
+     "say": "es",
+     "key": false,
+     "start": 51.389,
+     "end": 51.565
+    },
+    {
+     "text": "in",
+     "say": "in",
+     "key": false,
+     "start": 51.565,
+     "end": 51.741
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 51.741,
+     "end": 51.917
+    },
+    {
+     "text": "Kommentare.",
+     "say": "Kommentare.",
+     "key": true,
+     "start": 51.917,
+     "end": 52.423
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": 52.583,
+   "end": 54.963,
+   "words": [
+    {
+     "text": "Folge",
+     "say": "Folge",
+     "key": false,
+     "start": 52.603,
+     "end": 53.03
+    },
+    {
+     "text": "mir,",
+     "say": "mir,",
+     "key": false,
+     "start": 53.03,
+     "end": 53.293
+    },
+    {
+     "text": "damit",
+     "say": "damit",
+     "key": false,
+     "start": 53.473,
+     "end": 53.798
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": false,
+     "start": 53.798,
+     "end": 53.998
+    },
+    {
+     "text": "Teil",
+     "say": "Teil",
+     "key": false,
+     "start": 53.998,
+     "end": 54.198
+    },
+    {
+     "text": "2",
+     "say": "zwei",
+     "key": true,
+     "start": 54.198,
+     "end": 54.398
+    },
+    {
+     "text": "nicht",
+     "say": "nicht",
+     "key": false,
+     "start": 54.398,
+     "end": 54.598
+    },
+    {
+     "text": "verpasst.",
+     "say": "verpasst.",
+     "key": false,
+     "start": 54.598,
+     "end": 54.923
+    }
+   ]
+  }
+ ]
+}

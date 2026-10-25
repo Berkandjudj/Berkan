@@ -50,6 +50,19 @@ Länge an das Ziel anpassen über `--speed` (1.0–1.15), Pausen oder Textkürzu
 Whisper lässt kurze Einleitungen („Tag 2.“) gern aus – dann den Ausschnitt einzeln prüfen, bevor man die Stimme verdächtigt. Zielt das Video auf 30 s,
 endet die Stimme bei ~28,5 s; der Rest gehört der Outro-Karte.
 
+### Beste Stimme: Gemini (AI Studio) – Berkans bevorzugter Weg
+
+Berkan erzeugt die Stimme selbst auf aistudio.google.com → „Generate speech“ (tiefe Männerstimme, z. B. Charon/Fenrir)
+und schickt die WAV in den Chat. Vorlage für ihn: nur den reinen Sprechtext, Stilwunsch ins separate Stil-Feld –
+sonst wird die Anweisung mitgesprochen (dann `--skip <Sekunden>`). Einbauen, Szenen bleiben synchron:
+```bash
+python3 -I $SK/scripts/transcribe.py upload.wav                        # Inhalt prüfen, Anweisungs-Vorspann finden
+python3 -I $SK/scripts/place_voice.py upload.wav script.json out --match assets/timing.json --skip 0 --max-gap 0.2
+```
+Ohne bestehendes Video (`--match` weglassen) werden die Zeilen mit natürlichen Pausen gesetzt; dann Szenen nach
+`timing.json` bauen. ElevenLabs ist angebunden, lieferte aber dauerhaft 429 (Kontolimit) – nicht erneut probieren,
+ohne dass Berkan sein Konto geprüft hat.
+
 ## 3. Projekt anlegen
 
 ```bash

@@ -63,12 +63,15 @@ def main():
     ap.add_argument("--match")
     ap.add_argument("--max-tempo", type=float, default=1.10)
     ap.add_argument("--lead", type=float, default=0.15)
+    ap.add_argument("--skip", type=float, default=0.0, help="Sekunden am Anfang verwerfen (z. B. mitgesprochene Anweisung)")
+    ap.add_argument("--max-gap", type=float, default=0.0,
+                    help="Pausen innerhalb einer Zeile auf höchstens so viele Sekunden kürzen (0 = unverändert)")
     a = ap.parse_args()
     spec = json.load(open(a.script, encoding="utf-8"))
     old = {l["id"]: l for l in json.load(open(a.match, encoding="utf-8"))["lines"]} if a.match else {}
 
-    a16 = load(a.audio, SR)
-    full = load(a.audio, OUT_SR)
+    a16 = load(a.audio, SR)[int(a.skip * SR):]
+    full = load(a.audio, OUT_SR)[int(a.skip * OUT_SR):]
     segs = segments(a16)
     M = os.path.join(ASR, "sherpa-onnx-whisper-small")
     rec = sherpa_onnx.OfflineRecognizer.from_whisper(
@@ -135,7 +138,19 @@ def main():
     placed, lines_out, t, report = [], [], a.lead, []
     for li, line in enumerate(spec["lines"]):
         s0 = max(0, int((cuts[li][0] - 0.03) * OUT_SR)); s1 = int((cuts[li][1] + 0.06) * OUT_SR)
-        clip = full[s0:s1].copy()
+        if a.max_gap > 0:
+            # aus den Sprachabschnitten neu zusammensetzen, lange Pausen kürzen
+            inner = [(max(sa, cuts[li][0]), min(sb, cuts[li][1])) for sa, sb in segs
+                     if sb > cuts[li][0] + 0.02 and sa < cuts[li][1] - 0.02]
+            parts, prev = [], None
+            for sa, sb in inner:
+                if prev is not None:
+                    parts.append(np.zeros(int(min(sa - prev, a.max_gap) * OUT_SR), dtype=np.float32))
+                parts.append(full[max(0, int((sa - 0.03) * OUT_SR)):int((sb + 0.05) * OUT_SR)])
+                prev = sb
+            clip = np.concatenate(parts) if parts else full[s0:s1].copy()
+        else:
+            clip = full[s0:s1].copy()
         fade = int(0.01 * OUT_SR)
         clip[:fade] *= np.linspace(0, 1, fade); clip[-fade:] *= np.linspace(1, 0, fade)
         nat_gap = (cuts[li][0] - cuts[li - 1][1]) if li else 0

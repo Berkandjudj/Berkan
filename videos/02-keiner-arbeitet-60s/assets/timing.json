@@ -1,1340 +1,1340 @@
 {
- "duration": 55.263,
+ "duration": 54.855,
  "lines": [
   {
    "id": "hook1",
    "start": 0.15,
-   "end": 1.96,
+   "end": 2.205,
    "words": [
     {
      "text": "Wenn",
      "say": "Wenn",
      "key": false,
-     "start": 0.17,
-     "end": 0.367
+     "start": 0.16,
+     "end": 0.385
     },
     {
      "text": "morgen",
      "say": "morgen",
      "key": false,
-     "start": 0.367,
-     "end": 0.688
+     "start": 0.385,
+     "end": 0.752
     },
     {
      "text": "niemand",
      "say": "niemand",
      "key": true,
-     "start": 0.688,
-     "end": 1.008
+     "start": 0.752,
+     "end": 1.118
     },
     {
      "text": "mehr",
      "say": "mehr",
      "key": false,
-     "start": 1.008,
-     "end": 1.205
+     "start": 1.118,
+     "end": 1.343
     },
     {
      "text": "zur",
      "say": "zur",
      "key": false,
-     "start": 1.205,
-     "end": 1.402
+     "start": 1.343,
+     "end": 1.568
     },
     {
      "text": "Arbeit",
      "say": "Arbeit",
      "key": false,
-     "start": 1.402,
-     "end": 1.723
+     "start": 1.568,
+     "end": 1.935
     },
     {
      "text": "geht,",
      "say": "geht,",
      "key": false,
-     "start": 1.723,
-     "end": 1.92
+     "start": 1.935,
+     "end": 2.16
     }
    ]
   },
   {
    "id": "hook2",
-   "start": 2.02,
-   "end": 3.24,
+   "start": 2.205,
+   "end": 3.36,
    "words": [
     {
      "text": "ist",
      "say": "ist",
      "key": false,
-     "start": 2.04,
-     "end": 2.272
+     "start": 2.225,
+     "end": 2.437
     },
     {
      "text": "das",
      "say": "das",
      "key": false,
-     "start": 2.272,
-     "end": 2.504
+     "start": 2.437,
+     "end": 2.649
     },
     {
      "text": "kein",
      "say": "kein",
      "key": false,
-     "start": 2.504,
-     "end": 2.736
+     "start": 2.649,
+     "end": 2.861
     },
     {
      "text": "freier",
      "say": "freier",
      "key": true,
-     "start": 2.736,
-     "end": 2.968
+     "start": 2.861,
+     "end": 3.073
     },
     {
      "text": "Tag.",
      "say": "Tag.",
      "key": false,
-     "start": 2.968,
-     "end": 3.2
+     "start": 3.073,
+     "end": 3.285
     }
    ]
   },
   {
    "id": "hook3",
    "start": 3.44,
-   "end": 4.86,
+   "end": 5.087,
    "words": [
     {
      "text": "Es",
      "say": "Es",
      "key": false,
-     "start": 3.46,
-     "end": 3.665
+     "start": 3.45,
+     "end": 3.682
     },
     {
      "text": "ist",
      "say": "ist",
      "key": false,
-     "start": 3.665,
-     "end": 3.871
+     "start": 3.682,
+     "end": 3.915
     },
     {
      "text": "der",
      "say": "der",
      "key": false,
-     "start": 3.871,
-     "end": 4.076
+     "start": 3.915,
+     "end": 4.147
     },
     {
      "text": "Anfang",
      "say": "Anfang",
      "key": false,
-     "start": 4.076,
-     "end": 4.409
+     "start": 4.147,
+     "end": 4.525
     },
     {
      "text": "vom",
      "say": "vom",
      "key": false,
-     "start": 4.409,
-     "end": 4.615
+     "start": 4.525,
+     "end": 4.758
     },
     {
      "text": "Chaos.",
      "say": "Kaos.",
      "key": true,
-     "start": 4.615,
-     "end": 4.82
+     "start": 4.758,
+     "end": 4.99
     }
    ]
   },
   {
    "id": "fact",
-   "start": 5.033,
-   "end": 8.013,
+   "start": 5.087,
+   "end": 7.955,
    "words": [
     {
      "text": "Supermärkte",
      "say": "Supermärkte",
      "key": false,
-     "start": 5.033,
-     "end": 5.648
+     "start": 5.097,
+     "end": 5.674
     },
     {
      "text": "haben",
      "say": "haben",
      "key": false,
-     "start": 5.648,
-     "end": 5.995
+     "start": 5.674,
+     "end": 6.0
     },
     {
      "text": "oft",
      "say": "oft",
      "key": false,
-     "start": 5.995,
-     "end": 6.209
+     "start": 6.0,
+     "end": 6.201
     },
     {
      "text": "nur",
      "say": "nur",
      "key": false,
-     "start": 6.209,
-     "end": 6.423
+     "start": 6.201,
+     "end": 6.402
     },
     {
      "text": "Ware",
      "say": "Ware",
      "key": false,
-     "start": 6.423,
-     "end": 6.77
+     "start": 6.402,
+     "end": 6.728
     },
     {
      "text": "für",
      "say": "für",
      "key": false,
-     "start": 6.77,
-     "end": 6.984
+     "start": 6.728,
+     "end": 6.929
     },
     {
      "text": "2",
      "say": "zwei",
      "key": true,
-     "start": 6.984,
-     "end": 7.198
+     "start": 6.929,
+     "end": 7.129
     },
     {
      "text": "bis",
      "say": "bis",
      "key": false,
-     "start": 7.198,
-     "end": 7.412
+     "start": 7.129,
+     "end": 7.33
     },
     {
      "text": "3",
      "say": "drei",
      "key": true,
-     "start": 7.412,
-     "end": 7.626
+     "start": 7.33,
+     "end": 7.531
     },
     {
      "text": "Tage.",
      "say": "Tage.",
      "key": false,
-     "start": 7.626,
-     "end": 7.973
+     "start": 7.531,
+     "end": 7.857
     }
    ]
   },
   {
    "id": "fact2",
    "start": 8.246,
-   "end": 10.686,
+   "end": 10.73,
    "words": [
     {
      "text": "Nachschub",
      "say": "Nachschub",
      "key": false,
-     "start": 8.266,
-     "end": 8.634
+     "start": 8.286,
+     "end": 8.654
     },
     {
      "text": "kommt",
      "say": "kommt",
      "key": false,
-     "start": 8.634,
-     "end": 8.861
+     "start": 8.654,
+     "end": 8.881
     },
     {
      "text": "fast",
      "say": "fast",
      "key": false,
-     "start": 8.861,
-     "end": 9.088
+     "start": 8.881,
+     "end": 9.108
     },
     {
      "text": "jeden",
      "say": "jeden",
      "key": true,
-     "start": 9.088,
-     "end": 9.456
+     "start": 9.108,
+     "end": 9.476
     },
     {
      "text": "Tag",
      "say": "Tag",
      "key": false,
-     "start": 9.456,
-     "end": 9.683
+     "start": 9.476,
+     "end": 9.703
     },
     {
      "text": "mit",
      "say": "mit",
      "key": false,
-     "start": 9.683,
-     "end": 9.909
+     "start": 9.703,
+     "end": 9.929
     },
     {
      "text": "dem",
      "say": "dem",
      "key": false,
-     "start": 9.909,
-     "end": 10.136
+     "start": 9.929,
+     "end": 10.156
     },
     {
      "text": "Lastwagen.",
      "say": "Lastwagen.",
      "key": true,
-     "start": 10.136,
-     "end": 10.646
+     "start": 10.156,
+     "end": 10.666
     }
    ]
   },
   {
    "id": "tag1_mark",
    "start": 10.996,
-   "end": 12.466,
+   "end": 12.452,
    "words": [
     {
      "text": "Tag",
      "say": "Tag",
      "key": false,
-     "start": 11.016,
-     "end": 11.366
+     "start": 10.996,
+     "end": 11.286
     },
     {
      "text": "1,",
      "say": "eins,",
      "key": false,
-     "start": 11.366,
-     "end": 11.716
+     "start": 11.286,
+     "end": 11.576
     },
     {
      "text": "7",
      "say": "sieben",
      "key": false,
-     "start": 11.886,
-     "end": 12.22
+     "start": 11.866,
+     "end": 12.182
     },
     {
      "text": "Uhr.",
      "say": "Uhr.",
      "key": false,
-     "start": 12.22,
-     "end": 12.426
+     "start": 12.182,
+     "end": 12.376
     }
    ]
   },
   {
    "id": "tag1",
    "start": 12.576,
-   "end": 14.406,
+   "end": 14.651,
    "words": [
     {
      "text": "Kein",
      "say": "Kein",
      "key": true,
-     "start": 12.596,
-     "end": 12.803
+     "start": 12.576,
+     "end": 12.823
     },
     {
      "text": "Bus",
      "say": "Bus",
      "key": false,
-     "start": 12.803,
-     "end": 13.009
+     "start": 12.823,
+     "end": 13.069
     },
     {
      "text": "fährt.",
      "say": "fährt.",
      "key": false,
-     "start": 13.009,
-     "end": 13.216
+     "start": 13.069,
+     "end": 13.316
     },
     {
      "text": "Die",
      "say": "Die",
      "key": false,
-     "start": 13.446,
-     "end": 13.676
+     "start": 13.646,
+     "end": 13.874
     },
     {
      "text": "Bahn",
      "say": "Bahn",
      "key": false,
-     "start": 13.676,
-     "end": 13.906
+     "start": 13.874,
+     "end": 14.101
     },
     {
      "text": "steht",
      "say": "steht",
      "key": false,
-     "start": 13.906,
-     "end": 14.136
+     "start": 14.101,
+     "end": 14.329
     },
     {
      "text": "still.",
      "say": "still.",
      "key": true,
-     "start": 14.136,
-     "end": 14.366
+     "start": 14.329,
+     "end": 14.556
     }
    ]
   },
   {
    "id": "tag1b",
    "start": 14.731,
-   "end": 18.269,
+   "end": 18.289,
    "words": [
     {
      "text": "Schulen",
      "say": "Schulen",
      "key": false,
      "start": 14.741,
-     "end": 15.186
+     "end": 15.088
     },
     {
      "text": "und",
      "say": "und",
      "key": false,
-     "start": 15.186,
-     "end": 15.46
+     "start": 15.088,
+     "end": 15.302
     },
     {
      "text": "Kitas",
      "say": "Kitas",
      "key": false,
-     "start": 15.46,
-     "end": 15.904
+     "start": 15.302,
+     "end": 15.65
     },
     {
      "text": "bleiben",
      "say": "bleiben",
      "key": false,
-     "start": 15.904,
-     "end": 16.349
+     "start": 15.65,
+     "end": 15.997
     },
     {
      "text": "zu.",
      "say": "zu.",
      "key": true,
-     "start": 16.349,
-     "end": 16.623
+     "start": 15.997,
+     "end": 16.211
     },
     {
      "text": "Viele",
      "say": "Viele",
      "key": false,
-     "start": 16.623,
-     "end": 17.068
+     "start": 16.501,
+     "end": 16.921
     },
     {
      "text": "denken:",
      "say": "denken:",
      "key": false,
-     "start": 17.068,
-     "end": 17.512
+     "start": 16.921,
+     "end": 17.341
     },
     {
      "text": "Endlich",
      "say": "Endlich",
      "key": false,
-     "start": 17.512,
-     "end": 17.957
+     "start": 17.581,
+     "end": 17.965
     },
     {
      "text": "frei.",
      "say": "frei.",
      "key": true,
-     "start": 17.957,
-     "end": 18.231
+     "start": 17.965,
+     "end": 18.201
     }
    ]
   },
   {
    "id": "tag2_mark",
    "start": 18.369,
-   "end": 19.215,
+   "end": 18.933,
    "words": [
     {
      "text": "Tag",
      "say": "Tag,",
      "key": false,
-     "start": 18.389,
-     "end": 18.679
+     "start": 18.369,
+     "end": 18.614
     },
     {
      "text": "2.",
      "say": "zwei.",
      "key": false,
-     "start": 18.819,
-     "end": 19.189
+     "start": 18.614,
+     "end": 18.859
     }
    ]
   },
   {
    "id": "tag2",
    "start": 19.389,
-   "end": 24.046,
+   "end": 23.373,
    "words": [
     {
      "text": "Im",
      "say": "Im",
      "key": false,
-     "start": 19.409,
-     "end": 19.656
+     "start": 19.429,
+     "end": 19.629
     },
     {
      "text": "Krankenhaus",
      "say": "Krankenhaus",
      "key": false,
-     "start": 19.656,
-     "end": 20.211
+     "start": 19.629,
+     "end": 20.081
     },
     {
      "text": "fehlen",
      "say": "fehlen",
      "key": false,
-     "start": 20.211,
-     "end": 20.612
+     "start": 20.081,
+     "end": 20.406
     },
     {
      "text": "Ärzte",
      "say": "Ärzte",
      "key": true,
-     "start": 20.612,
-     "end": 21.013
+     "start": 20.406,
+     "end": 20.732
     },
     {
      "text": "und",
      "say": "und",
      "key": false,
-     "start": 21.013,
-     "end": 21.26
+     "start": 20.732,
+     "end": 20.933
     },
     {
      "text": "Pflegekräfte.",
      "say": "Pflegekräfte.",
      "key": false,
-     "start": 21.26,
-     "end": 21.969
+     "start": 20.933,
+     "end": 21.509
     },
     {
      "text": "Beim",
      "say": "Beim",
      "key": false,
-     "start": 22.259,
-     "end": 22.502
+     "start": 21.829,
+     "end": 22.03
     },
     {
      "text": "Notruf",
      "say": "Notruf",
      "key": true,
-     "start": 22.502,
-     "end": 22.896
+     "start": 22.03,
+     "end": 22.358
     },
     {
      "text": "geht",
      "say": "geht",
      "key": false,
-     "start": 22.896,
-     "end": 23.139
+     "start": 22.358,
+     "end": 22.559
     },
     {
      "text": "keiner",
      "say": "keiner",
      "key": false,
-     "start": 23.139,
-     "end": 23.533
+     "start": 22.559,
+     "end": 22.886
     },
     {
      "text": "mehr",
      "say": "mehr",
      "key": false,
-     "start": 23.533,
-     "end": 23.776
+     "start": 22.886,
+     "end": 23.088
     },
     {
      "text": "ran.",
      "say": "ran.",
      "key": false,
-     "start": 23.776,
-     "end": 24.019
+     "start": 23.088,
+     "end": 23.289
     }
    ]
   },
   {
    "id": "tag3_mark",
    "start": 24.289,
-   "end": 25.029,
+   "end": 24.821,
    "words": [
     {
      "text": "Tag",
      "say": "Tag,",
      "key": false,
-     "start": 24.299,
-     "end": 24.644
+     "start": 24.289,
+     "end": 24.509
     },
     {
      "text": "3.",
      "say": "drei.",
      "key": false,
-     "start": 24.644,
-     "end": 24.989
+     "start": 24.509,
+     "end": 24.729
     }
    ]
   },
   {
    "id": "tag3",
    "start": 25.169,
-   "end": 28.289,
+   "end": 28.033,
    "words": [
     {
      "text": "Die",
      "say": "Die",
      "key": false,
-     "start": 25.189,
-     "end": 25.391
+     "start": 25.199,
+     "end": 25.367
     },
     {
      "text": "Regale",
      "say": "Regale",
      "key": false,
-     "start": 25.391,
-     "end": 25.845
+     "start": 25.367,
+     "end": 25.744
     },
     {
      "text": "sind",
      "say": "sind",
      "key": false,
-     "start": 25.845,
-     "end": 26.047
+     "start": 25.744,
+     "end": 25.911
     },
     {
      "text": "leer.",
      "say": "leer.",
      "key": true,
-     "start": 26.047,
-     "end": 26.249
+     "start": 25.911,
+     "end": 26.079
     },
     {
      "text": "Auf",
      "say": "Auf",
      "key": false,
-     "start": 26.519,
-     "end": 26.729
+     "start": 26.379,
+     "end": 26.567
     },
     {
      "text": "den",
      "say": "den",
      "key": false,
-     "start": 26.729,
-     "end": 26.938
+     "start": 26.567,
+     "end": 26.755
     },
     {
      "text": "Straßen",
      "say": "Straßen",
      "key": false,
-     "start": 26.938,
-     "end": 27.279
+     "start": 26.755,
+     "end": 27.06
     },
     {
      "text": "stapelt",
      "say": "stapelt",
      "key": false,
-     "start": 27.279,
-     "end": 27.62
+     "start": 27.06,
+     "end": 27.365
     },
     {
      "text": "sich",
      "say": "sich",
      "key": false,
-     "start": 27.62,
-     "end": 27.83
+     "start": 27.365,
+     "end": 27.553
     },
     {
      "text": "der",
      "say": "der",
      "key": false,
-     "start": 27.83,
-     "end": 28.039
+     "start": 27.553,
+     "end": 27.741
     },
     {
      "text": "Müll.",
      "say": "Müll.",
      "key": true,
-     "start": 28.039,
-     "end": 28.249
+     "start": 27.741,
+     "end": 27.929
     }
    ]
   },
   {
    "id": "tag4_mark",
    "start": 28.429,
-   "end": 29.099,
+   "end": 28.993,
    "words": [
     {
      "text": "Tag",
      "say": "Tag,",
      "key": false,
      "start": 28.429,
-     "end": 28.744
+     "end": 28.664
     },
     {
      "text": "4.",
      "say": "vier.",
      "key": false,
-     "start": 28.744,
-     "end": 29.059
+     "start": 28.664,
+     "end": 28.899
     }
    ]
   },
   {
    "id": "tag4",
    "start": 29.469,
-   "end": 32.749,
+   "end": 32.799,
    "words": [
     {
      "text": "Die",
      "say": "Die",
      "key": false,
      "start": 29.479,
-     "end": 29.693
+     "end": 29.67
     },
     {
      "text": "Tankstellen",
      "say": "Tankstellen",
      "key": false,
-     "start": 29.693,
-     "end": 30.173
+     "start": 29.67,
+     "end": 30.099
     },
     {
      "text": "sind",
      "say": "sind",
      "key": false,
-     "start": 30.173,
-     "end": 30.387
+     "start": 30.099,
+     "end": 30.289
     },
     {
      "text": "trocken.",
      "say": "trocken.",
      "key": true,
-     "start": 30.387,
-     "end": 30.734
+     "start": 30.289,
+     "end": 30.599
     },
     {
      "text": "Wer",
      "say": "Wer",
      "key": false,
-     "start": 30.734,
-     "end": 30.947
+     "start": 30.879,
+     "end": 31.056
     },
     {
      "text": "noch",
      "say": "noch",
      "key": false,
-     "start": 30.947,
-     "end": 31.161
+     "start": 31.056,
+     "end": 31.233
     },
     {
      "text": "Vorräte",
      "say": "Vorräte",
      "key": false,
-     "start": 31.161,
-     "end": 31.641
+     "start": 31.233,
+     "end": 31.632
     },
     {
      "text": "hat,",
      "say": "hat,",
      "key": false,
-     "start": 31.641,
-     "end": 31.855
+     "start": 31.632,
+     "end": 31.809
     },
     {
      "text": "gibt",
      "say": "gibt",
      "key": false,
-     "start": 31.855,
-     "end": 32.068
+     "start": 32.069,
+     "end": 32.232
     },
     {
      "text": "nichts",
      "say": "nichts",
      "key": true,
-     "start": 32.068,
-     "end": 32.282
+     "start": 32.232,
+     "end": 32.394
     },
     {
      "text": "mehr",
      "say": "mehr",
      "key": false,
-     "start": 32.282,
-     "end": 32.495
+     "start": 32.394,
+     "end": 32.557
     },
     {
      "text": "ab.",
      "say": "ab.",
      "key": false,
-     "start": 32.495,
-     "end": 32.709
+     "start": 32.557,
+     "end": 32.719
     }
    ]
   },
   {
    "id": "tag5_mark",
    "start": 32.879,
-   "end": 33.579,
+   "end": 33.443,
    "words": [
     {
      "text": "Tag",
      "say": "Tag,",
      "key": false,
      "start": 32.879,
-     "end": 33.209
+     "end": 33.119
     },
     {
      "text": "5.",
      "say": "fünf.",
      "key": false,
-     "start": 33.209,
-     "end": 33.539
+     "start": 33.119,
+     "end": 33.359
     }
    ]
   },
   {
    "id": "tag5",
    "start": 33.734,
-   "end": 36.714,
+   "end": 36.662,
    "words": [
     {
      "text": "In",
      "say": "In",
      "key": false,
      "start": 33.754,
-     "end": 33.962
+     "end": 33.965
     },
     {
      "text": "den",
      "say": "den",
      "key": false,
-     "start": 33.962,
-     "end": 34.171
+     "start": 33.965,
+     "end": 34.176
     },
     {
      "text": "Kraftwerken",
      "say": "Kraftwerken",
      "key": false,
-     "start": 34.171,
-     "end": 34.639
+     "start": 34.176,
+     "end": 34.65
     },
     {
      "text": "sitzt",
      "say": "sitzt",
      "key": false,
-     "start": 34.639,
-     "end": 34.847
+     "start": 34.65,
+     "end": 34.861
     },
     {
      "text": "keiner",
      "say": "keiner",
      "key": true,
-     "start": 34.847,
-     "end": 35.186
+     "start": 34.861,
+     "end": 35.203
     },
     {
      "text": "mehr.",
      "say": "mehr.",
      "key": false,
-     "start": 35.186,
-     "end": 35.394
+     "start": 35.203,
+     "end": 35.414
     },
     {
      "text": "Der",
      "say": "Der",
      "key": false,
-     "start": 35.724,
-     "end": 35.964
+     "start": 35.744,
+     "end": 35.952
     },
     {
      "text": "Strom",
      "say": "Strom",
      "key": true,
-     "start": 35.964,
-     "end": 36.204
+     "start": 35.952,
+     "end": 36.159
     },
     {
      "text": "fällt",
      "say": "fällt",
      "key": false,
-     "start": 36.204,
-     "end": 36.444
+     "start": 36.159,
+     "end": 36.367
     },
     {
      "text": "aus.",
      "say": "aus.",
      "key": false,
-     "start": 36.444,
-     "end": 36.684
+     "start": 36.367,
+     "end": 36.574
     }
    ]
   },
   {
    "id": "wasser",
    "start": 37.094,
-   "end": 41.034,
+   "end": 41.142,
    "words": [
     {
      "text": "Ohne",
      "say": "Ohne",
      "key": false,
-     "start": 37.114,
-     "end": 37.448
+     "start": 37.134,
+     "end": 37.461
     },
     {
      "text": "Strom",
      "say": "Strom",
      "key": false,
-     "start": 37.448,
-     "end": 37.653
+     "start": 37.461,
+     "end": 37.663
     },
     {
      "text": "laufen",
      "say": "laufen",
      "key": false,
-     "start": 37.653,
-     "end": 37.987
+     "start": 37.663,
+     "end": 37.99
     },
     {
      "text": "keine",
      "say": "keine",
      "key": false,
-     "start": 37.987,
-     "end": 38.32
+     "start": 37.99,
+     "end": 38.317
     },
     {
      "text": "Pumpen.",
      "say": "Pumpen.",
      "key": true,
-     "start": 38.32,
-     "end": 38.654
+     "start": 38.317,
+     "end": 38.644
     },
     {
      "text": "Aus",
      "say": "Aus",
      "key": false,
-     "start": 38.874,
-     "end": 39.097
+     "start": 38.934,
+     "end": 39.158
     },
     {
      "text": "vielen",
      "say": "vielen",
      "key": false,
-     "start": 39.097,
-     "end": 39.46
+     "start": 39.158,
+     "end": 39.523
     },
     {
      "text": "Wasserhähnen",
      "say": "Wasserhähnen",
      "key": false,
-     "start": 39.46,
-     "end": 40.101
+     "start": 39.523,
+     "end": 40.167
     },
     {
      "text": "kommt",
      "say": "kommt",
      "key": false,
-     "start": 40.101,
-     "end": 40.325
+     "start": 40.167,
+     "end": 40.391
     },
     {
      "text": "bald",
      "say": "bald",
      "key": false,
-     "start": 40.325,
-     "end": 40.548
+     "start": 40.391,
+     "end": 40.616
     },
     {
      "text": "nichts",
      "say": "nichts",
      "key": true,
-     "start": 40.548,
-     "end": 40.771
+     "start": 40.616,
+     "end": 40.84
     },
     {
      "text": "mehr.",
      "say": "mehr.",
      "key": false,
-     "start": 40.771,
-     "end": 40.994
+     "start": 40.84,
+     "end": 41.064
     }
    ]
   },
   {
    "id": "tag7_mark",
    "start": 41.284,
-   "end": 42.084,
+   "end": 41.848,
    "words": [
     {
      "text": "Tag",
      "say": "Tag,",
      "key": false,
-     "start": 41.304,
-     "end": 41.586
+     "start": 41.284,
+     "end": 41.467
     },
     {
      "text": "7.",
      "say": "sieben.",
      "key": false,
-     "start": 41.586,
-     "end": 42.044
+     "start": 41.467,
+     "end": 41.764
     }
    ]
   },
   {
    "id": "netz",
    "start": 42.324,
-   "end": 45.283,
+   "end": 45.252,
    "words": [
     {
      "text": "Das",
      "say": "Das",
      "key": false,
-     "start": 42.344,
-     "end": 42.542
+     "start": 42.364,
+     "end": 42.539
     },
     {
      "text": "Handy",
      "say": "Handy",
      "key": false,
-     "start": 42.542,
-     "end": 42.863
+     "start": 42.539,
+     "end": 42.824
     },
     {
      "text": "hat",
      "say": "hat",
      "key": false,
-     "start": 42.863,
-     "end": 43.061
+     "start": 42.824,
+     "end": 42.999
     },
     {
      "text": "kein",
      "say": "kein",
      "key": false,
-     "start": 43.061,
-     "end": 43.259
+     "start": 42.999,
+     "end": 43.174
     },
     {
      "text": "Netz",
      "say": "Netz",
      "key": true,
-     "start": 43.259,
-     "end": 43.456
+     "start": 43.174,
+     "end": 43.349
     },
     {
      "text": "mehr.",
      "say": "mehr.",
      "key": false,
-     "start": 43.456,
-     "end": 43.654
+     "start": 43.349,
+     "end": 43.524
     },
     {
      "text": "Die",
      "say": "Die",
      "key": false,
-     "start": 43.914,
-     "end": 44.119
+     "start": 43.824,
+     "end": 44.028
     },
     {
      "text": "Stadt",
      "say": "Stadt",
      "key": false,
-     "start": 44.119,
-     "end": 44.325
+     "start": 44.028,
+     "end": 44.232
     },
     {
      "text": "wird",
      "say": "wird",
      "key": false,
-     "start": 44.325,
-     "end": 44.53
+     "start": 44.232,
+     "end": 44.435
     },
     {
      "text": "dunkel",
      "say": "dunkel",
      "key": true,
-     "start": 44.53,
-     "end": 44.863
+     "start": 44.435,
+     "end": 44.766
     },
     {
      "text": "und",
      "say": "und",
      "key": false,
-     "start": 44.863,
-     "end": 45.069
+     "start": 44.766,
+     "end": 44.97
     },
     {
      "text": "still.",
      "say": "still.",
      "key": false,
-     "start": 45.069,
-     "end": 45.274
+     "start": 44.97,
+     "end": 45.174
     }
    ]
   },
   {
    "id": "twist",
    "start": 45.383,
-   "end": 48.923,
+   "end": 49.234,
    "words": [
     {
      "text": "Und",
      "say": "Und",
      "key": false,
-     "start": 45.403,
-     "end": 45.596
+     "start": 45.413,
+     "end": 45.62
     },
     {
      "text": "plötzlich",
      "say": "plötzlich",
      "key": false,
-     "start": 45.596,
-     "end": 45.91
+     "start": 45.62,
+     "end": 45.957
     },
     {
      "text": "merkt",
      "say": "merkt",
      "key": false,
-     "start": 45.91,
-     "end": 46.104
+     "start": 45.957,
+     "end": 46.164
     },
     {
      "text": "jeder:",
      "say": "jeder:",
      "key": false,
-     "start": 46.104,
-     "end": 46.418
+     "start": 46.164,
+     "end": 46.501
     },
     {
      "text": "Ohne",
      "say": "Ohne",
      "key": false,
-     "start": 46.418,
-     "end": 46.732
+     "start": 46.501,
+     "end": 46.838
     },
     {
      "text": "die",
      "say": "die",
      "key": false,
-     "start": 46.732,
-     "end": 46.925
+     "start": 46.838,
+     "end": 47.045
     },
     {
      "text": "Arbeit",
      "say": "Arbeit",
      "key": false,
-     "start": 46.925,
-     "end": 47.24
+     "start": 47.045,
+     "end": 47.382
     },
     {
      "text": "der",
      "say": "der",
      "key": false,
-     "start": 47.24,
-     "end": 47.433
+     "start": 47.382,
+     "end": 47.589
     },
     {
      "text": "anderen",
      "say": "anderen",
      "key": true,
-     "start": 47.433,
-     "end": 47.868
+     "start": 47.589,
+     "end": 48.055
     },
     {
      "text": "hält",
      "say": "hält",
      "key": false,
-     "start": 47.868,
-     "end": 48.061
+     "start": 48.055,
+     "end": 48.262
     },
     {
      "text": "keiner",
      "say": "keiner",
      "key": false,
-     "start": 48.061,
-     "end": 48.375
+     "start": 48.262,
+     "end": 48.599
     },
     {
      "text": "lange",
      "say": "lange",
      "key": false,
-     "start": 48.375,
-     "end": 48.69
+     "start": 48.599,
+     "end": 48.936
     },
     {
      "text": "durch.",
      "say": "durch.",
      "key": true,
-     "start": 48.69,
-     "end": 48.883
+     "start": 48.936,
+     "end": 49.143
     }
    ]
   },
   {
    "id": "frage",
-   "start": 49.103,
-   "end": 51.063,
+   "start": 49.234,
+   "end": 51.133,
    "words": [
     {
      "text": "Würdest",
      "say": "Würdest",
      "key": false,
-     "start": 49.113,
-     "end": 49.402
+     "start": 49.264,
+     "end": 49.535
     },
     {
      "text": "du",
      "say": "du",
      "key": false,
-     "start": 49.402,
-     "end": 49.579
+     "start": 49.535,
+     "end": 49.701
     },
     {
      "text": "als",
      "say": "als",
      "key": false,
-     "start": 49.579,
-     "end": 49.757
+     "start": 49.701,
+     "end": 49.868
     },
     {
      "text": "Erster",
      "say": "Erster",
      "key": true,
-     "start": 49.757,
-     "end": 50.046
+     "start": 49.868,
+     "end": 50.138
     },
     {
      "text": "wieder",
      "say": "wieder",
      "key": false,
-     "start": 50.046,
-     "end": 50.335
+     "start": 50.138,
+     "end": 50.409
     },
     {
      "text": "arbeiten",
      "say": "arbeiten",
      "key": false,
-     "start": 50.335,
-     "end": 50.734
+     "start": 50.409,
+     "end": 50.783
     },
     {
      "text": "gehen?",
      "say": "gehen?",
      "key": false,
-     "start": 50.734,
-     "end": 51.023
+     "start": 50.783,
+     "end": 51.054
     }
    ]
   },
   {
    "id": "cta1",
    "start": 51.213,
-   "end": 52.463,
+   "end": 52.353,
    "words": [
     {
      "text": "Schreib",
      "say": "Schreib",
      "key": false,
      "start": 51.213,
-     "end": 51.389
+     "end": 51.373
     },
     {
      "text": "es",
      "say": "es",
      "key": false,
-     "start": 51.389,
-     "end": 51.565
+     "start": 51.373,
+     "end": 51.533
     },
     {
      "text": "in",
      "say": "in",
      "key": false,
-     "start": 51.565,
-     "end": 51.741
+     "start": 51.533,
+     "end": 51.693
     },
     {
      "text": "die",
      "say": "die",
      "key": false,
-     "start": 51.741,
-     "end": 51.917
+     "start": 51.693,
+     "end": 51.853
     },
     {
      "text": "Kommentare.",
      "say": "Kommentare.",
      "key": true,
-     "start": 51.917,
-     "end": 52.423
+     "start": 51.853,
+     "end": 52.313
     }
    ]
   },
   {
    "id": "cta",
    "start": 52.583,
-   "end": 54.963,
+   "end": 54.555,
    "words": [
     {
      "text": "Folge",
      "say": "Folge",
      "key": false,
-     "start": 52.603,
-     "end": 53.03
+     "start": 52.583,
+     "end": 52.889
     },
     {
      "text": "mir,",
      "say": "mir,",
      "key": false,
-     "start": 53.03,
-     "end": 53.293
+     "start": 52.889,
+     "end": 53.077
     },
     {
      "text": "damit",
      "say": "damit",
      "key": false,
-     "start": 53.473,
-     "end": 53.798
+     "start": 53.077,
+     "end": 53.384
     },
     {
      "text": "du",
      "say": "du",
      "key": false,
-     "start": 53.798,
-     "end": 53.998
+     "start": 53.384,
+     "end": 53.572
     },
     {
      "text": "Teil",
      "say": "Teil",
      "key": false,
-     "start": 53.998,
-     "end": 54.198
+     "start": 53.572,
+     "end": 53.76
     },
     {
      "text": "2",
      "say": "zwei",
      "key": true,
-     "start": 54.198,
-     "end": 54.398
+     "start": 53.76,
+     "end": 53.949
     },
     {
      "text": "nicht",
      "say": "nicht",
      "key": false,
-     "start": 54.398,
-     "end": 54.598
+     "start": 53.949,
+     "end": 54.137
     },
     {
      "text": "verpasst.",
      "say": "verpasst.",
      "key": false,
-     "start": 54.598,
-     "end": 54.923
+     "start": 54.137,
+     "end": 54.443
     }
    ]
   }
