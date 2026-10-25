@@ -59,6 +59,14 @@ sonst wird die Anweisung mitgesprochen (dann `--skip <Sekunden>`). Einbauen, Sze
 python3 -I $SK/scripts/transcribe.py upload.wav                        # Inhalt prüfen, Anweisungs-Vorspann finden
 python3 -I $SK/scripts/place_voice.py upload.wav script.json out --match assets/timing.json --skip 0 --max-gap 0.2
 ```
+**Spricht Gemini deutlich langsamer als der Platzhalter** (Zeilen kämen > 0,3 s zu spät), nicht quetschen, sondern
+die Szenen auf die Stimme umtimen (natürliches Tempo, Pausen gekürzt):
+```bash
+python3 -I $SK/scripts/place_voice.py upload.wav script.json nat --max-gap 0.15 --max-line-gap 0.26
+cp assets/timing.json alt_timing.json
+python3 -I $SK/scripts/retime.py . alt_timing.json nat/timing.json --tail <Outro-Länge>
+cp nat/voice.wav nat/timing.json assets/ && build_hud.py && build_captions.py   # dann voice-Dauer in index.html
+```
 Ohne bestehendes Video (`--match` weglassen) werden die Zeilen mit natürlichen Pausen gesetzt; dann Szenen nach
 `timing.json` bauen. ElevenLabs ist angebunden, lieferte aber dauerhaft 429 (Kontolimit) – nicht erneut probieren,
 ohne dass Berkan sein Konto geprüft hat.

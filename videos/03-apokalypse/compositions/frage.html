@@ -32,12 +32,12 @@
   <script>
     const tl = gsap.timeline({ paused: true });
     tl.fromTo("#q-cam", { scale: 1.0 }, { scale: 1.08, duration: 3.05, ease: "none" }, 0);
-    tl.fromTo("#q-title", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.2, ease: "power3.out" }, 0.05);
-    tl.fromTo("#q-handle", { rotation: 0, transformOrigin: "80% 50%" }, { rotation: -14, duration: 0.18, repeat: 3, yoyo: true, ease: "sine.inOut" }, 0.4);
-    tl.fromTo("#q-yes", { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.6)" }, 1.05);
-    tl.fromTo("#q-no", { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.6)" }, 1.2);
-    tl.fromTo("#q-com", { opacity: 0, x: -80 }, { opacity: 1, x: 0, duration: 0.25, ease: "power3.out" }, 1.7);
-    tl.to("#q-com", { x: 18, duration: 0.2, repeat: 5, yoyo: true, ease: "sine.inOut" }, 2.0);
+    tl.fromTo("#q-title", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.2, ease: "power3.out" }, 0.043);
+    tl.fromTo("#q-handle", { rotation: 0, transformOrigin: "80% 50%" }, { rotation: -14, duration: 0.18, repeat: 3, yoyo: true, ease: "sine.inOut" }, 0.355);
+    tl.fromTo("#q-yes", { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.6)" }, 0.937);
+    tl.fromTo("#q-no", { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.6)" }, 1.071);
+    tl.fromTo("#q-com", { opacity: 0, x: -80 }, { opacity: 1, x: 0, duration: 0.25, ease: "power3.out" }, 1.628);
+    tl.to("#q-com", { x: 18, duration: 0.2, repeat: 5, yoyo: true, ease: "sine.inOut" }, 1.899);
     window.__timelines["frage"] = tl;
   </script>
 </template>

@@ -5,7 +5,7 @@
   </style>
   <div id="root" data-composition-id="stunde" data-width="1080" data-height="1920">
     <!-- A: +1 Stunde -->
-    <div id="s-a" class="clip" data-start="0" data-duration="1.1" data-track-index="0">
+    <div id="s-a" class="clip" data-start="0" data-duration="1.103" data-track-index="0">
       <svg class="full" viewBox="0 0 1080 1920">
         <rect width="1080" height="1920" fill="#1a1f2b" />
         <circle cx="540" cy="760" r="420" fill="#232a3a" />
@@ -15,7 +15,7 @@
     </div>
 
     <!-- B: Stau auf der Autobahn -->
-    <div id="s-b" class="clip" data-start="1.1" data-duration="4.05" data-track-index="0">
+    <div id="s-b" class="clip" data-start="1.103" data-duration="4.386" data-track-index="0">
       <div id="s-b-cam" class="cam">
         <svg class="full" viewBox="0 0 1080 1920">
           <defs>
@@ -68,7 +68,7 @@
     </div>
 
     <!-- C: Badewanne volllaufen lassen -->
-    <div id="s-c" class="clip" data-start="5.15" data-duration="2.75" data-track-index="0">
+    <div id="s-c" class="clip" data-start="5.489" data-duration="2.591" data-track-index="0">
       <div id="s-c-cam" class="cam">
         <svg class="full" viewBox="0 0 1080 1920">
           <defs>
@@ -98,18 +98,18 @@
   <script>
     const tl = gsap.timeline({ paused: true });
     // A
-    tl.fromTo("#s-a-t", { opacity: 0, scale: 1.6, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 0.05);
-    tl.fromTo("#s-a-chip", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 0.35);
+    tl.fromTo("#s-a-t", { opacity: 0, scale: 1.6, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 0.055);
+    tl.fromTo("#s-a-chip", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 0.333);
     // B
-    tl.fromTo("#s-b-cam", { scale: 1.0 }, { scale: 1.08, duration: 4.05, ease: "none" }, 1.1);
-    tl.fromTo("#s-tail rect", { opacity: 1 }, { opacity: 0.35, duration: 0.3, repeat: 11, yoyo: true, stagger: 0.03 }, 1.1);
-    tl.fromTo("#s-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 2.1);
-    tl.fromTo("#s-b-chip", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 4.05);
+    tl.fromTo("#s-b-cam", { scale: 1.0 }, { scale: 1.08, duration: 4.05, ease: "none" }, 1.103);
+    tl.fromTo("#s-tail rect", { opacity: 1 }, { opacity: 0.35, duration: 0.3, repeat: 11, yoyo: true, stagger: 0.03 }, 1.103);
+    tl.fromTo("#s-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 2.177);
+    tl.fromTo("#s-b-chip", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 4.245);
     // C
-    tl.fromTo("#s-c-cam", { scale: 1.06 }, { scale: 1.0, duration: 2.75, ease: "power1.out" }, 5.15);
-    tl.fromTo("#s-water", { y: 330 }, { y: 60, duration: 2.6, ease: "none" }, 5.15);
-    tl.fromTo("#s-stream", { scaleX: 0.85, transformOrigin: "50% 0%" }, { scaleX: 1.1, duration: 0.08, repeat: 31, yoyo: true }, 5.15);
-    tl.fromTo("#s-c-chip", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 6.5);
+    tl.fromTo("#s-c-cam", { scale: 1.06 }, { scale: 1.0, duration: 2.75, ease: "power1.out" }, 5.489);
+    tl.fromTo("#s-water", { y: 330 }, { y: 60, duration: 2.6, ease: "none" }, 5.489);
+    tl.fromTo("#s-stream", { scaleX: 0.85, transformOrigin: "50% 0%" }, { scaleX: 1.1, duration: 0.08, repeat: 31, yoyo: true }, 5.489);
+    tl.fromTo("#s-c-chip", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 6.752);
     window.__timelines["stunde"] = tl;
   </script>
 </template>

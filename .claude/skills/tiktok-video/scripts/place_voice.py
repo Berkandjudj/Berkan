@@ -64,6 +64,8 @@ def main():
     ap.add_argument("--max-tempo", type=float, default=1.10)
     ap.add_argument("--lead", type=float, default=0.15)
     ap.add_argument("--skip", type=float, default=0.0, help="Sekunden am Anfang verwerfen (z. B. mitgesprochene Anweisung)")
+    ap.add_argument("--max-line-gap", type=float, default=0.0,
+                    help="ohne --match: Pausen zwischen Zeilen auf höchstens so viele Sekunden kürzen (0 = natürlich)")
     ap.add_argument("--max-gap", type=float, default=0.0,
                     help="Pausen innerhalb einer Zeile auf höchstens so viele Sekunden kürzen (0 = unverändert)")
     a = ap.parse_args()
@@ -163,7 +165,8 @@ def main():
                 clip = stretch(clip, OUT_SR, tempo)
             report.append((line["id"], round(max(tempo, 1.0), 3)))
         else:
-            start = t + (nat_gap if li else 0)
+            gap = min(nat_gap, a.max_line_gap) if a.max_line_gap > 0 else nat_gap
+            start = t + (max(gap, 0.08) if li else 0)
         placed.append((int(start * OUT_SR), clip))
         say, show = line["say"].split(), line.get("show", line["say"]).split()
         wt = time_words(say, speech_chunks(clip, OUT_SR))
