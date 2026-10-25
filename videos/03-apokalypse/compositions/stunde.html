@@ -1,0 +1,115 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #131824; }
+    #s-a, #s-b, #s-c { position: absolute; inset: 0; overflow: hidden; }
+  </style>
+  <div id="root" data-composition-id="stunde" data-width="1080" data-height="1920">
+    <!-- A: +1 Stunde -->
+    <div id="s-a" class="clip" data-start="0" data-duration="1.1" data-track-index="0">
+      <svg class="full" viewBox="0 0 1080 1920">
+        <rect width="1080" height="1920" fill="#1a1f2b" />
+        <circle cx="540" cy="760" r="420" fill="#232a3a" />
+      </svg>
+      <div id="s-a-t" class="title" style="top: 540px; font-size: 200px"><span class="o">+1 Stunde</span></div>
+      <div id="s-a-chip" class="chip-row" style="top: 800px"><span class="chip" style="font-size: 64px">07:47</span></div>
+    </div>
+
+    <!-- B: Stau auf der Autobahn -->
+    <div id="s-b" class="clip" data-start="1.1" data-duration="4.05" data-track-index="0">
+      <div id="s-b-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs>
+            <linearGradient id="s-sky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#1b2338" /><stop offset="1" stop-color="#6a4a48" />
+            </linearGradient>
+          </defs>
+          <rect width="1080" height="1920" fill="url(#s-sky)" />
+          <!--@skyline id="s-city" y="300" lit="1" seed="52" color="#1d2233" win="#c99a3a"-->
+<g id="s-city">
+<rect x="-20" y="613.0" width="144" height="1307.0" fill="#1d2233"/>
+<rect x="127" y="463.0" width="133" height="1457.0" fill="#1d2233"/>
+<rect x="262" y="346.0" width="121" height="1574.0" fill="#1d2233"/>
+<rect x="379" y="536.0" width="110" height="1384.0" fill="#1d2233"/>
+<rect x="492" y="360.0" width="119" height="1560.0" fill="#1d2233"/>
+<rect x="613" y="297.0" width="177" height="1623.0" fill="#1d2233"/>
+<rect x="791" y="541.0" width="142" height="1379.0" fill="#1d2233"/>
+<rect x="933" y="455.0" width="150" height="1465.0" fill="#1d2233"/>
+<rect x="1081" y="381.0" width="124" height="1539.0" fill="#1d2233"/>
+<g class="s-city-win" opacity="1"><rect x="48" y="653" width="22" height="30" fill="#c99a3a"/><rect x="48" y="723" width="22" height="30" fill="#c99a3a"/><rect x="2" y="793" width="22" height="30" fill="#c99a3a"/><rect x="48" y="793" width="22" height="30" fill="#c99a3a"/><rect x="149" y="503" width="22" height="30" fill="#c99a3a"/><rect x="195" y="503" width="22" height="30" fill="#c99a3a"/><rect x="149" y="573" width="22" height="30" fill="#c99a3a"/><rect x="195" y="573" width="22" height="30" fill="#c99a3a"/><rect x="149" y="643" width="22" height="30" fill="#c99a3a"/><rect x="195" y="643" width="22" height="30" fill="#c99a3a"/><rect x="149" y="713" width="22" height="30" fill="#c99a3a"/><rect x="149" y="783" width="22" height="30" fill="#c99a3a"/><rect x="195" y="783" width="22" height="30" fill="#c99a3a"/><rect x="149" y="853" width="22" height="30" fill="#c99a3a"/><rect x="195" y="853" width="22" height="30" fill="#c99a3a"/><rect x="284" y="386" width="22" height="30" fill="#c99a3a"/><rect x="284" y="456" width="22" height="30" fill="#c99a3a"/><rect x="330" y="456" width="22" height="30" fill="#c99a3a"/><rect x="284" y="526" width="22" height="30" fill="#c99a3a"/><rect x="330" y="596" width="22" height="30" fill="#c99a3a"/><rect x="284" y="666" width="22" height="30" fill="#c99a3a"/><rect x="284" y="736" width="22" height="30" fill="#c99a3a"/><rect x="447" y="576" width="22" height="30" fill="#c99a3a"/><rect x="401" y="646" width="22" height="30" fill="#c99a3a"/><rect x="447" y="646" width="22" height="30" fill="#c99a3a"/><rect x="401" y="716" width="22" height="30" fill="#c99a3a"/><rect x="447" y="716" width="22" height="30" fill="#c99a3a"/><rect x="401" y="786" width="22" height="30" fill="#c99a3a"/><rect x="401" y="856" width="22" height="30" fill="#c99a3a"/><rect x="514" y="400" width="22" height="30" fill="#c99a3a"/><rect x="514" y="470" width="22" height="30" fill="#c99a3a"/><rect x="560" y="470" width="22" height="30" fill="#c99a3a"/><rect x="560" y="540" width="22" height="30" fill="#c99a3a"/><rect x="514" y="680" width="22" height="30" fill="#c99a3a"/><rect x="514" y="750" width="22" height="30" fill="#c99a3a"/><rect x="635" y="337" width="22" height="30" fill="#c99a3a"/><rect x="635" y="407" width="22" height="30" fill="#c99a3a"/><rect x="727" y="407" width="22" height="30" fill="#c99a3a"/><rect x="635" y="477" width="22" height="30" fill="#c99a3a"/><rect x="681" y="477" width="22" height="30" fill="#c99a3a"/><rect x="727" y="477" width="22" height="30" fill="#c99a3a"/><rect x="681" y="547" width="22" height="30" fill="#c99a3a"/><rect x="635" y="617" width="22" height="30" fill="#c99a3a"/><rect x="727" y="617" width="22" height="30" fill="#c99a3a"/><rect x="635" y="687" width="22" height="30" fill="#c99a3a"/><rect x="727" y="687" width="22" height="30" fill="#c99a3a"/><rect x="635" y="757" width="22" height="30" fill="#c99a3a"/><rect x="681" y="757" width="22" height="30" fill="#c99a3a"/><rect x="727" y="757" width="22" height="30" fill="#c99a3a"/><rect x="681" y="827" width="22" height="30" fill="#c99a3a"/><rect x="859" y="581" width="22" height="30" fill="#c99a3a"/><rect x="859" y="651" width="22" height="30" fill="#c99a3a"/><rect x="859" y="791" width="22" height="30" fill="#c99a3a"/><rect x="1001" y="495" width="22" height="30" fill="#c99a3a"/><rect x="1047" y="495" width="22" height="30" fill="#c99a3a"/><rect x="955" y="565" width="22" height="30" fill="#c99a3a"/><rect x="1001" y="565" width="22" height="30" fill="#c99a3a"/><rect x="1047" y="565" width="22" height="30" fill="#c99a3a"/><rect x="1001" y="635" width="22" height="30" fill="#c99a3a"/><rect x="1047" y="635" width="22" height="30" fill="#c99a3a"/><rect x="1001" y="705" width="22" height="30" fill="#c99a3a"/><rect x="1103" y="421" width="22" height="30" fill="#c99a3a"/><rect x="1103" y="491" width="22" height="30" fill="#c99a3a"/><rect x="1149" y="491" width="22" height="30" fill="#c99a3a"/><rect x="1103" y="631" width="22" height="30" fill="#c99a3a"/><rect x="1149" y="701" width="22" height="30" fill="#c99a3a"/><rect x="1103" y="841" width="22" height="30" fill="#c99a3a"/><rect x="1149" y="841" width="22" height="30" fill="#c99a3a"/></g>
+</g><!--/@-->
+          <!-- Fahrbahn in Perspektive -->
+          <path d="M440 860 h200 l440 1060 h-1080 z" fill="#2b2f38" />
+          <g fill="#f4efe4" opacity="0.6"><path d="M535 900 h10 l20 120 h-50 z" /><path d="M520 1080 h40 l30 200 h-100 z" /><path d="M495 1380 h90 l40 300 h-170 z" /></g>
+          <!-- Autos: drei Reihen, hinten klein -->
+          <g id="s-cars">
+            <g fill="#3d7bb3"><rect x="455" y="900" width="70" height="50" rx="10" /></g><g fill="#c7ccd6"><rect x="560" y="905" width="70" height="50" rx="10" /></g>
+            <g fill="#e8412f"><rect x="420" y="990" width="100" height="70" rx="12" /></g><g fill="#5f8f5c"><rect x="565" y="995" width="100" height="70" rx="12" /></g>
+            <g fill="#f4efe4"><rect x="360" y="1130" width="150" height="100" rx="16" /></g><g fill="#2f6f8f"><rect x="585" y="1135" width="150" height="100" rx="16" /></g>
+            <g fill="#f4a62a"><rect x="250" y="1330" width="230" height="150" rx="22" /></g><g fill="#c96b9a"><rect x="610" y="1340" width="230" height="150" rx="22" /></g>
+            <g fill="#8d93a1"><rect x="110" y="1600" width="340" height="220" rx="30" /></g><g fill="#3d7bb3"><rect x="640" y="1610" width="340" height="220" rx="30" /></g>
+          </g>
+          <!-- Bremslichter -->
+          <g id="s-tail" fill="#ff3b2a">
+            <rect x="460" y="935" width="14" height="8" /><rect x="506" y="935" width="14" height="8" /><rect x="565" y="940" width="14" height="8" /><rect x="611" y="940" width="14" height="8" />
+            <rect x="428" y="1040" width="20" height="12" /><rect x="492" y="1040" width="20" height="12" /><rect x="573" y="1045" width="20" height="12" /><rect x="637" y="1045" width="20" height="12" />
+            <rect x="372" y="1200" width="30" height="16" /><rect x="468" y="1200" width="30" height="16" /><rect x="597" y="1205" width="30" height="16" /><rect x="693" y="1205" width="30" height="16" />
+            <rect x="268" y="1440" width="46" height="24" /><rect x="416" y="1440" width="46" height="24" /><rect x="628" y="1450" width="46" height="24" /><rect x="776" y="1450" width="46" height="24" />
+            <rect x="136" y="1760" width="70" height="34" /><rect x="354" y="1760" width="70" height="34" /><rect x="666" y="1770" width="70" height="34" /><rect x="884" y="1770" width="70" height="34" />
+          </g>
+          <g fill="#14161c" opacity="0.55">
+            <rect x="470" y="905" width="40" height="18" rx="4" /><rect x="575" y="910" width="40" height="18" rx="4" /><rect x="440" y="1000" width="60" height="24" rx="5" /><rect x="585" y="1005" width="60" height="24" rx="5" />
+            <rect x="390" y="1145" width="90" height="36" rx="6" /><rect x="615" y="1150" width="90" height="36" rx="6" /><rect x="290" y="1350" width="150" height="50" rx="8" /><rect x="650" y="1360" width="150" height="50" rx="8" />
+            <rect x="170" y="1630" width="220" height="70" rx="10" /><rect x="700" y="1640" width="220" height="70" rx="10" />
+          </g>
+        </svg>
+      </div>
+      <div id="s-b-title" class="title" style="top: 400px; font-size: 220px"><span class="r">Stau</span></div>
+      <div id="s-b-chip" class="chip-row" style="top: 660px"><span class="chip r" style="font-size: 64px">Alle wollen raus</span></div>
+    </div>
+
+    <!-- C: Badewanne volllaufen lassen -->
+    <div id="s-c" class="clip" data-start="5.15" data-duration="2.75" data-track-index="0">
+      <div id="s-c-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs>
+            <clipPath id="s-tubclip"><path d="M150 1050 h780 v220 q0 140 -140 140 h-500 q-140 0 -140 -140 z" /></clipPath>
+          </defs>
+          <rect width="1080" height="1920" fill="#1d2636" />
+          <g stroke="#26324a" stroke-width="6">
+            <line x1="0" y1="500" x2="1080" y2="500" /><line x1="0" y1="700" x2="1080" y2="700" /><line x1="0" y1="900" x2="1080" y2="900" />
+            <line x1="270" y1="0" x2="270" y2="1050" /><line x1="540" y1="0" x2="540" y2="1050" /><line x1="810" y1="0" x2="810" y2="1050" />
+          </g>
+          <rect y="1410" width="1080" height="510" fill="#2a3346" />
+          <!-- Wanne -->
+          <path d="M150 1050 h780 v220 q0 140 -140 140 h-500 q-140 0 -140 -140 z" fill="#d9dde3" />
+          <g clip-path="url(#s-tubclip)">
+            <rect id="s-water" x="150" y="1060" width="780" height="360" fill="#3d8fd0" opacity="0.9" />
+          </g>
+          <rect x="130" y="1030" width="820" height="40" rx="20" fill="#eef0f3" />
+          <!-- Hahn + Wasserstrahl -->
+          <rect x="760" y="880" width="40" height="160" fill="#9aa3b0" /><rect x="700" y="870" width="160" height="40" rx="18" fill="#b8c0cc" />
+          <rect id="s-stream" x="705" y="905" width="28" height="300" rx="14" fill="#6fb3e0" opacity="0.8" />
+          <g fill="#c7ccd6"><rect x="230" y="1410" width="40" height="60" /><rect x="810" y="1410" width="40" height="60" /></g>
+        </svg>
+      </div>
+      <div id="s-c-chip" class="chip-row" style="top: 420px"><span class="chip o" style="font-size: 66px">Wasser bunkern</span></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    // A
+    tl.fromTo("#s-a-t", { opacity: 0, scale: 1.6, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 0.05);
+    tl.fromTo("#s-a-chip", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 0.35);
+    // B
+    tl.fromTo("#s-b-cam", { scale: 1.0 }, { scale: 1.08, duration: 4.05, ease: "none" }, 1.1);
+    tl.fromTo("#s-tail rect", { opacity: 1 }, { opacity: 0.35, duration: 0.3, repeat: 11, yoyo: true, stagger: 0.03 }, 1.1);
+    tl.fromTo("#s-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 2.1);
+    tl.fromTo("#s-b-chip", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 4.05);
+    // C
+    tl.fromTo("#s-c-cam", { scale: 1.06 }, { scale: 1.0, duration: 2.75, ease: "power1.out" }, 5.15);
+    tl.fromTo("#s-water", { y: 330 }, { y: 60, duration: 2.6, ease: "none" }, 5.15);
+    tl.fromTo("#s-stream", { scaleX: 0.85, transformOrigin: "50% 0%" }, { scaleX: 1.1, duration: 0.08, repeat: 31, yoyo: true }, 5.15);
+    tl.fromTo("#s-c-chip", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 6.5);
+    window.__timelines["stunde"] = tl;
+  </script>
+</template>

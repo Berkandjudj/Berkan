@@ -1,0 +1,108 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #0b0e15; }
+    #t7-a, #t7-b, #t7-c { position: absolute; inset: 0; overflow: hidden; }
+  </style>
+  <div id="root" data-composition-id="tag7" data-width="1080" data-height="1920">
+    <div id="t7-a" class="clip" data-start="0" data-duration="1.1" data-track-index="0">
+      <svg class="full" viewBox="0 0 1080 1920">
+        <rect width="1080" height="1920" fill="#10131b" />
+        <circle cx="540" cy="760" r="420" fill="#2a1a1f" />
+      </svg>
+      <div id="t7-a-day" class="title" style="top: 520px; font-size: 270px"><span class="o">Tag 7</span></div>
+      <div id="t7-a-chip" class="chip-row" style="top: 850px"><span class="chip r" style="font-size: 60px">Akku 0 %</span></div>
+    </div>
+
+    <!-- B: Es klopft -->
+    <div id="t7-b" class="clip" data-start="1.1" data-duration="1.3" data-track-index="0">
+      <div id="t7-b-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <rect width="1080" height="1920" fill="#3a2418" />
+          <rect x="0" y="0" width="1080" height="1920" fill="#000" opacity="0.35" />
+          <g transform="translate(540 980)"><g id="t7-door">
+            <rect x="-330" y="-760" width="660" height="1500" rx="14" fill="#7a3f22" />
+            <rect x="-270" y="-680" width="240" height="560" rx="10" fill="#6a3519" /><rect x="30" y="-680" width="240" height="560" rx="10" fill="#6a3519" />
+            <rect x="-270" y="-40" width="240" height="640" rx="10" fill="#6a3519" /><rect x="30" y="-40" width="240" height="640" rx="10" fill="#6a3519" />
+            <circle cx="0" cy="-200" r="46" fill="#f4a62a" stroke="#8f5a0f" stroke-width="10" /><circle cx="0" cy="-200" r="24" fill="#14161c" />
+            <rect x="180" y="40" width="130" height="34" rx="16" fill="#f4a62a" /><circle cx="200" cy="56" r="26" fill="#f4a62a" />
+          </g></g>
+          <g id="t7-knock" fill="none" stroke="#f4efe4" stroke-width="12" stroke-linecap="round">
+            <path d="M150 800 q-40 60 0 120" /><path d="M100 770 q-60 90 0 180" />
+            <path d="M930 800 q40 60 0 120" /><path d="M980 770 q60 90 0 180" />
+          </g>
+        </svg>
+      </div>
+      <div id="t7-b-title" class="title" style="top: 400px; font-size: 170px"><span class="o">Klopf. Klopf.</span></div>
+    </div>
+
+    <!-- C: Blick durch den Türspion -->
+    <div id="t7-c" class="clip" data-start="2.4" data-duration="3.65" data-track-index="0">
+      <div id="t7-c-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs>
+            <clipPath id="t7-eye"><circle cx="540" cy="1000" r="400" /></clipPath>
+            <radialGradient id="t7-fish" cx="0.5" cy="0.5" r="0.5">
+              <stop offset="0.7" stop-color="#000" stop-opacity="0" /><stop offset="1" stop-color="#000" stop-opacity="0.85" />
+            </radialGradient>
+          </defs>
+          <rect width="1080" height="1920" fill="#3a2418" />
+          <rect width="1080" height="1920" fill="#000" opacity="0.55" />
+          <circle cx="540" cy="1000" r="440" fill="#f4a62a" stroke="#8f5a0f" stroke-width="16" />
+          <g clip-path="url(#t7-eye)">
+            <rect x="140" y="600" width="800" height="800" fill="#3a3f4b" />
+            <ellipse cx="540" cy="640" rx="160" ry="40" fill="#f7c548" opacity="0.5" />
+            <rect x="140" y="1180" width="800" height="220" fill="#2a2f3b" />
+            <!--@person id="t7-p" x="540" y="1700" s="1.5" jacket="#5a606c" pants="#3a3f4b" hair="#3a2a20" style="short" mood="sad"-->
+<g id="t7-p"><g transform="translate(540.0 1700.0) scale(1.5 1.5)">
+  <ellipse cx="0" cy="0" rx="120" ry="18" fill="#000" opacity=".3"/>
+  <rect x="-70" y="-200" width="58" height="196" rx="20" fill="#3a3f4b"/>
+  <rect x="12" y="-200" width="58" height="196" rx="20" fill="#3a3f4b"/>
+  <ellipse cx="-44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/><ellipse cx="44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/>
+  <g id="t7-p-armL" transform="rotate(0 -124 -380)"><rect x="-150" y="-392" width="52" height="200" rx="26" fill="#5a606c" transform="rotate(8 -124 -392)"/>
+    <circle cx="-138" cy="-186" r="26" fill="#f1c7a0"/></g>
+  <g id="t7-p-armR" transform="rotate(0 124 -380)"><rect x="98" y="-392" width="52" height="200" rx="26" fill="#5a606c" transform="rotate(-8 124 -392)"/>
+    <circle cx="138" cy="-186" r="26" fill="#f1c7a0"/></g>
+  <path d="M-110 -340 q0 -66 60 -66 h100 q60 0 60 66 v150 h-220 z" fill="#5a606c"/>
+  <path d="M-30 -406 l30 60 l30 -60 z" fill="#e9e6da"/>
+  
+  <rect x="-24" y="-436" width="48" height="40" fill="#f1c7a0"/>
+  <g id="t7-p-head">
+    
+    <circle cx="0" cy="-520" r="102" fill="#f1c7a0"/>
+    <circle cx="-102" cy="-512" r="18" fill="#f1c7a0"/><circle cx="102" cy="-512" r="18" fill="#f1c7a0"/>
+    <path d="M-104 -520 q-6 -110 104 -118 q110 8 104 118 q-30 -56 -104 -60 q-74 4 -104 60 z" fill="#3a2a20"/>
+    <ellipse cx="-36" cy="-522" rx="17" ry="19" fill="#fff"/><ellipse cx="36" cy="-522" rx="17" ry="19" fill="#fff"/>
+    <circle id="t7-p-eyeL" cx="-34" cy="-520" r="9" fill="#0f1218"/><circle id="t7-p-eyeR" cx="34" cy="-520" r="9" fill="#0f1218"/>
+    <path d="M-52 -552 l32 -10 M20 -562 l32 10" stroke="#3a2a20" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <circle cx="-62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/><circle cx="62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/>
+    <path d="M-20 -458 q20 -16 40 0" fill="none" stroke="#5a2a1e" stroke-width="7" stroke-linecap="round"/>
+    
+  </g>
+</g></g><!--/@-->
+            <circle cx="540" cy="1000" r="400" fill="url(#t7-fish)" />
+          </g>
+        </svg>
+      </div>
+      <div id="t7-c-title" class="title" style="top: 400px; font-size: 140px"><span class="o">Dein Nachbar</span></div>
+      <div id="t7-c-chip" class="chip-row" style="top: 1180px"><span class="chip r" style="font-size: 56px">2 Tage nichts gegessen</span></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#t7-a-day", { opacity: 0, scale: 1.6, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 0.06);
+    tl.fromTo("#t7-a-chip", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 0.3);
+    // B: drei Schläge
+    tl.fromTo("#t7-b-cam", { scale: 1.0 }, { scale: 1.06, duration: 1.3, ease: "none" }, 1.1);
+    [1.2, 1.45, 1.7].forEach((t) => {
+      tl.to("#t7-door", { x: 10, duration: 0.04, repeat: 3, yoyo: true }, t);
+    });
+    tl.fromTo("#t7-knock", { opacity: 0 }, { opacity: 1, duration: 0.06, repeat: 5, yoyo: true }, 1.2);
+    tl.fromTo("#t7-b-title", { opacity: 0, scale: 1.6 }, { opacity: 1, scale: 1, duration: 0.16, ease: "power4.in" }, 1.18);
+    // C
+    tl.fromTo("#t7-c-cam", { scale: 1.12 }, { scale: 1.0, duration: 3.65, ease: "power1.out" }, 2.4);
+    tl.fromTo("#t7-p", { y: 30 }, { y: 0, duration: 1.5, ease: "sine.inOut" }, 2.4);
+    tl.fromTo("#t7-c-title", { opacity: 0, scale: 1.7, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 3.05);
+    tl.fromTo("#t7-c-chip", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 4.6);
+    window.__timelines["tag7"] = tl;
+  </script>
+</template>

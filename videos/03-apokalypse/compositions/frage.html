@@ -1,0 +1,43 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #0f131c; }
+    .q-choice { position: absolute; top: 1060px; width: 300px; text-align: center; }
+    .q-choice .chip { font-size: 92px; padding: 6px 44px 10px; }
+  </style>
+  <div id="root" data-composition-id="frage" data-width="1080" data-height="1920">
+    <div id="q-cam" class="cam">
+      <svg class="full" viewBox="0 0 1080 1920">
+        <rect width="1080" height="1920" fill="#2a1a12" />
+        <rect width="1080" height="1920" fill="#000" opacity="0.45" />
+        <!-- Lichtspalt unter der Tür -->
+        <rect x="210" y="1530" width="660" height="14" fill="#f7c548" opacity="0.8" />
+        <path d="M210 1544 h660 l120 376 h-900 z" fill="#f7c548" opacity="0.08" />
+        <rect x="210" y="560" width="660" height="970" rx="12" fill="#6a3519" />
+        <rect x="260" y="620" width="250" height="380" rx="10" fill="#5a2c14" /><rect x="570" y="620" width="250" height="380" rx="10" fill="#5a2c14" />
+        <rect x="260" y="1060" width="250" height="420" rx="10" fill="#5a2c14" /><rect x="570" y="1060" width="250" height="420" rx="10" fill="#5a2c14" />
+        <circle cx="540" cy="780" r="30" fill="#f4a62a" /><circle cx="540" cy="780" r="16" fill="#14161c" />
+        <!-- Klinke + Kette -->
+        <g transform="translate(790 1030)"><g id="q-handle">
+          <rect x="-10" y="-60" width="40" height="120" rx="12" fill="#c7ccd6" />
+          <rect x="-110" y="-16" width="130" height="34" rx="16" fill="#f4a62a" />
+        </g></g>
+        <path d="M700 900 q60 60 120 10" stroke="#c7ccd6" stroke-width="12" fill="none" stroke-dasharray="18 10" />
+      </svg>
+    </div>
+    <div id="q-title" class="title" style="top: 210px; font-size: 118px">Würdest du ihm<br /><span class="r">aufmachen?</span></div>
+    <div id="q-yes" class="q-choice" style="left: 60px"><span class="chip o">Auf</span></div>
+    <div id="q-no" class="q-choice" style="left: 720px"><span class="chip r">Zu</span></div>
+    <div id="q-com" class="chip-row" style="top: 1210px"><span class="chip o" style="font-size: 56px; border-radius: 40px">In die Kommentare →</span></div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#q-cam", { scale: 1.0 }, { scale: 1.08, duration: 3.05, ease: "none" }, 0);
+    tl.fromTo("#q-title", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.2, ease: "power3.out" }, 0.05);
+    tl.fromTo("#q-handle", { rotation: 0, transformOrigin: "80% 50%" }, { rotation: -14, duration: 0.18, repeat: 3, yoyo: true, ease: "sine.inOut" }, 0.4);
+    tl.fromTo("#q-yes", { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.6)" }, 1.05);
+    tl.fromTo("#q-no", { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.6)" }, 1.2);
+    tl.fromTo("#q-com", { opacity: 0, x: -80 }, { opacity: 1, x: 0, duration: 0.25, ease: "power3.out" }, 1.7);
+    tl.to("#q-com", { x: 18, duration: 0.2, repeat: 5, yoyo: true, ease: "sine.inOut" }, 2.0);
+    window.__timelines["frage"] = tl;
+  </script>
+</template>

@@ -1,0 +1,27 @@
+{
+ "title": "Was würdest du bei einer Apokalypse tun?",
+ "series": "DIE APOKALYPSE",
+ "part": 1,
+ "lines": [
+  { "id": "hook1", "say": "Wenn dein Handy morgens laut heult, obwohl es auf lautlos steht,", "show": "Wenn dein Handy morgens laut *heult,* obwohl es auf *lautlos* steht,", "pause": 0.08 },
+  { "id": "hook2", "say": "ist das keine normale Nachricht.", "show": "ist das keine *normale* Nachricht.", "pause": 0.12 },
+  { "id": "hook3", "say": "Es ist eine Warnung vor extremer Gefahr.", "show": "Es ist eine Warnung vor *extremer* *Gefahr.*", "pause": 0.25 },
+  { "id": "fact", "say": "Für so einen Fall rät der Staat: Vorräte für zehn Tage.", "show": "Für so einen Fall rät der Staat: Vorräte für *10* Tage.", "pause": 0.12 },
+  { "id": "fact2", "say": "Und zwei Liter Wasser pro Person und Tag.", "show": "Und *2* *Liter* Wasser pro Person und Tag.", "pause": 0.25 },
+  { "id": "m_mark", "say": "Sechs Uhr siebenundvierzig.", "show": "6 Uhr 47.", "pause": 0.18 },
+  { "id": "m1", "say": "Du wachst auf. Dein Handy vibriert. Auf dem Bildschirm steht: Extreme Gefahr. Bleiben Sie zu Hause.", "show": "Du wachst auf. Dein Handy *vibriert.* Auf dem Bildschirm steht: *Extreme* *Gefahr.* Bleiben Sie zu *Hause.*", "pause": 0.2 },
+  { "id": "m2", "say": "Draußen heulen die Sirenen. Im Radio sagt keiner, was passiert ist.", "show": "Draußen heulen die *Sirenen.* Im Radio sagt *keiner,* was passiert ist.", "pause": 0.22 },
+  { "id": "h_mark", "say": "Eine Stunde später.", "show": "Eine Stunde später.", "pause": 0.18 },
+  { "id": "h1", "say": "Auf der Autobahn steht alles. Tausende wollen gleichzeitig raus aus der Stadt.", "show": "Auf der Autobahn steht *alles.* Tausende wollen gleichzeitig *raus* aus der Stadt.", "pause": 0.15 },
+  { "id": "h2", "say": "Wer geblieben ist, füllt jetzt die Badewanne mit Wasser.", "show": "Wer geblieben ist, füllt jetzt die *Badewanne* mit Wasser.", "pause": 0.22 },
+  { "id": "t2_mark", "say": "Tag, zwei.", "show": "Tag 2.", "pause": 0.18 },
+  { "id": "t2", "say": "Der Supermarkt ist nach einer Stunde leer geräumt. Wer keine Vorräte hat, steht mit leeren Händen da.", "show": "Der Supermarkt ist nach einer Stunde *leer* geräumt. Wer keine Vorräte hat, steht mit *leeren* Händen da.", "pause": 0.22 },
+  { "id": "t3_mark", "say": "Tag, drei.", "show": "Tag 3.", "pause": 0.18 },
+  { "id": "t3", "say": "Der Strom ist weg. Dein Akku zeigt noch zwölf Prozent. Nachts ist die Stadt so dunkel, dass du alle Sterne siehst.", "show": "Der *Strom* ist weg. Dein Akku zeigt noch *12* Prozent. Nachts ist die Stadt so dunkel, dass du alle *Sterne* siehst.", "pause": 0.22 },
+  { "id": "t7_mark", "say": "Tag, sieben.", "show": "Tag 7.", "pause": 0.18 },
+  { "id": "t7", "say": "Es klopft an deiner Tür. Draußen steht dein Nachbar. Er hat seit zwei Tagen nichts gegessen.", "show": "Es *klopft* an deiner Tür. Draußen steht dein *Nachbar.* Er hat seit *2* Tagen nichts gegessen.", "pause": 0.3 },
+  { "id": "frage", "say": "Würdest du ihm die Tür aufmachen?", "show": "Würdest du ihm die Tür *aufmachen?*", "pause": 0.15 },
+  { "id": "cta1", "say": "Schreib es in die Kommentare.", "show": "Schreib es in die *Kommentare.*", "pause": 0.15 },
+  { "id": "cta", "say": "Folge mir, damit du Teil zwei nicht verpasst.", "show": "Folge mir, damit du Teil *2* nicht verpasst.", "pause": 0.5 }
+ ]
+}

@@ -1,0 +1,81 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #1a2230; }
+    #f-a, #f-b { position: absolute; inset: 0; overflow: hidden; }
+  </style>
+  <div id="root" data-composition-id="fact" data-width="1080" data-height="1920">
+    <!-- A: Vorrat für 10 Tage -->
+    <div id="f-a" class="clip" data-start="0" data-duration="2.65" data-track-index="0">
+      <div id="f-a-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs>
+            <radialGradient id="f-light" cx="0.5" cy="0.4" r="0.6">
+              <stop offset="0" stop-color="#34465a" /><stop offset="1" stop-color="#151c27" />
+            </radialGradient>
+          </defs>
+          <rect width="1080" height="1920" fill="url(#f-light)" />
+          <rect x="0" y="1500" width="1080" height="420" fill="#262c38" />
+          <!-- Kellerregal mit Vorräten -->
+          <rect x="140" y="640" width="800" height="860" rx="10" fill="#6b4330" />
+          <g fill="#4a2f22"><rect x="160" y="660" width="760" height="820" /></g>
+          <g fill="#8a5a3a"><rect x="140" y="860" width="800" height="22" /><rect x="140" y="1080" width="800" height="22" /><rect x="140" y="1300" width="800" height="22" /></g>
+          <g id="f-items">
+            <!-- Dosen -->
+            <g fill="#c7ccd6"><rect x="190" y="760" width="80" height="100" rx="10" /><rect x="285" y="760" width="80" height="100" rx="10" /><rect x="380" y="760" width="80" height="100" rx="10" /></g>
+            <g fill="#e8412f"><rect x="190" y="790" width="80" height="40" /><rect x="285" y="790" width="80" height="40" /><rect x="380" y="790" width="80" height="40" /></g>
+            <!-- Nudeln -->
+            <g fill="#f7c548"><rect x="500" y="730" width="110" height="130" rx="8" /><rect x="625" y="730" width="110" height="130" rx="8" /></g>
+            <!-- Konserven Glas -->
+            <g fill="#5f8f5c"><rect x="760" y="760" width="70" height="100" rx="14" /><rect x="840" y="760" width="70" height="100" rx="14" /></g>
+            <!-- Wasserflaschen -->
+            <g fill="#6fb3e0" opacity="0.9">
+              <path d="M200 1080 v-150 q0 -20 20 -30 v-20 h30 v20 q20 10 20 30 v150 z" /><path d="M290 1080 v-150 q0 -20 20 -30 v-20 h30 v20 q20 10 20 30 v150 z" />
+              <path d="M380 1080 v-150 q0 -20 20 -30 v-20 h30 v20 q20 10 20 30 v150 z" /><path d="M470 1080 v-150 q0 -20 20 -30 v-20 h30 v20 q20 10 20 30 v150 z" />
+              <path d="M560 1080 v-150 q0 -20 20 -30 v-20 h30 v20 q20 10 20 30 v150 z" /><path d="M650 1080 v-150 q0 -20 20 -30 v-20 h30 v20 q20 10 20 30 v150 z" />
+            </g>
+            <!-- Kerzen, Batterien, Radio -->
+            <g fill="#f4efe4"><rect x="760" y="960" width="30" height="120" rx="6" /><rect x="805" y="980" width="30" height="100" rx="6" /></g>
+            <rect x="200" y="1180" width="220" height="120" rx="16" fill="#2a2f3b" /><circle cx="250" cy="1240" r="34" fill="#8d93a1" /><rect x="300" y="1205" width="100" height="30" rx="6" fill="#f7c548" />
+            <g fill="#f4a62a"><rect x="460" y="1220" width="40" height="80" rx="6" /><rect x="510" y="1220" width="40" height="80" rx="6" /><rect x="560" y="1220" width="40" height="80" rx="6" /></g>
+            <rect x="640" y="1160" width="260" height="140" rx="10" fill="#e8412f" /><rect x="740" y="1200" width="60" height="60" fill="#fff" /><rect x="755" y="1185" width="30" height="90" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+      <div id="f-a-chip" class="chip-row" style="top: 400px"><span class="chip" style="font-size: 56px">Rat vom Staat</span></div>
+      <div id="f-a-title" class="title" style="top: 205px; font-size: 190px"><span class="o">10 Tage</span></div>
+    </div>
+
+    <!-- B: 2 Liter pro Person und Tag -->
+    <div id="f-b" class="clip" data-start="2.65" data-duration="2.4" data-track-index="0">
+      <div id="f-b-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <rect width="1080" height="1920" fill="#142030" />
+          <circle cx="540" cy="1000" r="460" fill="#1d2d44" />
+          <g transform="translate(540 1000)"><g id="f-bottle">
+            <path d="M-130 380 v-430 q0 -70 70 -110 v-80 h120 v80 q70 40 70 110 v430 q0 30 -30 30 h-200 q-30 0 -30 -30 z" fill="#6fb3e0" opacity="0.35" stroke="#9fd0ef" stroke-width="10" />
+            <rect id="f-water" x="-120" y="-40" width="240" height="410" rx="20" fill="#3d8fd0" />
+            <rect x="-70" y="-310" width="140" height="50" rx="12" fill="#3d7bb3" />
+            <rect x="-130" y="60" width="260" height="110" fill="#f4efe4" />
+            <text x="0" y="140" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="80" fill="#2a2f3b">2 L</text>
+          </g></g>
+        </svg>
+      </div>
+      <div id="f-b-title" class="title" style="top: 205px; font-size: 190px"><span class="o">2 Liter</span></div>
+      <div id="f-b-chip" class="chip-row" style="top: 400px"><span class="chip r" style="font-size: 56px">pro Person &amp; Tag</span></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    // A
+    tl.fromTo("#f-a-cam", { scale: 1.08 }, { scale: 1.0, duration: 2.65, ease: "power1.out" }, 0);
+    tl.fromTo("#f-items > g, #f-items > rect, #f-items > circle", { opacity: 0, y: -30 }, { opacity: 1, y: 0, duration: 0.15, stagger: 0.05, ease: "power2.out" }, 0.05);
+    tl.fromTo("#f-a-chip", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.2, ease: "back.out(2)" }, 0.6);
+    tl.fromTo("#f-a-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.18, ease: "power4.in" }, 1.95);
+    // B
+    tl.fromTo("#f-b-cam", { scale: 1.0 }, { scale: 1.07, duration: 2.4, ease: "none" }, 2.65);
+    tl.fromTo("#f-water", { scaleY: 0.1, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 1.0, ease: "power2.out" }, 2.7);
+    tl.fromTo("#f-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 2.95);
+    tl.fromTo("#f-b-chip", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 3.8);
+    window.__timelines["fact"] = tl;
+  </script>
+</template>
