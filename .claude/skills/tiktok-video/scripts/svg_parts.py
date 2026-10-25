@@ -150,7 +150,82 @@ def skyline(id, y=1150, lit="1", seed="3", color="#0d0b10", win="#f7c548", **_):
     return "\n".join(out)
 
 
-PARTS = {"person": person, "shelf": shelf, "skyline": skyline}
+def embers(id, n="40", seed="1", x0="0", x1="1080", y0="600", y1="1900", color="#ff9a3c", r="5", **_):
+    """Glutfunken (Klasse {id}-p) – im Script z. B. nach oben treiben lassen."""
+    rnd = random.Random(int(seed))
+    out = [f'<g id="{id}">']
+    for _ in range(int(n)):
+        x, y = rnd.uniform(float(x0), float(x1)), rnd.uniform(float(y0), float(y1))
+        rr = rnd.uniform(0.4, 1.0) * float(r)
+        out.append(f'<circle class="{id}-p" cx="{x:.0f}" cy="{y:.0f}" r="{rr:.1f}" fill="{color}" opacity="{rnd.uniform(0.35, 0.95):.2f}"/>')
+    out.append('</g>')
+    return "\n".join(out)
+
+
+def fog(id, y="1300", color="#9fe0d4", opacity="0.12", seed="2", **_):
+    """Weiche Nebelschwaden (braucht im SVG einen Blur-Filter id="{id}-blur", wird mitgeliefert)."""
+    rnd = random.Random(int(seed))
+    out = [f'<g id="{id}"><defs><filter id="{id}-blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter></defs>',
+           f'<g filter="url(#{id}-blur)" opacity="{opacity}" fill="{color}">']
+    for k in range(5):
+        out.append(f'<ellipse cx="{rnd.uniform(0, 1080):.0f}" cy="{float(y) + rnd.uniform(-120, 120):.0f}" rx="{rnd.uniform(260, 460):.0f}" ry="{rnd.uniform(50, 110):.0f}"/>')
+    out.append('</g></g>')
+    return "\n".join(out)
+
+
+def player(id, x=540, y=1600, s=1.0, shirt="#d8262e", sleeve="", shorts="#f4f1ea", socks="#d8262e", number="7",
+           numcol="#f4f1ea", skin="#c98d62", hair="#1a1210", pose="stand", rim="#ffb35c", flip="0", boots="#f4f1ea", **_):
+    """Fußballer in Rückansicht (Hinterkopf, Nummer sichtbar), Füße auf (x, y), Höhe ≈ 800*s.
+    pose: stand | siu (Sprung, Arme nach unten-außen) | run | arms (Arme hoch). rim = Gegenlicht-Kante."""
+    x, y, s = _f(x, 540), _f(y, 1600), _f(s, 1.0)
+    sx = -1 if str(flip) == "1" else 1
+    sleeve = sleeve or shirt
+    legs = {
+        "stand": ("M-52 -330 l-14 280", "M52 -330 l14 280"),
+        "siu": ("M-52 -330 l-56 270", "M52 -330 l56 270"),
+        "run": ("M-46 -330 l-80 200 l-50 70", "M46 -330 l50 150 l100 80"),
+        "arms": ("M-52 -330 l-14 280", "M52 -330 l14 280"),
+    }[pose]
+    feet = {"stand": ((-66, -40), (66, -40)), "siu": ((-108, -50), (108, -50)),
+            "run": ((-176, -50), (196, -90)), "arms": ((-66, -40), (66, -40))}[pose]
+    arms = {
+        "stand": ("M-128 -630 q-36 110 -30 230", "M128 -630 q36 110 30 230"),
+        "siu": ("M-128 -630 q-100 100 -160 200", "M128 -630 q100 100 160 200"),
+        "run": ("M-128 -630 q-80 70 -110 170", "M128 -630 q90 -30 120 -150"),
+        "arms": ("M-128 -630 q-80 -120 -110 -250", "M128 -630 q80 -120 110 -250"),
+    }[pose]
+    hand = {"stand": ((-158, -398), (158, -398)), "siu": ((-288, -428), (288, -428)),
+            "run": ((-238, -458), (248, -778)), "arms": ((-238, -880), (238, -880))}[pose]
+    return f'''<g id="{id}"><g transform="translate({x} {y}) scale({s * sx} {s})">
+  <ellipse cx="0" cy="0" rx="190" ry="28" fill="#000" opacity=".5"/>
+  <g stroke-linecap="round" fill="none">
+    <path d="{legs[0]}" stroke="{skin}" stroke-width="76"/><path d="{legs[1]}" stroke="{skin}" stroke-width="76"/>
+    <path d="{legs[0]}" stroke="{socks}" stroke-width="80" stroke-dasharray="0 150 400"/>
+    <path d="{legs[1]}" stroke="{socks}" stroke-width="80" stroke-dasharray="0 150 400"/>
+    <path d="{arms[0]}" stroke="{skin}" stroke-width="56"/><path d="{arms[1]}" stroke="{skin}" stroke-width="56"/>
+    <path d="{arms[0]}" stroke="{sleeve}" stroke-width="68" stroke-dasharray="85 600"/>
+    <path d="{arms[1]}" stroke="{sleeve}" stroke-width="68" stroke-dasharray="85 600"/>
+  </g>
+  <ellipse cx="{feet[0][0]}" cy="{feet[0][1]}" rx="52" ry="26" fill="{boots}"/><ellipse cx="{feet[1][0]}" cy="{feet[1][1]}" rx="52" ry="26" fill="{boots}"/>
+  <circle cx="{hand[0][0]}" cy="{hand[0][1]}" r="30" fill="{skin}"/><circle cx="{hand[1][0]}" cy="{hand[1][1]}" r="30" fill="{skin}"/>
+  <path d="M-118 -470 h236 l18 150 q-60 16 -114 0 l-4 -40 l-4 40 q-54 16 -114 0 z" fill="{shorts}"/>
+  <path d="M-150 -652 q150 -50 300 0 l-26 196 q-124 22 -248 0 z" fill="{shirt}"/>
+  <path d="M-150 -652 q60 -24 90 -28 l-12 222 q-30 -2 -52 -6 z" fill="#000" opacity=".12"/>
+  <text data-layout-ignore="true" x="4" y="-512" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="130" fill="#000" opacity=".25">{number}</text>
+  <text x="0" y="-518" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="130" fill="{numcol}">{number}</text>
+  <path d="M-40 -690 h80 v44 q-40 14 -80 0 z" fill="{skin}"/>
+  <ellipse cx="-74" cy="-756" rx="14" ry="24" fill="{skin}"/><ellipse cx="74" cy="-756" rx="14" ry="24" fill="{skin}"/>
+  <ellipse cx="0" cy="-770" rx="72" ry="84" fill="{hair}"/>
+  <path d="M-72 -760 q0 -96 72 -100 q74 4 74 100 q-20 -54 -74 -60 q-54 6 -72 60 z" fill="#000" opacity=".35"/>
+  <path d="M-40 -700 q40 14 80 0" stroke="{hair}" stroke-width="10" fill="none"/>
+  <g fill="none" stroke="{rim}" stroke-width="6" stroke-linecap="round" opacity=".55">
+    <path d="M60 -836 q22 40 10 100"/><path d="M150 -652 l-26 196"/><path d="M118 -470 l18 150"/>
+    <path d="{arms[1]}"/><path d="{legs[1]}"/>
+  </g>
+</g></g>'''
+
+
+PARTS = {"person": person, "shelf": shelf, "skyline": skyline, "embers": embers, "fog": fog, "player": player}
 PAT = re.compile(r'(<!--@(\w+)((?:\s+[\w-]+="[^"]*")*)\s*-->)(\n<g .*?<!--/@-->)?', re.S)
 
 

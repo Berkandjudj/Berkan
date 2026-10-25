@@ -1,0 +1,22 @@
+{
+ "title": "Die Geschichte von Cristiano Ronaldo",
+ "mode": "LEGENDE",
+ "lines": [
+  { "id": "hook1", "say": "Der erfolgreichste Torjäger der Geschichte wäre beinahe nie Profi geworden.", "show": "Der erfolgreichste Torjäger der Geschichte wäre beinahe nie Profi geworden.", "pause": 0.3 },
+  { "id": "card1", "say": "Denn mit fünfzehn", "show": "Denn mit 15", "pause": 0.15 },
+  { "id": "card2", "say": "drohte sein eigenes Herz alles zu beenden.", "show": "drohte sein eigenes *Herz* alles zu beenden.", "pause": 0.35 },
+  { "id": "s1", "say": "Es ist neunzehnhundertfünfundachtzig. Auf der Insel Madeira kommt ein Junge zur Welt.", "show": "Es ist 1985. Auf der Insel Madeira kommt ein Junge zur Welt.", "pause": 0.22 },
+  { "id": "s2", "say": "Die Familie ist arm. Er teilt sich ein Zimmer mit seinen Geschwistern.", "show": "Die Familie ist arm. Er teilt sich ein Zimmer mit seinen Geschwistern.", "pause": 0.2 },
+  { "id": "s3", "say": "Sein Vater ist Zeugwart bei einem kleinen Fußballverein.", "show": "Sein Vater ist Zeugwart bei einem kleinen Fußballverein.", "pause": 0.2 },
+  { "id": "s4", "say": "Der Junge spielt jeden Tag auf der Straße. Bis spät in die Nacht.", "show": "Der Junge spielt jeden Tag auf der Straße. Bis spät in die Nacht.", "pause": 0.22 },
+  { "id": "s5", "say": "Mit zwölf zieht er allein nach Lissabon, in die Akademie von Sporting.", "show": "Mit 12 zieht er allein nach Lissabon, in die Akademie von Sporting.", "pause": 0.2 },
+  { "id": "s6", "say": "Er vermisst seine Familie. Nachts weint er oft.", "show": "Er vermisst seine Familie. Nachts weint er oft.", "pause": 0.25 },
+  { "id": "s7", "say": "Dann, mit fünfzehn, der Schock. Sein Herz rast viel zu schnell.", "show": "Dann, mit 15, der *Schock.* Sein Herz rast viel zu schnell.", "pause": 0.2 },
+  { "id": "s8", "say": "Seine Karriere steht auf dem Spiel. Er wird operiert.", "show": "Seine Karriere steht auf dem Spiel. Er wird operiert.", "pause": 0.2 },
+  { "id": "s9", "say": "Wenige Tage später steht er wieder auf dem Platz.", "show": "Wenige Tage später steht er wieder auf dem Platz.", "pause": 0.25 },
+  { "id": "s10", "say": "Mit achtzehn spielt er gegen Manchester United. So gut, dass sie ihn sofort kaufen.", "show": "Mit 18 spielt er gegen Manchester United. So gut, dass sie ihn sofort kaufen.", "pause": 0.22 },
+  { "id": "s11", "say": "Es folgen Real Madrid, fünf Ballon d'Or und der Europameistertitel mit Portugal.", "show": "Es folgen Real Madrid, *5* Ballon d'Or und der Europameistertitel mit Portugal.", "pause": 0.22 },
+  { "id": "s12", "say": "Als erster Spieler der Welt schießt er neunhundert offizielle Tore.", "show": "Als erster Spieler der Welt schießt er *900* offizielle Tore.", "pause": 0.35 },
+  { "id": "reveal", "say": "Und der Junge, dessen Herz fast alles beendet hätte, heißt Cristiano Ronaldo.", "show": "Und der Junge, dessen Herz fast alles beendet hätte, heißt *Cristiano* *Ronaldo.*", "pause": 0.6 }
+ ]
+}

@@ -1,6 +1,6 @@
 ---
 name: tiktok-video
-description: Erstellt Berkans TikTok-Videos (immer auf DEUTSCH) komplett im Code mit HyperFrames – 9:16, flache dunkle 2D-Vektor-Illustrationen, Karaoke-Untertitel, Keyword-Slams, rote Alarm-Ringe, Tag/Uhrzeit-HUD, Cliffhanger-Frage und Outro-Karte „TEIL N“, im Stil der Referenzserie „Der Bunker“. Verwenden bei jeder Anfrage nach einem neuen Video, einem neuen Teil, einem Thema „was wäre wenn …“ oder Änderungen an einem bestehenden Video in videos/.
+description: Erstellt Berkans TikTok-Videos (immer auf DEUTSCH) komplett im Code mit HyperFrames, 9:16. Zwei Formate per Codewort – SZENARIO = „Was wäre wenn …“/Überlebens-Story im Stil „Der Bunker“ (flache Vektor-Illustrationen, Karaoke-Untertitel, HUD, rote Ringe, Outro „TEIL N“); LEGENDE = Lebensgeschichte einer bekannten Persönlichkeit im Stil „zeitreisehaus“ (cinematische Bilder, weiße Großbuchstaben-Untertitel, Name erst am Ende). Verwenden bei jeder Anfrage nach einem neuen Video („Die Geschichte von X – LEGENDE“, „… – SZENARIO“), einem neuen Teil oder Änderungen an einem Video in videos/.
 ---
 
 # TikTok-Video (Deutsch, HyperFrames)
@@ -12,6 +12,18 @@ Für HyperFrames-Regeln gilt zusätzlich der Plugin-Skill `/hyperframes:hyperfra
 
 `HF` = `node ~/.claude/plugins/cache/hyperframes/hyperframes/*/skills/hyperframes/scripts/plugin-cli.mjs`
 (Plugin-Launcher, nie `npx hyperframes` direkt). `SK` = `.claude/skills/tiktok-video`.
+
+## Codewörter – welches Format?
+
+| Codewort | Format | Stil-Referenz | Beispiel-Projekt |
+|---|---|---|---|
+| **SZENARIO** | Was-wäre-wenn / Überleben, „Tag X, Uhrzeit“, Cliffhanger, Outro „TEIL N“ | `references/style.md` | `videos/03-apokalypse/` |
+| **LEGENDE** | Lebensgeschichte einer bekannten Person, Teaser → schwarze Karten → „Es ist [Jahr].“ → Name am Ende | `references/legende.md` | `videos/04-legende-ronaldo/` |
+
+Beispiel: „Die Geschichte von Cristiano Ronaldo – LEGENDE“. Ohne Codewort: nach Thema entscheiden
+(Person → LEGENDE, Gedankenexperiment → SZENARIO). Schritte 1–6 gelten für beide; LEGENDE-Abweichungen:
+kein HUD (`build_index.py` entfernt den Host), Untertitel mit `--style legende --skip <Kartenzeilen>`,
+Szenen/SFX in `scenes.json`.
 
 ## 0. Setup (einmal pro Container)
 

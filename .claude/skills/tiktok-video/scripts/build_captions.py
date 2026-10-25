@@ -8,6 +8,18 @@ Look: dunkle Box mit oranger Oberkante, Oswald 700 in Versalien.
 """
 import argparse, html, json, os, re
 
+LEGENDE_CSS = """
+    #root {{ position: absolute; inset: 0; pointer-events: none; }}
+    .cap-row {{ position: absolute; left: 60px; width: 960px; top: {top}px; text-align: center; overflow: visible; }}
+    .cap-box {{ display: inline-block; position: relative; font-family: "Montserrat", sans-serif; font-weight: 800;
+      font-size: {size}px; line-height: 1.08; text-transform: uppercase; letter-spacing: 0.01em; color: #f4f1ea;
+      text-shadow: 0 0 2px #000, 0 3px 0 rgba(0,0,0,.85), 0 0 24px rgba(0,0,0,.75), 0 0 6px rgba(0,0,0,.9); }}
+    .cap-w {{ display: inline-block; position: relative; margin: 0 0.1em; color: #f4f1ea; }}
+    .cap-w .ul {{ display: none; }}
+    .cap-box {{ background: none; box-shadow: none; padding: 0; border-radius: 0; }}
+    .cap-box::before {{ display: none; }}
+"""
+
 TEMPLATE = """<template>
   <style>
     #root {{ position: absolute; inset: 0; pointer-events: none; }}
@@ -21,6 +33,7 @@ TEMPLATE = """<template>
     .cap-w {{ display: inline-block; position: relative; color: #8e939d; margin: 0 0.12em; }}
     .cap-w .ul {{ position: absolute; left: 0; right: 0; bottom: 0.02em; height: 5px; border-radius: 3px;
       background: var(--yellow, #f7c548); transform-origin: left center; transform: scaleX(0); }}
+{legende}
   </style>
   <div id="root" data-composition-id="captions" data-width="1080" data-height="1920" data-layout-allow-caption-zone>
 {groups}
@@ -28,7 +41,8 @@ TEMPLATE = """<template>
   <script>
     const tl = gsap.timeline({{ paused: true }});
     const G = {data};
-    const WHITE = "#f4efe4", YELLOW = "#f7c548", RED = "#ef4a36", GREY = "#8e939d";
+    const LEG = {legjs};
+    const WHITE = "#f4efe4", YELLOW = LEG ? "#f4f1ea" : "#f7c548", RED = LEG ? "#f4f1ea" : "#ef4a36", GREY = LEG ? "#f4f1ea" : "#8e939d";
     G.forEach((g) => {{
       const box = "#" + g.id + " .cap-box";
       tl.fromTo(box, {{ opacity: 0, scale: 0.9, y: 14 }}, {{ opacity: 1, scale: 1, y: 0, duration: 0.14, ease: "back.out(2.2)" }}, g.start);
@@ -93,9 +107,16 @@ def main():
     ap.add_argument("--max-chars", type=int, default=18)
     ap.add_argument("--y", type=int, default=1365, help="vertikale Mitte der Untertitel")
     ap.add_argument("--size", type=int, default=66)
+    ap.add_argument("--style", choices=["szenario", "legende"], default="szenario",
+                    help="szenario = Box + Karaoke (Bunker-Stil), legende = weiße Schrift ohne Box (zeitreisehaus-Stil)")
+    ap.add_argument("--skip", default="", help="Zeilen-IDs ohne Untertitel (z. B. schwarze Texttafeln), kommagetrennt")
     a = ap.parse_args()
     timing = json.load(open(os.path.join(a.project, "assets", "timing.json"), encoding="utf-8"))
-    groups = group_words(timing["lines"], a.max_words, a.max_chars)
+    skip = set(x for x in a.skip.split(",") if x)
+    if a.style == "legende":
+        a.y = a.y if a.y != 1365 else 1210
+        a.size = a.size if a.size != 66 else 64
+    groups = group_words([l for l in timing["lines"] if l["id"] not in skip], a.max_words, a.max_chars)
     data, markup = [], []
     for gi, g in enumerate(groups):
         gid = f"cap-g{gi}"
@@ -115,8 +136,11 @@ def main():
                       f'<div class="cap-box">{"".join(spans)}</div></div>')
         data.append({"id": gid, "start": start, "end": end, "words": words})
     top = a.y - int(a.size * 0.75)
+    leg = a.style == "legende"
     out = TEMPLATE.format(top=top, size=a.size, groups="\n".join(markup),
-                          data=json.dumps(data, ensure_ascii=False))
+                          data=json.dumps(data, ensure_ascii=False),
+                          legende=LEGENDE_CSS.format(top=top, size=a.size) if leg else "",
+                          legjs="true" if leg else "false")
     os.makedirs(os.path.join(a.project, "compositions"), exist_ok=True)
     path = os.path.join(a.project, "compositions", "captions.html")
     open(path, "w", encoding="utf-8").write(out)
