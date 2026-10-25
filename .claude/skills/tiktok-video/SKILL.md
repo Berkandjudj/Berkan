@@ -38,10 +38,14 @@ Struktur nach `references/style.md` → „Erzählstruktur“: Hook mit echtem F
 ## 2. Stimme + Timings
 
 ```bash
-python3 -I $SK/scripts/tts.py script.json assets --speed 1.0 --style power   # → assets/voice.wav + assets/timing.json
+python3 -I $SK/scripts/tts.py script.json assets --speed 1.0                 # Stil human (Standard) → voice.wav + timing.json
 python3 -I $SK/scripts/transcribe.py assets/voice.wav              # Gegenprobe: alles richtig ausgesprochen?
 ```
-`--style power` (Standard für Berkan: tiefer, druckvoller, lauter, −14 LUFS) oder `neutral` (ruhiger Erzähler).
+Stile: **`human` (Standard, von Berkan gewünscht)**: Satz für Satz mit leicht schwankendem Tempo, Atemzüge in Pausen,
+schonende Kette ohne Tonhöhenverschiebung. `power`: tiefer/druckvoller, klingt aber synthetischer. `neutral`: ruhig.
+Stimme eines fertigen Videos austauschen, ohne Szenen neu zu timen: `--match assets/timing.json` (alte Timings) –
+Zeilenanfänge bleiben exakt, zu lange Zeilen werden leicht beschleunigt, nie verlangsamt. Danach Untertitel neu bauen.
+Noch menschlicher geht nur mit Cloud-TTS (Gemini/Google sind hier erreichbar) – dafür braucht es einen API-Schlüssel von Berkan.
 Länge an das Ziel anpassen über `--speed` (1.0–1.15), Pausen oder Textkürzung. 60 s ≈ 170 Wörter bei `--speed 1.0`.
 Whisper lässt kurze Einleitungen („Tag 2.“) gern aus – dann den Ausschnitt einzeln prüfen, bevor man die Stimme verdächtigt. Zielt das Video auf 30 s,
 endet die Stimme bei ~28,5 s; der Rest gehört der Outro-Karte.
