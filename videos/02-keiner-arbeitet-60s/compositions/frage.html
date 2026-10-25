@@ -1,0 +1,67 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #0f131c; }
+    .q-choice { position: absolute; top: 1080px; width: 300px; text-align: center; }
+    .q-choice .chip { font-size: 84px; padding: 6px 40px 10px; }
+  </style>
+  <div id="root" data-composition-id="frage" data-width="1080" data-height="1920">
+    <div id="q-cam" class="cam">
+      <svg class="full" viewBox="0 0 1080 1920">
+        <defs>
+          <radialGradient id="q-door" cx="0.5" cy="0.55" r="0.55">
+            <stop offset="0" stop-color="#f7c548" stop-opacity="0.55" /><stop offset="1" stop-color="#f7c548" stop-opacity="0" />
+          </radialGradient>
+        </defs>
+        <rect width="1080" height="1920" fill="#141925" />
+        <!-- Tür nach draußen, Licht fällt herein -->
+        <rect x="300" y="560" width="480" height="900" fill="#e9c27a" />
+        <rect x="300" y="560" width="480" height="900" fill="url(#q-door)" />
+        <rect x="276" y="540" width="528" height="24" fill="#2a2f3b" /><rect x="276" y="540" width="24" height="920" fill="#2a2f3b" /><rect x="780" y="540" width="24" height="920" fill="#2a2f3b" />
+        <path d="M300 1460 h480 l200 460 h-880 z" fill="#e9c27a" opacity="0.16" />
+        <rect y="1460" width="1080" height="460" fill="#1c212c" opacity="0.85" />
+        <!--@person id="q-p" x="540" y="1520" s="1.15" jacket="#2a2f3b" pants="#20242e" hair="#2a1d16" style="short" mood="worried" hat="#f4a62a" vest="#f4a62a"-->
+<g id="q-p"><g transform="translate(540.0 1520.0) scale(1.15 1.15)">
+  <ellipse cx="0" cy="0" rx="120" ry="18" fill="#000" opacity=".3"/>
+  <rect x="-70" y="-200" width="58" height="196" rx="20" fill="#20242e"/>
+  <rect x="12" y="-200" width="58" height="196" rx="20" fill="#20242e"/>
+  <ellipse cx="-44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/><ellipse cx="44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/>
+  <g id="q-p-armL" transform="rotate(0 -124 -380)"><rect x="-150" y="-392" width="52" height="200" rx="26" fill="#2a2f3b" transform="rotate(8 -124 -392)"/>
+    <circle cx="-138" cy="-186" r="26" fill="#f1c7a0"/></g>
+  <g id="q-p-armR" transform="rotate(0 124 -380)"><rect x="98" y="-392" width="52" height="200" rx="26" fill="#2a2f3b" transform="rotate(-8 124 -392)"/>
+    <circle cx="138" cy="-186" r="26" fill="#f1c7a0"/></g>
+  <path d="M-110 -340 q0 -66 60 -66 h100 q60 0 60 66 v150 h-220 z" fill="#2a2f3b"/>
+  <path d="M-30 -406 l30 60 l30 -60 z" fill="#e9e6da"/>
+  <path d="M-96 -392 h52 l44 210 l44 -210 h52 v210 h-192 z" fill="#f4a62a" opacity=".95"/><rect x="-104" y="-300" width="208" height="16" fill="#e9e6da" opacity=".9"/><rect x="-104" y="-250" width="208" height="16" fill="#e9e6da" opacity=".9"/>
+  <rect x="-24" y="-436" width="48" height="40" fill="#f1c7a0"/>
+  <g id="q-p-head">
+    
+    <circle cx="0" cy="-520" r="102" fill="#f1c7a0"/>
+    <circle cx="-102" cy="-512" r="18" fill="#f1c7a0"/><circle cx="102" cy="-512" r="18" fill="#f1c7a0"/>
+    <path d="M-104 -520 q-6 -110 104 -118 q110 8 104 118 q-30 -56 -104 -60 q-74 4 -104 60 z" fill="#2a1d16"/>
+    <ellipse cx="-36" cy="-522" rx="17" ry="19" fill="#fff"/><ellipse cx="36" cy="-522" rx="17" ry="19" fill="#fff"/>
+    <circle id="q-p-eyeL" cx="-34" cy="-520" r="9" fill="#0f1218"/><circle id="q-p-eyeR" cx="34" cy="-520" r="9" fill="#0f1218"/>
+    <path d="M-52 -548 l32 -12 M20 -560 l32 12" stroke="#2a1d16" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <circle cx="-62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/><circle cx="62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/>
+    <path d="M-18 -462 q18 -12 36 0" fill="none" stroke="#5a2a1e" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-112 -566 q0 -110 112 -112 q112 2 112 112 z" fill="#f4a62a" stroke="#0f1218" stroke-opacity=".35" stroke-width="6"/><rect x="-132" y="-574" width="264" height="22" rx="11" fill="#f4a62a"/><rect x="-10" y="-676" width="20" height="104" rx="8" fill="#000" opacity=".15"/>
+  </g>
+</g></g><!--/@-->
+      </svg>
+    </div>
+    <div id="q-title" class="title" style="top: 210px; font-size: 112px">Würdest du als<br /><span class="r">Erster gehen?</span></div>
+    <div id="q-yes" class="q-choice" style="left: 70px"><span class="chip o">Ja</span></div>
+    <div id="q-no" class="q-choice" style="left: 710px"><span class="chip r">Nein</span></div>
+    <div id="q-com" class="chip-row" style="top: 1200px"><span class="chip o" style="font-size: 56px; border-radius: 40px">In die Kommentare →</span></div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#q-cam", { scale: 1.0 }, { scale: 1.08, duration: 3.5, ease: "none" }, 0);
+    tl.fromTo("#q-title", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.2, ease: "power3.out" }, 0.05);
+    tl.fromTo("#q-p-head", { rotation: -6, transformOrigin: "50% 92%" }, { rotation: 6, duration: 0.5, repeat: 6, yoyo: true, ease: "sine.inOut" }, 0);
+    tl.fromTo("#q-yes", { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.6)" }, 1.25);
+    tl.fromTo("#q-no", { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.6)" }, 1.4);
+    tl.fromTo("#q-com", { opacity: 0, x: -80 }, { opacity: 1, x: 0, duration: 0.25, ease: "power3.out" }, 2.12);
+    tl.to("#q-com", { x: 18, duration: 0.2, repeat: 5, yoyo: true, ease: "sine.inOut" }, 2.4);
+    window.__timelines["frage"] = tl;
+  </script>
+</template>

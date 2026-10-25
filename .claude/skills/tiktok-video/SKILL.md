@@ -32,16 +32,18 @@ Struktur nach `references/style.md` → „Erzählstruktur“: Hook mit echtem F
 { "id": "tag1_mark", "say": "Tag eins, sieben Uhr.", "show": "Tag 1, 7 Uhr.", "pause": 0.22 }
 ```
 - `say` = gesprochen (Zahlen ausschreiben), `show` = Untertitel, **gleiche Wortanzahl**. `*Wort*` = rotes Keyword.
-- Tages-Marker („Tag drei.“) als eigene Zeile mit Pause, sonst verschluckt die Stimme sie.
+- Tages-Marker als eigene Zeile mit Pause **und Komma**: `say: "Tag, vier."`, sonst wird „Tag vier“ zu „K4“ verschluckt.
 - Bekannte Aussprache-Fixes für Piper: „Chaos“ → `say: "Kaos"`. Neue Fälle hier ergänzen.
 
 ## 2. Stimme + Timings
 
 ```bash
-python3 -I $SK/scripts/tts.py script.json assets --speed 1.08      # → assets/voice.wav + assets/timing.json
+python3 -I $SK/scripts/tts.py script.json assets --speed 1.0 --style power   # → assets/voice.wav + assets/timing.json
 python3 -I $SK/scripts/transcribe.py assets/voice.wav              # Gegenprobe: alles richtig ausgesprochen?
 ```
-Länge an das Ziel anpassen über `--speed` (1.0–1.15), Pausen oder Textkürzung. Zielt das Video auf 30 s,
+`--style power` (Standard für Berkan: tiefer, druckvoller, lauter, −14 LUFS) oder `neutral` (ruhiger Erzähler).
+Länge an das Ziel anpassen über `--speed` (1.0–1.15), Pausen oder Textkürzung. 60 s ≈ 170 Wörter bei `--speed 1.0`.
+Whisper lässt kurze Einleitungen („Tag 2.“) gern aus – dann den Ausschnitt einzeln prüfen, bevor man die Stimme verdächtigt. Zielt das Video auf 30 s,
 endet die Stimme bei ~28,5 s; der Rest gehört der Outro-Karte.
 
 ## 3. Projekt anlegen
@@ -52,7 +54,7 @@ bash $SK/scripts/new_video.sh 02-<slug>
 Kopiert Gerüst, lokales GSAP, SFX, `index.html` (gemeinsame Klassen `.title .r/.o`, `.chip`, `.ring`, `.cam`,
 Grain, Vignette, Szenen-Hosts, Audio) und die Szenen `hud.html`, `frage.html`, `outro.html` als Vorlage.
 Szenen-Hosts, HUD-Texte/Zeiten, Outro-Texte und SFX-Zeiten in `index.html` an das neue Skript anpassen.
-Klangteppich erzeugen (Länge anpassen):
+Klangteppich erzeugen (bei 60 s: `d=61` und Fade-out `st=57.5`):
 ```bash
 ffmpeg -y -f lavfi -i "anoisesrc=color=brown:amplitude=0.6:seed=7:d=31" -f lavfi -i "sine=f=55:d=31" -f lavfi -i "sine=f=82.4:d=31" -f lavfi -i "sine=f=110.3:d=31" -filter_complex "[0]lowpass=f=320,highpass=f=35,volume=0.5[n];[1]volume=0.35,tremolo=f=0.13:d=0.5[a];[2]volume=0.22,tremolo=f=0.21:d=0.6[b];[3]volume=0.08,tremolo=f=0.31:d=0.7[c];[n][a][b][c]amix=inputs=4:normalize=0,afade=t=in:d=1.2,afade=t=out:st=28.5:d=2.5,loudnorm=I=-26:TP=-6,aformat=channel_layouts=stereo" -ar 44100 assets/ambience.wav
 ```
@@ -78,7 +80,11 @@ Wiederverwendbare Grafik per Platzhalter in den Szenen, dann `python3 -I $SK/scr
 `<!--@shelf id="x-shelf" x="150" y="560" w="780" h="920" fill="1|0"-->`, `<!--@skyline id="x-city" y="760" lit="1" seed="3"-->`.
 Neue Bausteine (Tür, Luke, Funkgerät …) als Funktion in `svg_parts.py` ergänzen, damit sie in späteren Videos gleich aussehen.
 
-## 5. Untertitel
+## 5. HUD + Untertitel
+
+`hud.json` schreiben (Format im Kopf von `scripts/build_hud.py`: Start/Ende, Tage mit Uhrzeit und Prozent, optionaler Alarm),
+dann `python3 -I $SK/scripts/build_hud.py .` → `compositions/hud.html`; Host-Zeiten in `index.html` wie ausgegeben setzen.
+
 
 ```bash
 python3 -I $SK/scripts/build_captions.py . --max-chars 20     # → compositions/captions.html
@@ -105,6 +111,8 @@ Danach verifizieren: `ffprobe` (1080×1920, 30 fps, Länge = Root-`data-duration
 - Zwei `fromTo` auf dasselbe Ziel → das zweite als `tl.to(...)` schreiben.
 - Puls-Ringe, die später erscheinen: `fromTo({opacity:0})` → kurz einblenden → `to(...)`, sonst sind sie vorher schon sichtbar.
 - Drehpunkte in verschachtelten SVG-Gruppen mit `transformOrigin: "50% 92%"` statt `svgOrigin`.
+- **GSAP überschreibt das `transform`-Attribut** einer SVG-Gruppe, die es bewegt → Objekt springt an den Bildrand oder verschwindet.
+  Immer verschachteln: `<g transform="translate(…)"><g id="x-obj">…</g></g>` und nur die innere Gruppe animieren (`person` macht das schon).
 - Titel nicht unter das HUD legen (`top ≥ 390px`), Text nicht in die Untertitel-Zone 1300–1430 px.
 - sherpa-onnx 2.x hat kein espeak-Frontend mehr → Version 1.12.40 verwenden.
 - IDs eindeutig mit Szenen-Präfix (`h-`, `f-`, `t1-` …), jede Szene registriert `window.__timelines["<id>"]`.

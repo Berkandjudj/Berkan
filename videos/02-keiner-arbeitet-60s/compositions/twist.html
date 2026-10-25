@@ -1,0 +1,54 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #10141e; }
+  </style>
+  <div id="root" data-composition-id="twist" data-width="1080" data-height="1920">
+    <div id="x-cam" class="cam">
+      <svg class="full" viewBox="0 0 1080 1920">
+        <defs>
+          <radialGradient id="x-glow" cx="0.5" cy="0.5" r="0.5">
+            <stop offset="0" stop-color="#2a3550" /><stop offset="1" stop-color="#10141e" />
+          </radialGradient>
+        </defs>
+        <rect width="1080" height="1920" fill="#10141e" />
+        <circle cx="540" cy="975" r="480" fill="url(#x-glow)" />
+        <g transform="translate(540 975) scale(0.78) translate(-540 -1000)">
+        <!-- Verbindungen -->
+        <g id="x-lines" stroke="#f4a62a" stroke-width="10" stroke-linecap="round" opacity="0.9">
+          <line x1="540" y1="1000" x2="540" y2="670" /><line x1="540" y1="1000" x2="826" y2="835" /><line x1="540" y1="1000" x2="826" y2="1165" />
+          <line x1="540" y1="1000" x2="540" y2="1330" /><line x1="540" y1="1000" x2="254" y2="1165" /><line x1="540" y1="1000" x2="254" y2="835" />
+          <line x1="540" y1="670" x2="826" y2="835" /><line x1="826" y1="835" x2="826" y2="1165" /><line x1="826" y1="1165" x2="540" y2="1330" />
+          <line x1="540" y1="1330" x2="254" y2="1165" /><line x1="254" y1="1165" x2="254" y2="835" /><line x1="254" y1="835" x2="540" y2="670" />
+        </g>
+        <!-- Berufe -->
+        <g id="x-nodes" font-family="Oswald" font-weight="700" font-size="34" text-anchor="middle">
+          <g id="x-n1"><circle cx="540" cy="670" r="82" fill="#f4efe4" /><rect x="525" y="625" width="30" height="90" rx="6" fill="#e8412f" /><rect x="495" y="655" width="90" height="30" rx="6" fill="#e8412f" /><text x="540" y="592" fill="#f4efe4">ARZT</text></g>
+          <g id="x-n2"><circle cx="826" cy="835" r="82" fill="#f4a62a" /><rect x="786" y="810" width="60" height="40" rx="6" fill="#1d2433" /><rect x="846" y="822" width="24" height="28" rx="4" fill="#1d2433" /><circle cx="800" cy="858" r="10" fill="#1d2433" /><circle cx="856" cy="858" r="10" fill="#1d2433" /><text x="826" y="958" fill="#f4efe4">FAHRER</text></g>
+          <g id="x-n3"><circle cx="826" cy="1165" r="82" fill="#f7c548" /><path d="M836 1110 l-40 66 h34 l-12 50 l46 -72 h-34 z" fill="#1d2433" /><text x="826" y="1288" fill="#f4efe4">STROM</text></g>
+          <g id="x-n4"><circle cx="540" cy="1330" r="82" fill="#5f8f5c" /><path d="M540 1365 v-60 M540 1320 q-30 -10 -34 -40 q30 4 34 30 M540 1320 q30 -10 34 -40 q-30 4 -34 30" stroke="#1d2433" stroke-width="10" fill="none" stroke-linecap="round" /><text x="636" y="1345" fill="#f4efe4" text-anchor="start">BAUER</text></g>
+          <g id="x-n5"><circle cx="254" cy="1165" r="82" fill="#3d7bb3" /><path d="M254 1118 l40 16 v26 q0 34 -40 50 q-40 -16 -40 -50 v-26 z" fill="#1d2433" /><text x="254" y="1288" fill="#f4efe4">POLIZEI</text></g>
+          <g id="x-n6"><circle cx="254" cy="835" r="82" fill="#8d93a1" /><rect x="224" y="810" width="60" height="70" rx="6" fill="#1d2433" /><rect x="216" y="798" width="76" height="14" rx="4" fill="#1d2433" /><text x="254" y="725" fill="#f4efe4">MÜLL</text></g>
+          <!-- DU in der Mitte -->
+          <g id="x-du"><circle cx="540" cy="1000" r="96" fill="#e8412f" /><circle cx="540" cy="975" r="34" fill="#f1c7a0" /><path d="M486 1050 q54 -70 108 0 z" fill="#f1c7a0" /><text x="540" y="1140" fill="#f4efe4" font-size="40">DU</text></g>
+        </g>
+        </g>
+      </svg>
+    </div>
+    <div id="x-t1" class="title" style="top: 395px; font-size: 112px">Ohne die anderen</div>
+    <div id="x-t2" class="title" style="top: 510px; font-size: 112px"><span class="r">hält keiner durch</span></div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#x-cam", { scale: 1.06 }, { scale: 1.0, duration: 3.7, ease: "power1.out" }, 0);
+    tl.fromTo("#x-nodes > g", { scale: 0, transformOrigin: "50% 50%" }, { scale: 1, duration: 0.25, ease: "back.out(2.2)", stagger: 0.07 }, 0.05);
+    tl.fromTo("#x-lines line", { opacity: 0 }, { opacity: 1, duration: 0.2, stagger: 0.03 }, 0.3);
+    tl.fromTo("#x-t1", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.22, ease: "power3.out" }, 1.0);
+    // Verbindungen reißen: rot, dann weg; Berufe werden grau
+    tl.to("#x-lines line", { stroke: "#e8412f", duration: 0.1, stagger: 0.04 }, 1.3);
+    tl.to("#x-lines line", { opacity: 0.08, duration: 0.15, stagger: 0.05 }, 1.9);
+    tl.to(["#x-n1", "#x-n2", "#x-n3", "#x-n4", "#x-n5", "#x-n6"], { opacity: 0.25, scale: 0.85, duration: 0.2, stagger: 0.1 }, 2.0);
+    tl.fromTo("#x-t2", { opacity: 0, scale: 1.7, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 2.4);
+    tl.to("#x-du", { scale: 0.9, duration: 0.12, repeat: 5, yoyo: true }, 2.6);
+    window.__timelines["twist"] = tl;
+  </script>
+</template>

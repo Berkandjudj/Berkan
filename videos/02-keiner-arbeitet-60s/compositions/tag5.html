@@ -1,0 +1,111 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #11151f; }
+    #t5-a, #t5-b, #t5-c { position: absolute; inset: 0; overflow: hidden; }
+  </style>
+  <div id="root" data-composition-id="tag5" data-width="1080" data-height="1920">
+    <!-- A: TAG 5 -->
+    <div id="t5-a" class="clip" data-start="0" data-duration="0.9" data-track-index="0">
+      <svg class="full" viewBox="0 0 1080 1920">
+        <rect width="1080" height="1920" fill="#171b26" />
+        <circle cx="540" cy="760" r="420" fill="#2a1f26" />
+      </svg>
+      <div id="t5-a-day" class="title" style="top: 520px; font-size: 270px"><span class="o">Tag 5</span></div>
+      <div id="t5-a-chip" class="chip-row" style="top: 850px"><span class="chip r" style="font-size: 60px">Vorräte 5 %</span></div>
+    </div>
+
+    <!-- B: Kraftwerk ohne Personal -->
+    <div id="t5-b" class="clip" data-start="0.9" data-duration="2.05" data-track-index="0">
+      <div id="t5-b-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs>
+            <linearGradient id="t5-dusk" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#121624" /><stop offset="1" stop-color="#4a3040" />
+            </linearGradient>
+          </defs>
+          <rect width="1080" height="1920" fill="url(#t5-dusk)" />
+          <!-- Dampf -->
+          <g id="t5-steam" fill="#c9ccd4" opacity="0.55">
+            <circle cx="330" cy="640" r="90" /><circle cx="390" cy="560" r="110" /><circle cx="320" cy="470" r="100" />
+            <circle cx="720" cy="660" r="80" /><circle cx="770" cy="580" r="100" /><circle cx="710" cy="500" r="95" />
+          </g>
+          <!-- Kühltürme -->
+          <path d="M210 1300 q50 -260 10 -560 h220 q-40 300 10 560 z" fill="#8d93a1" />
+          <path d="M600 1300 q50 -240 10 -520 h200 q-40 280 10 520 z" fill="#7a808e" />
+          <rect x="220" y="740" width="220" height="24" fill="#6b707c" /><rect x="610" y="780" width="200" height="24" fill="#5e636e" />
+          <!-- Halle -->
+          <rect x="80" y="1150" width="920" height="300" fill="#3a3f4b" />
+          <rect x="840" y="880" width="60" height="280" fill="#2f3440" />
+          <g fill="#1a1d26"><rect x="140" y="1220" width="120" height="80" /><rect x="320" y="1220" width="120" height="80" /><rect x="500" y="1220" width="120" height="80" /><rect x="680" y="1220" width="120" height="80" /></g>
+          <!-- Leitstand-Fenster: leerer Stuhl -->
+          <g transform="translate(560 1360)">
+            <rect x="-80" y="-40" width="160" height="90" rx="8" fill="#0b0d12" />
+          </g>
+          <rect y="1450" width="1080" height="470" fill="#1e222c" />
+          <!-- Zaun -->
+          <g stroke="#4a4f5b" stroke-width="6"><line x1="0" y1="1500" x2="1080" y2="1500" /><line x1="0" y1="1560" x2="1080" y2="1560" />
+            <line x1="60" y1="1480" x2="60" y2="1600" /><line x1="240" y1="1480" x2="240" y2="1600" /><line x1="420" y1="1480" x2="420" y2="1600" />
+            <line x1="600" y1="1480" x2="600" y2="1600" /><line x1="780" y1="1480" x2="780" y2="1600" /><line x1="960" y1="1480" x2="960" y2="1600" /></g>
+          <!-- Warnleuchte -->
+          <circle id="t5-warn" cx="870" cy="860" r="26" fill="#e8412f" />
+        </svg>
+      </div>
+      <div id="t5-b-chip0" class="chip-row" style="top: 400px"><span class="chip" style="font-size: 64px">Kraftwerk</span></div>
+      <div id="t5-b-chip" class="chip-row" style="top: 520px"><span class="chip r" style="font-size: 76px">0 Personal</span></div>
+    </div>
+
+    <!-- C: Stadt – der Strom fällt aus -->
+    <div id="t5-c" class="clip" data-start="2.95" data-duration="1.3" data-track-index="0">
+      <div id="t5-c-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <rect width="1080" height="1920" fill="#0f1320" />
+          <!--@skyline id="t5-city" y="760" lit="1" seed="21" color="#1b1f2c"-->
+<g id="t5-city">
+<rect x="-20" y="886.0" width="131" height="1034.0" fill="#1b1f2c"/>
+<rect x="103" y="982.0" width="128" height="938.0" fill="#1b1f2c"/>
+<rect x="232" y="1021.0" width="112" height="899.0" fill="#1b1f2c"/>
+<rect x="335" y="980.0" width="170" height="940.0" fill="#1b1f2c"/>
+<rect x="504" y="869.0" width="156" height="1051.0" fill="#1b1f2c"/>
+<rect x="660" y="795.0" width="154" height="1125.0" fill="#1b1f2c"/>
+<rect x="818" y="853.0" width="162" height="1067.0" fill="#1b1f2c"/>
+<rect x="981" y="882.0" width="186" height="1038.0" fill="#1b1f2c"/>
+<g class="t5-city-win" opacity="1"><rect x="2" y="996" width="22" height="30" fill="#f7c548"/><rect x="48" y="996" width="22" height="30" fill="#f7c548"/><rect x="2" y="1136" width="22" height="30" fill="#f7c548"/><rect x="48" y="1136" width="22" height="30" fill="#f7c548"/><rect x="2" y="1206" width="22" height="30" fill="#f7c548"/><rect x="48" y="1206" width="22" height="30" fill="#f7c548"/><rect x="2" y="1276" width="22" height="30" fill="#f7c548"/><rect x="125" y="1092" width="22" height="30" fill="#f7c548"/><rect x="171" y="1162" width="22" height="30" fill="#f7c548"/><rect x="125" y="1232" width="22" height="30" fill="#f7c548"/><rect x="125" y="1302" width="22" height="30" fill="#f7c548"/><rect x="300" y="1061" width="22" height="30" fill="#f7c548"/><rect x="300" y="1131" width="22" height="30" fill="#f7c548"/><rect x="254" y="1201" width="22" height="30" fill="#f7c548"/><rect x="254" y="1271" width="22" height="30" fill="#f7c548"/><rect x="300" y="1271" width="22" height="30" fill="#f7c548"/><rect x="357" y="1020" width="22" height="30" fill="#f7c548"/><rect x="403" y="1020" width="22" height="30" fill="#f7c548"/><rect x="449" y="1160" width="22" height="30" fill="#f7c548"/><rect x="449" y="1230" width="22" height="30" fill="#f7c548"/><rect x="357" y="1300" width="22" height="30" fill="#f7c548"/><rect x="403" y="1300" width="22" height="30" fill="#f7c548"/><rect x="449" y="1300" width="22" height="30" fill="#f7c548"/><rect x="526" y="909" width="22" height="30" fill="#f7c548"/><rect x="572" y="909" width="22" height="30" fill="#f7c548"/><rect x="618" y="909" width="22" height="30" fill="#f7c548"/><rect x="526" y="979" width="22" height="30" fill="#f7c548"/><rect x="618" y="979" width="22" height="30" fill="#f7c548"/><rect x="618" y="1049" width="22" height="30" fill="#f7c548"/><rect x="526" y="1119" width="22" height="30" fill="#f7c548"/><rect x="618" y="1119" width="22" height="30" fill="#f7c548"/><rect x="572" y="1189" width="22" height="30" fill="#f7c548"/><rect x="526" y="1259" width="22" height="30" fill="#f7c548"/><rect x="728" y="835" width="22" height="30" fill="#f7c548"/><rect x="774" y="835" width="22" height="30" fill="#f7c548"/><rect x="728" y="905" width="22" height="30" fill="#f7c548"/><rect x="774" y="905" width="22" height="30" fill="#f7c548"/><rect x="682" y="975" width="22" height="30" fill="#f7c548"/><rect x="728" y="975" width="22" height="30" fill="#f7c548"/><rect x="774" y="975" width="22" height="30" fill="#f7c548"/><rect x="728" y="1045" width="22" height="30" fill="#f7c548"/><rect x="682" y="1115" width="22" height="30" fill="#f7c548"/><rect x="774" y="1115" width="22" height="30" fill="#f7c548"/><rect x="682" y="1185" width="22" height="30" fill="#f7c548"/><rect x="728" y="1185" width="22" height="30" fill="#f7c548"/><rect x="728" y="1255" width="22" height="30" fill="#f7c548"/><rect x="840" y="893" width="22" height="30" fill="#f7c548"/><rect x="886" y="893" width="22" height="30" fill="#f7c548"/><rect x="886" y="963" width="22" height="30" fill="#f7c548"/><rect x="932" y="963" width="22" height="30" fill="#f7c548"/><rect x="840" y="1033" width="22" height="30" fill="#f7c548"/><rect x="840" y="1103" width="22" height="30" fill="#f7c548"/><rect x="886" y="1103" width="22" height="30" fill="#f7c548"/><rect x="840" y="1173" width="22" height="30" fill="#f7c548"/><rect x="886" y="1173" width="22" height="30" fill="#f7c548"/><rect x="886" y="1243" width="22" height="30" fill="#f7c548"/><rect x="886" y="1313" width="22" height="30" fill="#f7c548"/><rect x="932" y="1313" width="22" height="30" fill="#f7c548"/><rect x="1003" y="922" width="22" height="30" fill="#f7c548"/><rect x="1095" y="922" width="22" height="30" fill="#f7c548"/><rect x="1003" y="992" width="22" height="30" fill="#f7c548"/><rect x="1095" y="992" width="22" height="30" fill="#f7c548"/><rect x="1049" y="1062" width="22" height="30" fill="#f7c548"/><rect x="1095" y="1062" width="22" height="30" fill="#f7c548"/><rect x="1049" y="1132" width="22" height="30" fill="#f7c548"/><rect x="1095" y="1132" width="22" height="30" fill="#f7c548"/><rect x="1003" y="1202" width="22" height="30" fill="#f7c548"/><rect x="1095" y="1202" width="22" height="30" fill="#f7c548"/></g>
+</g><!--/@-->
+          <!-- Glühbirne -->
+          <g id="t5-bulb" transform="translate(540 760)">
+            <circle id="t5-bulb-glow" cx="0" cy="0" r="170" fill="#f7c548" opacity="0.25" />
+            <circle cx="0" cy="0" r="96" fill="#f7c548" id="t5-bulb-glass" />
+            <rect x="-44" y="88" width="88" height="70" rx="10" fill="#8d93a1" />
+            <g stroke="#6b707c" stroke-width="8"><line x1="-44" y1="112" x2="44" y2="112" /><line x1="-44" y1="134" x2="44" y2="134" /></g>
+            <path d="M-26 40 l14 -50 l12 30 l12 -30 l14 50" fill="none" stroke="#8f5a0f" stroke-width="8" stroke-linejoin="round" />
+          </g>
+        </svg>
+      </div>
+      <div id="t5-c-dark" class="full" style="background: #000; opacity: 0"></div>
+      <div id="t5-c-title" class="title" style="top: 400px; font-size: 190px"><span class="r">Strom aus</span></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    // A
+    tl.fromTo("#t5-a-day", { opacity: 0, scale: 1.6, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 0.06);
+    tl.fromTo("#t5-a-chip", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 0.36);
+    // B
+    tl.fromTo("#t5-b-cam", { scale: 1.0 }, { scale: 1.07, duration: 2.05, ease: "none" }, 0.9);
+    tl.fromTo("#t5-steam circle", { y: 0, opacity: 0.6 }, { y: -80, opacity: 0, duration: 1.6, ease: "power1.in", stagger: 0.06 }, 0.9);
+    tl.fromTo("#t5-warn", { opacity: 1 }, { opacity: 0.15, duration: 0.15, repeat: 11, yoyo: true }, 0.9);
+    tl.fromTo("#t5-b-chip0", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.2, ease: "back.out(2)" }, 0.97);
+    tl.fromTo("#t5-b-chip", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 2.1);
+    // C
+    tl.fromTo("#t5-c-cam", { scale: 1.06 }, { scale: 1.0, duration: 1.3, ease: "power1.out" }, 2.95);
+    tl.fromTo(".t5-city-win", { opacity: 1 }, { opacity: 0.2, duration: 0.05, repeat: 7, yoyo: true }, 3.24);
+    tl.fromTo("#t5-bulb-glow", { opacity: 0.25 }, { opacity: 0.05, duration: 0.05, repeat: 7, yoyo: true }, 3.24);
+    tl.set(".t5-city-win", { opacity: 0 }, 3.75);
+    tl.set("#t5-bulb-glow", { opacity: 0 }, 3.75);
+    tl.set("#t5-bulb-glass", { fill: "#3a3f4b" }, 3.75);
+    tl.fromTo("#t5-c-dark", { opacity: 0 }, { opacity: 0.45, duration: 0.1 }, 3.75);
+    tl.fromTo("#t5-c-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.14, ease: "power4.in" }, 3.2);
+    tl.fromTo("#t5-c-cam", { x: 0 }, { x: -16, duration: 0.04, repeat: 7, yoyo: true }, 3.77);
+    window.__timelines["tag5"] = tl;
+  </script>
+</template>

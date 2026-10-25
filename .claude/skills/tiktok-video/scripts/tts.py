@@ -21,10 +21,25 @@ import numpy as np
 import sherpa_onnx
 
 SR_OUT = 44100
+
+# Klang-Presets. "power": ~4 % tiefer (Tempo kompensiert → Timings bleiben gleich), mehr Körper und
+# Präsenz, harte Kompression + leichte Sättigung, lauter. Mehr noise = lebendigere Betonung.
+STYLES = {
+    "neutral": {"noise": 0.6, "noise_w": 0.7, "chain":
+        "highpass=f=70,equalizer=f=180:t=q:w=1:g=2.5,equalizer=f=3500:t=q:w=1.5:g=1.5,"
+        "acompressor=threshold=-20dB:ratio=3:attack=5:release=80,loudnorm=I=-16:TP=-1.5:LRA=7"},
+    "power": {"noise": 0.72, "noise_w": 0.9, "chain":
+        "asetrate={sr96},aresample={sr},atempo=1.0416667,"
+        "highpass=f=60,equalizer=f=130:t=q:w=1:g=4,equalizer=f=320:t=q:w=1.2:g=-2,"
+        "equalizer=f=2800:t=q:w=1.2:g=4,equalizer=f=6500:t=q:w=1.5:g=-1.5,"
+        "acompressor=threshold=-26dB:ratio=5:attack=2:release=60:makeup=4,"
+        "asoftclip=type=tanh:threshold=0.9,"
+        "loudnorm=I=-14:TP=-1.2:LRA=5"},
+}
 DEFAULT_VOICE = os.path.expanduser("~/.cache/tiktok-video/voices/vits-piper-de_DE-thorsten-high")
 
 
-def load_tts(voice_dir, threads=8):
+def load_tts(voice_dir, threads=8, noise=0.6, noise_w=0.7):
     onnx = [f for f in os.listdir(voice_dir) if f.endswith(".onnx")][0]
     cfg = sherpa_onnx.OfflineTtsConfig(
         model=sherpa_onnx.OfflineTtsModelConfig(
@@ -32,7 +47,7 @@ def load_tts(voice_dir, threads=8):
                 model=os.path.join(voice_dir, onnx),
                 tokens=os.path.join(voice_dir, "tokens.txt"),
                 data_dir=os.path.join(voice_dir, "espeak-ng-data"),
-                noise_scale=0.6, noise_scale_w=0.7, length_scale=1.0),
+                noise_scale=noise, noise_scale_w=noise_w, length_scale=1.0),
             num_threads=threads),
         max_num_sentences=1)
     return sherpa_onnx.OfflineTts(cfg)
@@ -99,10 +114,13 @@ def main():
     ap.add_argument("--speed", type=float, default=1.0)
     ap.add_argument("--sid", type=int, default=0)
     ap.add_argument("--lead", type=float, default=0.15, help="Stille am Anfang")
+    ap.add_argument("--style", choices=sorted(STYLES), default="neutral",
+                    help="neutral = ruhiger Erzähler, power = tiefer, druckvoller, lebendiger")
     a = ap.parse_args()
     spec = json.load(open(a.script, encoding="utf-8"))
     os.makedirs(a.out, exist_ok=True)
-    tts = load_tts(a.voice)
+    st = STYLES[a.style]
+    tts = load_tts(a.voice, noise=st["noise"], noise_w=st["noise_w"])
     sr = tts.sample_rate
     pieces = [np.zeros(int(sr * a.lead), dtype=np.float32)]
     t = a.lead
@@ -137,9 +155,7 @@ def main():
     wav = os.path.join(a.out, "voice.wav")
     # leichte Wärme + Kompression + Lautheit für Social (-16 LUFS, -1.5 dBTP)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(sr), "-ac", "1", "-i", raw,
-                    "-af", "highpass=f=70,equalizer=f=180:t=q:w=1:g=2.5,equalizer=f=3500:t=q:w=1.5:g=1.5,"
-                           "acompressor=threshold=-20dB:ratio=3:attack=5:release=80,"
-                           "loudnorm=I=-16:TP=-1.5:LRA=7",
+                    "-af", st["chain"].format(sr=sr, sr96=int(sr * 0.96)),
                     "-ar", str(SR_OUT), wav], check=True)
     os.remove(raw)
     json.dump({"duration": round(t, 3), "lines": lines_out}, open(os.path.join(a.out, "timing.json"), "w"),

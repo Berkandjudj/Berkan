@@ -19,8 +19,9 @@ def _f(v, d):
 
 
 def person(id, x=540, y=1500, s=1.0, jacket="#2f6f8f", pants="#2a2f3b", hair="#5a3a22", skin="#f1c7a0",
-           style="short", mood="neutral", flip="0", hat="", vest="", **_):
-    """Figur, Füße auf (x, y). Höhe ≈ 640*s. mood: neutral|worried|shocked|sad. style: short|spiky|long|bald."""
+           style="short", mood="neutral", flip="0", hat="", vest="", arms="down", **_):
+    """Figur, Füße auf (x, y). Höhe ≈ 640*s. mood: neutral|worried|shocked|sad|happy.
+    style: short|spiky|long|bald. arms: down|up (jubeln)."""
     x, y, s = _f(x, 540), _f(y, 1500), _f(s, 1.0)
     sx = -1 if str(flip) == "1" else 1
     dark = "#0f1218"
@@ -29,12 +30,14 @@ def person(id, x=540, y=1500, s=1.0, jacket="#2f6f8f", pants="#2a2f3b", hair="#5
         "worried": "M-52 -548 l32 -12 M20 -560 l32 12",
         "shocked": "M-50 -566 l30 -8 M20 -574 l30 8",
         "sad": "M-52 -552 l32 -10 M20 -562 l32 10",
+        "happy": "M-52 -566 q16 -14 32 -4 M20 -570 q16 -10 32 4",
     }[mood]
     mouth = {
         "neutral": '<path d="M-16 -468 q16 8 32 0" fill="none" stroke="#5a2a1e" stroke-width="7" stroke-linecap="round"/>',
         "worried": '<path d="M-18 -462 q18 -12 36 0" fill="none" stroke="#5a2a1e" stroke-width="7" stroke-linecap="round"/>',
         "shocked": '<ellipse cx="0" cy="-466" rx="14" ry="20" fill="#5a2a1e"/>',
         "sad": '<path d="M-20 -458 q20 -16 40 0" fill="none" stroke="#5a2a1e" stroke-width="7" stroke-linecap="round"/>',
+        "happy": '<path d="M-34 -478 q34 44 68 0 z" fill="#5a2a1e"/><path d="M-22 -466 q22 16 44 0" fill="#e88a7a"/>',
     }[mood]
     hair_svg = {
         "short": f'<path d="M-104 -520 q-6 -110 104 -118 q110 8 104 118 q-30 -56 -104 -60 q-74 4 -104 60 z" fill="{hair}"/>',
@@ -52,14 +55,16 @@ def person(id, x=540, y=1500, s=1.0, jacket="#2f6f8f", pants="#2a2f3b", hair="#5
         vest_svg = (f'<path d="M-96 -392 h52 l44 210 l44 -210 h52 v210 h-192 z" fill="{vest}" opacity=".95"/>'
                     '<rect x="-104" y="-300" width="208" height="16" fill="#e9e6da" opacity=".9"/>'
                     '<rect x="-104" y="-250" width="208" height="16" fill="#e9e6da" opacity=".9"/>')
-    return f'''<g id="{id}" transform="translate({x} {y}) scale({s * sx} {s})">
+    aL, aR = (150, -150) if arms == "up" else (0, 0)
+    # Äußere Gruppe ohne transform-Attribut: GSAP darf sie bewegen, ohne die Position zu überschreiben.
+    return f'''<g id="{id}"><g transform="translate({x} {y}) scale({s * sx} {s})">
   <ellipse cx="0" cy="0" rx="120" ry="18" fill="#000" opacity=".3"/>
   <rect x="-70" y="-200" width="58" height="196" rx="20" fill="{pants}"/>
   <rect x="12" y="-200" width="58" height="196" rx="20" fill="{pants}"/>
   <ellipse cx="-44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/><ellipse cx="44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/>
-  <g id="{id}-armL"><rect x="-150" y="-392" width="52" height="200" rx="26" fill="{jacket}" transform="rotate(8 -124 -392)"/>
+  <g id="{id}-armL" transform="rotate({aL} -124 -380)"><rect x="-150" y="-392" width="52" height="200" rx="26" fill="{jacket}" transform="rotate(8 -124 -392)"/>
     <circle cx="-138" cy="-186" r="26" fill="{skin}"/></g>
-  <g id="{id}-armR"><rect x="98" y="-392" width="52" height="200" rx="26" fill="{jacket}" transform="rotate(-8 124 -392)"/>
+  <g id="{id}-armR" transform="rotate({aR} 124 -380)"><rect x="98" y="-392" width="52" height="200" rx="26" fill="{jacket}" transform="rotate(-8 124 -392)"/>
     <circle cx="138" cy="-186" r="26" fill="{skin}"/></g>
   <path d="M-110 -340 q0 -66 60 -66 h100 q60 0 60 66 v150 h-220 z" fill="{jacket}"/>
   <path d="M-30 -406 l30 60 l30 -60 z" fill="#e9e6da"/>
@@ -77,7 +82,7 @@ def person(id, x=540, y=1500, s=1.0, jacket="#2f6f8f", pants="#2a2f3b", hair="#5
     {mouth}
     {hat_svg}
   </g>
-</g>'''
+</g></g>'''
 
 
 PRODUCT_COLORS = ["#e8412f", "#f4a62a", "#5f8f5c", "#3d7bb3", "#f4efe4", "#c96b9a", "#f7c548", "#6b4330"]

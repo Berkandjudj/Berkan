@@ -1,0 +1,176 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: var(--bg-deep); }
+    #h-a, #h-b, #h-c { position: absolute; inset: 0; overflow: hidden; }
+  </style>
+  <div id="root" data-composition-id="hook" data-width="1080" data-height="1920">
+    <!-- Beat A: Wecker klingelt, 07:00 -->
+    <div id="h-a" class="clip" data-start="0" data-duration="2.0" data-track-index="0">
+      <div id="h-a-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs>
+            <linearGradient id="h-sky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#1b2540" /><stop offset="0.7" stop-color="#5a3b4a" /><stop offset="1" stop-color="#d9844a" />
+            </linearGradient>
+            <radialGradient id="h-glow" cx="0.5" cy="0.52" r="0.5">
+              <stop offset="0" stop-color="#3a2a35" /><stop offset="1" stop-color="#151a26" />
+            </radialGradient>
+          </defs>
+          <rect width="1080" height="1920" fill="url(#h-glow)" />
+          <!-- Wandpaneele -->
+          <g stroke="#10141d" stroke-width="4" opacity="0.5">
+            <line x1="180" y1="0" x2="180" y2="1500" /><line x1="360" y1="0" x2="360" y2="1500" />
+            <line x1="720" y1="0" x2="720" y2="1500" /><line x1="900" y1="0" x2="900" y2="1500" />
+          </g>
+          <!-- Fenster mit Morgengrauen -->
+          <g transform="translate(700 560)">
+            <rect x="-14" y="-14" width="328" height="448" rx="10" fill="#3b2c2a" />
+            <rect width="300" height="420" fill="url(#h-sky)" />
+            <g fill="#141a28">
+              <rect x="0" y="300" width="60" height="120" /><rect x="60" y="260" width="50" height="160" />
+              <rect x="110" y="320" width="70" height="100" /><rect x="180" y="240" width="54" height="180" />
+              <rect x="234" y="290" width="66" height="130" />
+            </g>
+            <g fill="#f7c548" opacity="0.8">
+              <rect x="72" y="280" width="10" height="12" /><rect x="192" y="262" width="10" height="12" />
+              <rect x="212" y="300" width="10" height="12" /><rect x="128" y="340" width="10" height="12" />
+            </g>
+            <rect x="143" y="0" width="14" height="420" fill="#3b2c2a" /><rect x="0" y="203" width="300" height="14" fill="#3b2c2a" />
+          </g>
+          <!-- Nachttisch -->
+          <rect x="120" y="1340" width="840" height="580" fill="#4a2f22" />
+          <rect x="100" y="1310" width="880" height="50" rx="10" fill="#6b4330" />
+          <rect x="220" y="1460" width="640" height="16" rx="8" fill="#2f1d15" />
+          <ellipse cx="540" cy="1318" rx="300" ry="26" fill="#000" opacity="0.35" />
+        </svg>
+        <!-- Puls-Ringe -->
+        <div id="h-ring1" class="ring" style="left: 190px; top: 650px; width: 700px; height: 700px"></div>
+        <div id="h-ring2" class="ring" style="left: 190px; top: 650px; width: 700px; height: 700px"></div>
+        <div id="h-ring3" class="ring" style="left: 190px; top: 650px; width: 700px; height: 700px"></div>
+        <!-- Wecker -->
+        <svg id="h-clock" class="full" viewBox="0 0 1080 1920">
+          <g id="h-clock-g">
+            <g stroke="#7d1a10" stroke-width="12" stroke-linecap="round">
+              <line x1="420" y1="1210" x2="370" y2="1300" /><line x1="660" y1="1210" x2="710" y2="1300" />
+            </g>
+            <path d="M300 760 a110 110 0 0 1 170 -120 z" fill="#f4a62a" stroke="#8f5a0f" stroke-width="10" />
+            <path d="M780 760 a110 110 0 0 0 -170 -120 z" fill="#f4a62a" stroke="#8f5a0f" stroke-width="10" />
+            <rect x="520" y="640" width="40" height="70" rx="10" fill="#8f5a0f" />
+            <circle cx="540" cy="625" r="28" fill="#f4a62a" stroke="#8f5a0f" stroke-width="8" />
+            <circle cx="540" cy="1000" r="280" fill="#e8412f" stroke="#7d1a10" stroke-width="14" />
+            <circle cx="540" cy="1000" r="222" fill="#f4efe4" stroke="#c7bba6" stroke-width="8" />
+            <g fill="#2a2f3b">
+              <rect x="532" y="800" width="16" height="44" rx="6" /><rect x="532" y="1156" width="16" height="44" rx="6" />
+              <rect x="340" y="992" width="44" height="16" rx="6" /><rect x="696" y="992" width="44" height="16" rx="6" />
+            </g>
+            <g fill="#8d93a1">
+              <circle cx="640" cy="827" r="8" /><circle cx="713" cy="900" r="8" /><circle cx="713" cy="1100" r="8" />
+              <circle cx="640" cy="1173" r="8" /><circle cx="440" cy="1173" r="8" /><circle cx="367" cy="1100" r="8" />
+              <circle cx="367" cy="900" r="8" /><circle cx="440" cy="827" r="8" />
+            </g>
+            <line x1="540" y1="1000" x2="540" y2="830" stroke="#1d212b" stroke-width="16" stroke-linecap="round" />
+            <line x1="540" y1="1000" x2="470" y2="1118" stroke="#1d212b" stroke-width="22" stroke-linecap="round" />
+            <circle cx="540" cy="1000" r="20" fill="#e8412f" />
+          </g>
+          <!-- Klingel-Striche -->
+          <g id="h-buzz" fill="none" stroke="#f4efe4" stroke-width="12" stroke-linecap="round">
+            <path d="M210 640 q-40 60 0 120" /><path d="M160 610 q-60 90 0 180" />
+            <path d="M870 640 q40 60 0 120" /><path d="M920 610 q60 90 0 180" />
+          </g>
+        </svg>
+      </div>
+      <div id="h-a-title" class="title" style="top: 230px">Wenn keiner<br /><span class="r">mehr arbeitet</span></div>
+    </div>
+
+    <!-- Beat B: Kalender "FREIER TAG" wird durchgestrichen -->
+    <div id="h-b" class="clip" data-start="2.0" data-duration="1.42" data-track-index="0">
+      <div id="h-b-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <rect width="1080" height="1920" fill="#1d2433" />
+          <circle cx="540" cy="960" r="560" fill="#263049" />
+          <g transform="translate(540 960) rotate(-4)">
+            <rect x="-330" y="-380" width="660" height="780" rx="26" fill="#0f131c" opacity="0.5" transform="translate(16 22)" />
+            <rect x="-330" y="-380" width="660" height="780" rx="26" fill="#f4efe4" />
+            <path d="M-330 -354 a26 26 0 0 1 26 -26 h608 a26 26 0 0 1 26 26 v150 h-660 z" fill="#e8412f" />
+            <g fill="#c9c1b0"><circle cx="-180" cy="-380" r="22" /><circle cx="180" cy="-380" r="22" /></g>
+            <g fill="#2a2f3b"><rect x="-190" y="-430" width="20" height="80" rx="10" /><rect x="170" y="-430" width="20" height="80" rx="10" /></g>
+            <text x="0" y="-262" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="84" fill="#fff">MONTAG</text>
+            <text x="0" y="90" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="300" fill="#2a2f3b">1</text>
+            <g transform="translate(0 250) rotate(-8)">
+              <rect x="-230" y="-62" width="460" height="124" rx="16" fill="none" stroke="#4f8f4b" stroke-width="10" />
+              <text x="0" y="30" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="86" fill="#4f8f4b">FREIER TAG</text>
+            </g>
+          </g>
+          <g id="h-x" stroke="#e8412f" stroke-width="54" stroke-linecap="round">
+            <line id="h-x1" x1="250" y1="640" x2="830" y2="1300" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+            <line id="h-x2" x1="830" y1="640" x2="250" y2="1300" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Beat C: Stadt im Chaos -->
+    <div id="h-c" class="clip" data-start="3.42" data-duration="1.58" data-track-index="0">
+      <div id="h-c-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs>
+            <linearGradient id="h-red" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#140f16" /><stop offset="0.55" stop-color="#4a1712" /><stop offset="1" stop-color="#c8401f" />
+            </linearGradient>
+          </defs>
+          <rect width="1080" height="1920" fill="url(#h-red)" />
+          <!-- Rauchsäulen -->
+          <g fill="#2a1f24" opacity="0.8">
+            <circle cx="260" cy="980" r="90" /><circle cx="300" cy="880" r="110" /><circle cx="250" cy="760" r="120" />
+            <circle cx="800" cy="1020" r="80" /><circle cx="840" cy="920" r="100" /><circle cx="790" cy="800" r="115" />
+          </g>
+          <g fill="#0d0b10">
+            <rect x="0" y="1180" width="150" height="740" /><rect x="140" y="1050" width="130" height="870" />
+            <rect x="270" y="1240" width="120" height="680" /><rect x="380" y="980" width="150" height="940" />
+            <rect x="530" y="1120" width="110" height="800" /><rect x="640" y="1010" width="160" height="910" />
+            <rect x="800" y="1200" width="120" height="720" /><rect x="920" y="1090" width="160" height="830" />
+          </g>
+          <g id="h-c-win" fill="#f4a62a">
+            <rect x="170" y="1090" width="22" height="28" /><rect x="220" y="1150" width="22" height="28" />
+            <rect x="410" y="1030" width="22" height="28" /><rect x="470" y="1100" width="22" height="28" />
+            <rect x="410" y="1210" width="22" height="28" /><rect x="670" y="1060" width="22" height="28" />
+            <rect x="740" y="1130" width="22" height="28" /><rect x="950" y="1140" width="22" height="28" />
+            <rect x="1010" y="1220" width="22" height="28" /><rect x="560" y="1170" width="22" height="28" />
+          </g>
+          <!-- Feuer -->
+          <g id="h-fire" fill="#f4a62a">
+            <path d="M300 1050 q20 -70 0 -120 q60 40 50 120 z" /><path d="M820 1010 q16 -60 -4 -110 q56 40 44 110 z" fill="#f7c548" />
+          </g>
+          <rect y="1600" width="1080" height="320" fill="#09070a" />
+        </svg>
+      </div>
+      <div id="h-c-tint" class="full" style="background: #e8412f; opacity: 0; mix-blend-mode: overlay"></div>
+      <div id="h-c-title" class="title" style="top: 470px; font-size: 270px"><span class="r">Chaos</span></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    // A
+    tl.fromTo("#h-a-cam", { scale: 1.0 }, { scale: 1.07, duration: 2.0, ease: "none" }, 0);
+    tl.fromTo("#h-clock-g", { rotation: -3, transformOrigin: "540px 1000px" },
+      { rotation: 3, duration: 0.07, repeat: 25, yoyo: true, ease: "sine.inOut" }, 0);
+    tl.fromTo("#h-buzz", { opacity: 0.2 }, { opacity: 1, duration: 0.1, repeat: 17, yoyo: true }, 0);
+    ["#h-ring1", "#h-ring2", "#h-ring3"].forEach((r, i) => {
+      tl.fromTo(r, { scale: 0.55, opacity: 0.9 }, { scale: 1.55, opacity: 0, duration: 0.9, ease: "power1.out", repeat: 1 }, i * 0.3);
+    });
+    tl.fromTo("#h-a-title", { y: 0, opacity: 1 }, { y: -8, duration: 1.9, ease: "none" }, 0);
+    // B
+    tl.fromTo("#h-b-cam", { scale: 1.12 }, { scale: 1.0, duration: 0.5, ease: "power3.out" }, 2.0);
+    tl.fromTo("#h-x1", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.16, ease: "power2.in" }, 2.52);
+    tl.fromTo("#h-x2", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.16, ease: "power2.in" }, 2.7);
+    tl.fromTo("#h-b-cam", { x: 0 }, { x: 14, duration: 0.04, repeat: 5, yoyo: true }, 2.87);
+    // C
+    tl.fromTo("#h-c-cam", { scale: 1.0 }, { scale: 1.1, duration: 1.58, ease: "none" }, 3.42);
+    tl.fromTo("#h-c-win rect", { opacity: 1 }, { opacity: 0.25, duration: 0.08, stagger: { each: 0.05, repeat: 3, yoyo: true } }, 3.48);
+    tl.fromTo("#h-fire path", { scaleY: 0.85, transformOrigin: "50% 100%" }, { scaleY: 1.15, duration: 0.12, repeat: 11, yoyo: true }, 3.42);
+    tl.fromTo("#h-c-title", { scale: 2.2, opacity: 0, filter: "blur(10px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 4.42);
+    tl.fromTo("#h-c-tint", { opacity: 0.65 }, { opacity: 0.15, duration: 0.5, ease: "power2.out" }, 4.64);
+    tl.fromTo("#h-c-cam", { x: 0 }, { x: -18, duration: 0.04, repeat: 7, yoyo: true }, 4.64);
+    window.__timelines["hook"] = tl;
+  </script>
+</template>
