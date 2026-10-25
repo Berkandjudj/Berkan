@@ -1,0 +1,85 @@
+{
+ "title": "Was passiert, wenn keiner mehr arbeiten geht?",
+ "series": "WAS WÄRE WENN",
+ "part": 1,
+ "lines": [
+  {
+   "id": "hook1",
+   "say": "Wenn morgen niemand mehr zur Arbeit geht,",
+   "show": "Wenn morgen *niemand* mehr zur Arbeit geht,",
+   "pause": 0.08
+  },
+  {
+   "id": "hook2",
+   "say": "ist das kein freier Tag.",
+   "show": "ist das kein *freier* Tag.",
+   "pause": 0.12
+  },
+  {
+   "id": "hook3",
+   "say": "Es ist der Anfang vom Kaos.",
+   "show": "Es ist der Anfang vom *Chaos.*",
+   "pause": 0.25
+  },
+  {
+   "id": "fact",
+   "say": "Supermärkte haben oft nur Ware für zwei bis drei Tage.",
+   "show": "Supermärkte haben oft nur Ware für *2* bis *3* Tage.",
+   "pause": 0.3
+  },
+  {
+   "id": "tag1_mark",
+   "say": "Tag eins, sieben Uhr.",
+   "show": "Tag 1, 7 Uhr.",
+   "pause": 0.22
+  },
+  {
+   "id": "tag1",
+   "say": "Kein Bus fährt. Die Bahn steht still.",
+   "show": "*Kein* Bus fährt. Die Bahn steht *still.*",
+   "pause": 0.25
+  },
+  {
+   "id": "tag3_mark",
+   "say": "Tag drei.",
+   "show": "Tag 3.",
+   "pause": 0.22
+  },
+  {
+   "id": "tag3",
+   "say": "Die Regale sind leer. Auf den Straßen stapelt sich der Müll.",
+   "show": "Die Regale sind *leer.* Auf den Straßen stapelt sich der *Müll.*",
+   "pause": 0.25
+  },
+  {
+   "id": "tag5_mark",
+   "say": "Tag fünf.",
+   "show": "Tag 5.",
+   "pause": 0.22
+  },
+  {
+   "id": "tag5",
+   "say": "In den Kraftwerken sitzt keiner mehr. Der Strom fällt aus.",
+   "show": "In den Kraftwerken sitzt *keiner* mehr. Der *Strom* fällt aus.",
+   "pause": 0.2
+  },
+  {
+   "id": "wasser",
+   "say": "Ohne Strom laufen keine Pumpen. Aus vielen Wasserhähnen kommt bald nichts mehr.",
+   "show": "Ohne Strom laufen keine *Pumpen.* Aus vielen Wasserhähnen kommt bald *nichts* mehr.",
+   "pause": 0.3
+  },
+  {
+   "id": "frage",
+   "say": "Würdest du als Erster wieder arbeiten gehen?",
+   "show": "Würdest du als *Erster* wieder arbeiten gehen?",
+   "pause": 0.2
+  },
+  {
+   "id": "cta",
+   "say": "Folge mir, damit du Teil zwei nicht verpasst.",
+   "show": "Folge mir, damit du Teil *2* nicht verpasst.",
+   "pause": 0.5
+  }
+ ]
+}

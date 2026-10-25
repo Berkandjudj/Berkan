@@ -1,0 +1,107 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #0c1018; }
+    #w-a, #w-b { position: absolute; inset: 0; overflow: hidden; }
+  </style>
+  <div id="root" data-composition-id="wasser" data-width="1080" data-height="1920">
+    <!-- A: Pumpe steht -->
+    <div id="w-a" class="clip" data-start="0" data-duration="1.75" data-track-index="0">
+      <div id="w-a-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs>
+            <radialGradient id="w-torch" cx="0.5" cy="0.47" r="0.5">
+              <stop offset="0" stop-color="#2a3446" /><stop offset="1" stop-color="#0a0d14" />
+            </radialGradient>
+          </defs>
+          <rect width="1080" height="1920" fill="url(#w-torch)" />
+          <!-- Rohre -->
+          <rect x="0" y="930" width="1080" height="90" fill="#4a5568" />
+          <rect x="0" y="944" width="1080" height="16" fill="#6b7689" />
+          <rect x="740" y="560" width="90" height="400" fill="#4a5568" />
+          <g fill="#2f3747"><rect x="140" y="910" width="30" height="130" rx="6" /><rect x="920" y="910" width="30" height="130" rx="6" /></g>
+          <!-- Pumpe -->
+          <g id="w-pump">
+            <circle cx="420" cy="975" r="210" fill="#3d7bb3" />
+            <circle cx="420" cy="975" r="150" fill="#2d5f8c" />
+            <g id="w-fan" fill="#9fc3d6">
+              <path d="M420 975 l-30 -120 h60 z" /><path d="M420 975 l-30 -120 h60 z" transform="rotate(90 420 975)" />
+              <path d="M420 975 l-30 -120 h60 z" transform="rotate(180 420 975)" /><path d="M420 975 l-30 -120 h60 z" transform="rotate(270 420 975)" />
+            </g>
+            <circle cx="420" cy="975" r="34" fill="#1d2a3a" />
+            <rect x="260" y="1180" width="320" height="60" rx="10" fill="#2f3747" />
+          </g>
+          <!-- Manometer -->
+          <g transform="translate(785 520)">
+            <circle r="110" fill="#f4efe4" stroke="#8d93a1" stroke-width="14" />
+            <path d="M-70 40 a80 80 0 1 1 140 0" fill="none" stroke="#e8412f" stroke-width="12" stroke-dasharray="40 300" />
+            <line id="w-needle" x1="0" y1="0" x2="0" y2="-80" stroke="#1d212b" stroke-width="10" stroke-linecap="round" />
+            <circle r="14" fill="#1d212b" />
+            <text x="0" y="70" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="34" fill="#2a2f3b">BAR</text>
+          </g>
+          <!-- X -->
+          <g id="w-x" stroke="#e8412f" stroke-width="44" stroke-linecap="round">
+            <line id="w-x1" x1="230" y1="780" x2="610" y2="1170" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+            <line id="w-x2" x1="610" y1="780" x2="230" y2="1170" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+          </g>
+        </svg>
+      </div>
+      <div id="w-a-chip" class="chip-row" style="top: 410px"><span class="chip">Pumpe</span></div>
+    </div>
+
+    <!-- B: Wasserhahn – letzter Tropfen -->
+    <div id="w-b" class="clip" data-start="1.75" data-duration="2.2" data-track-index="0">
+      <div id="w-b-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs>
+            <radialGradient id="w-torch2" cx="0.5" cy="0.47" r="0.5">
+              <stop offset="0" stop-color="#2a3446" /><stop offset="1" stop-color="#0a0d14" />
+            </radialGradient>
+          </defs>
+          <rect width="1080" height="1920" fill="url(#w-torch2)" />
+          <!-- Fliesen -->
+          <g stroke="#1a2030" stroke-width="6" opacity="0.8">
+            <line x1="0" y1="400" x2="1080" y2="400" /><line x1="0" y1="600" x2="1080" y2="600" /><line x1="0" y1="800" x2="1080" y2="800" /><line x1="0" y1="1000" x2="1080" y2="1000" />
+            <line x1="180" y1="0" x2="180" y2="1200" /><line x1="380" y1="0" x2="380" y2="1200" /><line x1="580" y1="0" x2="580" y2="1200" /><line x1="780" y1="0" x2="780" y2="1200" /><line x1="980" y1="0" x2="980" y2="1200" />
+          </g>
+          <!-- Waschbecken -->
+          <path d="M120 1200 h840 q0 260 -420 260 q-420 0 -420 -260 z" fill="#d9dde3" />
+          <rect x="100" y="1180" width="880" height="40" rx="20" fill="#eef0f3" />
+          <ellipse cx="540" cy="1290" rx="40" ry="14" fill="#5a6070" />
+          <!-- Hahn -->
+          <rect x="470" y="990" width="140" height="200" rx="20" fill="#9aa3b0" />
+          <path d="M520 1000 v-170 q0 -60 60 -60 h120 q50 0 50 50 v70 h-90 v-30 h-60 q-0 0 0 0 v140 z" fill="#b8c0cc" />
+          <rect x="650" y="900" width="110" height="34" rx="10" fill="#8d93a1" />
+          <rect x="420" y="700" width="240" height="44" rx="22" fill="#8d93a1" /><rect x="520" y="740" width="40" height="40" fill="#8d93a1" />
+          <!-- Tropfen -->
+          <path id="w-drop1" d="M705 950 q-22 34 0 50 q22 -16 0 -50 z" fill="#6fb3e0" />
+          <path id="w-drop2" d="M705 950 q-22 34 0 50 q22 -16 0 -50 z" fill="#6fb3e0" />
+        </svg>
+        <div id="w-ring1" class="ring" style="left: 405px; top: 650px; width: 600px; height: 600px"></div>
+        <div id="w-ring2" class="ring" style="left: 405px; top: 650px; width: 600px; height: 600px"></div>
+      </div>
+      <div id="w-b-title" class="title" style="top: 400px; font-size: 160px"><span class="r">Kein Wasser</span></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    // A
+    tl.fromTo("#w-a-cam", { scale: 1.0 }, { scale: 1.08, duration: 1.75, ease: "none" }, 0);
+    tl.fromTo("#w-fan", { rotation: 0, svgOrigin: "420 975" }, { rotation: 140, svgOrigin: "420 975", duration: 1.2, ease: "power3.out" }, 0);
+    tl.fromTo("#w-needle", { rotation: 55, svgOrigin: "0 0" }, { rotation: -115, svgOrigin: "0 0", duration: 1.0, ease: "power2.inOut" }, 0.15);
+    tl.fromTo("#w-a-chip", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.2, ease: "back.out(2)" }, 0.1);
+    tl.fromTo("#w-x1", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.14, ease: "power2.in" }, 1.25);
+    tl.fromTo("#w-x2", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.14, ease: "power2.in" }, 1.4);
+    // B
+    tl.fromTo("#w-b-cam", { scale: 1.1 }, { scale: 1.0, duration: 2.2, ease: "power1.out" }, 1.75);
+    tl.fromTo("#w-drop1", { y: 0, scale: 0.4, opacity: 1, transformOrigin: "50% 0%" }, { y: 0, scale: 1, duration: 0.3, ease: "power1.in" }, 1.8);
+    tl.to("#w-drop1", { y: 300, duration: 0.3, ease: "power2.in" }, 2.1);
+    tl.set("#w-drop1", { opacity: 0 }, 2.4);
+    tl.fromTo("#w-drop2", { y: 0, scale: 0.0, opacity: 1, transformOrigin: "50% 0%" }, { scale: 0.6, duration: 0.8, ease: "power1.in" }, 2.45);
+    tl.fromTo("#w-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.14, ease: "power4.in" }, 3.2);
+    ["#w-ring1", "#w-ring2"].forEach((r, i) => {
+      tl.fromTo(r, { scale: 0.5, opacity: 0 }, { scale: 0.5, opacity: 0.9, duration: 0.02 }, 3.25 + i * 0.25);
+      tl.to(r, { scale: 1.5, opacity: 0, duration: 0.7, ease: "power1.out" }, 3.27 + i * 0.25);
+    });
+    window.__timelines["wasser"] = tl;
+  </script>
+</template>
