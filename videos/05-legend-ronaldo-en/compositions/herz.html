@@ -1,0 +1,145 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #050b0c; }
+    #z-a, #z-b, #z-c { position: absolute; inset: 0; overflow: hidden; }
+  </style>
+  <div id="root" data-composition-id="herz" data-width="1080" data-height="1920">
+    <!-- A: Herz rast -->
+    <div id="z-a" class="clip" data-start="0" data-duration="4.26" data-track-index="0">
+      <div id="z-a-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs>
+            <radialGradient id="z-a-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ff3b2a" stop-opacity="0.7" /><stop offset="1" stop-color="#ff3b2a" stop-opacity="0" /></radialGradient>
+          </defs>
+          <rect width="1080" height="1920" fill="#06100f" />
+          <g stroke="#0f2a28" stroke-width="2"><line x1="0" y1="500" x2="1080" y2="500" /><line x1="0" y1="700" x2="1080" y2="700" /><line x1="0" y1="1300" x2="1080" y2="1300" /><line x1="0" y1="1500" x2="1080" y2="1500" />
+            <line x1="180" y1="0" x2="180" y2="1920" /><line x1="360" y1="0" x2="360" y2="1920" /><line x1="720" y1="0" x2="720" y2="1920" /><line x1="900" y1="0" x2="900" y2="1920" /></g>
+          <circle id="z-a-halo" cx="540" cy="900" r="420" fill="url(#z-a-glow)" />
+          <g transform="translate(540 900)"><g id="z-heart">
+            <path d="M0 160 C-260 -20 -240 -260 -100 -270 C-40 -274 -10 -230 0 -200 C10 -230 40 -274 100 -270 C240 -260 260 -20 0 160 Z" fill="#c8261e" />
+            <path d="M-150 -200 q40 -40 90 -30" stroke="#ff8a7a" stroke-width="18" fill="none" stroke-linecap="round" opacity="0.7" />
+          </g></g>
+          <!-- EKG -->
+          <path id="z-ecg" d="M0 1300 h140 l30 -60 l30 140 l40 -320 l40 400 l30 -160 h120 l30 -60 l30 140 l40 -320 l40 400 l30 -160 h120 l30 -60 l30 140 l40 -320 l40 400 l30 -160 h140"
+            stroke="#ff4a3a" stroke-width="10" fill="none" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+        </svg>
+      </div>
+      <div id="z-a-flash" class="full" style="background: #fff; opacity: 0"></div>
+      <div id="z-a-title" class="title" style="top: 330px; font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 150px"><span class="r">Shock</span></div>
+    </div>
+
+    <!-- B: Operation -->
+    <div id="z-b" class="clip" data-start="4.26" data-duration="2.804" data-track-index="0">
+      <div id="z-b-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs>
+            <radialGradient id="z-b-op" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#e9fff6" stop-opacity="0.95" /><stop offset="0.4" stop-color="#9ff0dc" stop-opacity="0.35" /><stop offset="1" stop-color="#9ff0dc" stop-opacity="0" /></radialGradient>
+          </defs>
+          <rect width="1080" height="1920" fill="#0a2224" />
+          <path d="M540 520 L120 1700 L960 1700 Z" fill="#bff5e6" opacity="0.08" />
+          <!-- OP-Lampe -->
+          <line x1="540" y1="0" x2="540" y2="300" stroke="#1a3434" stroke-width="20" />
+          <ellipse cx="540" cy="420" rx="360" ry="150" fill="#1d3c3c" />
+          <g fill="#f2fff9"><circle cx="400" cy="420" r="56" /><circle cx="540" cy="400" r="60" /><circle cx="680" cy="420" r="56" /><circle cx="470" cy="500" r="48" /><circle cx="610" cy="500" r="48" /></g>
+          <circle id="z-b-light" cx="540" cy="450" r="520" fill="url(#z-b-op)" />
+          <!-- OP-Tisch + Monitor -->
+          <rect x="140" y="1360" width="800" height="60" rx="20" fill="#9fb3a8" /><rect x="200" y="1420" width="40" height="300" fill="#2a3a3a" /><rect x="840" y="1420" width="40" height="300" fill="#2a3a3a" />
+          <rect x="740" y="900" width="260" height="190" rx="14" fill="#0b1616" stroke="#2a3a3a" stroke-width="8" />
+          <path id="z-b-ecg" d="M760 1000 h50 l14 -30 l14 60 l20 -90 l20 110 l14 -50 h50 l14 -30 l14 60 l20 -90 l20 110" stroke="#5fe08a" stroke-width="6" fill="none" />
+        </svg>
+      </div>
+    </div>
+
+    <!-- C: Zurück auf dem Platz -->
+    <div id="z-c" class="clip" data-start="7.064" data-duration="2.568" data-track-index="0">
+      <div id="z-c-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs>
+            <linearGradient id="z-c-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d3436" /><stop offset="0.6" stop-color="#e08a4a" /><stop offset="1" stop-color="#ffd28a" /></linearGradient>
+            <radialGradient id="z-c-sun" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff4d6" /><stop offset="1" stop-color="#ffb35c" stop-opacity="0" /></radialGradient>
+            <linearGradient id="z-c-grass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a7a4a" /><stop offset="1" stop-color="#0b2a1e" /></linearGradient>
+          </defs>
+          <rect width="1080" height="1920" fill="url(#z-c-sky)" />
+          <circle cx="540" cy="1080" r="380" fill="url(#z-c-sun)" />
+          <g opacity="0.18" fill="#fff4d6"><path d="M540 1080 L-200 300 L-100 200 Z" /><path d="M540 1080 L1280 300 L1180 200 Z" /><path d="M540 1080 L300 -100 L480 -100 Z" /><path d="M540 1080 L780 -100 L600 -100 Z" /></g>
+          <path d="M0 1120 Q540 1060 1080 1120 L1080 1920 L0 1920 Z" fill="url(#z-c-grass)" />
+          <g fill="#f4f1ea"><rect x="160" y="980" width="12" height="160" /><rect x="400" y="980" width="12" height="160" /><rect x="160" y="980" width="252" height="12" /></g>
+          <!--@player id="z-c-p" x="560" y="1760" s="0.95" shirt="#1f7a4a" shorts="#f4f1ea" socks="#1f7a4a" number="28" pose="run" rim="#ffd28a"-->
+<g id="z-c-p"><g transform="translate(560.0 1760.0) scale(0.95 0.95)">
+  <ellipse cx="0" cy="0" rx="190" ry="28" fill="#000" opacity=".5"/>
+  <g stroke-linecap="round" fill="none">
+    <path d="M-46 -330 l-80 200 l-50 70" stroke="#c98d62" stroke-width="76"/><path d="M46 -330 l50 150 l100 80" stroke="#c98d62" stroke-width="76"/>
+    <path d="M-46 -330 l-80 200 l-50 70" stroke="#1f7a4a" stroke-width="80" stroke-dasharray="0 150 400"/>
+    <path d="M46 -330 l50 150 l100 80" stroke="#1f7a4a" stroke-width="80" stroke-dasharray="0 150 400"/>
+    <path d="M-128 -630 q-80 70 -110 170" stroke="#c98d62" stroke-width="56"/><path d="M128 -630 q90 -30 120 -150" stroke="#c98d62" stroke-width="56"/>
+    <path d="M-128 -630 q-80 70 -110 170" stroke="#1f7a4a" stroke-width="68" stroke-dasharray="85 600"/>
+    <path d="M128 -630 q90 -30 120 -150" stroke="#1f7a4a" stroke-width="68" stroke-dasharray="85 600"/>
+  </g>
+  <ellipse cx="-176" cy="-50" rx="52" ry="26" fill="#f4f1ea"/><ellipse cx="196" cy="-90" rx="52" ry="26" fill="#f4f1ea"/>
+  <circle cx="-238" cy="-458" r="30" fill="#c98d62"/><circle cx="248" cy="-778" r="30" fill="#c98d62"/>
+  <path d="M-118 -470 h236 l18 150 q-60 16 -114 0 l-4 -40 l-4 40 q-54 16 -114 0 z" fill="#f4f1ea"/>
+  <path d="M-150 -652 q150 -50 300 0 l-26 196 q-124 22 -248 0 z" fill="#1f7a4a"/>
+  <path d="M-150 -652 q60 -24 90 -28 l-12 222 q-30 -2 -52 -6 z" fill="#000" opacity=".12"/>
+  <text data-layout-ignore="true" x="4" y="-512" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="130" fill="#000" opacity=".25">28</text>
+  <text x="0" y="-518" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="130" fill="#f4f1ea">28</text>
+  <path d="M-40 -690 h80 v44 q-40 14 -80 0 z" fill="#c98d62"/>
+  <ellipse cx="-74" cy="-756" rx="14" ry="24" fill="#c98d62"/><ellipse cx="74" cy="-756" rx="14" ry="24" fill="#c98d62"/>
+  <ellipse cx="0" cy="-770" rx="72" ry="84" fill="#1a1210"/>
+  <path d="M-72 -760 q0 -96 72 -100 q74 4 74 100 q-20 -54 -74 -60 q-54 6 -72 60 z" fill="#000" opacity=".35"/>
+  <path d="M-40 -700 q40 14 80 0" stroke="#1a1210" stroke-width="10" fill="none"/>
+  <g fill="none" stroke="#ffd28a" stroke-width="6" stroke-linecap="round" opacity=".55">
+    <path d="M60 -836 q22 40 10 100"/><path d="M150 -652 l-26 196"/><path d="M118 -470 l18 150"/>
+    <path d="M128 -630 q90 -30 120 -150"/><path d="M46 -330 l50 150 l100 80"/>
+  </g>
+</g></g><!--/@-->
+          <!--@embers id="z-c-emb" n="22" seed="17" y0="900" y1="1900" color="#fff4d6" r="4"-->
+<g id="z-c-emb">
+<circle class="z-c-emb-p" cx="564" cy="1707" r="3.9" fill="#fff4d6" opacity="0.52"/>
+<circle class="z-c-emb-p" cx="827" cy="1604" r="3.2" fill="#fff4d6" opacity="0.42"/>
+<circle class="z-c-emb-p" cx="29" cy="1284" r="3.4" fill="#fff4d6" opacity="0.50"/>
+<circle class="z-c-emb-p" cx="542" cy="1217" r="3.6" fill="#fff4d6" opacity="0.92"/>
+<circle class="z-c-emb-p" cx="434" cy="1898" r="1.7" fill="#fff4d6" opacity="0.84"/>
+<circle class="z-c-emb-p" cx="945" cy="1051" r="3.3" fill="#fff4d6" opacity="0.69"/>
+<circle class="z-c-emb-p" cx="1032" cy="1110" r="2.9" fill="#fff4d6" opacity="0.88"/>
+<circle class="z-c-emb-p" cx="690" cy="1209" r="1.8" fill="#fff4d6" opacity="0.91"/>
+<circle class="z-c-emb-p" cx="512" cy="1896" r="1.9" fill="#fff4d6" opacity="0.84"/>
+<circle class="z-c-emb-p" cx="878" cy="1820" r="1.6" fill="#fff4d6" opacity="0.57"/>
+<circle class="z-c-emb-p" cx="56" cy="1652" r="2.5" fill="#fff4d6" opacity="0.93"/>
+<circle class="z-c-emb-p" cx="405" cy="1674" r="3.7" fill="#fff4d6" opacity="0.49"/>
+<circle class="z-c-emb-p" cx="601" cy="1857" r="2.9" fill="#fff4d6" opacity="0.57"/>
+<circle class="z-c-emb-p" cx="289" cy="1686" r="2.1" fill="#fff4d6" opacity="0.71"/>
+<circle class="z-c-emb-p" cx="600" cy="1453" r="1.9" fill="#fff4d6" opacity="0.75"/>
+<circle class="z-c-emb-p" cx="990" cy="1219" r="2.4" fill="#fff4d6" opacity="0.90"/>
+<circle class="z-c-emb-p" cx="625" cy="1173" r="1.6" fill="#fff4d6" opacity="0.80"/>
+<circle class="z-c-emb-p" cx="376" cy="1367" r="2.3" fill="#fff4d6" opacity="0.73"/>
+<circle class="z-c-emb-p" cx="787" cy="1210" r="1.8" fill="#fff4d6" opacity="0.94"/>
+<circle class="z-c-emb-p" cx="983" cy="921" r="3.0" fill="#fff4d6" opacity="0.76"/>
+<circle class="z-c-emb-p" cx="435" cy="1632" r="3.9" fill="#fff4d6" opacity="0.70"/>
+<circle class="z-c-emb-p" cx="423" cy="1096" r="2.2" fill="#fff4d6" opacity="0.44"/>
+</g><!--/@-->
+        </svg>
+      </div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    // A
+    tl.fromTo("#z-a-cam", { scale: 1.0 }, { scale: 1.08, duration: 3.8, ease: "none" }, 0);
+    tl.fromTo("#z-heart", { scale: 0.92 }, { scale: 1.08, duration: 0.14, repeat: 25, yoyo: true, ease: "power2.out" }, 0);
+    tl.fromTo("#z-a-halo", { opacity: 0.5 }, { opacity: 1, duration: 0.14, repeat: 25, yoyo: true }, 0);
+    tl.fromTo("#z-ecg", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 2.0, ease: "none" }, 0.216);
+    tl.fromTo("#z-a-flash", { opacity: 0 }, { opacity: 0.7, duration: 0.05 }, 1.658);
+    tl.to("#z-a-flash", { opacity: 0, duration: 0.35 }, 1.715);
+    tl.fromTo("#z-a-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 1.624);
+    tl.fromTo("#z-a-cam", { x: 0 }, { x: 16, duration: 0.04, repeat: 7, yoyo: true }, 1.737);
+    // B
+    tl.fromTo("#z-b-cam", { scale: 1.08 }, { scale: 1.0, duration: 3.0, ease: "power1.out" }, 4.26);
+    tl.fromTo("#z-b-light", { opacity: 0.7 }, { opacity: 1, duration: 0.6, repeat: 4, yoyo: true, ease: "sine.inOut" }, 4.26);
+    tl.fromTo("#z-b-ecg", { x: 0 }, { x: -60, duration: 3.0, ease: "none" }, 4.26);
+    // C
+    tl.fromTo("#z-c-cam", { scale: 1.12, x: 30 }, { scale: 1.0, x: 0, duration: 2.8, ease: "power1.out" }, 7.064);
+    tl.fromTo("#z-c-p", { x: -160 }, { x: 60, duration: 2.8, ease: "none" }, 7.064);
+    tl.fromTo(".z-c-emb-p", { y: 0 }, { y: -260, duration: 2.8, ease: "none" }, 7.064);
+    window.__timelines["herz"] = tl;
+  </script>
+</template>

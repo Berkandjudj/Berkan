@@ -1,0 +1,7 @@
+{"total": 59.5,
+ "scenes": [["hook",0,4.45],["cards",4.45,3.65],["kindheit",8.1,14.65],["lissabon",22.75,6.7],["herz",29.45,9.6],["aufstieg",39.05,13.6],["reveal",52.65,6.85]],
+ "sfx": [["sfx-w1","whoosh",4.45,0.3],["sfx-hb1","impact-bass-1",6.64,0.22],["sfx-hb2","impact-bass-1",6.92,0.16],["sfx-w2","whoosh-short",8.1,0.28],
+         ["sfx-w3","whoosh",22.75,0.28],["sfx-pop1","pop",23.0,0.7],["sfx-w4","whoosh-short",29.45,0.28],["sfx-shock","impact-bass-1",30.95,0.3],
+         ["sfx-glitch","glitch-3",31.0,0.25],["sfx-w5","whoosh",36.25,0.26],["sfx-w6","whoosh-short",39.05,0.28],["sfx-sig","click-soft",42.45,1.2],
+         ["sfx-pop2","pop",45.07,0.8],["sfx-pop3","pop",46.48,0.7],["sfx-hit","impact-bass-1",49.75,0.18],["sfx-pop4","pop",50.72,0.9],
+         ["sfx-riser","riser",55.69,0.2],["sfx-name","impact-bass-1",55.69,0.32],["sfx-pop5","pop",56.85,0.7]]}

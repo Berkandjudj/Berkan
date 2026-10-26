@@ -1,0 +1,1300 @@
+{
+ "duration": 56.507,
+ "lines": [
+  {
+   "id": "hook1",
+   "start": 0.15,
+   "end": 4.005,
+   "words": [
+    {
+     "text": "The",
+     "say": "The",
+     "key": false,
+     "start": 0.15,
+     "end": 0.371
+    },
+    {
+     "text": "greatest",
+     "say": "greatest",
+     "key": false,
+     "start": 0.371,
+     "end": 0.729
+    },
+    {
+     "text": "goalscorer",
+     "say": "goalscorer",
+     "key": false,
+     "start": 0.729,
+     "end": 1.225
+    },
+    {
+     "text": "in",
+     "say": "in",
+     "key": false,
+     "start": 1.225,
+     "end": 1.446
+    },
+    {
+     "text": "history",
+     "say": "history",
+     "key": false,
+     "start": 1.446,
+     "end": 1.942
+    },
+    {
+     "text": "almost",
+     "say": "almost",
+     "key": false,
+     "start": 1.942,
+     "end": 2.301
+    },
+    {
+     "text": "never",
+     "say": "never",
+     "key": false,
+     "start": 2.301,
+     "end": 2.659
+    },
+    {
+     "text": "became",
+     "say": "became",
+     "key": false,
+     "start": 2.659,
+     "end": 3.155
+    },
+    {
+     "text": "a",
+     "say": "a",
+     "key": false,
+     "start": 3.155,
+     "end": 3.376
+    },
+    {
+     "text": "professional.",
+     "say": "professional.",
+     "key": false,
+     "start": 3.376,
+     "end": 4.01
+    }
+   ]
+  },
+  {
+   "id": "card1",
+   "start": 4.305,
+   "end": 5.709,
+   "words": [
+    {
+     "text": "Because",
+     "say": "Because",
+     "key": false,
+     "start": 4.305,
+     "end": 4.951
+    },
+    {
+     "text": "at",
+     "say": "at",
+     "key": false,
+     "start": 4.951,
+     "end": 5.238
+    },
+    {
+     "text": "15",
+     "say": "fifteen",
+     "key": false,
+     "start": 5.238,
+     "end": 5.705
+    }
+   ]
+  },
+  {
+   "id": "card2",
+   "start": 5.859,
+   "end": 7.438,
+   "words": [
+    {
+     "text": "his",
+     "say": "his",
+     "key": false,
+     "start": 5.859,
+     "end": 6.03
+    },
+    {
+     "text": "own",
+     "say": "own",
+     "key": false,
+     "start": 6.03,
+     "end": 6.201
+    },
+    {
+     "text": "heart",
+     "say": "heart",
+     "key": true,
+     "start": 6.201,
+     "end": 6.371
+    },
+    {
+     "text": "threatened",
+     "say": "threatened",
+     "key": false,
+     "start": 6.371,
+     "end": 6.756
+    },
+    {
+     "text": "to",
+     "say": "to",
+     "key": false,
+     "start": 6.756,
+     "end": 6.927
+    },
+    {
+     "text": "end",
+     "say": "end",
+     "key": false,
+     "start": 6.927,
+     "end": 7.097
+    },
+    {
+     "text": "it",
+     "say": "it",
+     "key": false,
+     "start": 7.097,
+     "end": 7.268
+    },
+    {
+     "text": "all.",
+     "say": "all.",
+     "key": false,
+     "start": 7.268,
+     "end": 7.439
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "start": 7.788,
+   "end": 11.657,
+   "words": [
+    {
+     "text": "It's",
+     "say": "It's",
+     "key": false,
+     "start": 7.788,
+     "end": 8.005
+    },
+    {
+     "text": "1985.",
+     "say": "nineteen-eighty-five.",
+     "key": false,
+     "start": 8.005,
+     "end": 9.038
+    },
+    {
+     "text": "On",
+     "say": "On",
+     "key": false,
+     "start": 9.278,
+     "end": 9.45
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 9.45,
+     "end": 9.621
+    },
+    {
+     "text": "island",
+     "say": "island",
+     "key": false,
+     "start": 9.621,
+     "end": 9.9
+    },
+    {
+     "text": "of",
+     "say": "of",
+     "key": false,
+     "start": 9.9,
+     "end": 10.072
+    },
+    {
+     "text": "Madeira,",
+     "say": "Madeira,",
+     "key": false,
+     "start": 10.072,
+     "end": 10.458
+    },
+    {
+     "text": "a",
+     "say": "a",
+     "key": false,
+     "start": 10.588,
+     "end": 10.856
+    },
+    {
+     "text": "boy",
+     "say": "boy",
+     "key": false,
+     "start": 10.856,
+     "end": 11.123
+    },
+    {
+     "text": "is",
+     "say": "is",
+     "key": false,
+     "start": 11.123,
+     "end": 11.391
+    },
+    {
+     "text": "born.",
+     "say": "born.",
+     "key": false,
+     "start": 11.391,
+     "end": 11.658
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "start": 11.877,
+   "end": 15.056,
+   "words": [
+    {
+     "text": "The",
+     "say": "The",
+     "key": false,
+     "start": 11.877,
+     "end": 12.107
+    },
+    {
+     "text": "family",
+     "say": "family",
+     "key": false,
+     "start": 12.107,
+     "end": 12.626
+    },
+    {
+     "text": "is",
+     "say": "is",
+     "key": false,
+     "start": 12.626,
+     "end": 12.857
+    },
+    {
+     "text": "poor.",
+     "say": "poor.",
+     "key": false,
+     "start": 12.857,
+     "end": 13.087
+    },
+    {
+     "text": "He",
+     "say": "He",
+     "key": false,
+     "start": 13.247,
+     "end": 13.466
+    },
+    {
+     "text": "shares",
+     "say": "shares",
+     "key": false,
+     "start": 13.466,
+     "end": 13.823
+    },
+    {
+     "text": "a",
+     "say": "a",
+     "key": false,
+     "start": 13.823,
+     "end": 14.042
+    },
+    {
+     "text": "room",
+     "say": "room",
+     "key": false,
+     "start": 14.042,
+     "end": 14.262
+    },
+    {
+     "text": "with",
+     "say": "with",
+     "key": false,
+     "start": 14.262,
+     "end": 14.481
+    },
+    {
+     "text": "his",
+     "say": "his",
+     "key": false,
+     "start": 14.481,
+     "end": 14.7
+    },
+    {
+     "text": "siblings.",
+     "say": "siblings.",
+     "key": false,
+     "start": 14.7,
+     "end": 15.057
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "start": 15.256,
+   "end": 18.066,
+   "words": [
+    {
+     "text": "His",
+     "say": "His",
+     "key": false,
+     "start": 15.256,
+     "end": 15.482
+    },
+    {
+     "text": "father",
+     "say": "father",
+     "key": false,
+     "start": 15.482,
+     "end": 15.85
+    },
+    {
+     "text": "is",
+     "say": "is",
+     "key": false,
+     "start": 15.85,
+     "end": 16.076
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 16.076,
+     "end": 16.302
+    },
+    {
+     "text": "kit",
+     "say": "kit",
+     "key": false,
+     "start": 16.302,
+     "end": 16.528
+    },
+    {
+     "text": "man",
+     "say": "man",
+     "key": false,
+     "start": 16.528,
+     "end": 16.754
+    },
+    {
+     "text": "at",
+     "say": "at",
+     "key": false,
+     "start": 16.754,
+     "end": 16.98
+    },
+    {
+     "text": "a",
+     "say": "a",
+     "key": false,
+     "start": 16.98,
+     "end": 17.206
+    },
+    {
+     "text": "small",
+     "say": "small",
+     "key": false,
+     "start": 17.206,
+     "end": 17.432
+    },
+    {
+     "text": "football",
+     "say": "football",
+     "key": false,
+     "start": 17.432,
+     "end": 17.8
+    },
+    {
+     "text": "club.",
+     "say": "club.",
+     "key": false,
+     "start": 17.8,
+     "end": 18.026
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "start": 18.266,
+   "end": 21.438,
+   "words": [
+    {
+     "text": "The",
+     "say": "The",
+     "key": false,
+     "start": 18.266,
+     "end": 18.465
+    },
+    {
+     "text": "boy",
+     "say": "boy",
+     "key": false,
+     "start": 18.465,
+     "end": 18.664
+    },
+    {
+     "text": "plays",
+     "say": "plays",
+     "key": false,
+     "start": 18.664,
+     "end": 18.863
+    },
+    {
+     "text": "in",
+     "say": "in",
+     "key": false,
+     "start": 18.863,
+     "end": 19.062
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 19.062,
+     "end": 19.261
+    },
+    {
+     "text": "street",
+     "say": "street",
+     "key": false,
+     "start": 19.261,
+     "end": 19.46
+    },
+    {
+     "text": "every",
+     "say": "every",
+     "key": false,
+     "start": 19.46,
+     "end": 19.907
+    },
+    {
+     "text": "day.",
+     "say": "day.",
+     "key": false,
+     "start": 19.907,
+     "end": 20.106
+    },
+    {
+     "text": "Until",
+     "say": "Until",
+     "key": false,
+     "start": 20.346,
+     "end": 20.683
+    },
+    {
+     "text": "late",
+     "say": "late",
+     "key": false,
+     "start": 20.683,
+     "end": 21.021
+    },
+    {
+     "text": "at",
+     "say": "at",
+     "key": false,
+     "start": 21.021,
+     "end": 21.228
+    },
+    {
+     "text": "night.",
+     "say": "night.",
+     "key": false,
+     "start": 21.228,
+     "end": 21.436
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "start": 21.658,
+   "end": 24.839,
+   "words": [
+    {
+     "text": "At",
+     "say": "At",
+     "key": false,
+     "start": 21.658,
+     "end": 21.849
+    },
+    {
+     "text": "12,",
+     "say": "twelve,",
+     "key": false,
+     "start": 21.849,
+     "end": 22.16
+    },
+    {
+     "text": "he",
+     "say": "he",
+     "key": false,
+     "start": 22.16,
+     "end": 22.351
+    },
+    {
+     "text": "moves",
+     "say": "moves",
+     "key": false,
+     "start": 22.351,
+     "end": 22.662
+    },
+    {
+     "text": "to",
+     "say": "to",
+     "key": false,
+     "start": 22.662,
+     "end": 22.853
+    },
+    {
+     "text": "Lisbon",
+     "say": "Lisbon",
+     "key": false,
+     "start": 22.853,
+     "end": 23.164
+    },
+    {
+     "text": "alone,",
+     "say": "alone,",
+     "key": false,
+     "start": 23.164,
+     "end": 23.595
+    },
+    {
+     "text": "to",
+     "say": "to",
+     "key": false,
+     "start": 23.595,
+     "end": 23.786
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 23.786,
+     "end": 23.977
+    },
+    {
+     "text": "Sporting",
+     "say": "Sporting",
+     "key": false,
+     "start": 23.977,
+     "end": 24.288
+    },
+    {
+     "text": "academy.",
+     "say": "academy.",
+     "key": false,
+     "start": 24.288,
+     "end": 24.838
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "start": 25.039,
+   "end": 28.009,
+   "words": [
+    {
+     "text": "He",
+     "say": "He",
+     "key": false,
+     "start": 25.059,
+     "end": 25.26
+    },
+    {
+     "text": "misses",
+     "say": "misses",
+     "key": false,
+     "start": 25.26,
+     "end": 25.586
+    },
+    {
+     "text": "his",
+     "say": "his",
+     "key": false,
+     "start": 25.586,
+     "end": 25.787
+    },
+    {
+     "text": "family.",
+     "say": "family.",
+     "key": false,
+     "start": 25.787,
+     "end": 26.239
+    },
+    {
+     "text": "At",
+     "say": "At",
+     "key": false,
+     "start": 26.399,
+     "end": 26.629
+    },
+    {
+     "text": "night,",
+     "say": "night,",
+     "key": false,
+     "start": 26.629,
+     "end": 26.859
+    },
+    {
+     "text": "he",
+     "say": "he",
+     "key": false,
+     "start": 26.999,
+     "end": 27.278
+    },
+    {
+     "text": "often",
+     "say": "often",
+     "key": false,
+     "start": 27.278,
+     "end": 27.73
+    },
+    {
+     "text": "cries.",
+     "say": "cries.",
+     "key": false,
+     "start": 27.73,
+     "end": 28.009
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "start": 28.259,
+   "end": 32.339,
+   "words": [
+    {
+     "text": "Then,",
+     "say": "Then,",
+     "key": false,
+     "start": 28.259,
+     "end": 28.564
+    },
+    {
+     "text": "at",
+     "say": "at",
+     "key": false,
+     "start": 28.564,
+     "end": 28.869
+    },
+    {
+     "text": "15,",
+     "say": "fifteen,",
+     "key": false,
+     "start": 28.869,
+     "end": 29.364
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 29.364,
+     "end": 29.669
+    },
+    {
+     "text": "shock.",
+     "say": "shock.",
+     "key": true,
+     "start": 29.669,
+     "end": 29.974
+    },
+    {
+     "text": "His",
+     "say": "His",
+     "key": false,
+     "start": 29.974,
+     "end": 30.279
+    },
+    {
+     "text": "heart",
+     "say": "heart",
+     "key": false,
+     "start": 30.279,
+     "end": 30.584
+    },
+    {
+     "text": "is",
+     "say": "is",
+     "key": false,
+     "start": 30.584,
+     "end": 30.889
+    },
+    {
+     "text": "racing",
+     "say": "racing",
+     "key": false,
+     "start": 30.889,
+     "end": 31.384
+    },
+    {
+     "text": "far",
+     "say": "far",
+     "key": false,
+     "start": 31.384,
+     "end": 31.689
+    },
+    {
+     "text": "too",
+     "say": "too",
+     "key": false,
+     "start": 31.689,
+     "end": 31.994
+    },
+    {
+     "text": "fast.",
+     "say": "fast.",
+     "key": false,
+     "start": 31.994,
+     "end": 32.299
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "start": 32.539,
+   "end": 35.14,
+   "words": [
+    {
+     "text": "His",
+     "say": "His",
+     "key": false,
+     "start": 32.539,
+     "end": 32.728
+    },
+    {
+     "text": "career",
+     "say": "career",
+     "key": false,
+     "start": 32.728,
+     "end": 33.035
+    },
+    {
+     "text": "is",
+     "say": "is",
+     "key": false,
+     "start": 33.035,
+     "end": 33.224
+    },
+    {
+     "text": "on",
+     "say": "on",
+     "key": false,
+     "start": 33.224,
+     "end": 33.413
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 33.413,
+     "end": 33.602
+    },
+    {
+     "text": "line.",
+     "say": "line.",
+     "key": false,
+     "start": 33.602,
+     "end": 33.909
+    },
+    {
+     "text": "He",
+     "say": "He",
+     "key": false,
+     "start": 34.119,
+     "end": 34.359
+    },
+    {
+     "text": "needs",
+     "say": "needs",
+     "key": false,
+     "start": 34.359,
+     "end": 34.599
+    },
+    {
+     "text": "surgery.",
+     "say": "surgery.",
+     "key": false,
+     "start": 34.599,
+     "end": 35.139
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "start": 35.34,
+   "end": 37.639,
+   "words": [
+    {
+     "text": "Just",
+     "say": "Just",
+     "key": false,
+     "start": 35.35,
+     "end": 35.59
+    },
+    {
+     "text": "days",
+     "say": "days",
+     "key": false,
+     "start": 35.59,
+     "end": 35.83
+    },
+    {
+     "text": "later,",
+     "say": "later,",
+     "key": false,
+     "start": 35.83,
+     "end": 36.22
+    },
+    {
+     "text": "he",
+     "say": "he",
+     "key": false,
+     "start": 36.39,
+     "end": 36.598
+    },
+    {
+     "text": "is",
+     "say": "is",
+     "key": false,
+     "start": 36.598,
+     "end": 36.807
+    },
+    {
+     "text": "back",
+     "say": "back",
+     "key": false,
+     "start": 36.807,
+     "end": 37.015
+    },
+    {
+     "text": "on",
+     "say": "on",
+     "key": false,
+     "start": 37.015,
+     "end": 37.223
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 37.223,
+     "end": 37.432
+    },
+    {
+     "text": "pitch.",
+     "say": "pitch.",
+     "key": false,
+     "start": 37.432,
+     "end": 37.64
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "start": 37.889,
+   "end": 42.72,
+   "words": [
+    {
+     "text": "At",
+     "say": "At",
+     "key": false,
+     "start": 37.889,
+     "end": 38.134
+    },
+    {
+     "text": "18,",
+     "say": "eighteen,",
+     "key": false,
+     "start": 38.134,
+     "end": 38.532
+    },
+    {
+     "text": "he",
+     "say": "he",
+     "key": false,
+     "start": 38.532,
+     "end": 38.777
+    },
+    {
+     "text": "plays",
+     "say": "plays",
+     "key": false,
+     "start": 38.777,
+     "end": 39.022
+    },
+    {
+     "text": "against",
+     "say": "against",
+     "key": false,
+     "start": 39.022,
+     "end": 39.421
+    },
+    {
+     "text": "Manchester",
+     "say": "Manchester",
+     "key": false,
+     "start": 39.421,
+     "end": 39.972
+    },
+    {
+     "text": "United.",
+     "say": "United.",
+     "key": false,
+     "start": 39.972,
+     "end": 40.523
+    },
+    {
+     "text": "So",
+     "say": "So",
+     "key": false,
+     "start": 40.523,
+     "end": 40.768
+    },
+    {
+     "text": "well",
+     "say": "well",
+     "key": false,
+     "start": 40.768,
+     "end": 41.014
+    },
+    {
+     "text": "that",
+     "say": "that",
+     "key": false,
+     "start": 41.014,
+     "end": 41.259
+    },
+    {
+     "text": "they",
+     "say": "they",
+     "key": false,
+     "start": 41.259,
+     "end": 41.504
+    },
+    {
+     "text": "sign",
+     "say": "sign",
+     "key": false,
+     "start": 41.504,
+     "end": 41.749
+    },
+    {
+     "text": "him",
+     "say": "him",
+     "key": false,
+     "start": 41.749,
+     "end": 41.994
+    },
+    {
+     "text": "on",
+     "say": "on",
+     "key": false,
+     "start": 41.994,
+     "end": 42.239
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 42.239,
+     "end": 42.484
+    },
+    {
+     "text": "spot.",
+     "say": "spot.",
+     "key": false,
+     "start": 42.484,
+     "end": 42.729
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "start": 42.94,
+   "end": 47.732,
+   "words": [
+    {
+     "text": "Then",
+     "say": "Then",
+     "key": false,
+     "start": 42.94,
+     "end": 43.189
+    },
+    {
+     "text": "come",
+     "say": "come",
+     "key": false,
+     "start": 43.189,
+     "end": 43.595
+    },
+    {
+     "text": "Real",
+     "say": "Real",
+     "key": false,
+     "start": 43.595,
+     "end": 43.844
+    },
+    {
+     "text": "Madrid,",
+     "say": "Madrid,",
+     "key": false,
+     "start": 43.844,
+     "end": 44.249
+    },
+    {
+     "text": "5",
+     "say": "five",
+     "key": true,
+     "start": 44.249,
+     "end": 44.654
+    },
+    {
+     "text": "Ballon",
+     "say": "Ballon",
+     "key": false,
+     "start": 44.654,
+     "end": 45.059
+    },
+    {
+     "text": "d'Ors",
+     "say": "d'Ors",
+     "key": false,
+     "start": 45.059,
+     "end": 45.309
+    },
+    {
+     "text": "and",
+     "say": "and",
+     "key": false,
+     "start": 45.309,
+     "end": 45.558
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 45.558,
+     "end": 45.808
+    },
+    {
+     "text": "European",
+     "say": "European",
+     "key": false,
+     "start": 45.808,
+     "end": 46.369
+    },
+    {
+     "text": "Championship",
+     "say": "Championship",
+     "key": false,
+     "start": 46.369,
+     "end": 46.93
+    },
+    {
+     "text": "with",
+     "say": "with",
+     "key": false,
+     "start": 46.93,
+     "end": 47.179
+    },
+    {
+     "text": "Portugal.",
+     "say": "Portugal.",
+     "key": false,
+     "start": 47.179,
+     "end": 47.74
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "start": 47.952,
+   "end": 51.632,
+   "words": [
+    {
+     "text": "He",
+     "say": "He",
+     "key": false,
+     "start": 47.962,
+     "end": 48.163
+    },
+    {
+     "text": "becomes",
+     "say": "becomes",
+     "key": false,
+     "start": 48.163,
+     "end": 48.616
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 48.616,
+     "end": 48.817
+    },
+    {
+     "text": "first",
+     "say": "first",
+     "key": false,
+     "start": 48.817,
+     "end": 49.018
+    },
+    {
+     "text": "player",
+     "say": "player",
+     "key": false,
+     "start": 49.018,
+     "end": 49.219
+    },
+    {
+     "text": "in",
+     "say": "in",
+     "key": false,
+     "start": 49.219,
+     "end": 49.42
+    },
+    {
+     "text": "history",
+     "say": "history",
+     "key": false,
+     "start": 49.42,
+     "end": 49.872
+    },
+    {
+     "text": "to",
+     "say": "to",
+     "key": false,
+     "start": 49.872,
+     "end": 50.074
+    },
+    {
+     "text": "score",
+     "say": "score",
+     "key": false,
+     "start": 50.074,
+     "end": 50.4
+    },
+    {
+     "text": "900",
+     "say": "nine-hundred",
+     "key": true,
+     "start": 50.4,
+     "end": 50.978
+    },
+    {
+     "text": "official",
+     "say": "official",
+     "key": false,
+     "start": 50.978,
+     "end": 51.431
+    },
+    {
+     "text": "goals.",
+     "say": "goals.",
+     "key": false,
+     "start": 51.431,
+     "end": 51.632
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "start": 51.982,
+   "end": 55.907,
+   "words": [
+    {
+     "text": "And",
+     "say": "And",
+     "key": false,
+     "start": 51.982,
+     "end": 52.222
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 52.222,
+     "end": 52.462
+    },
+    {
+     "text": "boy",
+     "say": "boy",
+     "key": false,
+     "start": 52.462,
+     "end": 52.702
+    },
+    {
+     "text": "whose",
+     "say": "whose",
+     "key": false,
+     "start": 52.702,
+     "end": 53.092
+    },
+    {
+     "text": "heart",
+     "say": "heart",
+     "key": false,
+     "start": 53.092,
+     "end": 53.332
+    },
+    {
+     "text": "almost",
+     "say": "almost",
+     "key": false,
+     "start": 53.332,
+     "end": 53.722
+    },
+    {
+     "text": "ended",
+     "say": "ended",
+     "key": false,
+     "start": 53.722,
+     "end": 54.112
+    },
+    {
+     "text": "it",
+     "say": "it",
+     "key": false,
+     "start": 54.112,
+     "end": 54.352
+    },
+    {
+     "text": "all",
+     "say": "all",
+     "key": false,
+     "start": 54.352,
+     "end": 54.592
+    },
+    {
+     "text": "is",
+     "say": "is",
+     "key": false,
+     "start": 54.592,
+     "end": 54.832
+    },
+    {
+     "text": "Cristiano",
+     "say": "Cristiano",
+     "key": true,
+     "start": 54.832,
+     "end": 55.372
+    },
+    {
+     "text": "Ronaldo.",
+     "say": "Ronaldo.",
+     "key": true,
+     "start": 55.372,
+     "end": 55.912
+    }
+   ]
+  }
+ ]
+}

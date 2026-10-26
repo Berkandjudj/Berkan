@@ -1,0 +1,23 @@
+{
+ "title": "The Story of Cristiano Ronaldo",
+ "mode": "LEGENDE",
+ "lang": "en",
+ "lines": [
+  { "id": "hook1", "say": "The greatest goalscorer in history almost never became a professional.", "show": "The greatest goalscorer in history almost never became a professional.", "pause": 0.3 },
+  { "id": "card1", "say": "Because at fifteen", "show": "Because at 15", "pause": 0.15 },
+  { "id": "card2", "say": "his own heart threatened to end it all.", "show": "his own *heart* threatened to end it all.", "pause": 0.35 },
+  { "id": "s1", "say": "It's nineteen-eighty-five. On the island of Madeira, a boy is born.", "show": "It's 1985. On the island of Madeira, a boy is born.", "pause": 0.22 },
+  { "id": "s2", "say": "The family is poor. He shares a room with his siblings.", "show": "The family is poor. He shares a room with his siblings.", "pause": 0.2 },
+  { "id": "s3", "say": "His father is the kit man at a small football club.", "show": "His father is the kit man at a small football club.", "pause": 0.2 },
+  { "id": "s4", "say": "The boy plays in the street every day. Until late at night.", "show": "The boy plays in the street every day. Until late at night.", "pause": 0.22 },
+  { "id": "s5", "say": "At twelve, he moves to Lisbon alone, to the Sporting academy.", "show": "At 12, he moves to Lisbon alone, to the Sporting academy.", "pause": 0.2 },
+  { "id": "s6", "say": "He misses his family. At night, he often cries.", "show": "He misses his family. At night, he often cries.", "pause": 0.25 },
+  { "id": "s7", "say": "Then, at fifteen, the shock. His heart is racing far too fast.", "show": "Then, at 15, the *shock.* His heart is racing far too fast.", "pause": 0.2 },
+  { "id": "s8", "say": "His career is on the line. He needs surgery.", "show": "His career is on the line. He needs surgery.", "pause": 0.2 },
+  { "id": "s9", "say": "Just days later, he is back on the pitch.", "show": "Just days later, he is back on the pitch.", "pause": 0.25 },
+  { "id": "s10", "say": "At eighteen, he plays against Manchester United. So well that they sign him on the spot.", "show": "At 18, he plays against Manchester United. So well that they sign him on the spot.", "pause": 0.22 },
+  { "id": "s11", "say": "Then come Real Madrid, five Ballon d'Ors and the European Championship with Portugal.", "show": "Then come Real Madrid, *5* Ballon d'Ors and the European Championship with Portugal.", "pause": 0.22 },
+  { "id": "s12", "say": "He becomes the first player in history to score nine-hundred official goals.", "show": "He becomes the first player in history to score *900* official goals.", "pause": 0.35 },
+  { "id": "reveal", "say": "And the boy whose heart almost ended it all is Cristiano Ronaldo.", "show": "And the boy whose heart almost ended it all is *Cristiano* *Ronaldo.*", "pause": 0.6 }
+ ]
+}

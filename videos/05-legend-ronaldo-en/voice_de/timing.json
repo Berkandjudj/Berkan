@@ -1,0 +1,1251 @@
+{
+ "duration": 56.763,
+ "lines": [
+  {
+   "id": "hook1",
+   "start": 0.15,
+   "end": 4.24,
+   "words": [
+    {
+     "text": "Der",
+     "say": "Der",
+     "key": false,
+     "start": 0.17,
+     "end": 0.392
+    },
+    {
+     "text": "erfolgreichste",
+     "say": "erfolgreichste",
+     "key": false,
+     "start": 0.392,
+     "end": 1.032
+    },
+    {
+     "text": "Torjäger",
+     "say": "Torjäger",
+     "key": false,
+     "start": 1.032,
+     "end": 1.532
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 1.532,
+     "end": 1.754
+    },
+    {
+     "text": "Geschichte",
+     "say": "Geschichte",
+     "key": false,
+     "start": 1.754,
+     "end": 2.254
+    },
+    {
+     "text": "wäre",
+     "say": "wäre",
+     "key": false,
+     "start": 2.254,
+     "end": 2.616
+    },
+    {
+     "text": "beinahe",
+     "say": "beinahe",
+     "key": false,
+     "start": 2.616,
+     "end": 3.116
+    },
+    {
+     "text": "nie",
+     "say": "nie",
+     "key": false,
+     "start": 3.116,
+     "end": 3.338
+    },
+    {
+     "text": "Profi",
+     "say": "Profi",
+     "key": false,
+     "start": 3.338,
+     "end": 3.7
+    },
+    {
+     "text": "geworden.",
+     "say": "geworden.",
+     "key": false,
+     "start": 3.7,
+     "end": 4.2
+    }
+   ]
+  },
+  {
+   "id": "card1",
+   "start": 4.54,
+   "end": 5.44,
+   "words": [
+    {
+     "text": "Denn",
+     "say": "Denn",
+     "key": false,
+     "start": 4.56,
+     "end": 4.792
+    },
+    {
+     "text": "mit",
+     "say": "mit",
+     "key": false,
+     "start": 4.792,
+     "end": 5.023
+    },
+    {
+     "text": "15",
+     "say": "fünfzehn",
+     "key": false,
+     "start": 5.023,
+     "end": 5.4
+    }
+   ]
+  },
+  {
+   "id": "card2",
+   "start": 5.59,
+   "end": 7.8,
+   "words": [
+    {
+     "text": "drohte",
+     "say": "drohte",
+     "key": false,
+     "start": 5.61,
+     "end": 5.955
+    },
+    {
+     "text": "sein",
+     "say": "sein",
+     "key": false,
+     "start": 5.955,
+     "end": 6.167
+    },
+    {
+     "text": "eigenes",
+     "say": "eigenes",
+     "key": false,
+     "start": 6.167,
+     "end": 6.645
+    },
+    {
+     "text": "Herz",
+     "say": "Herz",
+     "key": true,
+     "start": 6.645,
+     "end": 6.858
+    },
+    {
+     "text": "alles",
+     "say": "alles",
+     "key": false,
+     "start": 6.858,
+     "end": 7.203
+    },
+    {
+     "text": "zu",
+     "say": "zu",
+     "key": false,
+     "start": 7.203,
+     "end": 7.415
+    },
+    {
+     "text": "beenden.",
+     "say": "beenden.",
+     "key": false,
+     "start": 7.415,
+     "end": 7.76
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "start": 8.15,
+   "end": 12.475,
+   "words": [
+    {
+     "text": "Es",
+     "say": "Es",
+     "key": false,
+     "start": 8.17,
+     "end": 8.396
+    },
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 8.396,
+     "end": 8.622
+    },
+    {
+     "text": "1985.",
+     "say": "neunzehnhundertfünfundachtzig.",
+     "key": false,
+     "start": 8.622,
+     "end": 9.838
+    },
+    {
+     "text": "Auf",
+     "say": "Auf",
+     "key": false,
+     "start": 9.838,
+     "end": 10.065
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 10.065,
+     "end": 10.291
+    },
+    {
+     "text": "Insel",
+     "say": "Insel",
+     "key": false,
+     "start": 10.291,
+     "end": 10.658
+    },
+    {
+     "text": "Madeira",
+     "say": "Madeira",
+     "key": false,
+     "start": 10.658,
+     "end": 11.167
+    },
+    {
+     "text": "kommt",
+     "say": "kommt",
+     "key": false,
+     "start": 11.167,
+     "end": 11.394
+    },
+    {
+     "text": "ein",
+     "say": "ein",
+     "key": false,
+     "start": 11.394,
+     "end": 11.62
+    },
+    {
+     "text": "Junge",
+     "say": "Junge",
+     "key": false,
+     "start": 11.62,
+     "end": 11.988
+    },
+    {
+     "text": "zur",
+     "say": "zur",
+     "key": false,
+     "start": 11.988,
+     "end": 12.214
+    },
+    {
+     "text": "Welt.",
+     "say": "Welt.",
+     "key": false,
+     "start": 12.214,
+     "end": 12.44
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "start": 12.695,
+   "end": 16.185,
+   "words": [
+    {
+     "text": "Die",
+     "say": "Die",
+     "key": false,
+     "start": 12.715,
+     "end": 12.921
+    },
+    {
+     "text": "Familie",
+     "say": "Familie",
+     "key": false,
+     "start": 12.921,
+     "end": 13.384
+    },
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 13.384,
+     "end": 13.589
+    },
+    {
+     "text": "arm.",
+     "say": "arm.",
+     "key": false,
+     "start": 13.589,
+     "end": 13.795
+    },
+    {
+     "text": "Er",
+     "say": "Er",
+     "key": false,
+     "start": 14.015,
+     "end": 14.218
+    },
+    {
+     "text": "teilt",
+     "say": "teilt",
+     "key": false,
+     "start": 14.218,
+     "end": 14.421
+    },
+    {
+     "text": "sich",
+     "say": "sich",
+     "key": false,
+     "start": 14.421,
+     "end": 14.624
+    },
+    {
+     "text": "ein",
+     "say": "ein",
+     "key": false,
+     "start": 14.624,
+     "end": 14.826
+    },
+    {
+     "text": "Zimmer",
+     "say": "Zimmer",
+     "key": false,
+     "start": 14.826,
+     "end": 15.156
+    },
+    {
+     "text": "mit",
+     "say": "mit",
+     "key": false,
+     "start": 15.156,
+     "end": 15.359
+    },
+    {
+     "text": "seinen",
+     "say": "seinen",
+     "key": false,
+     "start": 15.359,
+     "end": 15.689
+    },
+    {
+     "text": "Geschwistern.",
+     "say": "Geschwistern.",
+     "key": false,
+     "start": 15.689,
+     "end": 16.145
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "start": 16.385,
+   "end": 19.165,
+   "words": [
+    {
+     "text": "Sein",
+     "say": "Sein",
+     "key": false,
+     "start": 16.405,
+     "end": 16.625
+    },
+    {
+     "text": "Vater",
+     "say": "Vater",
+     "key": false,
+     "start": 16.625,
+     "end": 16.982
+    },
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 16.982,
+     "end": 17.202
+    },
+    {
+     "text": "Zeugwart",
+     "say": "Zeugwart",
+     "key": false,
+     "start": 17.202,
+     "end": 17.559
+    },
+    {
+     "text": "bei",
+     "say": "bei",
+     "key": false,
+     "start": 17.559,
+     "end": 17.779
+    },
+    {
+     "text": "einem",
+     "say": "einem",
+     "key": false,
+     "start": 17.779,
+     "end": 18.136
+    },
+    {
+     "text": "kleinen",
+     "say": "kleinen",
+     "key": false,
+     "start": 18.136,
+     "end": 18.493
+    },
+    {
+     "text": "Fußballverein.",
+     "say": "Fußballverein.",
+     "key": false,
+     "start": 18.493,
+     "end": 19.125
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "start": 19.365,
+   "end": 22.58,
+   "words": [
+    {
+     "text": "Der",
+     "say": "Der",
+     "key": false,
+     "start": 19.385,
+     "end": 19.577
+    },
+    {
+     "text": "Junge",
+     "say": "Junge",
+     "key": false,
+     "start": 19.577,
+     "end": 19.89
+    },
+    {
+     "text": "spielt",
+     "say": "spielt",
+     "key": false,
+     "start": 19.89,
+     "end": 20.082
+    },
+    {
+     "text": "jeden",
+     "say": "jeden",
+     "key": false,
+     "start": 20.082,
+     "end": 20.395
+    },
+    {
+     "text": "Tag",
+     "say": "Tag",
+     "key": false,
+     "start": 20.395,
+     "end": 20.588
+    },
+    {
+     "text": "auf",
+     "say": "auf",
+     "key": false,
+     "start": 20.588,
+     "end": 20.78
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 20.78,
+     "end": 20.972
+    },
+    {
+     "text": "Straße.",
+     "say": "Straße.",
+     "key": false,
+     "start": 20.972,
+     "end": 21.285
+    },
+    {
+     "text": "Bis",
+     "say": "Bis",
+     "key": false,
+     "start": 21.585,
+     "end": 21.777
+    },
+    {
+     "text": "spät",
+     "say": "spät",
+     "key": false,
+     "start": 21.777,
+     "end": 21.969
+    },
+    {
+     "text": "in",
+     "say": "in",
+     "key": false,
+     "start": 21.969,
+     "end": 22.161
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 22.161,
+     "end": 22.353
+    },
+    {
+     "text": "Nacht.",
+     "say": "Nacht.",
+     "key": false,
+     "start": 22.353,
+     "end": 22.545
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "start": 22.8,
+   "end": 26.53,
+   "words": [
+    {
+     "text": "Mit",
+     "say": "Mit",
+     "key": false,
+     "start": 22.82,
+     "end": 23.06
+    },
+    {
+     "text": "12",
+     "say": "zwölf",
+     "key": false,
+     "start": 23.06,
+     "end": 23.3
+    },
+    {
+     "text": "zieht",
+     "say": "zieht",
+     "key": false,
+     "start": 23.3,
+     "end": 23.54
+    },
+    {
+     "text": "er",
+     "say": "er",
+     "key": false,
+     "start": 23.54,
+     "end": 23.78
+    },
+    {
+     "text": "allein",
+     "say": "allein",
+     "key": false,
+     "start": 23.78,
+     "end": 24.17
+    },
+    {
+     "text": "nach",
+     "say": "nach",
+     "key": false,
+     "start": 24.17,
+     "end": 24.41
+    },
+    {
+     "text": "Lissabon,",
+     "say": "Lissabon,",
+     "key": false,
+     "start": 24.41,
+     "end": 24.95
+    },
+    {
+     "text": "in",
+     "say": "in",
+     "key": false,
+     "start": 25.08,
+     "end": 25.268
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 25.268,
+     "end": 25.456
+    },
+    {
+     "text": "Akademie",
+     "say": "Akademie",
+     "key": false,
+     "start": 25.456,
+     "end": 25.997
+    },
+    {
+     "text": "von",
+     "say": "von",
+     "key": false,
+     "start": 25.997,
+     "end": 26.185
+    },
+    {
+     "text": "Sporting.",
+     "say": "Sporting.",
+     "key": false,
+     "start": 26.185,
+     "end": 26.49
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "start": 26.73,
+   "end": 29.278,
+   "words": [
+    {
+     "text": "Er",
+     "say": "Er",
+     "key": false,
+     "start": 26.75,
+     "end": 26.936
+    },
+    {
+     "text": "vermisst",
+     "say": "vermisst",
+     "key": false,
+     "start": 26.936,
+     "end": 27.239
+    },
+    {
+     "text": "seine",
+     "say": "seine",
+     "key": false,
+     "start": 27.239,
+     "end": 27.541
+    },
+    {
+     "text": "Familie.",
+     "say": "Familie.",
+     "key": false,
+     "start": 27.541,
+     "end": 27.96
+    },
+    {
+     "text": "Nachts",
+     "say": "Nachts",
+     "key": false,
+     "start": 28.18,
+     "end": 28.448
+    },
+    {
+     "text": "weint",
+     "say": "weint",
+     "key": false,
+     "start": 28.448,
+     "end": 28.715
+    },
+    {
+     "text": "er",
+     "say": "er",
+     "key": false,
+     "start": 28.715,
+     "end": 28.982
+    },
+    {
+     "text": "oft.",
+     "say": "oft.",
+     "key": false,
+     "start": 28.982,
+     "end": 29.25
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "start": 29.528,
+   "end": 33.148,
+   "words": [
+    {
+     "text": "Dann,",
+     "say": "Dann,",
+     "key": false,
+     "start": 29.538,
+     "end": 29.808
+    },
+    {
+     "text": "mit",
+     "say": "mit",
+     "key": false,
+     "start": 29.918,
+     "end": 30.192
+    },
+    {
+     "text": "15,",
+     "say": "fünfzehn,",
+     "key": false,
+     "start": 30.192,
+     "end": 30.638
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 30.768,
+     "end": 30.948
+    },
+    {
+     "text": "Schock.",
+     "say": "Schock.",
+     "key": true,
+     "start": 30.948,
+     "end": 31.128
+    },
+    {
+     "text": "Sein",
+     "say": "Sein",
+     "key": false,
+     "start": 31.378,
+     "end": 31.668
+    },
+    {
+     "text": "Herz",
+     "say": "Herz",
+     "key": false,
+     "start": 31.668,
+     "end": 31.958
+    },
+    {
+     "text": "rast",
+     "say": "rast",
+     "key": false,
+     "start": 31.958,
+     "end": 32.248
+    },
+    {
+     "text": "viel",
+     "say": "viel",
+     "key": false,
+     "start": 32.248,
+     "end": 32.538
+    },
+    {
+     "text": "zu",
+     "say": "zu",
+     "key": false,
+     "start": 32.538,
+     "end": 32.828
+    },
+    {
+     "text": "schnell.",
+     "say": "schnell.",
+     "key": false,
+     "start": 32.828,
+     "end": 33.118
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "start": 33.348,
+   "end": 36.145,
+   "words": [
+    {
+     "text": "Seine",
+     "say": "Seine",
+     "key": false,
+     "start": 33.368,
+     "end": 33.717
+    },
+    {
+     "text": "Karriere",
+     "say": "Karriere",
+     "key": false,
+     "start": 33.717,
+     "end": 34.2
+    },
+    {
+     "text": "steht",
+     "say": "steht",
+     "key": false,
+     "start": 34.2,
+     "end": 34.414
+    },
+    {
+     "text": "auf",
+     "say": "auf",
+     "key": false,
+     "start": 34.414,
+     "end": 34.629
+    },
+    {
+     "text": "dem",
+     "say": "dem",
+     "key": false,
+     "start": 34.629,
+     "end": 34.843
+    },
+    {
+     "text": "Spiel.",
+     "say": "Spiel.",
+     "key": false,
+     "start": 34.843,
+     "end": 35.058
+    },
+    {
+     "text": "Er",
+     "say": "Er",
+     "key": false,
+     "start": 35.328,
+     "end": 35.514
+    },
+    {
+     "text": "wird",
+     "say": "wird",
+     "key": false,
+     "start": 35.514,
+     "end": 35.7
+    },
+    {
+     "text": "operiert.",
+     "say": "operiert.",
+     "key": false,
+     "start": 35.7,
+     "end": 36.118
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "start": 36.345,
+   "end": 38.876,
+   "words": [
+    {
+     "text": "Wenige",
+     "say": "Wenige",
+     "key": false,
+     "start": 36.365,
+     "end": 36.827
+    },
+    {
+     "text": "Tage",
+     "say": "Tage",
+     "key": false,
+     "start": 36.827,
+     "end": 37.161
+    },
+    {
+     "text": "später",
+     "say": "später",
+     "key": false,
+     "start": 37.161,
+     "end": 37.494
+    },
+    {
+     "text": "steht",
+     "say": "steht",
+     "key": false,
+     "start": 37.494,
+     "end": 37.7
+    },
+    {
+     "text": "er",
+     "say": "er",
+     "key": false,
+     "start": 37.7,
+     "end": 37.905
+    },
+    {
+     "text": "wieder",
+     "say": "wieder",
+     "key": false,
+     "start": 37.905,
+     "end": 38.239
+    },
+    {
+     "text": "auf",
+     "say": "auf",
+     "key": false,
+     "start": 38.239,
+     "end": 38.444
+    },
+    {
+     "text": "dem",
+     "say": "dem",
+     "key": false,
+     "start": 38.444,
+     "end": 38.65
+    },
+    {
+     "text": "Platz.",
+     "say": "Platz.",
+     "key": false,
+     "start": 38.65,
+     "end": 38.855
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "start": 39.126,
+   "end": 43.506,
+   "words": [
+    {
+     "text": "Mit",
+     "say": "Mit",
+     "key": false,
+     "start": 39.146,
+     "end": 39.354
+    },
+    {
+     "text": "18",
+     "say": "achtzehn",
+     "key": false,
+     "start": 39.354,
+     "end": 39.693
+    },
+    {
+     "text": "spielt",
+     "say": "spielt",
+     "key": false,
+     "start": 39.693,
+     "end": 39.901
+    },
+    {
+     "text": "er",
+     "say": "er",
+     "key": false,
+     "start": 39.901,
+     "end": 40.11
+    },
+    {
+     "text": "gegen",
+     "say": "gegen",
+     "key": false,
+     "start": 40.11,
+     "end": 40.448
+    },
+    {
+     "text": "Manchester",
+     "say": "Manchester",
+     "key": false,
+     "start": 40.448,
+     "end": 40.917
+    },
+    {
+     "text": "United.",
+     "say": "United.",
+     "key": false,
+     "start": 40.917,
+     "end": 41.386
+    },
+    {
+     "text": "So",
+     "say": "So",
+     "key": false,
+     "start": 41.696,
+     "end": 41.941
+    },
+    {
+     "text": "gut,",
+     "say": "gut,",
+     "key": false,
+     "start": 41.941,
+     "end": 42.186
+    },
+    {
+     "text": "dass",
+     "say": "dass",
+     "key": false,
+     "start": 42.306,
+     "end": 42.493
+    },
+    {
+     "text": "sie",
+     "say": "sie",
+     "key": false,
+     "start": 42.493,
+     "end": 42.68
+    },
+    {
+     "text": "ihn",
+     "say": "ihn",
+     "key": false,
+     "start": 42.68,
+     "end": 42.868
+    },
+    {
+     "text": "sofort",
+     "say": "sofort",
+     "key": false,
+     "start": 42.868,
+     "end": 43.172
+    },
+    {
+     "text": "kaufen.",
+     "say": "kaufen.",
+     "key": false,
+     "start": 43.172,
+     "end": 43.476
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "start": 43.726,
+   "end": 48.513,
+   "words": [
+    {
+     "text": "Es",
+     "say": "Es",
+     "key": false,
+     "start": 43.746,
+     "end": 43.998
+    },
+    {
+     "text": "folgen",
+     "say": "folgen",
+     "key": false,
+     "start": 43.998,
+     "end": 44.407
+    },
+    {
+     "text": "Real",
+     "say": "Real",
+     "key": false,
+     "start": 44.407,
+     "end": 44.658
+    },
+    {
+     "text": "Madrid,",
+     "say": "Madrid,",
+     "key": false,
+     "start": 44.658,
+     "end": 45.067
+    },
+    {
+     "text": "5",
+     "say": "fünf",
+     "key": true,
+     "start": 45.067,
+     "end": 45.319
+    },
+    {
+     "text": "Ballon",
+     "say": "Ballon",
+     "key": false,
+     "start": 45.319,
+     "end": 45.728
+    },
+    {
+     "text": "d'Or",
+     "say": "d'Or",
+     "key": false,
+     "start": 45.728,
+     "end": 45.979
+    },
+    {
+     "text": "und",
+     "say": "und",
+     "key": false,
+     "start": 45.979,
+     "end": 46.231
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 46.231,
+     "end": 46.483
+    },
+    {
+     "text": "Europameistertitel",
+     "say": "Europameistertitel",
+     "key": false,
+     "start": 46.483,
+     "end": 47.678
+    },
+    {
+     "text": "mit",
+     "say": "mit",
+     "key": false,
+     "start": 47.678,
+     "end": 47.93
+    },
+    {
+     "text": "Portugal.",
+     "say": "Portugal.",
+     "key": false,
+     "start": 47.93,
+     "end": 48.496
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "start": 48.733,
+   "end": 52.373,
+   "words": [
+    {
+     "text": "Als",
+     "say": "Als",
+     "key": false,
+     "start": 48.753,
+     "end": 48.992
+    },
+    {
+     "text": "erster",
+     "say": "erster",
+     "key": false,
+     "start": 48.992,
+     "end": 49.38
+    },
+    {
+     "text": "Spieler",
+     "say": "Spieler",
+     "key": false,
+     "start": 49.38,
+     "end": 49.767
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 49.767,
+     "end": 50.006
+    },
+    {
+     "text": "Welt",
+     "say": "Welt",
+     "key": false,
+     "start": 50.006,
+     "end": 50.245
+    },
+    {
+     "text": "schießt",
+     "say": "schießt",
+     "key": false,
+     "start": 50.245,
+     "end": 50.483
+    },
+    {
+     "text": "er",
+     "say": "er",
+     "key": false,
+     "start": 50.483,
+     "end": 50.722
+    },
+    {
+     "text": "900",
+     "say": "neunhundert",
+     "key": true,
+     "start": 50.722,
+     "end": 51.259
+    },
+    {
+     "text": "offizielle",
+     "say": "offizielle",
+     "key": false,
+     "start": 51.259,
+     "end": 51.945
+    },
+    {
+     "text": "Tore.",
+     "say": "Tore.",
+     "key": false,
+     "start": 51.945,
+     "end": 52.333
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "start": 52.723,
+   "end": 56.163,
+   "words": [
+    {
+     "text": "Und",
+     "say": "Und",
+     "key": false,
+     "start": 52.743,
+     "end": 52.935
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 52.935,
+     "end": 53.127
+    },
+    {
+     "text": "Junge,",
+     "say": "Junge,",
+     "key": false,
+     "start": 53.127,
+     "end": 53.438
+    },
+    {
+     "text": "dessen",
+     "say": "dessen",
+     "key": false,
+     "start": 53.438,
+     "end": 53.75
+    },
+    {
+     "text": "Herz",
+     "say": "Herz",
+     "key": false,
+     "start": 53.75,
+     "end": 53.942
+    },
+    {
+     "text": "fast",
+     "say": "fast",
+     "key": false,
+     "start": 53.942,
+     "end": 54.133
+    },
+    {
+     "text": "alles",
+     "say": "alles",
+     "key": false,
+     "start": 54.133,
+     "end": 54.445
+    },
+    {
+     "text": "beendet",
+     "say": "beendet",
+     "key": false,
+     "start": 54.445,
+     "end": 54.757
+    },
+    {
+     "text": "hätte,",
+     "say": "hätte,",
+     "key": false,
+     "start": 54.757,
+     "end": 55.068
+    },
+    {
+     "text": "heißt",
+     "say": "heißt",
+     "key": false,
+     "start": 55.068,
+     "end": 55.26
+    },
+    {
+     "text": "Cristiano",
+     "say": "Cristiano",
+     "key": true,
+     "start": 55.26,
+     "end": 55.692
+    },
+    {
+     "text": "Ronaldo.",
+     "say": "Ronaldo.",
+     "key": true,
+     "start": 55.692,
+     "end": 56.123
+    }
+   ]
+  }
+ ]
+}

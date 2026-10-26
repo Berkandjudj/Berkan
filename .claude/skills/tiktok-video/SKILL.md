@@ -20,7 +20,13 @@ Für HyperFrames-Regeln gilt zusätzlich der Plugin-Skill `/hyperframes:hyperfra
 | **SZENARIO** | Was-wäre-wenn / Überleben, „Tag X, Uhrzeit“, Cliffhanger, Outro „TEIL N“ | `references/style.md` | `videos/03-apokalypse/` |
 | **LEGENDE** | Lebensgeschichte einer bekannten Person, Teaser → schwarze Karten → „Es ist [Jahr].“ → Name am Ende | `references/legende.md` | `videos/04-legende-ronaldo/` |
 
-Beispiel: „Die Geschichte von Cristiano Ronaldo – LEGENDE“. Ohne Codewort: nach Thema entscheiden
+Beispiel: „Die Geschichte von Cristiano Ronaldo – LEGENDE“.
+**Sprache:** Standard Deutsch. Will Berkan ein Video auf Englisch, das deutsche Projekt nach `videos/<nr>-<slug>-en/` kopieren,
+`script.json` übersetzen (gleiche Zeilen-IDs, `say`/`show` gleiche Wortanzahl, Zahlen im `say` mit Bindestrich: „nine-hundred“),
+alle Texte im Bild übersetzen (`grep` nach `</text>`, `</div>`, `</span>`), `lang="en"` in index.html.
+Platzhalter-Stimme: `tts.py --voice ~/.cache/tiktok-video/voices/vits-piper-en_US-ryan-high`
+(Download: sherpa-onnx Release `tts-models/vits-piper-en_US-ryan-high.tar.bz2`), dann `retime.py` vom deutschen auf das neue Timing
+und Untertitel neu bauen. Beispiel: `videos/05-legend-ronaldo-en/`. Ohne Codewort: nach Thema entscheiden
 (Person → LEGENDE, Gedankenexperiment → SZENARIO). Schritte 1–6 gelten für beide; LEGENDE-Abweichungen:
 kein HUD (`build_index.py` entfernt den Host), Untertitel mit `--style legende --skip <Kartenzeilen>`,
 Szenen/SFX in `scenes.json`.
