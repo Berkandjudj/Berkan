@@ -19,9 +19,9 @@ def _f(v, d):
 
 
 def person(id, x=540, y=1500, s=1.0, jacket="#2f6f8f", pants="#2a2f3b", hair="#5a3a22", skin="#f1c7a0",
-           style="short", mood="neutral", flip="0", hat="", vest="", arms="down", **_):
+           style="short", mood="neutral", flip="0", hat="", vest="", arms="down", beard="", **_):
     """Figur, Füße auf (x, y). Höhe ≈ 640*s. mood: neutral|worried|shocked|sad|happy.
-    style: short|spiky|long|bald. arms: down|up (jubeln)."""
+    style: short|spiky|long|bald|curly. arms: down|up (jubeln). beard: ""|mustache|full."""
     x, y, s = _f(x, 540), _f(y, 1500), _f(s, 1.0)
     sx = -1 if str(flip) == "1" else 1
     dark = "#0f1218"
@@ -44,7 +44,17 @@ def person(id, x=540, y=1500, s=1.0, jacket="#2f6f8f", pants="#2a2f3b", hair="#5
         "spiky": f'<path d="M-104 -516 l-10 -70 l40 26 l10 -70 l40 50 l24 -76 l26 76 l40 -52 l8 72 l42 -26 l-12 70 q-40 -50 -104 -54 q-64 4 -104 54 z" fill="{hair}"/>',
         "long": f'<path d="M-112 -400 q-30 -250 112 -248 q142 -2 112 248 l-40 0 q10 -110 -10 -150 q-60 -30 -124 -24 q-30 40 -20 174 z" fill="{hair}"/>',
         "bald": f'<path d="M-100 -560 q100 -50 200 0" fill="none" stroke="{hair}" stroke-width="10" opacity="0.5"/>',
+        "curly": f'<g fill="{hair}"><path d="M-106 -514 q-8 -118 106 -124 q114 6 106 124 q-30 -50 -106 -56 q-76 6 -106 56 z"/>'
+                 + "".join(f'<circle cx="{cx}" cy="{cy}" r="{r}"/>' for cx, cy, r in
+                           [(-92, -574, 30), (-60, -612, 32), (-18, -630, 32), (26, -630, 32), (66, -610, 32), (96, -572, 30), (-104, -532, 22), (106, -532, 22)])
+                 + '</g>',
     }[style]
+    beard_svg = ""
+    if beard == "mustache":
+        beard_svg = f'<path d="M-46 -486 q22 -20 46 -8 q24 -12 46 8 q-10 18 -46 10 q-36 8 -46 -10 z" fill="{hair}"/>'
+    elif beard == "full":
+        beard_svg = (f'<path d="M-100 -520 q0 120 100 122 q100 -2 100 -122 q-20 60 -40 66 q-60 -26 -120 0 q-20 -6 -40 -66 z" fill="{hair}"/>'
+                     f'<path d="M-46 -486 q22 -20 46 -8 q24 -12 46 8 q-10 18 -46 10 q-36 8 -46 -10 z" fill="{hair}"/>')
     hat_svg = ""
     if hat:
         hat_svg = (f'<path d="M-112 -566 q0 -110 112 -112 q112 2 112 112 z" fill="{hat}" stroke="{dark}" stroke-opacity=".35" stroke-width="6"/>'
@@ -80,6 +90,7 @@ def person(id, x=540, y=1500, s=1.0, jacket="#2f6f8f", pants="#2a2f3b", hair="#5
     <path d="{brows}" stroke="{hair if style != 'bald' else '#6b5a4a'}" stroke-width="9" stroke-linecap="round" fill="none"/>
     <circle cx="-62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/><circle cx="62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/>
     {mouth}
+    {beard_svg}
     {hat_svg}
   </g>
 </g></g>'''
@@ -225,7 +236,76 @@ def player(id, x=540, y=1600, s=1.0, shirt="#d8262e", sleeve="", shorts="#f4f1ea
 </g></g>'''
 
 
-PARTS = {"person": person, "shelf": shelf, "skyline": skyline, "embers": embers, "fog": fog, "player": player}
+def man(id, x=540, y=1600, s=1.0, shirt="#e9e2d0", pants="#2a2f3b", shoes="#1a1412", skin="#c98d62", hair="#1a1210",
+        pose="stand", rim="#ffb35c", flip="0", phone="#2a2a2a", **_):
+    """Erwachsener Mann in Rückansicht (lockiges Haar, Hemd, lange Hose), Füße auf (x, y), Höhe ≈ 820*s.
+    pose: stand | phone (rechte Hand am Ohr mit Telefon) | arms (Arme hoch) | walk. rim = Gegenlicht-Kante."""
+    x, y, s = _f(x, 540), _f(y, 1600), _f(s, 1.0)
+    sx = -1 if str(flip) == "1" else 1
+    legs = {"stand": ("M-48 -380 l-10 340", "M48 -380 l10 340"), "phone": ("M-48 -380 l-10 340", "M48 -380 l10 340"),
+            "arms": ("M-48 -380 l-10 340", "M48 -380 l10 340"), "walk": ("M-44 -380 l-60 330", "M44 -380 l40 330")}[pose]
+    feet = {"stand": ((-60, -30), (60, -30)), "phone": ((-60, -30), (60, -30)), "arms": ((-60, -30), (60, -30)),
+            "walk": ((-108, -40), (86, -40))}[pose]
+    arms = {"stand": ("M-140 -660 q-30 120 -26 250", "M140 -660 q30 120 26 250"),
+            "phone": ("M-140 -660 q-30 120 -26 250", "M140 -660 q60 70 -30 30"),
+            "arms": ("M-140 -660 q-80 -110 -110 -250", "M140 -660 q80 -110 110 -250"),
+            "walk": ("M-140 -660 q-50 110 -70 240", "M140 -660 q40 110 30 240")}[pose]
+    hand = {"stand": ((-166, -404), (166, -404)), "phone": ((-166, -404), (110, -632)),
+            "arms": ((-250, -914), (250, -914)), "walk": ((-210, -414), (170, -414))}[pose]
+    ph = ""
+    if pose == "phone":
+        ph = (f'<rect x="88" y="-760" width="44" height="120" rx="8" fill="{phone}" transform="rotate(14 110 -700)"/>'
+              f'<rect x="112" y="-800" width="8" height="50" fill="{phone}" transform="rotate(14 110 -700)"/>')
+    curls = "".join(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{hair}"/>' for cx, cy, r in
+                    [(-62, -820, 30), (-24, -846, 32), (22, -846, 32), (60, -820, 30), (-70, -778, 26), (70, -778, 26), (0, -812, 34)])
+    return f'''<g id="{id}"><g transform="translate({x} {y}) scale({s * sx} {s})">
+  <ellipse cx="0" cy="0" rx="170" ry="26" fill="#000" opacity=".5"/>
+  <g stroke-linecap="round" fill="none">
+    <path d="{legs[0]}" stroke="{pants}" stroke-width="84"/><path d="{legs[1]}" stroke="{pants}" stroke-width="84"/>
+    <path d="{arms[0]}" stroke="{skin}" stroke-width="52"/><path d="{arms[1]}" stroke="{skin}" stroke-width="52"/>
+    <path d="{arms[0]}" stroke="{shirt}" stroke-width="66" stroke-dasharray="110 600"/>
+    <path d="{arms[1]}" stroke="{shirt}" stroke-width="66" stroke-dasharray="110 600"/>
+  </g>
+  <ellipse cx="{feet[0][0]}" cy="{feet[0][1]}" rx="54" ry="24" fill="{shoes}"/><ellipse cx="{feet[1][0]}" cy="{feet[1][1]}" rx="54" ry="24" fill="{shoes}"/>
+  <circle cx="{hand[0][0]}" cy="{hand[0][1]}" r="28" fill="{skin}"/><circle cx="{hand[1][0]}" cy="{hand[1][1]}" r="28" fill="{skin}"/>
+  {ph}
+  <path d="M-150 -680 q150 -46 300 0 q10 120 -24 230 l-6 70 q-120 22 -240 0 l-6 -70 q-34 -110 -24 -230 z" fill="{shirt}"/>
+  <path d="M-150 -680 q60 -24 90 -26 l-14 330 q-30 -2 -52 -6 l-6 -70 q-34 -110 -18 -228 z" fill="#000" opacity=".12"/>
+  <path d="M-60 -660 q20 120 6 240 M64 -656 q-16 110 -4 230" stroke="#000" stroke-width="4" opacity=".1" fill="none"/>
+  <rect x="-118" y="-392" width="236" height="16" rx="4" fill="#2a1e16"/>
+  <path d="M-44 -720 h88 v46 q-44 14 -88 0 z" fill="{skin}"/>
+  <ellipse cx="-76" cy="-776" rx="14" ry="24" fill="{skin}"/><ellipse cx="76" cy="-776" rx="14" ry="24" fill="{skin}"/>
+  <ellipse cx="0" cy="-790" rx="76" ry="84" fill="{hair}"/>
+  {curls}
+  <path d="M-76 -780 q0 -96 76 -100 q78 4 78 100 q-20 -54 -78 -60 q-56 6 -76 60 z" fill="#000" opacity=".3"/>
+  <g fill="none" stroke="{rim}" stroke-width="6" stroke-linecap="round" opacity=".55">
+    <path d="M64 -858 q24 40 12 100"/><path d="M150 -680 l-6 300"/><path d="{legs[1]}"/><path d="{arms[1]}"/>
+  </g>
+</g></g>'''
+
+
+def hippo(id, x=540, y=1500, s=1.0, color="#6d6f80", belly="#8d8a99", flip="0", **_):
+    """Nilpferd in Seitenansicht, Füße auf (x, y), Länge ≈ 560*s, Kopf rechts (flip=1: links)."""
+    x, y, s = _f(x, 540), _f(y, 1500), _f(s, 1.0)
+    sx = -1 if str(flip) == "1" else 1
+    return f'''<g id="{id}"><g transform="translate({x} {y}) scale({s * sx} {s})">
+  <ellipse cx="0" cy="0" rx="260" ry="22" fill="#000" opacity=".35"/>
+  <g fill="{color}">
+    <rect x="-200" y="-110" width="70" height="110" rx="26"/><rect x="-90" y="-110" width="70" height="110" rx="26"/>
+    <rect x="60" y="-110" width="70" height="110" rx="26"/><rect x="150" y="-110" width="66" height="110" rx="26"/>
+    <ellipse cx="-10" cy="-200" rx="250" ry="140"/>
+    <path d="M150 -300 q70 -40 130 -10 q50 26 50 90 q0 60 -60 70 q-60 6 -120 -30 z"/>
+    <circle cx="190" cy="-316" r="22"/><circle cx="236" cy="-318" r="20"/>
+  </g>
+  <ellipse cx="-20" cy="-120" rx="200" ry="46" fill="{belly}" opacity=".5"/>
+  <ellipse cx="300" cy="-224" rx="10" ry="7" fill="#2a2630"/><ellipse cx="272" cy="-232" rx="9" ry="6" fill="#2a2630"/>
+  <circle cx="220" cy="-276" r="12" fill="#fff"/><circle cx="224" cy="-276" r="6" fill="#141218"/>
+  <path d="M250 -168 q40 0 70 -30" stroke="#2a2630" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="-240" cy="-200" r="10" fill="{color}"/>
+</g></g>'''
+
+
+PARTS = {"person": person, "shelf": shelf, "skyline": skyline, "embers": embers, "fog": fog, "player": player, "man": man, "hippo": hippo}
 PAT = re.compile(r'(<!--@(\w+)((?:\s+[\w-]+="[^"]*")*)\s*-->)(\n<g .*?<!--/@-->)?', re.S)
 
 

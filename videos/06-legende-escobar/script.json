@@ -1,0 +1,23 @@
+{
+ "title": "Die Geschichte von Pablo Escobar",
+ "mode": "LEGENDE",
+ "lines": [
+  { "id": "hook1", "say": "Dieser Mann baute sich sein eigenes Gefängnis. Mit Fußballplatz, Bar und Blick auf seine Stadt.", "show": "Dieser Mann baute sich sein eigenes Gefängnis. Mit Fußballplatz, Bar und Blick auf seine Stadt.", "pause": 0.3 },
+  { "id": "card1", "say": "Doch am Ende", "show": "Doch am Ende", "pause": 0.15 },
+  { "id": "card2", "say": "verriet ihn ein einziger Anruf.", "show": "verriet ihn ein einziger *Anruf.*", "pause": 0.35 },
+  { "id": "s1", "say": "Es ist neunzehnhundertneunundvierzig. In Kolumbien kommt ein Junge zur Welt.", "show": "Es ist 1949. In Kolumbien kommt ein Junge zur Welt.", "pause": 0.22 },
+  { "id": "s2", "say": "Sein Vater ist Bauer, seine Mutter Lehrerin.", "show": "Sein Vater ist Bauer, seine Mutter Lehrerin.", "pause": 0.2 },
+  { "id": "s3", "say": "Schon als Jugendlicher soll er Grabsteine gestohlen haben.", "show": "Schon als Jugendlicher soll er Grabsteine gestohlen haben.", "pause": 0.22 },
+  { "id": "s4", "say": "In den Siebzigern steigt er ins Kokaingeschäft ein. Und gründet das Medellín-Kartell.", "show": "In den Siebzigern steigt er ins Kokaingeschäft ein. Und gründet das Medellín-Kartell.", "pause": 0.2 },
+  { "id": "s5", "say": "Neunzehnhundertsechsundsiebzig wird er verhaftet. Auf dem Polizeifoto lächelt er.", "show": "1976 wird er verhaftet. Auf dem Polizeifoto lächelt er.", "pause": 0.22 },
+  { "id": "s6", "say": "Bald schmuggelt sein Kartell den Großteil des Kokains in die USA.", "show": "Bald schmuggelt sein Kartell den Großteil des Kokains in die USA.", "pause": 0.2 },
+  { "id": "s7", "say": "Er wird einer der reichsten Männer der Welt. Auf seiner Ranch leben sogar Nilpferde.", "show": "Er wird einer der reichsten Männer der Welt. Auf seiner Ranch leben sogar *Nilpferde.*", "pause": 0.2 },
+  { "id": "s8", "say": "Für die Armen baut er Häuser. Viele verehren ihn wie einen Helden.", "show": "Für die Armen baut er Häuser. Viele verehren ihn wie einen Helden.", "pause": 0.22 },
+  { "id": "s9", "say": "Doch er führt einen blutigen Krieg gegen den Staat. Tausende Menschen sterben.", "show": "Doch er führt einen blutigen Krieg gegen den Staat. *Tausende* Menschen sterben.", "pause": 0.3 },
+  { "id": "s10", "say": "Neunzehnhunderteinundneunzig stellt er sich. In einem Gefängnis, das er selbst gebaut hat.", "show": "1991 stellt er sich. In einem Gefängnis, das er selbst gebaut hat.", "pause": 0.2 },
+  { "id": "s11", "say": "Ein Jahr später flieht er. Sechzehn Monate lang wird er gejagt.", "show": "Ein Jahr später flieht er. 16 Monate lang wird er gejagt.", "pause": 0.22 },
+  { "id": "s12", "say": "Dann telefoniert er zu lange mit seinem Sohn. Der Anruf wird geortet.", "show": "Dann telefoniert er zu lange mit seinem Sohn. Der *Anruf* wird geortet.", "pause": 0.22 },
+  { "id": "s13", "say": "Am zweiten Dezember neunzehnhundertdreiundneunzig stirbt er auf einem Dach in Medellín.", "show": "Am 2. Dezember 1993 stirbt er auf einem Dach in Medellín.", "pause": 0.35 },
+  { "id": "reveal", "say": "Der Mann, der sich sein eigenes Gefängnis baute, hieß Pablo Escobar.", "show": "Der Mann, der sich sein eigenes Gefängnis baute, hieß *Pablo* *Escobar.*", "pause": 0.6 }
+ ]
+}

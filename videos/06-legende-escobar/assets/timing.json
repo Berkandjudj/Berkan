@@ -1,0 +1,1349 @@
+{
+ "duration": 62.719,
+ "lines": [
+  {
+   "id": "hook1",
+   "start": 0.15,
+   "end": 5.115,
+   "words": [
+    {
+     "text": "Dieser",
+     "say": "Dieser",
+     "key": false,
+     "start": 0.17,
+     "end": 0.493
+    },
+    {
+     "text": "Mann",
+     "say": "Mann",
+     "key": false,
+     "start": 0.493,
+     "end": 0.693
+    },
+    {
+     "text": "baute",
+     "say": "baute",
+     "key": false,
+     "start": 0.693,
+     "end": 1.016
+    },
+    {
+     "text": "sich",
+     "say": "sich",
+     "key": false,
+     "start": 1.016,
+     "end": 1.215
+    },
+    {
+     "text": "sein",
+     "say": "sein",
+     "key": false,
+     "start": 1.215,
+     "end": 1.414
+    },
+    {
+     "text": "eigenes",
+     "say": "eigenes",
+     "key": false,
+     "start": 1.414,
+     "end": 1.862
+    },
+    {
+     "text": "Gefängnis.",
+     "say": "Gefängnis.",
+     "key": false,
+     "start": 1.862,
+     "end": 2.31
+    },
+    {
+     "text": "Mit",
+     "say": "Mit",
+     "key": false,
+     "start": 2.61,
+     "end": 2.921
+    },
+    {
+     "text": "Fußballplatz,",
+     "say": "Fußballplatz,",
+     "key": false,
+     "start": 2.921,
+     "end": 3.62
+    },
+    {
+     "text": "Bar",
+     "say": "Bar",
+     "key": false,
+     "start": 3.75,
+     "end": 3.951
+    },
+    {
+     "text": "und",
+     "say": "und",
+     "key": false,
+     "start": 3.951,
+     "end": 4.152
+    },
+    {
+     "text": "Blick",
+     "say": "Blick",
+     "key": false,
+     "start": 4.152,
+     "end": 4.352
+    },
+    {
+     "text": "auf",
+     "say": "auf",
+     "key": false,
+     "start": 4.352,
+     "end": 4.553
+    },
+    {
+     "text": "seine",
+     "say": "seine",
+     "key": false,
+     "start": 4.553,
+     "end": 4.879
+    },
+    {
+     "text": "Stadt.",
+     "say": "Stadt.",
+     "key": false,
+     "start": 4.879,
+     "end": 5.08
+    }
+   ]
+  },
+  {
+   "id": "card1",
+   "start": 5.415,
+   "end": 6.135,
+   "words": [
+    {
+     "text": "Doch",
+     "say": "Doch",
+     "key": false,
+     "start": 5.435,
+     "end": 5.617
+    },
+    {
+     "text": "am",
+     "say": "am",
+     "key": false,
+     "start": 5.617,
+     "end": 5.799
+    },
+    {
+     "text": "Ende",
+     "say": "Ende",
+     "key": false,
+     "start": 5.799,
+     "end": 6.095
+    }
+   ]
+  },
+  {
+   "id": "card2",
+   "start": 6.285,
+   "end": 7.854,
+   "words": [
+    {
+     "text": "verriet",
+     "say": "verriet",
+     "key": false,
+     "start": 6.295,
+     "end": 6.633
+    },
+    {
+     "text": "ihn",
+     "say": "ihn",
+     "key": false,
+     "start": 6.633,
+     "end": 6.841
+    },
+    {
+     "text": "ein",
+     "say": "ein",
+     "key": false,
+     "start": 6.841,
+     "end": 7.049
+    },
+    {
+     "text": "einziger",
+     "say": "einziger",
+     "key": false,
+     "start": 7.049,
+     "end": 7.517
+    },
+    {
+     "text": "Anruf.",
+     "say": "Anruf.",
+     "key": true,
+     "start": 7.517,
+     "end": 7.855
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "start": 8.204,
+   "end": 12.039,
+   "words": [
+    {
+     "text": "Es",
+     "say": "Es",
+     "key": false,
+     "start": 8.224,
+     "end": 8.461
+    },
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 8.461,
+     "end": 8.699
+    },
+    {
+     "text": "1949.",
+     "say": "neunzehnhundertneunundvierzig.",
+     "key": false,
+     "start": 8.699,
+     "end": 9.974
+    },
+    {
+     "text": "In",
+     "say": "In",
+     "key": false,
+     "start": 10.274,
+     "end": 10.469
+    },
+    {
+     "text": "Kolumbien",
+     "say": "Kolumbien",
+     "key": false,
+     "start": 10.469,
+     "end": 10.908
+    },
+    {
+     "text": "kommt",
+     "say": "kommt",
+     "key": false,
+     "start": 10.908,
+     "end": 11.102
+    },
+    {
+     "text": "ein",
+     "say": "ein",
+     "key": false,
+     "start": 11.102,
+     "end": 11.297
+    },
+    {
+     "text": "Junge",
+     "say": "Junge",
+     "key": false,
+     "start": 11.297,
+     "end": 11.614
+    },
+    {
+     "text": "zur",
+     "say": "zur",
+     "key": false,
+     "start": 11.614,
+     "end": 11.809
+    },
+    {
+     "text": "Welt.",
+     "say": "Welt.",
+     "key": false,
+     "start": 11.809,
+     "end": 12.004
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "start": 12.259,
+   "end": 14.649,
+   "words": [
+    {
+     "text": "Sein",
+     "say": "Sein",
+     "key": false,
+     "start": 12.279,
+     "end": 12.545
+    },
+    {
+     "text": "Vater",
+     "say": "Vater",
+     "key": false,
+     "start": 12.545,
+     "end": 12.977
+    },
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 12.977,
+     "end": 13.243
+    },
+    {
+     "text": "Bauer,",
+     "say": "Bauer,",
+     "key": false,
+     "start": 13.243,
+     "end": 13.509
+    },
+    {
+     "text": "seine",
+     "say": "seine",
+     "key": false,
+     "start": 13.639,
+     "end": 13.926
+    },
+    {
+     "text": "Mutter",
+     "say": "Mutter",
+     "key": false,
+     "start": 13.926,
+     "end": 14.212
+    },
+    {
+     "text": "Lehrerin.",
+     "say": "Lehrerin.",
+     "key": false,
+     "start": 14.212,
+     "end": 14.609
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "start": 14.849,
+   "end": 17.639,
+   "words": [
+    {
+     "text": "Schon",
+     "say": "Schon",
+     "key": false,
+     "start": 14.849,
+     "end": 15.061
+    },
+    {
+     "text": "als",
+     "say": "als",
+     "key": false,
+     "start": 15.061,
+     "end": 15.272
+    },
+    {
+     "text": "Jugendlicher",
+     "say": "Jugendlicher",
+     "key": false,
+     "start": 15.272,
+     "end": 15.88
+    },
+    {
+     "text": "soll",
+     "say": "soll",
+     "key": false,
+     "start": 15.88,
+     "end": 16.092
+    },
+    {
+     "text": "er",
+     "say": "er",
+     "key": false,
+     "start": 16.092,
+     "end": 16.303
+    },
+    {
+     "text": "Grabsteine",
+     "say": "Grabsteine",
+     "key": false,
+     "start": 16.303,
+     "end": 16.779
+    },
+    {
+     "text": "gestohlen",
+     "say": "gestohlen",
+     "key": false,
+     "start": 16.779,
+     "end": 17.255
+    },
+    {
+     "text": "haben.",
+     "say": "haben.",
+     "key": false,
+     "start": 17.255,
+     "end": 17.599
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "start": 17.859,
+   "end": 22.369,
+   "words": [
+    {
+     "text": "In",
+     "say": "In",
+     "key": false,
+     "start": 17.879,
+     "end": 18.11
+    },
+    {
+     "text": "den",
+     "say": "den",
+     "key": false,
+     "start": 18.11,
+     "end": 18.341
+    },
+    {
+     "text": "Siebzigern",
+     "say": "Siebzigern",
+     "key": false,
+     "start": 18.341,
+     "end": 18.861
+    },
+    {
+     "text": "steigt",
+     "say": "steigt",
+     "key": false,
+     "start": 18.861,
+     "end": 19.092
+    },
+    {
+     "text": "er",
+     "say": "er",
+     "key": false,
+     "start": 19.092,
+     "end": 19.323
+    },
+    {
+     "text": "ins",
+     "say": "ins",
+     "key": false,
+     "start": 19.323,
+     "end": 19.554
+    },
+    {
+     "text": "Kokaingeschäft",
+     "say": "Kokaingeschäft",
+     "key": false,
+     "start": 19.554,
+     "end": 20.218
+    },
+    {
+     "text": "ein.",
+     "say": "ein.",
+     "key": false,
+     "start": 20.218,
+     "end": 20.449
+    },
+    {
+     "text": "Und",
+     "say": "Und",
+     "key": false,
+     "start": 20.759,
+     "end": 21.004
+    },
+    {
+     "text": "gründet",
+     "say": "gründet",
+     "key": false,
+     "start": 21.004,
+     "end": 21.401
+    },
+    {
+     "text": "das",
+     "say": "das",
+     "key": false,
+     "start": 21.401,
+     "end": 21.646
+    },
+    {
+     "text": "Medellín-Kartell.",
+     "say": "Medellín-Kartell.",
+     "key": false,
+     "start": 21.646,
+     "end": 22.349
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "start": 22.569,
+   "end": 27.079,
+   "words": [
+    {
+     "text": "1976",
+     "say": "Neunzehnhundertsechsundsiebzig",
+     "key": false,
+     "start": 22.589,
+     "end": 23.937
+    },
+    {
+     "text": "wird",
+     "say": "wird",
+     "key": false,
+     "start": 23.937,
+     "end": 24.187
+    },
+    {
+     "text": "er",
+     "say": "er",
+     "key": false,
+     "start": 24.187,
+     "end": 24.438
+    },
+    {
+     "text": "verhaftet.",
+     "say": "verhaftet.",
+     "key": false,
+     "start": 24.438,
+     "end": 25.002
+    },
+    {
+     "text": "Auf",
+     "say": "Auf",
+     "key": false,
+     "start": 25.002,
+     "end": 25.253
+    },
+    {
+     "text": "dem",
+     "say": "dem",
+     "key": false,
+     "start": 25.253,
+     "end": 25.503
+    },
+    {
+     "text": "Polizeifoto",
+     "say": "Polizeifoto",
+     "key": false,
+     "start": 25.503,
+     "end": 26.381
+    },
+    {
+     "text": "lächelt",
+     "say": "lächelt",
+     "key": false,
+     "start": 26.381,
+     "end": 26.788
+    },
+    {
+     "text": "er.",
+     "say": "er.",
+     "key": false,
+     "start": 26.788,
+     "end": 27.039
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "start": 27.299,
+   "end": 30.359,
+   "words": [
+    {
+     "text": "Bald",
+     "say": "Bald",
+     "key": false,
+     "start": 27.319,
+     "end": 27.531
+    },
+    {
+     "text": "schmuggelt",
+     "say": "schmuggelt",
+     "key": false,
+     "start": 27.531,
+     "end": 27.877
+    },
+    {
+     "text": "sein",
+     "say": "sein",
+     "key": false,
+     "start": 27.877,
+     "end": 28.089
+    },
+    {
+     "text": "Kartell",
+     "say": "Kartell",
+     "key": false,
+     "start": 28.089,
+     "end": 28.434
+    },
+    {
+     "text": "den",
+     "say": "den",
+     "key": false,
+     "start": 28.434,
+     "end": 28.646
+    },
+    {
+     "text": "Großteil",
+     "say": "Großteil",
+     "key": false,
+     "start": 28.646,
+     "end": 28.992
+    },
+    {
+     "text": "des",
+     "say": "des",
+     "key": false,
+     "start": 28.992,
+     "end": 29.204
+    },
+    {
+     "text": "Kokains",
+     "say": "Kokains",
+     "key": false,
+     "start": 29.204,
+     "end": 29.549
+    },
+    {
+     "text": "in",
+     "say": "in",
+     "key": false,
+     "start": 29.549,
+     "end": 29.761
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 29.761,
+     "end": 29.974
+    },
+    {
+     "text": "USA.",
+     "say": "USA.",
+     "key": false,
+     "start": 29.974,
+     "end": 30.319
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "start": 30.559,
+   "end": 34.429,
+   "words": [
+    {
+     "text": "Er",
+     "say": "Er",
+     "key": false,
+     "start": 30.579,
+     "end": 30.768
+    },
+    {
+     "text": "wird",
+     "say": "wird",
+     "key": false,
+     "start": 30.768,
+     "end": 30.958
+    },
+    {
+     "text": "einer",
+     "say": "einer",
+     "key": false,
+     "start": 30.958,
+     "end": 31.265
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 31.265,
+     "end": 31.455
+    },
+    {
+     "text": "reichsten",
+     "say": "reichsten",
+     "key": false,
+     "start": 31.455,
+     "end": 31.763
+    },
+    {
+     "text": "Männer",
+     "say": "Männer",
+     "key": false,
+     "start": 31.763,
+     "end": 32.07
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 32.07,
+     "end": 32.26
+    },
+    {
+     "text": "Welt.",
+     "say": "Welt.",
+     "key": false,
+     "start": 32.26,
+     "end": 32.449
+    },
+    {
+     "text": "Auf",
+     "say": "Auf",
+     "key": false,
+     "start": 32.729,
+     "end": 32.911
+    },
+    {
+     "text": "seiner",
+     "say": "seiner",
+     "key": false,
+     "start": 32.911,
+     "end": 33.207
+    },
+    {
+     "text": "Ranch",
+     "say": "Ranch",
+     "key": false,
+     "start": 33.207,
+     "end": 33.388
+    },
+    {
+     "text": "leben",
+     "say": "leben",
+     "key": false,
+     "start": 33.388,
+     "end": 33.684
+    },
+    {
+     "text": "sogar",
+     "say": "sogar",
+     "key": false,
+     "start": 33.684,
+     "end": 33.98
+    },
+    {
+     "text": "Nilpferde.",
+     "say": "Nilpferde.",
+     "key": true,
+     "start": 33.98,
+     "end": 34.389
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "start": 34.629,
+   "end": 37.879,
+   "words": [
+    {
+     "text": "Für",
+     "say": "Für",
+     "key": false,
+     "start": 34.649,
+     "end": 34.841
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 34.841,
+     "end": 35.032
+    },
+    {
+     "text": "Armen",
+     "say": "Armen",
+     "key": false,
+     "start": 35.032,
+     "end": 35.344
+    },
+    {
+     "text": "baut",
+     "say": "baut",
+     "key": false,
+     "start": 35.344,
+     "end": 35.536
+    },
+    {
+     "text": "er",
+     "say": "er",
+     "key": false,
+     "start": 35.536,
+     "end": 35.727
+    },
+    {
+     "text": "Häuser.",
+     "say": "Häuser.",
+     "key": false,
+     "start": 35.727,
+     "end": 36.039
+    },
+    {
+     "text": "Viele",
+     "say": "Viele",
+     "key": false,
+     "start": 36.319,
+     "end": 36.59
+    },
+    {
+     "text": "verehren",
+     "say": "verehren",
+     "key": false,
+     "start": 36.59,
+     "end": 36.964
+    },
+    {
+     "text": "ihn",
+     "say": "ihn",
+     "key": false,
+     "start": 36.964,
+     "end": 37.131
+    },
+    {
+     "text": "wie",
+     "say": "wie",
+     "key": false,
+     "start": 37.131,
+     "end": 37.298
+    },
+    {
+     "text": "einen",
+     "say": "einen",
+     "key": false,
+     "start": 37.298,
+     "end": 37.568
+    },
+    {
+     "text": "Helden.",
+     "say": "Helden.",
+     "key": false,
+     "start": 37.568,
+     "end": 37.839
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "start": 38.099,
+   "end": 41.679,
+   "words": [
+    {
+     "text": "Doch",
+     "say": "Doch",
+     "key": false,
+     "start": 38.119,
+     "end": 38.301
+    },
+    {
+     "text": "er",
+     "say": "er",
+     "key": false,
+     "start": 38.301,
+     "end": 38.482
+    },
+    {
+     "text": "führt",
+     "say": "führt",
+     "key": false,
+     "start": 38.482,
+     "end": 38.664
+    },
+    {
+     "text": "einen",
+     "say": "einen",
+     "key": false,
+     "start": 38.664,
+     "end": 38.96
+    },
+    {
+     "text": "blutigen",
+     "say": "blutigen",
+     "key": false,
+     "start": 38.96,
+     "end": 39.368
+    },
+    {
+     "text": "Krieg",
+     "say": "Krieg",
+     "key": false,
+     "start": 39.368,
+     "end": 39.55
+    },
+    {
+     "text": "gegen",
+     "say": "gegen",
+     "key": false,
+     "start": 39.55,
+     "end": 39.846
+    },
+    {
+     "text": "den",
+     "say": "den",
+     "key": false,
+     "start": 39.846,
+     "end": 40.027
+    },
+    {
+     "text": "Staat.",
+     "say": "Staat.",
+     "key": false,
+     "start": 40.027,
+     "end": 40.209
+    },
+    {
+     "text": "Tausende",
+     "say": "Tausende",
+     "key": true,
+     "start": 40.519,
+     "end": 40.981
+    },
+    {
+     "text": "Menschen",
+     "say": "Menschen",
+     "key": false,
+     "start": 40.981,
+     "end": 41.315
+    },
+    {
+     "text": "sterben.",
+     "say": "sterben.",
+     "key": false,
+     "start": 41.315,
+     "end": 41.649
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "start": 41.979,
+   "end": 46.429,
+   "words": [
+    {
+     "text": "1991",
+     "say": "Neunzehnhunderteinundneunzig",
+     "key": false,
+     "start": 41.999,
+     "end": 43.252
+    },
+    {
+     "text": "stellt",
+     "say": "stellt",
+     "key": false,
+     "start": 43.252,
+     "end": 43.485
+    },
+    {
+     "text": "er",
+     "say": "er",
+     "key": false,
+     "start": 43.485,
+     "end": 43.718
+    },
+    {
+     "text": "sich.",
+     "say": "sich.",
+     "key": false,
+     "start": 43.718,
+     "end": 43.951
+    },
+    {
+     "text": "In",
+     "say": "In",
+     "key": false,
+     "start": 43.951,
+     "end": 44.184
+    },
+    {
+     "text": "einem",
+     "say": "einem",
+     "key": false,
+     "start": 44.184,
+     "end": 44.563
+    },
+    {
+     "text": "Gefängnis,",
+     "say": "Gefängnis,",
+     "key": false,
+     "start": 44.563,
+     "end": 45.088
+    },
+    {
+     "text": "das",
+     "say": "das",
+     "key": false,
+     "start": 45.088,
+     "end": 45.321
+    },
+    {
+     "text": "er",
+     "say": "er",
+     "key": false,
+     "start": 45.321,
+     "end": 45.554
+    },
+    {
+     "text": "selbst",
+     "say": "selbst",
+     "key": false,
+     "start": 45.554,
+     "end": 45.787
+    },
+    {
+     "text": "gebaut",
+     "say": "gebaut",
+     "key": false,
+     "start": 45.787,
+     "end": 46.166
+    },
+    {
+     "text": "hat.",
+     "say": "hat.",
+     "key": false,
+     "start": 46.166,
+     "end": 46.399
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "start": 46.629,
+   "end": 49.814,
+   "words": [
+    {
+     "text": "Ein",
+     "say": "Ein",
+     "key": false,
+     "start": 46.649,
+     "end": 46.857
+    },
+    {
+     "text": "Jahr",
+     "say": "Jahr",
+     "key": false,
+     "start": 46.857,
+     "end": 47.065
+    },
+    {
+     "text": "später",
+     "say": "später",
+     "key": false,
+     "start": 47.065,
+     "end": 47.403
+    },
+    {
+     "text": "flieht",
+     "say": "flieht",
+     "key": false,
+     "start": 47.403,
+     "end": 47.611
+    },
+    {
+     "text": "er.",
+     "say": "er.",
+     "key": false,
+     "start": 47.611,
+     "end": 47.819
+    },
+    {
+     "text": "16",
+     "say": "Sechzehn",
+     "key": false,
+     "start": 48.059,
+     "end": 48.388
+    },
+    {
+     "text": "Monate",
+     "say": "Monate",
+     "key": false,
+     "start": 48.388,
+     "end": 48.843
+    },
+    {
+     "text": "lang",
+     "say": "lang",
+     "key": false,
+     "start": 48.843,
+     "end": 49.045
+    },
+    {
+     "text": "wird",
+     "say": "wird",
+     "key": false,
+     "start": 49.045,
+     "end": 49.248
+    },
+    {
+     "text": "er",
+     "say": "er",
+     "key": false,
+     "start": 49.248,
+     "end": 49.45
+    },
+    {
+     "text": "gejagt.",
+     "say": "gejagt.",
+     "key": false,
+     "start": 49.45,
+     "end": 49.779
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "start": 50.034,
+   "end": 53.539,
+   "words": [
+    {
+     "text": "Dann",
+     "say": "Dann",
+     "key": false,
+     "start": 50.054,
+     "end": 50.236
+    },
+    {
+     "text": "telefoniert",
+     "say": "telefoniert",
+     "key": false,
+     "start": 50.236,
+     "end": 50.758
+    },
+    {
+     "text": "er",
+     "say": "er",
+     "key": false,
+     "start": 50.758,
+     "end": 50.939
+    },
+    {
+     "text": "zu",
+     "say": "zu",
+     "key": false,
+     "start": 50.939,
+     "end": 51.121
+    },
+    {
+     "text": "lange",
+     "say": "lange",
+     "key": false,
+     "start": 51.121,
+     "end": 51.416
+    },
+    {
+     "text": "mit",
+     "say": "mit",
+     "key": false,
+     "start": 51.416,
+     "end": 51.597
+    },
+    {
+     "text": "seinem",
+     "say": "seinem",
+     "key": false,
+     "start": 51.597,
+     "end": 51.892
+    },
+    {
+     "text": "Sohn.",
+     "say": "Sohn.",
+     "key": false,
+     "start": 51.892,
+     "end": 52.074
+    },
+    {
+     "text": "Der",
+     "say": "Der",
+     "key": false,
+     "start": 52.324,
+     "end": 52.549
+    },
+    {
+     "text": "Anruf",
+     "say": "Anruf",
+     "key": true,
+     "start": 52.549,
+     "end": 52.914
+    },
+    {
+     "text": "wird",
+     "say": "wird",
+     "key": false,
+     "start": 52.914,
+     "end": 53.139
+    },
+    {
+     "text": "geortet.",
+     "say": "geortet.",
+     "key": false,
+     "start": 53.139,
+     "end": 53.504
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "start": 53.759,
+   "end": 58.389,
+   "words": [
+    {
+     "text": "Am",
+     "say": "Am",
+     "key": false,
+     "start": 53.779,
+     "end": 54.035
+    },
+    {
+     "text": "2.",
+     "say": "zweiten",
+     "key": false,
+     "start": 54.035,
+     "end": 54.45
+    },
+    {
+     "text": "Dezember",
+     "say": "Dezember",
+     "key": false,
+     "start": 54.45,
+     "end": 55.025
+    },
+    {
+     "text": "1993",
+     "say": "neunzehnhundertdreiundneunzig",
+     "key": false,
+     "start": 55.025,
+     "end": 56.24
+    },
+    {
+     "text": "stirbt",
+     "say": "stirbt",
+     "key": false,
+     "start": 56.24,
+     "end": 56.495
+    },
+    {
+     "text": "er",
+     "say": "er",
+     "key": false,
+     "start": 56.495,
+     "end": 56.751
+    },
+    {
+     "text": "auf",
+     "say": "auf",
+     "key": false,
+     "start": 56.751,
+     "end": 57.007
+    },
+    {
+     "text": "einem",
+     "say": "einem",
+     "key": false,
+     "start": 57.007,
+     "end": 57.422
+    },
+    {
+     "text": "Dach",
+     "say": "Dach",
+     "key": false,
+     "start": 57.422,
+     "end": 57.678
+    },
+    {
+     "text": "in",
+     "say": "in",
+     "key": false,
+     "start": 57.678,
+     "end": 57.934
+    },
+    {
+     "text": "Medellín.",
+     "say": "Medellín.",
+     "key": false,
+     "start": 57.934,
+     "end": 58.349
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "start": 58.739,
+   "end": 62.119,
+   "words": [
+    {
+     "text": "Der",
+     "say": "Der",
+     "key": false,
+     "start": 58.759,
+     "end": 58.966
+    },
+    {
+     "text": "Mann,",
+     "say": "Mann,",
+     "key": false,
+     "start": 58.966,
+     "end": 59.174
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 59.174,
+     "end": 59.381
+    },
+    {
+     "text": "sich",
+     "say": "sich",
+     "key": false,
+     "start": 59.381,
+     "end": 59.589
+    },
+    {
+     "text": "sein",
+     "say": "sein",
+     "key": false,
+     "start": 59.589,
+     "end": 59.796
+    },
+    {
+     "text": "eigenes",
+     "say": "eigenes",
+     "key": false,
+     "start": 59.796,
+     "end": 60.263
+    },
+    {
+     "text": "Gefängnis",
+     "say": "Gefängnis",
+     "key": false,
+     "start": 60.263,
+     "end": 60.73
+    },
+    {
+     "text": "baute,",
+     "say": "baute,",
+     "key": false,
+     "start": 60.73,
+     "end": 61.067
+    },
+    {
+     "text": "hieß",
+     "say": "hieß",
+     "key": false,
+     "start": 61.067,
+     "end": 61.275
+    },
+    {
+     "text": "Pablo",
+     "say": "Pablo",
+     "key": true,
+     "start": 61.275,
+     "end": 61.612
+    },
+    {
+     "text": "Escobar.",
+     "say": "Escobar.",
+     "key": true,
+     "start": 61.612,
+     "end": 62.079
+    }
+   ]
+  }
+ ]
+}

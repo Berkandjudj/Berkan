@@ -34,3 +34,10 @@ kein Kasten, starker Schatten, zentriert bei y≈1210, 2–3 Wörter pro Gruppe.
   und entfernt den HUD-Host des Templates.
 - Szenen als Sub-Compositions in `compositions/` mit Beats (`.clip` + eigene Präfixe), Parts per `svg_parts.py`.
 - SFX: Whoosh je Szenenwechsel, Herzschlag/Impact auf Schlüsselwörter, Riser + Impact auf den Namen.
+
+## Szenen-Generator (ab Video 06)
+`videos/06-legende-escobar/gen_scenes.py` erzeugt alle Szenen + `scenes.json` direkt aus `assets/timing.json`
+(Beat-Grenzen und Einblendungen hängen an Wort-Zeitpunkten). Neue Stimme einbauen ohne retime:
+`place_voice.py` (natürlich, ohne `--match`) → `python3 gen_scenes.py` → `svg_parts.py .` → `python3 build_index.py`
+→ `build_captions.py . --style legende --skip card1,card2`. Für neue Personen dieses Skript als Vorlage kopieren.
+Parts dafür: `man` (Mann in Rückansicht, Posen stand/phone/arms/walk), `hippo`, `person` mit `style="curly"` und `beard="mustache|full"`.
