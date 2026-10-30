@@ -305,7 +305,58 @@ def hippo(id, x=540, y=1500, s=1.0, color="#6d6f80", belly="#8d8a99", flip="0", 
 </g></g>'''
 
 
-PARTS = {"person": person, "shelf": shelf, "skyline": skyline, "embers": embers, "fog": fog, "player": player, "man": man, "hippo": hippo}
+def potato(id, x=540, y=1600, s=1.0, color="#c9955a", shade="#a8743e", mood="happy", acc="", arms="down", flip="0", accent="#3d7bb3", **_):
+    """Kartoffel-Mensch (lustige Nebenfigur), Füße auf (x, y), Höhe ≈ 470*s.
+    mood: happy|neutral|shocked|love|sleep|cool. acc: ""|chef|cap|tie|police|apron (accent = Farbe von Cap/Krawatte).
+    arms: down|up|wave. Armgruppen: {id}-armL / {id}-armR (zum Winken/Klatschen animierbar)."""
+    x, y, s = _f(x, 540), _f(y, 1600), _f(s, 1.0)
+    sx = -1 if str(flip) == "1" else 1
+    eyes = {
+        "happy": '<ellipse cx="-42" cy="-300" rx="22" ry="26" fill="#fff"/><ellipse cx="42" cy="-300" rx="22" ry="26" fill="#fff"/><circle cx="-38" cy="-296" r="11" fill="#1a1210"/><circle cx="46" cy="-296" r="11" fill="#1a1210"/>',
+        "neutral": '<ellipse cx="-42" cy="-300" rx="20" ry="22" fill="#fff"/><ellipse cx="42" cy="-300" rx="20" ry="22" fill="#fff"/><circle cx="-42" cy="-298" r="10" fill="#1a1210"/><circle cx="42" cy="-298" r="10" fill="#1a1210"/>',
+        "shocked": '<circle cx="-44" cy="-304" r="30" fill="#fff"/><circle cx="44" cy="-304" r="30" fill="#fff"/><circle cx="-44" cy="-304" r="9" fill="#1a1210"/><circle cx="44" cy="-304" r="9" fill="#1a1210"/>',
+        "love": '<path d="M-42 -284 l-26 -26 a14 14 0 0 1 26 -18 a14 14 0 0 1 26 18 z" fill="#e8412f"/><path d="M42 -284 l-26 -26 a14 14 0 0 1 26 -18 a14 14 0 0 1 26 18 z" fill="#e8412f"/>',
+        "sleep": '<path d="M-64 -298 q22 16 44 0 M20 -298 q22 16 44 0" stroke="#1a1210" stroke-width="8" fill="none" stroke-linecap="round"/>',
+        "cool": '<path d="M-84 -318 h168 v14 l-14 36 h-48 l-14 -30 h-8 l-14 30 h-48 l-14 -36 z" fill="#14161c"/>',
+    }[mood]
+    mouth = {
+        "happy": '<path d="M-36 -236 q36 40 72 0 z" fill="#5a2a1e"/>',
+        "neutral": '<path d="M-22 -232 q22 8 44 0" stroke="#5a2a1e" stroke-width="7" fill="none" stroke-linecap="round"/>',
+        "shocked": '<ellipse cx="0" cy="-222" rx="22" ry="30" fill="#5a2a1e"/>',
+        "love": '<path d="M-36 -236 q36 40 72 0 z" fill="#5a2a1e"/>',
+        "sleep": '<ellipse cx="0" cy="-230" rx="12" ry="9" fill="#5a2a1e"/>',
+        "cool": '<path d="M-26 -232 q26 14 52 -4" stroke="#5a2a1e" stroke-width="7" fill="none" stroke-linecap="round"/>',
+    }[mood]
+    arm = {"down": ("M-118 -190 q-40 50 -50 110", "M118 -190 q40 50 50 110"),
+           "up": ("M-118 -200 q-60 -60 -70 -170", "M118 -200 q60 -60 70 -170"),
+           "wave": ("M-118 -190 q-40 50 -50 110", "M118 -200 q60 -60 70 -170")}[arms]
+    hand = {"down": ((-168, -80), (168, -80)), "up": ((-188, -370), (188, -370)), "wave": ((-168, -80), (188, -370))}[arms]
+    acc_svg = {
+        "": "",
+        "chef": '<path d="M-70 -400 q-60 -10 -40 -70 q20 -50 70 -20 q20 -60 80 -20 q60 -10 50 60 q30 40 -30 50 z" fill="#f4f1ea"/><rect x="-72" y="-414" width="144" height="34" rx="8" fill="#e9e6da"/>',
+        "cap": f'<path d="M-96 -372 q0 -78 96 -80 q96 2 96 80 z" fill="{accent}"/><path d="M40 -376 h110 q10 0 0 16 h-120 z" fill="{accent}"/>',
+        "police": f'<path d="M-96 -372 q0 -70 96 -72 q96 2 96 72 z" fill="#1d3a6a"/><rect x="-104" y="-384" width="208" height="22" rx="6" fill="#14161c"/><circle cx="0" cy="-412" r="16" fill="#f7c548"/>',
+        "tie": f'<path d="M-14 -190 h28 l-6 20 l16 110 l-24 26 l-24 -26 l16 -110 z" fill="{accent}"/>',
+        "apron": '<path d="M-80 -170 h160 l14 150 q-94 22 -188 0 z" fill="#f4f1ea"/>',
+    }[acc]
+    return f'''<g id="{id}"><g transform="translate({x} {y}) scale({s * sx} {s})">
+  <ellipse cx="0" cy="0" rx="130" ry="20" fill="#000" opacity=".3"/>
+  <g stroke="#5a3a22" stroke-width="18" stroke-linecap="round"><path d="M-40 -60 v52"/><path d="M40 -60 v52"/></g>
+  <ellipse cx="-48" cy="-8" rx="34" ry="16" fill="#3a2a1c"/><ellipse cx="48" cy="-8" rx="34" ry="16" fill="#3a2a1c"/>
+  <g id="{id}-armL"><path d="{arm[0]}" stroke="{color}" stroke-width="22" fill="none" stroke-linecap="round"/><circle cx="{hand[0][0]}" cy="{hand[0][1]}" r="20" fill="{color}"/></g>
+  <g id="{id}-armR"><path d="{arm[1]}" stroke="{color}" stroke-width="22" fill="none" stroke-linecap="round"/><circle cx="{hand[1][0]}" cy="{hand[1][1]}" r="20" fill="{color}"/></g>
+  <path d="M6 -420 q112 -4 124 130 q12 120 -40 210 q-56 46 -150 18 q-80 -30 -70 -170 q4 -184 136 -188 z" fill="{color}"/>
+  <path d="M-110 -250 q-8 140 70 168 q60 18 120 -2 q-104 14 -150 -60 q-30 -50 -40 -106 z" fill="{shade}" opacity=".7"/>
+  <g fill="{shade}"><ellipse cx="70" cy="-360" rx="10" ry="7"/><ellipse cx="-70" cy="-150" rx="9" ry="6"/><ellipse cx="86" cy="-140" rx="8" ry="6"/><ellipse cx="-20" cy="-390" rx="7" ry="5"/></g>
+  {acc_svg if acc in ("tie", "apron") else ""}
+  {eyes}
+  {mouth}
+  <circle cx="-74" cy="-252" r="14" fill="#e88a7a" opacity=".4"/><circle cx="74" cy="-252" r="14" fill="#e88a7a" opacity=".4"/>
+  {acc_svg if acc not in ("tie", "apron") else ""}
+</g></g>'''
+
+
+PARTS = {"person": person, "shelf": shelf, "skyline": skyline, "embers": embers, "fog": fog, "player": player, "man": man, "hippo": hippo, "potato": potato}
 PAT = re.compile(r'(<!--@(\w+)((?:\s+[\w-]+="[^"]*")*)\s*-->)(\n<g .*?<!--/@-->)?', re.S)
 
 

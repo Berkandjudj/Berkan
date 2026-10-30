@@ -1,0 +1,1349 @@
+{
+ "duration": 56.433,
+ "lines": [
+  {
+   "id": "hook1",
+   "start": 0.15,
+   "end": 3.64,
+   "words": [
+    {
+     "text": "Stell",
+     "say": "Stell",
+     "key": false,
+     "start": 0.17,
+     "end": 0.443
+    },
+    {
+     "text": "dir",
+     "say": "dir",
+     "key": false,
+     "start": 0.443,
+     "end": 0.717
+    },
+    {
+     "text": "vor,",
+     "say": "vor,",
+     "key": false,
+     "start": 0.717,
+     "end": 0.99
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": false,
+     "start": 1.18,
+     "end": 1.378
+    },
+    {
+     "text": "wachst",
+     "say": "wachst",
+     "key": false,
+     "start": 1.378,
+     "end": 1.575
+    },
+    {
+     "text": "auf",
+     "say": "auf",
+     "key": false,
+     "start": 1.575,
+     "end": 1.773
+    },
+    {
+     "text": "und",
+     "say": "und",
+     "key": false,
+     "start": 1.773,
+     "end": 1.97
+    },
+    {
+     "text": "bist",
+     "say": "bist",
+     "key": false,
+     "start": 1.97,
+     "end": 2.168
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 2.168,
+     "end": 2.365
+    },
+    {
+     "text": "letzte",
+     "say": "letzte",
+     "key": true,
+     "start": 2.365,
+     "end": 2.686
+    },
+    {
+     "text": "schöne",
+     "say": "schöne",
+     "key": true,
+     "start": 2.686,
+     "end": 3.007
+    },
+    {
+     "text": "Mensch",
+     "say": "Mensch",
+     "key": false,
+     "start": 3.007,
+     "end": 3.205
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 3.205,
+     "end": 3.402
+    },
+    {
+     "text": "Welt.",
+     "say": "Welt.",
+     "key": false,
+     "start": 3.402,
+     "end": 3.6
+    }
+   ]
+  },
+  {
+   "id": "hook2",
+   "start": 3.79,
+   "end": 6.182,
+   "words": [
+    {
+     "text": "Alle",
+     "say": "Alle",
+     "key": false,
+     "start": 3.81,
+     "end": 4.082
+    },
+    {
+     "text": "anderen",
+     "say": "anderen",
+     "key": false,
+     "start": 4.082,
+     "end": 4.458
+    },
+    {
+     "text": "sehen",
+     "say": "sehen",
+     "key": false,
+     "start": 4.458,
+     "end": 4.729
+    },
+    {
+     "text": "über",
+     "say": "über",
+     "key": false,
+     "start": 4.729,
+     "end": 5.001
+    },
+    {
+     "text": "Nacht",
+     "say": "Nacht",
+     "key": false,
+     "start": 5.001,
+     "end": 5.168
+    },
+    {
+     "text": "aus",
+     "say": "aus",
+     "key": false,
+     "start": 5.168,
+     "end": 5.335
+    },
+    {
+     "text": "wie",
+     "say": "wie",
+     "key": false,
+     "start": 5.335,
+     "end": 5.502
+    },
+    {
+     "text": "eine",
+     "say": "eine",
+     "key": false,
+     "start": 5.502,
+     "end": 5.774
+    },
+    {
+     "text": "Kartoffel.",
+     "say": "Kartoffel.",
+     "key": true,
+     "start": 5.774,
+     "end": 6.15
+    }
+   ]
+  },
+  {
+   "id": "fact",
+   "start": 6.482,
+   "end": 10.252,
+   "words": [
+    {
+     "text": "Dein",
+     "say": "Dein",
+     "key": false,
+     "start": 6.482,
+     "end": 6.686
+    },
+    {
+     "text": "Gehirn",
+     "say": "Gehirn",
+     "key": false,
+     "start": 6.686,
+     "end": 7.019
+    },
+    {
+     "text": "entscheidet",
+     "say": "entscheidet",
+     "key": false,
+     "start": 7.019,
+     "end": 7.478
+    },
+    {
+     "text": "in",
+     "say": "in",
+     "key": false,
+     "start": 7.478,
+     "end": 7.683
+    },
+    {
+     "text": "einer",
+     "say": "einer",
+     "key": false,
+     "start": 7.683,
+     "end": 8.015
+    },
+    {
+     "text": "Zehntelsekunde,",
+     "say": "Zehntelsekunde,",
+     "key": true,
+     "start": 8.015,
+     "end": 8.73
+    },
+    {
+     "text": "ob",
+     "say": "ob",
+     "key": false,
+     "start": 8.73,
+     "end": 8.935
+    },
+    {
+     "text": "es",
+     "say": "es",
+     "key": false,
+     "start": 8.935,
+     "end": 9.139
+    },
+    {
+     "text": "ein",
+     "say": "ein",
+     "key": false,
+     "start": 9.139,
+     "end": 9.343
+    },
+    {
+     "text": "Gesicht",
+     "say": "Gesicht",
+     "key": false,
+     "start": 9.343,
+     "end": 9.675
+    },
+    {
+     "text": "schön",
+     "say": "schön",
+     "key": false,
+     "start": 9.675,
+     "end": 9.88
+    },
+    {
+     "text": "findet.",
+     "say": "findet.",
+     "key": false,
+     "start": 9.88,
+     "end": 10.212
+    }
+   ]
+  },
+  {
+   "id": "fact2",
+   "start": 10.372,
+   "end": 11.898,
+   "words": [
+    {
+     "text": "Ab",
+     "say": "Ab",
+     "key": false,
+     "start": 10.392,
+     "end": 10.58
+    },
+    {
+     "text": "heute",
+     "say": "heute",
+     "key": false,
+     "start": 10.58,
+     "end": 10.885
+    },
+    {
+     "text": "gewinnst",
+     "say": "gewinnst",
+     "key": false,
+     "start": 10.885,
+     "end": 11.191
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": true,
+     "start": 11.191,
+     "end": 11.379
+    },
+    {
+     "text": "jedes",
+     "say": "jedes",
+     "key": false,
+     "start": 11.379,
+     "end": 11.684
+    },
+    {
+     "text": "Mal.",
+     "say": "Mal.",
+     "key": false,
+     "start": 11.684,
+     "end": 11.872
+    }
+   ]
+  },
+  {
+   "id": "t1_mark",
+   "start": 12.148,
+   "end": 13.575,
+   "words": [
+    {
+     "text": "Tag",
+     "say": "Tag,",
+     "key": false,
+     "start": 12.168,
+     "end": 12.464
+    },
+    {
+     "text": "1,",
+     "say": "eins,",
+     "key": false,
+     "start": 12.464,
+     "end": 12.76
+    },
+    {
+     "text": "7",
+     "say": "sieben",
+     "key": false,
+     "start": 12.76,
+     "end": 13.242
+    },
+    {
+     "text": "Uhr.",
+     "say": "Uhr.",
+     "key": false,
+     "start": 13.242,
+     "end": 13.538
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "start": 13.755,
+   "end": 18.68,
+   "words": [
+    {
+     "text": "Beim",
+     "say": "Beim",
+     "key": false,
+     "start": 13.775,
+     "end": 13.981
+    },
+    {
+     "text": "Bäcker",
+     "say": "Bäcker",
+     "key": false,
+     "start": 13.981,
+     "end": 14.317
+    },
+    {
+     "text": "bekommst",
+     "say": "bekommst",
+     "key": false,
+     "start": 14.317,
+     "end": 14.652
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": false,
+     "start": 14.652,
+     "end": 14.858
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 14.858,
+     "end": 15.064
+    },
+    {
+     "text": "Brötchen",
+     "say": "Brötchen",
+     "key": false,
+     "start": 15.064,
+     "end": 15.4
+    },
+    {
+     "text": "gratis.",
+     "say": "gratis.",
+     "key": true,
+     "start": 15.4,
+     "end": 15.735
+    },
+    {
+     "text": "Der",
+     "say": "Der",
+     "key": false,
+     "start": 16.035,
+     "end": 16.235
+    },
+    {
+     "text": "Busfahrer",
+     "say": "Busfahrer",
+     "key": false,
+     "start": 16.235,
+     "end": 16.685
+    },
+    {
+     "text": "lässt",
+     "say": "lässt",
+     "key": false,
+     "start": 16.685,
+     "end": 16.885
+    },
+    {
+     "text": "dich",
+     "say": "dich",
+     "key": false,
+     "start": 16.885,
+     "end": 17.085
+    },
+    {
+     "text": "vorne",
+     "say": "vorne",
+     "key": false,
+     "start": 17.085,
+     "end": 17.41
+    },
+    {
+     "text": "sitzen.",
+     "say": "sitzen.",
+     "key": false,
+     "start": 17.41,
+     "end": 17.735
+    },
+    {
+     "text": "Neben",
+     "say": "Neben",
+     "key": true,
+     "start": 18.065,
+     "end": 18.43
+    },
+    {
+     "text": "ihm.",
+     "say": "ihm.",
+     "key": true,
+     "start": 18.43,
+     "end": 18.655
+    }
+   ]
+  },
+  {
+   "id": "t1b",
+   "start": 18.88,
+   "end": 22.505,
+   "words": [
+    {
+     "text": "Im",
+     "say": "Im",
+     "key": false,
+     "start": 18.9,
+     "end": 19.127
+    },
+    {
+     "text": "Büro",
+     "say": "Büro",
+     "key": false,
+     "start": 19.127,
+     "end": 19.495
+    },
+    {
+     "text": "klatschen",
+     "say": "klatschen",
+     "key": true,
+     "start": 19.495,
+     "end": 19.863
+    },
+    {
+     "text": "alle,",
+     "say": "alle,",
+     "key": false,
+     "start": 19.863,
+     "end": 20.232
+    },
+    {
+     "text": "als",
+     "say": "als",
+     "key": false,
+     "start": 20.232,
+     "end": 20.458
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": false,
+     "start": 20.458,
+     "end": 20.685
+    },
+    {
+     "text": "reinkommst.",
+     "say": "reinkommst.",
+     "key": false,
+     "start": 20.685,
+     "end": 21.053
+    },
+    {
+     "text": "Du",
+     "say": "Du",
+     "key": false,
+     "start": 21.053,
+     "end": 21.28
+    },
+    {
+     "text": "hast",
+     "say": "hast",
+     "key": false,
+     "start": 21.28,
+     "end": 21.507
+    },
+    {
+     "text": "nur",
+     "say": "nur",
+     "key": false,
+     "start": 21.507,
+     "end": 21.733
+    },
+    {
+     "text": "Hallo",
+     "say": "Hallo",
+     "key": true,
+     "start": 21.733,
+     "end": 22.102
+    },
+    {
+     "text": "gesagt.",
+     "say": "gesagt.",
+     "key": false,
+     "start": 22.102,
+     "end": 22.47
+    }
+   ]
+  },
+  {
+   "id": "t2_mark",
+   "start": 22.725,
+   "end": 23.548,
+   "words": [
+    {
+     "text": "Tag",
+     "say": "Tag,",
+     "key": false,
+     "start": 22.745,
+     "end": 23.025
+    },
+    {
+     "text": "2.",
+     "say": "zwei.",
+     "key": false,
+     "start": 23.165,
+     "end": 23.515
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "start": 23.728,
+   "end": 29.863,
+   "words": [
+    {
+     "text": "Dein",
+     "say": "Dein",
+     "key": false,
+     "start": 23.748,
+     "end": 23.968
+    },
+    {
+     "text": "Selfie",
+     "say": "Selfie",
+     "key": false,
+     "start": 23.968,
+     "end": 24.325
+    },
+    {
+     "text": "hat",
+     "say": "hat",
+     "key": false,
+     "start": 24.325,
+     "end": 24.545
+    },
+    {
+     "text": "10",
+     "say": "zehn",
+     "key": true,
+     "start": 24.545,
+     "end": 24.765
+    },
+    {
+     "text": "Millionen",
+     "say": "Millionen",
+     "key": true,
+     "start": 24.765,
+     "end": 25.26
+    },
+    {
+     "text": "Likes.",
+     "say": "Likes.",
+     "key": false,
+     "start": 25.26,
+     "end": 25.618
+    },
+    {
+     "text": "Drei",
+     "say": "Drei",
+     "key": false,
+     "start": 25.918,
+     "end": 26.153
+    },
+    {
+     "text": "Marken",
+     "say": "Marken",
+     "key": false,
+     "start": 26.153,
+     "end": 26.535
+    },
+    {
+     "text": "wollen",
+     "say": "wollen",
+     "key": false,
+     "start": 26.535,
+     "end": 26.916
+    },
+    {
+     "text": "dich",
+     "say": "dich",
+     "key": false,
+     "start": 26.916,
+     "end": 27.151
+    },
+    {
+     "text": "als",
+     "say": "als",
+     "key": false,
+     "start": 27.151,
+     "end": 27.386
+    },
+    {
+     "text": "Gesicht.",
+     "say": "Gesicht.",
+     "key": false,
+     "start": 27.386,
+     "end": 27.768
+    },
+    {
+     "text": "Du",
+     "say": "Du",
+     "key": false,
+     "start": 28.038,
+     "end": 28.213
+    },
+    {
+     "text": "hast",
+     "say": "hast",
+     "key": false,
+     "start": 28.213,
+     "end": 28.387
+    },
+    {
+     "text": "dir",
+     "say": "dir",
+     "key": false,
+     "start": 28.387,
+     "end": 28.562
+    },
+    {
+     "text": "noch",
+     "say": "noch",
+     "key": false,
+     "start": 28.562,
+     "end": 28.737
+    },
+    {
+     "text": "nicht",
+     "say": "nicht",
+     "key": false,
+     "start": 28.737,
+     "end": 28.911
+    },
+    {
+     "text": "mal",
+     "say": "mal",
+     "key": false,
+     "start": 28.911,
+     "end": 29.086
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 29.086,
+     "end": 29.26
+    },
+    {
+     "text": "Zähne",
+     "say": "Zähne",
+     "key": true,
+     "start": 29.26,
+     "end": 29.544
+    },
+    {
+     "text": "geputzt.",
+     "say": "geputzt.",
+     "key": false,
+     "start": 29.544,
+     "end": 29.828
+    }
+   ]
+  },
+  {
+   "id": "t3_mark",
+   "start": 30.083,
+   "end": 30.883,
+   "words": [
+    {
+     "text": "Tag",
+     "say": "Tag,",
+     "key": false,
+     "start": 30.083,
+     "end": 30.463
+    },
+    {
+     "text": "3.",
+     "say": "drei.",
+     "key": false,
+     "start": 30.463,
+     "end": 30.843
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "start": 31.063,
+   "end": 37.268,
+   "words": [
+    {
+     "text": "Vor",
+     "say": "Vor",
+     "key": false,
+     "start": 31.073,
+     "end": 31.318
+    },
+    {
+     "text": "deiner",
+     "say": "deiner",
+     "key": false,
+     "start": 31.318,
+     "end": 31.715
+    },
+    {
+     "text": "Tür",
+     "say": "Tür",
+     "key": false,
+     "start": 31.715,
+     "end": 31.96
+    },
+    {
+     "text": "stehen",
+     "say": "stehen",
+     "key": false,
+     "start": 31.96,
+     "end": 32.358
+    },
+    {
+     "text": "200",
+     "say": "zweihundert",
+     "key": true,
+     "start": 32.358,
+     "end": 32.908
+    },
+    {
+     "text": "Fans.",
+     "say": "Fans.",
+     "key": false,
+     "start": 32.908,
+     "end": 33.153
+    },
+    {
+     "text": "Du",
+     "say": "Du",
+     "key": false,
+     "start": 33.463,
+     "end": 33.688
+    },
+    {
+     "text": "kannst",
+     "say": "kannst",
+     "key": false,
+     "start": 33.688,
+     "end": 33.914
+    },
+    {
+     "text": "nicht",
+     "say": "nicht",
+     "key": false,
+     "start": 33.914,
+     "end": 34.139
+    },
+    {
+     "text": "mal",
+     "say": "mal",
+     "key": false,
+     "start": 34.139,
+     "end": 34.365
+    },
+    {
+     "text": "mehr",
+     "say": "mehr",
+     "key": false,
+     "start": 34.365,
+     "end": 34.59
+    },
+    {
+     "text": "Müll",
+     "say": "Müll",
+     "key": false,
+     "start": 34.59,
+     "end": 34.816
+    },
+    {
+     "text": "rausbringen.",
+     "say": "rausbringen.",
+     "key": false,
+     "start": 34.816,
+     "end": 35.323
+    },
+    {
+     "text": "Einer",
+     "say": "Einer",
+     "key": false,
+     "start": 35.643,
+     "end": 35.99
+    },
+    {
+     "text": "schläft",
+     "say": "schläft",
+     "key": false,
+     "start": 35.99,
+     "end": 36.203
+    },
+    {
+     "text": "in",
+     "say": "in",
+     "key": false,
+     "start": 36.203,
+     "end": 36.416
+    },
+    {
+     "text": "deinem",
+     "say": "deinem",
+     "key": false,
+     "start": 36.416,
+     "end": 36.763
+    },
+    {
+     "text": "Briefkasten.",
+     "say": "Briefkasten.",
+     "key": true,
+     "start": 36.763,
+     "end": 37.243
+    }
+   ]
+  },
+  {
+   "id": "t5_mark",
+   "start": 37.488,
+   "end": 38.127,
+   "words": [
+    {
+     "text": "Tag",
+     "say": "Tag,",
+     "key": false,
+     "start": 37.498,
+     "end": 37.813
+    },
+    {
+     "text": "5.",
+     "say": "fünf.",
+     "key": false,
+     "start": 37.813,
+     "end": 38.128
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "start": 38.307,
+   "end": 44.129,
+   "words": [
+    {
+     "text": "Die",
+     "say": "Die",
+     "key": false,
+     "start": 38.327,
+     "end": 38.559
+    },
+    {
+     "text": "Regierung",
+     "say": "Regierung",
+     "key": false,
+     "start": 38.559,
+     "end": 39.081
+    },
+    {
+     "text": "erklärt",
+     "say": "erklärt",
+     "key": false,
+     "start": 39.081,
+     "end": 39.458
+    },
+    {
+     "text": "dich",
+     "say": "dich",
+     "key": false,
+     "start": 39.458,
+     "end": 39.69
+    },
+    {
+     "text": "zum",
+     "say": "zum",
+     "key": false,
+     "start": 39.69,
+     "end": 39.922
+    },
+    {
+     "text": "Nationalschatz.",
+     "say": "Nationalschatz.",
+     "key": true,
+     "start": 39.922,
+     "end": 40.589
+    },
+    {
+     "text": "Du",
+     "say": "Du",
+     "key": false,
+     "start": 40.589,
+     "end": 40.821
+    },
+    {
+     "text": "darfst",
+     "say": "darfst",
+     "key": false,
+     "start": 40.821,
+     "end": 41.053
+    },
+    {
+     "text": "nicht",
+     "say": "nicht",
+     "key": false,
+     "start": 41.053,
+     "end": 41.284
+    },
+    {
+     "text": "mehr",
+     "say": "mehr",
+     "key": false,
+     "start": 41.284,
+     "end": 41.516
+    },
+    {
+     "text": "allein",
+     "say": "allein",
+     "key": false,
+     "start": 41.516,
+     "end": 41.893
+    },
+    {
+     "text": "Fahrrad",
+     "say": "Fahrrad",
+     "key": true,
+     "start": 41.893,
+     "end": 42.27
+    },
+    {
+     "text": "fahren.",
+     "say": "fahren.",
+     "key": false,
+     "start": 42.27,
+     "end": 42.647
+    },
+    {
+     "text": "Zu",
+     "say": "Zu",
+     "key": false,
+     "start": 42.647,
+     "end": 42.879
+    },
+    {
+     "text": "gefährlich",
+     "say": "gefährlich",
+     "key": false,
+     "start": 42.879,
+     "end": 43.401
+    },
+    {
+     "text": "für",
+     "say": "für",
+     "key": false,
+     "start": 43.401,
+     "end": 43.633
+    },
+    {
+     "text": "das",
+     "say": "das",
+     "key": false,
+     "start": 43.633,
+     "end": 43.865
+    },
+    {
+     "text": "Land.",
+     "say": "Land.",
+     "key": false,
+     "start": 43.865,
+     "end": 44.097
+    }
+   ]
+  },
+  {
+   "id": "t7_mark",
+   "start": 44.349,
+   "end": 45.129,
+   "words": [
+    {
+     "text": "Tag",
+     "say": "Tag,",
+     "key": false,
+     "start": 44.369,
+     "end": 44.643
+    },
+    {
+     "text": "7.",
+     "say": "sieben.",
+     "key": false,
+     "start": 44.643,
+     "end": 45.089
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "start": 45.309,
+   "end": 50.223,
+   "words": [
+    {
+     "text": "Du",
+     "say": "Du",
+     "key": false,
+     "start": 45.319,
+     "end": 45.52
+    },
+    {
+     "text": "schaust",
+     "say": "schaust",
+     "key": false,
+     "start": 45.52,
+     "end": 45.721
+    },
+    {
+     "text": "in",
+     "say": "in",
+     "key": false,
+     "start": 45.721,
+     "end": 45.922
+    },
+    {
+     "text": "den",
+     "say": "den",
+     "key": false,
+     "start": 45.922,
+     "end": 46.123
+    },
+    {
+     "text": "Spiegel.",
+     "say": "Spiegel.",
+     "key": false,
+     "start": 46.123,
+     "end": 46.449
+    },
+    {
+     "text": "Ein",
+     "say": "Ein",
+     "key": false,
+     "start": 46.699,
+     "end": 46.878
+    },
+    {
+     "text": "Pickel.",
+     "say": "Pickel.",
+     "key": true,
+     "start": 46.878,
+     "end": 47.169
+    },
+    {
+     "text": "Mitten",
+     "say": "Mitten",
+     "key": false,
+     "start": 47.449,
+     "end": 47.752
+    },
+    {
+     "text": "auf",
+     "say": "auf",
+     "key": false,
+     "start": 47.752,
+     "end": 47.939
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 47.939,
+     "end": 48.126
+    },
+    {
+     "text": "Nase.",
+     "say": "Nase.",
+     "key": false,
+     "start": 48.126,
+     "end": 48.429
+    },
+    {
+     "text": "Das",
+     "say": "Das",
+     "key": false,
+     "start": 48.649,
+     "end": 48.863
+    },
+    {
+     "text": "ganze",
+     "say": "ganze",
+     "key": false,
+     "start": 48.863,
+     "end": 49.21
+    },
+    {
+     "text": "Land",
+     "say": "Land",
+     "key": false,
+     "start": 49.21,
+     "end": 49.424
+    },
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 49.424,
+     "end": 49.638
+    },
+    {
+     "text": "in",
+     "say": "in",
+     "key": false,
+     "start": 49.638,
+     "end": 49.852
+    },
+    {
+     "text": "Panik.",
+     "say": "Panik.",
+     "key": true,
+     "start": 49.852,
+     "end": 50.199
+    }
+   ]
+  },
+  {
+   "id": "frage",
+   "start": 50.523,
+   "end": 52.203,
+   "words": [
+    {
+     "text": "Wärst",
+     "say": "Wärst",
+     "key": false,
+     "start": 50.543,
+     "end": 50.739
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": false,
+     "start": 50.739,
+     "end": 50.936
+    },
+    {
+     "text": "gern",
+     "say": "gern",
+     "key": false,
+     "start": 50.936,
+     "end": 51.132
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 51.132,
+     "end": 51.328
+    },
+    {
+     "text": "letzte",
+     "say": "letzte",
+     "key": false,
+     "start": 51.328,
+     "end": 51.648
+    },
+    {
+     "text": "schöne",
+     "say": "schöne",
+     "key": true,
+     "start": 51.648,
+     "end": 51.967
+    },
+    {
+     "text": "Mensch?",
+     "say": "Mensch?",
+     "key": true,
+     "start": 51.967,
+     "end": 52.163
+    }
+   ]
+  },
+  {
+   "id": "cta1",
+   "start": 52.353,
+   "end": 53.603,
+   "words": [
+    {
+     "text": "Schreib",
+     "say": "Schreib",
+     "key": false,
+     "start": 52.353,
+     "end": 52.529
+    },
+    {
+     "text": "es",
+     "say": "es",
+     "key": false,
+     "start": 52.529,
+     "end": 52.705
+    },
+    {
+     "text": "in",
+     "say": "in",
+     "key": false,
+     "start": 52.705,
+     "end": 52.881
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 52.881,
+     "end": 53.057
+    },
+    {
+     "text": "Kommentare.",
+     "say": "Kommentare.",
+     "key": true,
+     "start": 53.057,
+     "end": 53.563
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": 53.753,
+   "end": 55.933,
+   "words": [
+    {
+     "text": "Folge",
+     "say": "Folge",
+     "key": false,
+     "start": 53.773,
+     "end": 54.122
+    },
+    {
+     "text": "mir,",
+     "say": "mir,",
+     "key": false,
+     "start": 54.122,
+     "end": 54.337
+    },
+    {
+     "text": "damit",
+     "say": "damit",
+     "key": false,
+     "start": 54.337,
+     "end": 54.685
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": false,
+     "start": 54.685,
+     "end": 54.9
+    },
+    {
+     "text": "Teil",
+     "say": "Teil",
+     "key": false,
+     "start": 54.9,
+     "end": 55.115
+    },
+    {
+     "text": "2",
+     "say": "zwei",
+     "key": true,
+     "start": 55.115,
+     "end": 55.329
+    },
+    {
+     "text": "nicht",
+     "say": "nicht",
+     "key": false,
+     "start": 55.329,
+     "end": 55.544
+    },
+    {
+     "text": "verpasst.",
+     "say": "verpasst.",
+     "key": false,
+     "start": 55.544,
+     "end": 55.893
+    }
+   ]
+  }
+ ]
+}

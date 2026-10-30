@@ -1,0 +1,63 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #131824; }
+    .beat { position: absolute; inset: 0; overflow: hidden; }
+    .q-choice { position: absolute; top: 980px; width: 300px; text-align: center; }
+    .q-choice .chip { font-size: 92px; padding: 6px 44px 10px; }
+  </style>
+  <div id="root" data-composition-id="frage" data-width="1080" data-height="1920">
+    <div id="q-a" class="beat clip" data-start="0.00" data-duration="3.23" data-track-index="0">
+      <div id="q-a-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <rect width="1080" height="1920" fill="#1a1f2b" />
+          <circle cx="540" cy="1250" r="440" fill="#f7c548" opacity="0.1" />
+          <rect y="1720" width="1080" height="200" fill="#232a3a" />
+          <!--@person id="q-me" x="540" y="1760" s="1.0" jacket="#e8412f" pants="#2a2f3b" hair="#2a1a10" skin="#f1c7a0" style="spiky" mood="happy"-->
+<g id="q-me"><g transform="translate(540.0 1760.0) scale(1.0 1.0)">
+  <ellipse cx="0" cy="0" rx="120" ry="18" fill="#000" opacity=".3"/>
+  <rect x="-70" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <rect x="12" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <ellipse cx="-44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/><ellipse cx="44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/>
+  <g id="q-me-armL" transform="rotate(0 -124 -380)"><rect x="-150" y="-392" width="52" height="200" rx="26" fill="#e8412f" transform="rotate(8 -124 -392)"/>
+    <circle cx="-138" cy="-186" r="26" fill="#f1c7a0"/></g>
+  <g id="q-me-armR" transform="rotate(0 124 -380)"><rect x="98" y="-392" width="52" height="200" rx="26" fill="#e8412f" transform="rotate(-8 124 -392)"/>
+    <circle cx="138" cy="-186" r="26" fill="#f1c7a0"/></g>
+  <path d="M-110 -340 q0 -66 60 -66 h100 q60 0 60 66 v150 h-220 z" fill="#e8412f"/>
+  <path d="M-30 -406 l30 60 l30 -60 z" fill="#e9e6da"/>
+  
+  <rect x="-24" y="-436" width="48" height="40" fill="#f1c7a0"/>
+  <g id="q-me-head">
+    
+    <circle cx="0" cy="-520" r="102" fill="#f1c7a0"/>
+    <circle cx="-102" cy="-512" r="18" fill="#f1c7a0"/><circle cx="102" cy="-512" r="18" fill="#f1c7a0"/>
+    <path d="M-104 -516 l-10 -70 l40 26 l10 -70 l40 50 l24 -76 l26 76 l40 -52 l8 72 l42 -26 l-12 70 q-40 -50 -104 -54 q-64 4 -104 54 z" fill="#2a1a10"/>
+    <ellipse cx="-36" cy="-522" rx="17" ry="19" fill="#fff"/><ellipse cx="36" cy="-522" rx="17" ry="19" fill="#fff"/>
+    <circle id="q-me-eyeL" cx="-34" cy="-520" r="9" fill="#0f1218"/><circle id="q-me-eyeR" cx="34" cy="-520" r="9" fill="#0f1218"/>
+    <path d="M-52 -566 q16 -14 32 -4 M20 -570 q16 -10 32 4" stroke="#2a1a10" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <circle cx="-62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/><circle cx="62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/>
+    <path d="M-34 -478 q34 44 68 0 z" fill="#5a2a1e"/><path d="M-22 -466 q22 16 44 0" fill="#e88a7a"/>
+    
+    
+  </g>
+</g></g><!--/@-->
+          <g transform="translate(320 1100) scale(1.0)"><path class="q-sp" d="M0 -40 L10 -10 L40 0 L10 10 L0 40 L-10 10 L-40 0 L-10 -10 Z" fill="#f7c548" /></g><g transform="translate(760 1040) scale(1.2)"><path class="q-sp" d="M0 -40 L10 -10 L40 0 L10 10 L0 40 L-10 10 L-40 0 L-10 -10 Z" fill="#f7c548" /></g>
+        </svg>
+      </div>
+      <div id="q-title" class="title" style="top: 210px; font-size: 130px">Wärst du gern<br /><span class="r">schön?</span></div>
+      <div id="q-yes" class="q-choice" style="left: 40px"><span class="chip o">Ja</span></div>
+      <div id="q-no" class="q-choice" style="left: 740px"><span class="chip r">Nein</span></div>
+      <div id="q-com" class="chip-row" style="top: 640px"><span class="chip o" style="font-size: 56px">In die Kommentare →</span></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#q-a-cam", { scale: 1.0 }, { scale: 1.06, duration: 3.23, ease: "none" }, 0.00);
+    tl.fromTo("#q-title", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.2, ease: "power3.out" }, 0.04);
+    tl.fromTo("#q-yes", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 0.91);
+    tl.fromTo("#q-no", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 1.23);
+    tl.fromTo("#q-com", { opacity: 0, x: -80 }, { opacity: 1, x: 0, duration: 0.25, ease: "power3.out" }, 1.93);
+    tl.to("#q-com", { x: 18, duration: 0.2, repeat: 3, yoyo: true, ease: "sine.inOut" }, 2.23);
+    tl.fromTo(".q-sp", { scale: 0.4, transformOrigin: "50% 50%" }, { scale: 1.2, duration: 0.35, repeat: 7, yoyo: true, stagger: 0.15 }, 0);
+    window.__timelines["frage"] = tl;
+  </script>
+</template>

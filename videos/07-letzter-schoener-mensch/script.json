@@ -1,0 +1,26 @@
+{
+ "title": "Stell dir vor, du bist der letzte schöne Mensch",
+ "series": "DER LETZTE SCHÖNE MENSCH",
+ "mode": "SZENARIO",
+ "part": 1,
+ "lines": [
+  { "id": "hook1", "say": "Stell dir vor, du wachst auf und bist der letzte schöne Mensch der Welt.", "show": "Stell dir vor, du wachst auf und bist der *letzte* *schöne* Mensch der Welt.", "pause": 0.15 },
+  { "id": "hook2", "say": "Alle anderen sehen über Nacht aus wie eine Kartoffel.", "show": "Alle anderen sehen über Nacht aus wie eine *Kartoffel.*", "pause": 0.3 },
+  { "id": "fact", "say": "Dein Gehirn entscheidet in einer Zehntelsekunde, ob es ein Gesicht schön findet.", "show": "Dein Gehirn entscheidet in einer *Zehntelsekunde,* ob es ein Gesicht schön findet.", "pause": 0.12 },
+  { "id": "fact2", "say": "Ab heute gewinnst du jedes Mal.", "show": "Ab heute gewinnst *du* jedes Mal.", "pause": 0.25 },
+  { "id": "t1_mark", "say": "Tag, eins, sieben Uhr.", "show": "Tag 1, 7 Uhr.", "pause": 0.18 },
+  { "id": "t1", "say": "Beim Bäcker bekommst du die Brötchen gratis. Der Busfahrer lässt dich vorne sitzen. Neben ihm.", "show": "Beim Bäcker bekommst du die Brötchen *gratis.* Der Busfahrer lässt dich vorne sitzen. *Neben* *ihm.*", "pause": 0.2 },
+  { "id": "t1b", "say": "Im Büro klatschen alle, als du reinkommst. Du hast nur Hallo gesagt.", "show": "Im Büro *klatschen* alle, als du reinkommst. Du hast nur *Hallo* gesagt.", "pause": 0.22 },
+  { "id": "t2_mark", "say": "Tag, zwei.", "show": "Tag 2.", "pause": 0.18 },
+  { "id": "t2", "say": "Dein Selfie hat zehn Millionen Likes. Drei Marken wollen dich als Gesicht. Du hast dir noch nicht mal die Zähne geputzt.", "show": "Dein Selfie hat *10* *Millionen* Likes. Drei Marken wollen dich als Gesicht. Du hast dir noch nicht mal die *Zähne* geputzt.", "pause": 0.22 },
+  { "id": "t3_mark", "say": "Tag, drei.", "show": "Tag 3.", "pause": 0.18 },
+  { "id": "t3", "say": "Vor deiner Tür stehen zweihundert Fans. Du kannst nicht mal mehr Müll rausbringen. Einer schläft in deinem Briefkasten.", "show": "Vor deiner Tür stehen *200* Fans. Du kannst nicht mal mehr Müll rausbringen. Einer schläft in deinem *Briefkasten.*", "pause": 0.22 },
+  { "id": "t5_mark", "say": "Tag, fünf.", "show": "Tag 5.", "pause": 0.18 },
+  { "id": "t5", "say": "Die Regierung erklärt dich zum Nationalschatz. Du darfst nicht mehr allein Fahrrad fahren. Zu gefährlich für das Land.", "show": "Die Regierung erklärt dich zum *Nationalschatz.* Du darfst nicht mehr allein *Fahrrad* fahren. Zu gefährlich für das Land.", "pause": 0.22 },
+  { "id": "t7_mark", "say": "Tag, sieben.", "show": "Tag 7.", "pause": 0.18 },
+  { "id": "t7", "say": "Du schaust in den Spiegel. Ein Pickel. Mitten auf der Nase. Das ganze Land ist in Panik.", "show": "Du schaust in den Spiegel. Ein *Pickel.* Mitten auf der Nase. Das ganze Land ist in *Panik.*", "pause": 0.3 },
+  { "id": "frage", "say": "Wärst du gern der letzte schöne Mensch?", "show": "Wärst du gern der letzte *schöne* *Mensch?*", "pause": 0.15 },
+  { "id": "cta1", "say": "Schreib es in die Kommentare.", "show": "Schreib es in die *Kommentare.*", "pause": 0.15 },
+  { "id": "cta", "say": "Folge mir, damit du Teil zwei nicht verpasst.", "show": "Folge mir, damit du Teil *2* nicht verpasst.", "pause": 0.5 }
+ ]
+}

@@ -31,6 +31,15 @@ und Untertitel neu bauen. Beispiel: `videos/05-legend-ronaldo-en/`. Ohne Codewor
 kein HUD (`build_index.py` entfernt den Host), Untertitel mit `--style legende --skip <Kartenzeilen>`,
 Szenen/SFX in `scenes.json`.
 
+## Generator-Ansatz (ab Video 06/07, empfohlen)
+
+Statt Szenen von Hand zu timen: projekt-eigenes `gen_scenes.py` schreibt alle Szenen, `scenes.json` (Szenen + SFX)
+und – im SZENARIO-Modus – `hud.json` direkt aus `assets/timing.json` (Beats/Einblendungen hängen an Wort-Indizes).
+Kette: `gen_scenes.py` → `svg_parts.py .` → (`build_hud.py .`) → `build_index.py` → `build_captions.py .`.
+Neue Gemini-Stimme: `place_voice.py` natürlich (ohne `--match`) und dieselbe Kette erneut – kein `retime.py` nötig.
+Vorlagen: SZENARIO `videos/07-letzter-schoener-mensch/`, LEGENDE `videos/06-legende-escobar/`.
+Lustige Nebenfiguren: Part `potato` (Kartoffel-Mensch, moods happy/neutral/shocked/love/sleep/cool, acc chef/cap/tie/police/apron).
+
 ## 0. Setup (einmal pro Container)
 
 ```bash
