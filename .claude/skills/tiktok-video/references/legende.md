@@ -41,3 +41,10 @@ kein Kasten, starker Schatten, zentriert bei y≈1210, 2–3 Wörter pro Gruppe.
 `place_voice.py` (natürlich, ohne `--match`) → `python3 gen_scenes.py` → `svg_parts.py .` → `python3 build_index.py`
 → `build_captions.py . --style legende --skip card1,card2`. Für neue Personen dieses Skript als Vorlage kopieren.
 Parts dafür: `man` (Mann in Rückansicht, Posen stand/phone/arms/walk), `hippo`, `person` mit `style="curly"` und `beard="mustache|full"`.
+
+## Islamische Erinnerungs-Videos (Video 08, `videos/08-erinnerung-disziplin/`)
+Gleicher ruhiger Look wie LEGENDE, aber: **keine Gesichter/Figuren**, nur Symbole (Moschee-Silhouette, Halbmond per Maske,
+Bogen-Tür, Laterne, Tasbih, Gebetsteppich, 8-Zack-Stern-Muster, Kette, Sonnenaufgang). Gold statt Rot (`--key-color "#ffd25a"`).
+Koran-/Hadith-Zitate nur mit Quelle (Sure:Vers bzw. Sammlung) als Zitatkarte (Playfair Display kursiv), die Zeilen dieser Karten
+bekommen keine Untertitel (`--skip`). Nur gesicherte Zitate verwenden, sinngemäße Übersetzung klar übernehmen, nichts erfinden.
+CTA: „Schick das jemandem, der es heute braucht“.

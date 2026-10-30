@@ -1,0 +1,50 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #050a10; }
+    .beat { position: absolute; inset: 0; overflow: hidden; }
+    .lt { font-family: "Montserrat", sans-serif; font-weight: 800; text-transform: uppercase; }
+    .gold { color: #ffd25a; text-shadow: 0 6px 0 #7a4a0a, 0 0 50px rgba(255, 190, 80, 0.45); }
+    .red { color: #e8412f; text-shadow: 0 6px 0 #5a1208, 0 0 40px rgba(232, 65, 47, 0.4); }
+    .quote { position: absolute; left: 90px; width: 900px; text-align: center; padding: 50px 44px 40px; border-radius: 18px;
+      background: rgba(6, 12, 18, 0.78); border: 3px solid rgba(255, 210, 90, 0.75); box-shadow: 0 0 60px rgba(0,0,0,.5);
+      font-family: "Playfair Display", Georgia, serif; font-style: italic; font-weight: 600; font-size: 58px; line-height: 1.25; color: #f4f1ea; }
+    .quote .q { display: inline; }
+    .quote .k { color: #ffd25a; }
+    .quote .src { display: block; margin-top: 26px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 800;
+      font-size: 30px; letter-spacing: 0.12em; text-transform: uppercase; color: #ffd25a; }
+    .pill { position: absolute; left: 0; width: 1080px; text-align: center; }
+    .pill span { display: inline-block; padding: 14px 34px; border-radius: 18px; background: rgba(10, 14, 18, 0.88);
+      border: 3px solid #ffd25a; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 40px; color: #f4f1ea; }
+
+  </style>
+  <div id="root" data-composition-id="frei" data-width="1080" data-height="1920">
+    <div id="fr-a" class="beat clip" data-start="0.00" data-duration="3.46" data-track-index="0">
+      <div id="fr-a-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs><linearGradient id="fr-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a2a4a" /><stop offset="0.6" stop-color="#e88a5a" /><stop offset="1" stop-color="#ffd28a" /></linearGradient>
+            <radialGradient id="fr-sun" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff6dc" stop-opacity="1" /><stop offset="0.3" stop-color="#ffd25a" stop-opacity="0.7" /><stop offset="1" stop-color="#ffd25a" stop-opacity="0" /></radialGradient></defs>
+          <rect width="1080" height="1920" fill="url(#fr-sky)" />
+          <circle id="fr-sun" cx="540" cy="1500" r="600" fill="url(#fr-sun)" />
+          <path d="M0 1500 L300 1380 L540 1460 L800 1360 L1080 1480 V1920 H0 Z" fill="#2a2030" />
+          <g id="fr-left"><g transform="translate(140 1000) rotate(0)"><g id="fr-l1"><rect x="-70" y="-40" width="140" height="80" rx="40" fill="none" stroke="#8d93a1" stroke-width="22" /></g></g><g transform="translate(260 1000) rotate(90)"><g id="fr-l2"><rect x="-70" y="-40" width="140" height="80" rx="40" fill="none" stroke="#8d93a1" stroke-width="22" /></g></g><g transform="translate(380 1000) rotate(0)"><g id="fr-l3"><rect x="-70" y="-40" width="140" height="80" rx="40" fill="none" stroke="#8d93a1" stroke-width="22" /></g></g></g>
+          <g id="fr-right"><g transform="translate(700 1000) rotate(0)"><g id="fr-r1"><rect x="-70" y="-40" width="140" height="80" rx="40" fill="none" stroke="#8d93a1" stroke-width="22" /></g></g><g transform="translate(820 1000) rotate(90)"><g id="fr-r2"><rect x="-70" y="-40" width="140" height="80" rx="40" fill="none" stroke="#8d93a1" stroke-width="22" /></g></g><g transform="translate(940 1000) rotate(0)"><g id="fr-r3"><rect x="-70" y="-40" width="140" height="80" rx="40" fill="none" stroke="#8d93a1" stroke-width="22" /></g></g></g>
+          <g transform="translate(540 1000)"><g id="fr-mid"><path d="M-70 -40 h50 M70 -40 h-50 M-70 40 h50 M70 40 h-50" stroke="#8d93a1" stroke-width="22" stroke-linecap="round" /></g></g>
+          <g transform="translate(540 1000)"><g id="fr-burst" opacity="0"><path d="M0 0 L200 0" stroke="#ffd25a" stroke-width="10" stroke-linecap="round" /><path d="M0 0 L141 141" stroke="#ffd25a" stroke-width="10" stroke-linecap="round" /><path d="M0 0 L0 200" stroke="#ffd25a" stroke-width="10" stroke-linecap="round" /><path d="M0 0 L-141 142" stroke="#ffd25a" stroke-width="10" stroke-linecap="round" /><path d="M0 0 L-200 0" stroke="#ffd25a" stroke-width="10" stroke-linecap="round" /><path d="M0 0 L-142 -141" stroke="#ffd25a" stroke-width="10" stroke-linecap="round" /><path d="M0 0 L-0 -200" stroke="#ffd25a" stroke-width="10" stroke-linecap="round" /><path d="M0 0 L141 -142" stroke="#ffd25a" stroke-width="10" stroke-linecap="round" /></g></g>
+        </svg>
+      </div>
+      <div id="fr-title" class="title lt gold" style="top: 330px; font-size: 190px">Frei</div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#fr-a-cam", { scale: 1.0 }, { scale: 1.06, duration: 3.46, ease: "none" }, 0.00);
+    tl.fromTo("#fr-sun", { y: 200 }, { y: 0, duration: 3.46, ease: "power1.out" }, 0);
+    tl.fromTo("#fr-burst", { opacity: 1, scale: 0.2, transformOrigin: "50% 50%" }, { opacity: 0, scale: 1.6, duration: 0.6, ease: "power2.out" }, 2.24);
+    tl.fromTo("#fr-mid", { opacity: 1, scale: 1, transformOrigin: "50% 50%" }, { opacity: 0, scale: 1.8, duration: 0.3 }, 2.24);
+    tl.fromTo("#fr-left", { x: 0, y: 0, rotation: 0 }, { x: -300, y: 500, rotation: -30, duration: 1.2, ease: "power2.in" }, 2.29);
+    tl.fromTo("#fr-right", { x: 0, y: 0, rotation: 0 }, { x: 300, y: 500, rotation: 30, duration: 1.2, ease: "power2.in" }, 2.29);
+    tl.fromTo("#fr-a-cam > svg", { x: 0 }, { x: 10, duration: 0.04, repeat: 5, yoyo: true }, 2.26);
+    tl.fromTo("#fr-title", { opacity: 0, scale: 1.5, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.25, ease: "power3.in" }, 2.29);
+    window.__timelines["frei"] = tl;
+  </script>
+</template>

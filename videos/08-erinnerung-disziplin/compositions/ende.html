@@ -1,0 +1,50 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #050a10; }
+    .beat { position: absolute; inset: 0; overflow: hidden; }
+    .lt { font-family: "Montserrat", sans-serif; font-weight: 800; text-transform: uppercase; }
+    .gold { color: #ffd25a; text-shadow: 0 6px 0 #7a4a0a, 0 0 50px rgba(255, 190, 80, 0.45); }
+    .red { color: #e8412f; text-shadow: 0 6px 0 #5a1208, 0 0 40px rgba(232, 65, 47, 0.4); }
+    .quote { position: absolute; left: 90px; width: 900px; text-align: center; padding: 50px 44px 40px; border-radius: 18px;
+      background: rgba(6, 12, 18, 0.78); border: 3px solid rgba(255, 210, 90, 0.75); box-shadow: 0 0 60px rgba(0,0,0,.5);
+      font-family: "Playfair Display", Georgia, serif; font-style: italic; font-weight: 600; font-size: 58px; line-height: 1.25; color: #f4f1ea; }
+    .quote .q { display: inline; }
+    .quote .k { color: #ffd25a; }
+    .quote .src { display: block; margin-top: 26px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 800;
+      font-size: 30px; letter-spacing: 0.12em; text-transform: uppercase; color: #ffd25a; }
+    .pill { position: absolute; left: 0; width: 1080px; text-align: center; }
+    .pill span { display: inline-block; padding: 14px 34px; border-radius: 18px; background: rgba(10, 14, 18, 0.88);
+      border: 3px solid #ffd25a; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 40px; color: #f4f1ea; }
+
+  </style>
+  <div id="root" data-composition-id="ende" data-width="1080" data-height="1920">
+    <div id="en-a" class="beat clip" data-start="0.00" data-duration="7.87" data-track-index="0">
+      <div id="en-a-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs><linearGradient id="en-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a1428" /><stop offset="0.6" stop-color="#3a3a5a" /><stop offset="0.85" stop-color="#e8a05a" /><stop offset="1" stop-color="#ffd28a" /></linearGradient>
+            <radialGradient id="en-sun" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff2c8" stop-opacity="0.85" /><stop offset="1" stop-color="#ffb35c" stop-opacity="0" /></radialGradient></defs>
+          <rect width="1080" height="1920" fill="url(#en-sky)" />
+          <circle class="en-st" cx="857" cy="740" r="2.3" fill="#fff6dc" opacity="0.46" /><circle class="en-st" cx="0" cy="597" r="2.2" fill="#fff6dc" opacity="0.76" /><circle class="en-st" cx="403" cy="693" r="1.8" fill="#fff6dc" opacity="0.78" /><circle class="en-st" cx="788" cy="373" r="2.4" fill="#fff6dc" opacity="0.71" /><circle class="en-st" cx="208" cy="498" r="3.0" fill="#fff6dc" opacity="0.46" /><circle class="en-st" cx="868" cy="617" r="3.1" fill="#fff6dc" opacity="0.50" /><circle class="en-st" cx="101" cy="720" r="3.0" fill="#fff6dc" opacity="0.57" /><circle class="en-st" cx="101" cy="177" r="2.6" fill="#fff6dc" opacity="0.47" /><circle class="en-st" cx="1027" cy="530" r="1.6" fill="#fff6dc" opacity="0.69" /><circle class="en-st" cx="389" cy="839" r="3.2" fill="#fff6dc" opacity="0.61" /><circle class="en-st" cx="696" cy="628" r="3.0" fill="#fff6dc" opacity="0.89" /><circle class="en-st" cx="31" cy="325" r="2.5" fill="#fff6dc" opacity="0.48" /><circle class="en-st" cx="636" cy="81" r="3.1" fill="#fff6dc" opacity="0.62" /><circle class="en-st" cx="126" cy="596" r="1.9" fill="#fff6dc" opacity="0.42" /><circle class="en-st" cx="522" cy="124" r="1.7" fill="#fff6dc" opacity="0.82" /><circle class="en-st" cx="754" cy="11" r="2.9" fill="#fff6dc" opacity="0.31" /><circle class="en-st" cx="360" cy="814" r="2.6" fill="#fff6dc" opacity="0.48" /><circle class="en-st" cx="408" cy="350" r="1.5" fill="#fff6dc" opacity="0.90" /><circle class="en-st" cx="58" cy="381" r="2.8" fill="#fff6dc" opacity="0.54" /><circle class="en-st" cx="1059" cy="221" r="3.4" fill="#fff6dc" opacity="0.84" /><circle class="en-st" cx="724" cy="801" r="2.2" fill="#fff6dc" opacity="0.80" /><circle class="en-st" cx="860" cy="465" r="2.2" fill="#fff6dc" opacity="0.72" /><circle class="en-st" cx="442" cy="77" r="2.8" fill="#fff6dc" opacity="0.46" /><circle class="en-st" cx="527" cy="706" r="1.6" fill="#fff6dc" opacity="0.31" /><circle class="en-st" cx="133" cy="530" r="2.0" fill="#fff6dc" opacity="0.45" /><circle class="en-st" cx="488" cy="835" r="1.8" fill="#fff6dc" opacity="0.55" /><circle class="en-st" cx="950" cy="551" r="1.8" fill="#fff6dc" opacity="0.58" /><circle class="en-st" cx="517" cy="128" r="2.0" fill="#fff6dc" opacity="0.48" /><circle class="en-st" cx="869" cy="291" r="2.7" fill="#fff6dc" opacity="0.88" /><circle class="en-st" cx="997" cy="338" r="2.5" fill="#fff6dc" opacity="0.49" /><circle class="en-st" cx="430" cy="439" r="2.9" fill="#fff6dc" opacity="0.86" /><circle class="en-st" cx="314" cy="6" r="2.2" fill="#fff6dc" opacity="0.33" /><circle class="en-st" cx="33" cy="696" r="1.4" fill="#fff6dc" opacity="0.73" /><circle class="en-st" cx="391" cy="845" r="3.1" fill="#fff6dc" opacity="0.34" /><circle class="en-st" cx="208" cy="853" r="2.5" fill="#fff6dc" opacity="0.55" /><circle class="en-st" cx="845" cy="732" r="2.3" fill="#fff6dc" opacity="0.58" /><circle class="en-st" cx="108" cy="326" r="1.5" fill="#fff6dc" opacity="0.68" /><circle class="en-st" cx="655" cy="130" r="2.6" fill="#fff6dc" opacity="0.36" /><circle class="en-st" cx="114" cy="581" r="2.2" fill="#fff6dc" opacity="0.84" /><circle class="en-st" cx="680" cy="631" r="1.5" fill="#fff6dc" opacity="0.80" /><circle class="en-st" cx="90" cy="556" r="3.2" fill="#fff6dc" opacity="0.84" /><circle class="en-st" cx="965" cy="407" r="2.7" fill="#fff6dc" opacity="0.77" /><circle class="en-st" cx="148" cy="849" r="3.2" fill="#fff6dc" opacity="0.56" /><circle class="en-st" cx="841" cy="402" r="1.8" fill="#fff6dc" opacity="0.73" /><circle class="en-st" cx="69" cy="720" r="3.4" fill="#fff6dc" opacity="0.47" /><circle class="en-st" cx="1015" cy="75" r="3.1" fill="#fff6dc" opacity="0.47" /><circle class="en-st" cx="1044" cy="388" r="3.2" fill="#fff6dc" opacity="0.32" /><circle class="en-st" cx="92" cy="735" r="2.6" fill="#fff6dc" opacity="0.62" /><circle class="en-st" cx="35" cy="156" r="2.0" fill="#fff6dc" opacity="0.33" /><circle class="en-st" cx="1072" cy="689" r="3.3" fill="#fff6dc" opacity="0.72" /><circle class="en-st" cx="371" cy="70" r="2.8" fill="#fff6dc" opacity="0.37" /><circle class="en-st" cx="591" cy="418" r="2.3" fill="#fff6dc" opacity="0.35" /><circle class="en-st" cx="80" cy="468" r="1.3" fill="#fff6dc" opacity="0.62" /><circle class="en-st" cx="162" cy="254" r="1.5" fill="#fff6dc" opacity="0.64" /><circle class="en-st" cx="419" cy="201" r="1.7" fill="#fff6dc" opacity="0.64" /><circle class="en-st" cx="983" cy="377" r="1.6" fill="#fff6dc" opacity="0.49" /><circle class="en-st" cx="260" cy="515" r="2.9" fill="#fff6dc" opacity="0.64" /><circle class="en-st" cx="203" cy="293" r="2.0" fill="#fff6dc" opacity="0.56" /><circle class="en-st" cx="429" cy="898" r="2.4" fill="#fff6dc" opacity="0.70" /><circle class="en-st" cx="774" cy="581" r="3.0" fill="#fff6dc" opacity="0.52" />
+          <defs><mask id="en-moon"><circle cx="540" cy="1020" r="90" fill="#fff" /><circle cx="574" cy="1004" r="77" fill="#000" /></mask></defs><circle cx="540" cy="1020" r="90" fill="#ffd25a" mask="url(#en-moon)" />
+          <circle cx="540" cy="1700" r="560" fill="url(#en-sun)" />
+          <g transform="translate(540 1760) scale(1.0)" fill="#0a1018">
+            <rect x="-260" y="-160" width="520" height="160" /><path d="M-170 -160 q0 -190 170 -200 q170 10 170 200 z" /><rect x="-6" y="-420" width="12" height="70" /><circle cx="0" cy="-430" r="14" />
+            <path d="M-250 -160 q0 -90 70 -96 q70 6 70 96 z" /><path d="M110 -160 q0 -90 70 -96 q70 6 70 96 z" />
+            <rect x="-360" y="-520" width="44" height="520" /><path d="M-370 -520 h64 l-32 -80 z" /><rect x="-372" y="-400" width="68" height="16" />
+            <rect x="316" y="-520" width="44" height="520" /><path d="M306 -520 h64 l-32 -80 z" /><rect x="304" y="-400" width="68" height="16" /></g>
+          <rect x="0" y="1760" width="1080" height="160" fill="#0a1018" />
+        </svg>
+      </div>
+      <div id="en-title" class="title lt " style="top: 330px; font-size: 150px">Gib nicht<br /><span class="gold">auf</span></div>
+      <div id="en-pill" class="pill" style="top: 700px"><span style="font-size: 34px">Schick das jemandem, der es heute braucht 🤍</span></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#en-a-cam", { scale: 1.1, y: 30 }, { scale: 1.0, y: 0, duration: 7.87, ease: "power2.out" }, 0);
+    tl.fromTo("#en-title", { opacity: 0, scale: 1.5, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.25, ease: "power3.in" }, 0.46);
+    tl.fromTo("#en-pill", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" }, 2.54);
+    tl.fromTo(".en-st", { opacity: 0.2 }, { opacity: 0.95, duration: 0.6, repeat: 7, yoyo: true, stagger: 0.02 }, 0);
+    window.__timelines["ende"] = tl;
+  </script>
+</template>

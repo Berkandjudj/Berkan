@@ -1,0 +1,1300 @@
+{
+ "duration": 54.988,
+ "lines": [
+  {
+   "id": "hook1",
+   "start": 0.15,
+   "end": 2.29,
+   "words": [
+    {
+     "text": "Du",
+     "say": "Du",
+     "key": false,
+     "start": 0.17,
+     "end": 0.353
+    },
+    {
+     "text": "hast",
+     "say": "hast",
+     "key": false,
+     "start": 0.353,
+     "end": 0.536
+    },
+    {
+     "text": "dir",
+     "say": "dir",
+     "key": false,
+     "start": 0.536,
+     "end": 0.719
+    },
+    {
+     "text": "geschworen:",
+     "say": "geschworen:",
+     "key": false,
+     "start": 0.719,
+     "end": 1.13
+    },
+    {
+     "text": "Das",
+     "say": "Das",
+     "key": false,
+     "start": 1.3,
+     "end": 1.469
+    },
+    {
+     "text": "war",
+     "say": "war",
+     "key": false,
+     "start": 1.469,
+     "end": 1.638
+    },
+    {
+     "text": "das",
+     "say": "das",
+     "key": false,
+     "start": 1.638,
+     "end": 1.807
+    },
+    {
+     "text": "letzte",
+     "say": "letzte",
+     "key": true,
+     "start": 1.807,
+     "end": 2.081
+    },
+    {
+     "text": "Mal.",
+     "say": "Mal.",
+     "key": false,
+     "start": 2.081,
+     "end": 2.25
+    }
+   ]
+  },
+  {
+   "id": "hook2",
+   "start": 2.74,
+   "end": 4.12,
+   "words": [
+    {
+     "text": "Und",
+     "say": "Und",
+     "key": false,
+     "start": 2.76,
+     "end": 2.942
+    },
+    {
+     "text": "dann",
+     "say": "dann",
+     "key": false,
+     "start": 2.942,
+     "end": 3.124
+    },
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 3.124,
+     "end": 3.306
+    },
+    {
+     "text": "es",
+     "say": "es",
+     "key": false,
+     "start": 3.306,
+     "end": 3.488
+    },
+    {
+     "text": "wieder",
+     "say": "wieder",
+     "key": true,
+     "start": 3.488,
+     "end": 3.784
+    },
+    {
+     "text": "passiert.",
+     "say": "passiert.",
+     "key": false,
+     "start": 3.784,
+     "end": 4.08
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "start": 4.62,
+   "end": 7.305,
+   "words": [
+    {
+     "text": "Du",
+     "say": "Du",
+     "key": false,
+     "start": 4.64,
+     "end": 4.854
+    },
+    {
+     "text": "schämst",
+     "say": "schämst",
+     "key": false,
+     "start": 4.854,
+     "end": 5.068
+    },
+    {
+     "text": "dich.",
+     "say": "dich.",
+     "key": false,
+     "start": 5.068,
+     "end": 5.282
+    },
+    {
+     "text": "Du",
+     "say": "Du",
+     "key": false,
+     "start": 5.282,
+     "end": 5.496
+    },
+    {
+     "text": "denkst,",
+     "say": "denkst,",
+     "key": false,
+     "start": 5.496,
+     "end": 5.709
+    },
+    {
+     "text": "Allah",
+     "say": "Allah",
+     "key": false,
+     "start": 5.709,
+     "end": 6.057
+    },
+    {
+     "text": "will",
+     "say": "will",
+     "key": false,
+     "start": 6.057,
+     "end": 6.271
+    },
+    {
+     "text": "dich",
+     "say": "dich",
+     "key": false,
+     "start": 6.271,
+     "end": 6.485
+    },
+    {
+     "text": "nicht",
+     "say": "nicht",
+     "key": false,
+     "start": 6.485,
+     "end": 6.699
+    },
+    {
+     "text": "mehr",
+     "say": "mehr",
+     "key": false,
+     "start": 6.699,
+     "end": 6.912
+    },
+    {
+     "text": "hören.",
+     "say": "hören.",
+     "key": false,
+     "start": 6.912,
+     "end": 7.26
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "start": 7.705,
+   "end": 11.055,
+   "words": [
+    {
+     "text": "Doch",
+     "say": "Doch",
+     "key": false,
+     "start": 7.725,
+     "end": 7.976
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 7.976,
+     "end": 8.228
+    },
+    {
+     "text": "Prophet,",
+     "say": "Prophet,",
+     "key": false,
+     "start": 8.228,
+     "end": 8.636
+    },
+    {
+     "text": "Allahs",
+     "say": "Allahs",
+     "key": false,
+     "start": 8.636,
+     "end": 9.045
+    },
+    {
+     "text": "Segen",
+     "say": "Segen",
+     "key": false,
+     "start": 9.045,
+     "end": 9.454
+    },
+    {
+     "text": "und",
+     "say": "und",
+     "key": false,
+     "start": 9.454,
+     "end": 9.705
+    },
+    {
+     "text": "Frieden",
+     "say": "Frieden",
+     "key": false,
+     "start": 9.705,
+     "end": 10.114
+    },
+    {
+     "text": "auf",
+     "say": "auf",
+     "key": false,
+     "start": 10.114,
+     "end": 10.365
+    },
+    {
+     "text": "ihm,",
+     "say": "ihm,",
+     "key": false,
+     "start": 10.365,
+     "end": 10.616
+    },
+    {
+     "text": "sagte:",
+     "say": "sagte:",
+     "key": false,
+     "start": 10.616,
+     "end": 11.025
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "start": 11.355,
+   "end": 15.475,
+   "words": [
+    {
+     "text": "Alle",
+     "say": "Alle",
+     "key": false,
+     "start": 11.375,
+     "end": 11.679
+    },
+    {
+     "text": "Kinder",
+     "say": "Kinder",
+     "key": false,
+     "start": 11.679,
+     "end": 11.983
+    },
+    {
+     "text": "Adams",
+     "say": "Adams",
+     "key": false,
+     "start": 11.983,
+     "end": 12.287
+    },
+    {
+     "text": "machen",
+     "say": "machen",
+     "key": false,
+     "start": 12.287,
+     "end": 12.591
+    },
+    {
+     "text": "Fehler.",
+     "say": "Fehler.",
+     "key": false,
+     "start": 12.591,
+     "end": 12.895
+    },
+    {
+     "text": "Und",
+     "say": "Und",
+     "key": false,
+     "start": 13.225,
+     "end": 13.415
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 13.415,
+     "end": 13.606
+    },
+    {
+     "text": "Besten",
+     "say": "Besten",
+     "key": false,
+     "start": 13.606,
+     "end": 13.915
+    },
+    {
+     "text": "von",
+     "say": "von",
+     "key": false,
+     "start": 13.915,
+     "end": 14.105
+    },
+    {
+     "text": "ihnen",
+     "say": "ihnen",
+     "key": false,
+     "start": 14.105,
+     "end": 14.414
+    },
+    {
+     "text": "sind",
+     "say": "sind",
+     "key": false,
+     "start": 14.414,
+     "end": 14.605
+    },
+    {
+     "text": "die,",
+     "say": "die,",
+     "key": false,
+     "start": 14.605,
+     "end": 14.795
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 14.945,
+     "end": 15.135
+    },
+    {
+     "text": "bereuen.",
+     "say": "bereuen.",
+     "key": true,
+     "start": 15.135,
+     "end": 15.445
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "start": 15.975,
+   "end": 18.075,
+   "words": [
+    {
+     "text": "Der",
+     "say": "Der",
+     "key": false,
+     "start": 15.995,
+     "end": 16.232
+    },
+    {
+     "text": "Kampf",
+     "say": "Kampf",
+     "key": false,
+     "start": 16.232,
+     "end": 16.468
+    },
+    {
+     "text": "gegen",
+     "say": "gegen",
+     "key": false,
+     "start": 16.468,
+     "end": 16.852
+    },
+    {
+     "text": "dich",
+     "say": "dich",
+     "key": false,
+     "start": 16.852,
+     "end": 17.089
+    },
+    {
+     "text": "selbst",
+     "say": "selbst",
+     "key": false,
+     "start": 17.089,
+     "end": 17.325
+    },
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 17.325,
+     "end": 17.562
+    },
+    {
+     "text": "kein",
+     "say": "kein",
+     "key": false,
+     "start": 17.562,
+     "end": 17.798
+    },
+    {
+     "text": "Sprint.",
+     "say": "Sprint.",
+     "key": true,
+     "start": 17.798,
+     "end": 18.035
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "start": 18.375,
+   "end": 22.407,
+   "words": [
+    {
+     "text": "Du",
+     "say": "Du",
+     "key": false,
+     "start": 18.395,
+     "end": 18.65
+    },
+    {
+     "text": "fällst.",
+     "say": "fällst.",
+     "key": false,
+     "start": 18.65,
+     "end": 18.905
+    },
+    {
+     "text": "Du",
+     "say": "Du",
+     "key": false,
+     "start": 19.225,
+     "end": 19.475
+    },
+    {
+     "text": "stehst",
+     "say": "stehst",
+     "key": false,
+     "start": 19.475,
+     "end": 19.725
+    },
+    {
+     "text": "auf.",
+     "say": "auf.",
+     "key": true,
+     "start": 19.725,
+     "end": 19.975
+    },
+    {
+     "text": "Du",
+     "say": "Du",
+     "key": false,
+     "start": 20.225,
+     "end": 20.435
+    },
+    {
+     "text": "fällst",
+     "say": "fällst",
+     "key": false,
+     "start": 20.435,
+     "end": 20.644
+    },
+    {
+     "text": "wieder.",
+     "say": "wieder.",
+     "key": false,
+     "start": 20.644,
+     "end": 20.985
+    },
+    {
+     "text": "Und",
+     "say": "Und",
+     "key": false,
+     "start": 21.265,
+     "end": 21.462
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": false,
+     "start": 21.462,
+     "end": 21.66
+    },
+    {
+     "text": "stehst",
+     "say": "stehst",
+     "key": false,
+     "start": 21.66,
+     "end": 21.857
+    },
+    {
+     "text": "wieder",
+     "say": "wieder",
+     "key": true,
+     "start": 21.857,
+     "end": 22.178
+    },
+    {
+     "text": "auf.",
+     "say": "auf.",
+     "key": false,
+     "start": 22.178,
+     "end": 22.375
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "start": 22.807,
+   "end": 25.587,
+   "words": [
+    {
+     "text": "Und",
+     "say": "Und",
+     "key": false,
+     "start": 22.827,
+     "end": 23.028
+    },
+    {
+     "text": "jedes",
+     "say": "jedes",
+     "key": false,
+     "start": 23.028,
+     "end": 23.356
+    },
+    {
+     "text": "Mal,",
+     "say": "Mal,",
+     "key": false,
+     "start": 23.356,
+     "end": 23.557
+    },
+    {
+     "text": "wenn",
+     "say": "wenn",
+     "key": false,
+     "start": 23.557,
+     "end": 23.759
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": false,
+     "start": 23.759,
+     "end": 23.96
+    },
+    {
+     "text": "ehrlich",
+     "say": "ehrlich",
+     "key": false,
+     "start": 23.96,
+     "end": 24.288
+    },
+    {
+     "text": "bereust,",
+     "say": "bereust,",
+     "key": false,
+     "start": 24.288,
+     "end": 24.615
+    },
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 24.615,
+     "end": 24.817
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 24.817,
+     "end": 25.018
+    },
+    {
+     "text": "Tür",
+     "say": "Tür",
+     "key": false,
+     "start": 25.018,
+     "end": 25.22
+    },
+    {
+     "text": "offen.",
+     "say": "offen.",
+     "key": true,
+     "start": 25.22,
+     "end": 25.547
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "start": 25.987,
+   "end": 32.017,
+   "words": [
+    {
+     "text": "Allah",
+     "say": "Allah",
+     "key": false,
+     "start": 26.007,
+     "end": 26.394
+    },
+    {
+     "text": "sagt",
+     "say": "sagt",
+     "key": false,
+     "start": 26.394,
+     "end": 26.632
+    },
+    {
+     "text": "im",
+     "say": "im",
+     "key": false,
+     "start": 26.632,
+     "end": 26.87
+    },
+    {
+     "text": "Koran:",
+     "say": "Koran:",
+     "key": false,
+     "start": 26.87,
+     "end": 27.257
+    },
+    {
+     "text": "Verliert",
+     "say": "Verliert",
+     "key": false,
+     "start": 27.257,
+     "end": 27.643
+    },
+    {
+     "text": "nicht",
+     "say": "nicht",
+     "key": false,
+     "start": 27.643,
+     "end": 27.881
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 27.881,
+     "end": 28.119
+    },
+    {
+     "text": "Hoffnung",
+     "say": "Hoffnung",
+     "key": true,
+     "start": 28.119,
+     "end": 28.506
+    },
+    {
+     "text": "auf",
+     "say": "auf",
+     "key": false,
+     "start": 28.506,
+     "end": 28.744
+    },
+    {
+     "text": "Allahs",
+     "say": "Allahs",
+     "key": false,
+     "start": 28.744,
+     "end": 29.131
+    },
+    {
+     "text": "Barmherzigkeit.",
+     "say": "Barmherzigkeit.",
+     "key": false,
+     "start": 29.131,
+     "end": 29.815
+    },
+    {
+     "text": "Gewiss,",
+     "say": "Gewiss,",
+     "key": false,
+     "start": 29.815,
+     "end": 30.202
+    },
+    {
+     "text": "Allah",
+     "say": "Allah",
+     "key": false,
+     "start": 30.202,
+     "end": 30.589
+    },
+    {
+     "text": "vergibt",
+     "say": "vergibt",
+     "key": false,
+     "start": 30.589,
+     "end": 30.975
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 30.975,
+     "end": 31.213
+    },
+    {
+     "text": "Sünden",
+     "say": "Sünden",
+     "key": false,
+     "start": 31.213,
+     "end": 31.6
+    },
+    {
+     "text": "alle.",
+     "say": "alle.",
+     "key": true,
+     "start": 31.6,
+     "end": 31.987
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "start": 32.517,
+   "end": 35.367,
+   "words": [
+    {
+     "text": "Aber",
+     "say": "Aber",
+     "key": false,
+     "start": 32.537,
+     "end": 32.93
+    },
+    {
+     "text": "Reue",
+     "say": "Reue",
+     "key": false,
+     "start": 32.93,
+     "end": 33.171
+    },
+    {
+     "text": "allein",
+     "say": "allein",
+     "key": false,
+     "start": 33.171,
+     "end": 33.564
+    },
+    {
+     "text": "reicht",
+     "say": "reicht",
+     "key": false,
+     "start": 33.564,
+     "end": 33.805
+    },
+    {
+     "text": "nicht.",
+     "say": "nicht.",
+     "key": false,
+     "start": 33.805,
+     "end": 34.047
+    },
+    {
+     "text": "Du",
+     "say": "Du",
+     "key": false,
+     "start": 34.327,
+     "end": 34.562
+    },
+    {
+     "text": "brauchst",
+     "say": "brauchst",
+     "key": false,
+     "start": 34.562,
+     "end": 34.798
+    },
+    {
+     "text": "Disziplin.",
+     "say": "Disziplin.",
+     "key": true,
+     "start": 34.798,
+     "end": 35.327
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "start": 35.717,
+   "end": 38.987,
+   "words": [
+    {
+     "text": "Meide",
+     "say": "Meide",
+     "key": false,
+     "start": 35.737,
+     "end": 36.043
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 36.043,
+     "end": 36.231
+    },
+    {
+     "text": "Orte,",
+     "say": "Orte,",
+     "key": false,
+     "start": 36.231,
+     "end": 36.537
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 36.677,
+     "end": 36.824
+    },
+    {
+     "text": "dich",
+     "say": "dich",
+     "key": false,
+     "start": 36.824,
+     "end": 36.971
+    },
+    {
+     "text": "schwach",
+     "say": "schwach",
+     "key": true,
+     "start": 36.971,
+     "end": 37.118
+    },
+    {
+     "text": "machen.",
+     "say": "machen.",
+     "key": false,
+     "start": 37.118,
+     "end": 37.357
+    },
+    {
+     "text": "Lösche,",
+     "say": "Lösche,",
+     "key": false,
+     "start": 37.677,
+     "end": 38.107
+    },
+    {
+     "text": "was",
+     "say": "was",
+     "key": false,
+     "start": 38.227,
+     "end": 38.426
+    },
+    {
+     "text": "dich",
+     "say": "dich",
+     "key": false,
+     "start": 38.426,
+     "end": 38.624
+    },
+    {
+     "text": "verführt.",
+     "say": "verführt.",
+     "key": true,
+     "start": 38.624,
+     "end": 38.947
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "start": 39.337,
+   "end": 43.618,
+   "words": [
+    {
+     "text": "Fang",
+     "say": "Fang",
+     "key": false,
+     "start": 39.357,
+     "end": 39.565
+    },
+    {
+     "text": "klein",
+     "say": "klein",
+     "key": false,
+     "start": 39.565,
+     "end": 39.773
+    },
+    {
+     "text": "an.",
+     "say": "an.",
+     "key": false,
+     "start": 39.773,
+     "end": 39.981
+    },
+    {
+     "text": "Die",
+     "say": "Die",
+     "key": false,
+     "start": 39.981,
+     "end": 40.189
+    },
+    {
+     "text": "liebsten",
+     "say": "liebsten",
+     "key": false,
+     "start": 40.189,
+     "end": 40.528
+    },
+    {
+     "text": "Taten",
+     "say": "Taten",
+     "key": false,
+     "start": 40.528,
+     "end": 40.866
+    },
+    {
+     "text": "bei",
+     "say": "bei",
+     "key": false,
+     "start": 40.866,
+     "end": 41.074
+    },
+    {
+     "text": "Allah",
+     "say": "Allah",
+     "key": false,
+     "start": 41.074,
+     "end": 41.412
+    },
+    {
+     "text": "sind",
+     "say": "sind",
+     "key": false,
+     "start": 41.412,
+     "end": 41.62
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 41.62,
+     "end": 41.828
+    },
+    {
+     "text": "beständigsten,",
+     "say": "beständigsten,",
+     "key": true,
+     "start": 41.828,
+     "end": 42.426
+    },
+    {
+     "text": "auch",
+     "say": "auch",
+     "key": false,
+     "start": 42.426,
+     "end": 42.635
+    },
+    {
+     "text": "wenn",
+     "say": "wenn",
+     "key": false,
+     "start": 42.635,
+     "end": 42.843
+    },
+    {
+     "text": "sie",
+     "say": "sie",
+     "key": false,
+     "start": 42.843,
+     "end": 43.051
+    },
+    {
+     "text": "wenig",
+     "say": "wenig",
+     "key": false,
+     "start": 43.051,
+     "end": 43.389
+    },
+    {
+     "text": "sind.",
+     "say": "sind.",
+     "key": false,
+     "start": 43.389,
+     "end": 43.597
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "start": 44.018,
+   "end": 46.233,
+   "words": [
+    {
+     "text": "Ein",
+     "say": "Ein",
+     "key": false,
+     "start": 44.038,
+     "end": 44.233
+    },
+    {
+     "text": "Tag.",
+     "say": "Tag.",
+     "key": true,
+     "start": 44.233,
+     "end": 44.428
+    },
+    {
+     "text": "Dann",
+     "say": "Dann",
+     "key": false,
+     "start": 44.678,
+     "end": 44.829
+    },
+    {
+     "text": "eine",
+     "say": "eine",
+     "key": false,
+     "start": 44.829,
+     "end": 45.073
+    },
+    {
+     "text": "Woche.",
+     "say": "Woche.",
+     "key": true,
+     "start": 45.073,
+     "end": 45.318
+    },
+    {
+     "text": "Dann",
+     "say": "Dann",
+     "key": false,
+     "start": 45.538,
+     "end": 45.72
+    },
+    {
+     "text": "ein",
+     "say": "ein",
+     "key": false,
+     "start": 45.72,
+     "end": 45.902
+    },
+    {
+     "text": "Monat.",
+     "say": "Monat.",
+     "key": true,
+     "start": 45.902,
+     "end": 46.198
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "start": 46.583,
+   "end": 49.543,
+   "words": [
+    {
+     "text": "Und",
+     "say": "Und",
+     "key": false,
+     "start": 46.603,
+     "end": 46.776
+    },
+    {
+     "text": "eines",
+     "say": "eines",
+     "key": false,
+     "start": 46.776,
+     "end": 47.057
+    },
+    {
+     "text": "Tages",
+     "say": "Tages",
+     "key": false,
+     "start": 47.057,
+     "end": 47.339
+    },
+    {
+     "text": "merkst",
+     "say": "merkst",
+     "key": false,
+     "start": 47.339,
+     "end": 47.512
+    },
+    {
+     "text": "du:",
+     "say": "du:",
+     "key": false,
+     "start": 47.512,
+     "end": 47.685
+    },
+    {
+     "text": "Diese",
+     "say": "Diese",
+     "key": false,
+     "start": 47.685,
+     "end": 47.966
+    },
+    {
+     "text": "Sünde",
+     "say": "Sünde",
+     "key": false,
+     "start": 47.966,
+     "end": 48.248
+    },
+    {
+     "text": "hat",
+     "say": "hat",
+     "key": false,
+     "start": 48.248,
+     "end": 48.421
+    },
+    {
+     "text": "keine",
+     "say": "keine",
+     "key": false,
+     "start": 48.421,
+     "end": 48.702
+    },
+    {
+     "text": "Macht",
+     "say": "Macht",
+     "key": true,
+     "start": 48.702,
+     "end": 48.875
+    },
+    {
+     "text": "mehr",
+     "say": "mehr",
+     "key": false,
+     "start": 48.875,
+     "end": 49.049
+    },
+    {
+     "text": "über",
+     "say": "über",
+     "key": false,
+     "start": 49.049,
+     "end": 49.33
+    },
+    {
+     "text": "dich.",
+     "say": "dich.",
+     "key": false,
+     "start": 49.33,
+     "end": 49.503
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "start": 50.043,
+   "end": 52.058,
+   "words": [
+    {
+     "text": "Gib",
+     "say": "Gib",
+     "key": false,
+     "start": 50.063,
+     "end": 50.296
+    },
+    {
+     "text": "nicht",
+     "say": "nicht",
+     "key": false,
+     "start": 50.296,
+     "end": 50.53
+    },
+    {
+     "text": "auf.",
+     "say": "auf.",
+     "key": true,
+     "start": 50.53,
+     "end": 50.763
+    },
+    {
+     "text": "Allah",
+     "say": "Allah",
+     "key": false,
+     "start": 51.013,
+     "end": 51.323
+    },
+    {
+     "text": "sieht",
+     "say": "sieht",
+     "key": false,
+     "start": 51.323,
+     "end": 51.513
+    },
+    {
+     "text": "deinen",
+     "say": "deinen",
+     "key": false,
+     "start": 51.513,
+     "end": 51.823
+    },
+    {
+     "text": "Kampf.",
+     "say": "Kampf.",
+     "key": true,
+     "start": 51.823,
+     "end": 52.013
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": 52.458,
+   "end": 54.388,
+   "words": [
+    {
+     "text": "Schick",
+     "say": "Schick",
+     "key": false,
+     "start": 52.458,
+     "end": 52.671
+    },
+    {
+     "text": "das",
+     "say": "das",
+     "key": false,
+     "start": 52.671,
+     "end": 52.884
+    },
+    {
+     "text": "jemandem,",
+     "say": "jemandem,",
+     "key": false,
+     "start": 52.884,
+     "end": 53.363
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 53.363,
+     "end": 53.576
+    },
+    {
+     "text": "es",
+     "say": "es",
+     "key": false,
+     "start": 53.576,
+     "end": 53.789
+    },
+    {
+     "text": "heute",
+     "say": "heute",
+     "key": false,
+     "start": 53.789,
+     "end": 54.135
+    },
+    {
+     "text": "braucht.",
+     "say": "braucht.",
+     "key": true,
+     "start": 54.135,
+     "end": 54.348
+    }
+   ]
+  }
+ ]
+}

@@ -109,6 +109,7 @@ def main():
     ap.add_argument("--size", type=int, default=66)
     ap.add_argument("--style", choices=["szenario", "legende"], default="szenario",
                     help="szenario = Box + Karaoke (Bunker-Stil), legende = weiße Schrift ohne Box (zeitreisehaus-Stil)")
+    ap.add_argument("--key-color", default="", help="nur legende: Farbe der *Schlüsselwörter* (Standard weiß), z. B. #ffd25a")
     ap.add_argument("--skip", default="", help="Zeilen-IDs ohne Untertitel (z. B. schwarze Texttafeln), kommagetrennt")
     a = ap.parse_args()
     timing = json.load(open(os.path.join(a.project, "assets", "timing.json"), encoding="utf-8"))
@@ -141,6 +142,8 @@ def main():
                           data=json.dumps(data, ensure_ascii=False),
                           legende=LEGENDE_CSS.format(top=top, size=a.size) if leg else "",
                           legjs="true" if leg else "false")
+    if leg and a.key_color:
+        out = out.replace('RED = LEG ? "#f4f1ea"', f'RED = LEG ? "{a.key_color}"')
     os.makedirs(os.path.join(a.project, "compositions"), exist_ok=True)
     path = os.path.join(a.project, "compositions", "captions.html")
     open(path, "w", encoding="utf-8").write(out)

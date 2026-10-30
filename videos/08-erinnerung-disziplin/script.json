@@ -1,0 +1,22 @@
+{
+ "title": "Diese eine Sünde",
+ "mode": "ERINNERUNG",
+ "lines": [
+  { "id": "hook1", "say": "Du hast dir geschworen: Das war das letzte Mal.", "show": "Du hast dir geschworen: Das war das *letzte* Mal.", "pause": 0.45 },
+  { "id": "hook2", "say": "Und dann ist es wieder passiert.", "show": "Und dann ist es *wieder* passiert.", "pause": 0.5 },
+  { "id": "s1", "say": "Du schämst dich. Du denkst, Allah will dich nicht mehr hören.", "show": "Du schämst dich. Du denkst, Allah will dich nicht mehr hören.", "pause": 0.4 },
+  { "id": "s2", "say": "Doch der Prophet, Allahs Segen und Frieden auf ihm, sagte:", "show": "Doch der Prophet, Allahs Segen und Frieden auf ihm, sagte:", "pause": 0.3 },
+  { "id": "s3", "say": "Alle Kinder Adams machen Fehler. Und die Besten von ihnen sind die, die bereuen.", "show": "Alle Kinder Adams machen Fehler. Und die Besten von ihnen sind die, die *bereuen.*", "pause": 0.5 },
+  { "id": "s4", "say": "Der Kampf gegen dich selbst ist kein Sprint.", "show": "Der Kampf gegen dich selbst ist kein *Sprint.*", "pause": 0.3 },
+  { "id": "s5", "say": "Du fällst. Du stehst auf. Du fällst wieder. Und du stehst wieder auf.", "show": "Du fällst. Du stehst *auf.* Du fällst wieder. Und du stehst *wieder* auf.", "pause": 0.4 },
+  { "id": "s6", "say": "Und jedes Mal, wenn du ehrlich bereust, ist die Tür offen.", "show": "Und jedes Mal, wenn du ehrlich bereust, ist die Tür *offen.*", "pause": 0.4 },
+  { "id": "s7", "say": "Allah sagt im Koran: Verliert nicht die Hoffnung auf Allahs Barmherzigkeit. Gewiss, Allah vergibt die Sünden alle.", "show": "Allah sagt im Koran: Verliert nicht die *Hoffnung* auf Allahs Barmherzigkeit. Gewiss, Allah vergibt die Sünden *alle.*", "pause": 0.5 },
+  { "id": "s8", "say": "Aber Reue allein reicht nicht. Du brauchst Disziplin.", "show": "Aber Reue allein reicht nicht. Du brauchst *Disziplin.*", "pause": 0.35 },
+  { "id": "s9", "say": "Meide die Orte, die dich schwach machen. Lösche, was dich verführt.", "show": "Meide die Orte, die dich *schwach* machen. Lösche, was dich *verführt.*", "pause": 0.35 },
+  { "id": "s10", "say": "Fang klein an. Die liebsten Taten bei Allah sind die beständigsten, auch wenn sie wenig sind.", "show": "Fang klein an. Die liebsten Taten bei Allah sind die *beständigsten,* auch wenn sie wenig sind.", "pause": 0.4 },
+  { "id": "s11", "say": "Ein Tag. Dann eine Woche. Dann ein Monat.", "show": "Ein *Tag.* Dann eine *Woche.* Dann ein *Monat.*", "pause": 0.35 },
+  { "id": "s12", "say": "Und eines Tages merkst du: Diese Sünde hat keine Macht mehr über dich.", "show": "Und eines Tages merkst du: Diese Sünde hat keine *Macht* mehr über dich.", "pause": 0.5 },
+  { "id": "end", "say": "Gib nicht auf. Allah sieht deinen Kampf.", "show": "Gib nicht *auf.* Allah sieht deinen *Kampf.*", "pause": 0.4 },
+  { "id": "cta", "say": "Schick das jemandem, der es heute braucht.", "show": "Schick das jemandem, der es heute *braucht.*", "pause": 0.6 }
+ ]
+}
