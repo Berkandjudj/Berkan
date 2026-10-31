@@ -1,0 +1,69 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #0a0e14; }
+    .beat { position: absolute; inset: 0; overflow: hidden; }
+    .lt { font-family: "Montserrat", sans-serif; font-weight: 800; text-transform: uppercase; }
+    .gold { color: #ffd25a; text-shadow: 0 6px 0 #7a4a0a, 0 0 50px rgba(255, 190, 80, 0.45); }
+    .blue { color: #bfe0ff; text-shadow: 0 6px 0 #1a2a40, 0 0 40px rgba(127, 176, 216, 0.4); }
+    .red { color: #e8412f; text-shadow: 0 6px 0 #5a1208, 0 0 40px rgba(232, 65, 47, 0.4); }
+    .green { color: #7fe0a0; text-shadow: 0 6px 0 #10402a, 0 0 40px rgba(127, 224, 160, 0.4); }
+    .pill { position: absolute; left: 0; width: 1080px; text-align: center; }
+    .pill span { display: inline-block; padding: 12px 30px; border-radius: 18px; background: rgba(10, 14, 18, 0.88);
+      border: 3px solid #ffd25a; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 38px; color: #f4f1ea; }
+    .card { position: absolute; left: 80px; width: 920px; padding: 44px 40px; border-radius: 28px; text-align: center;
+      background: rgba(8, 12, 18, 0.9); border: 4px solid #ffd25a; box-shadow: 0 20px 60px rgba(0,0,0,.5);
+      font-family: "Montserrat", sans-serif; font-weight: 800; color: #f4f1ea; }
+    .card .h { font-size: 46px; letter-spacing: 0.04em; text-transform: uppercase; color: #ffd25a; }
+    .card .n { font-size: 104px; line-height: 1.1; margin: 14px 0; letter-spacing: 0.01em; white-space: nowrap; }
+    .card .s { font-size: 36px; color: #c7ccd6; font-weight: 700; }
+    .res { position: absolute; left: 60px; width: 960px; padding: 34px 40px; border-radius: 26px; background: rgba(8, 12, 18, 0.92);
+      border: 4px solid #ffd25a; font-family: "Montserrat", sans-serif; color: #f4f1ea; }
+    .res .t { font-weight: 800; font-size: 42px; text-transform: uppercase; color: #ffd25a; text-align: center; margin-bottom: 18px; }
+    .res .r { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding: 22px 0; border-top: 2px solid rgba(255,255,255,.12); }
+    .res .l { font-weight: 700; font-size: 34px; color: #c7ccd6; }
+    .res .v { font-weight: 800; font-size: 46px; white-space: nowrap; color: #f4f1ea; text-align: right; }
+    .res .v small { display: block; font-size: 30px; color: #c7ccd6; font-weight: 700; }
+
+  </style>
+  <div id="root" data-composition-id="nummern" data-width="1080" data-height="1920">
+    <div id="n-a" class="beat clip" data-start="0.00" data-duration="6.78" data-track-index="0">
+      <div id="n-a-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <rect width="1080" height="1920" fill="#101820" />
+          <circle cx="540" cy="900" r="520" fill="#ffd25a" opacity="0.06" />
+          <g fill="none" stroke="#ffd25a" stroke-width="5" opacity="0.25"><circle cx="540" cy="1500" r="120" /><circle cx="540" cy="1500" r="200" /><circle cx="540" cy="1500" r="280" /></g>
+        </svg>
+      </div>
+      <div id="n-a-card" class="card" style="top: 520px">
+        <div class="h">TelefonSeelsorge</div>
+        <div class="n">0800 111 0 111</div>
+        <div class="s">oder 0800 111 0 222 · 116 123</div>
+        <div class="s" style="margin-top: 18px; color: #ffd25a">24/7 · kostenlos · anonym</div>
+      </div>
+    </div>
+    <div id="n-b" class="beat clip" data-start="6.78" data-duration="3.73" data-track-index="0">
+      <div id="n-b-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <rect width="1080" height="1920" fill="#160c0c" />
+          <circle cx="540" cy="900" r="520" fill="#e8412f" opacity="0.08" />
+        </svg>
+      </div>
+      <div id="n-b-card" class="card" style="top: 560px; border-color: #e8412f">
+        <div class="h" style="color: #ff6a55">Akute Gefahr</div>
+        <div class="n" style="font-size: 220px; color: #ff6a55">112</div>
+        <div class="s">Notruf · sofort · überall in Europa</div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#n-a-cam", { scale: 1.0 }, { scale: 1.08, duration: 6.78, ease: "none" }, 0.00);
+    tl.fromTo("#n-b-cam", { scale: 1.0 }, { scale: 1.08, duration: 3.73, ease: "none" }, 6.78);
+    tl.fromTo("#n-a-card .s", { opacity: 0.6 }, { opacity: 1, duration: 0.8, repeat: 5, yoyo: true }, 0.60);
+    tl.fromTo("#n-a-card", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, 0.10);
+    tl.fromTo("#n-a-card .n", { scale: 1, transformOrigin: "50% 50%" }, { scale: 1.06, duration: 0.25, repeat: 3, yoyo: true }, 4.41);
+    tl.fromTo("#n-b-card", { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(1.8)" }, 6.83);
+    tl.fromTo("#n-b-card .n", { scale: 1, transformOrigin: "50% 50%" }, { scale: 1.08, duration: 0.25, repeat: 3, yoyo: true }, 9.38);
+    window.__timelines["nummern"] = tl;
+  </script>
+</template>

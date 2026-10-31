@@ -1,0 +1,65 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #0a0e14; }
+    .beat { position: absolute; inset: 0; overflow: hidden; }
+    .lt { font-family: "Montserrat", sans-serif; font-weight: 800; text-transform: uppercase; }
+    .gold { color: #ffd25a; text-shadow: 0 6px 0 #7a4a0a, 0 0 50px rgba(255, 190, 80, 0.45); }
+    .blue { color: #bfe0ff; text-shadow: 0 6px 0 #1a2a40, 0 0 40px rgba(127, 176, 216, 0.4); }
+    .red { color: #e8412f; text-shadow: 0 6px 0 #5a1208, 0 0 40px rgba(232, 65, 47, 0.4); }
+    .green { color: #7fe0a0; text-shadow: 0 6px 0 #10402a, 0 0 40px rgba(127, 224, 160, 0.4); }
+    .pill { position: absolute; left: 0; width: 1080px; text-align: center; }
+    .pill span { display: inline-block; padding: 12px 30px; border-radius: 18px; background: rgba(10, 14, 18, 0.88);
+      border: 3px solid #ffd25a; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 38px; color: #f4f1ea; }
+    .card { position: absolute; left: 80px; width: 920px; padding: 44px 40px; border-radius: 28px; text-align: center;
+      background: rgba(8, 12, 18, 0.9); border: 4px solid #ffd25a; box-shadow: 0 20px 60px rgba(0,0,0,.5);
+      font-family: "Montserrat", sans-serif; font-weight: 800; color: #f4f1ea; }
+    .card .h { font-size: 46px; letter-spacing: 0.04em; text-transform: uppercase; color: #ffd25a; }
+    .card .n { font-size: 104px; line-height: 1.1; margin: 14px 0; letter-spacing: 0.01em; white-space: nowrap; }
+    .card .s { font-size: 36px; color: #c7ccd6; font-weight: 700; }
+    .res { position: absolute; left: 60px; width: 960px; padding: 34px 40px; border-radius: 26px; background: rgba(8, 12, 18, 0.92);
+      border: 4px solid #ffd25a; font-family: "Montserrat", sans-serif; color: #f4f1ea; }
+    .res .t { font-weight: 800; font-size: 42px; text-transform: uppercase; color: #ffd25a; text-align: center; margin-bottom: 18px; }
+    .res .r { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding: 22px 0; border-top: 2px solid rgba(255,255,255,.12); }
+    .res .l { font-weight: 700; font-size: 34px; color: #c7ccd6; }
+    .res .v { font-weight: 800; font-size: 46px; white-space: nowrap; color: #f4f1ea; text-align: right; }
+    .res .v small { display: block; font-size: 30px; color: #c7ccd6; font-weight: 700; }
+
+  </style>
+  <div id="root" data-composition-id="kopf" data-width="1080" data-height="1920">
+    <div id="k-a" class="beat clip" data-start="0.00" data-duration="4.05" data-track-index="0">
+      <div id="k-a-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <rect width="1080" height="1920" fill="#07090d" />
+          <path d="M380 1500 C380 1300 300 1250 300 1060 C300 820 480 680 660 700 C840 720 920 860 900 1000 L960 1110 L900 1130 L910 1230 C900 1290 820 1290 780 1290 L780 1500 Z" fill="#05070a" stroke="#3a4a5a" stroke-width="6" />
+          <g clip-path="url(#k-clip)"><text class="k-a-l" x="540" y="1000" text-anchor="middle" font-family="Playfair Display" font-style="italic" font-weight="600" font-size="54" fill="#c7ccd6" opacity="0.9">Ich bin allen nur eine Last.</text><text class="k-a-l" x="510" y="900" text-anchor="middle" font-family="Playfair Display" font-style="italic" font-weight="600" font-size="40" fill="#c7ccd6" opacity="0.45">Ich bin allen nur eine Last.</text><text class="k-a-l" x="580" y="1100" text-anchor="middle" font-family="Playfair Display" font-style="italic" font-weight="600" font-size="40" fill="#c7ccd6" opacity="0.45">Ich bin allen nur eine Last.</text><text class="k-a-l" x="520" y="820" text-anchor="middle" font-family="Playfair Display" font-style="italic" font-weight="600" font-size="30" fill="#c7ccd6" opacity="0.25">Ich bin allen nur eine Last.</text><text class="k-a-l" x="570" y="1180" text-anchor="middle" font-family="Playfair Display" font-style="italic" font-weight="600" font-size="30" fill="#c7ccd6" opacity="0.25">Ich bin allen nur eine Last.</text></g>
+          <defs><clipPath id="k-clip"><path d="M300 700 H960 V1290 H300 Z" /></clipPath></defs>
+        </svg>
+      </div>
+
+    </div>
+    <div id="k-b" class="beat clip" data-start="4.05" data-duration="3.04" data-track-index="0">
+      <div id="k-b-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <rect width="1080" height="1920" fill="#0b0f16" />
+          <path d="M380 1500 C380 1300 300 1250 300 1060 C300 820 480 680 660 700 C840 720 920 860 900 1000 L960 1110 L900 1130 L910 1230 C900 1290 820 1290 780 1290 L780 1500 Z" fill="#05070a" stroke="#3a4a5a" stroke-width="6" />
+          <text x="560" y="1010" text-anchor="middle" font-family="Playfair Display" font-style="italic" font-weight="600" font-size="54" fill="#c7ccd6">Ich bin allen nur eine Last.</text>
+          <path id="k-b-x" d="M330 990 L790 1000" stroke="#e8412f" stroke-width="16" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+          <circle id="k-b-glow" cx="560" cy="1000" r="300" fill="#ffd25a" opacity="0" />
+        </svg>
+      </div>
+      <div id="k-b-title" class="title lt " style="top: 330px; font-size: 120px">Das stimmt<br /><span class="gold">nicht</span></div>
+      <div id="k-b-pill" class="pill" style="top: 1500px"><span>Das ist die Krankheit, die da spricht</span></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#k-a-cam", { scale: 1.0 }, { scale: 1.08, duration: 4.05, ease: "none" }, 0.00);
+    tl.fromTo(".k-a-l", { x: -20, opacity: 0 }, { x: 20, opacity: 0.8, duration: 0.9, repeat: 2, yoyo: true, stagger: 0.25, ease: "sine.inOut" }, 0.30);
+    tl.fromTo("#k-b-cam", { scale: 1.0 }, { scale: 1.04, duration: 3.04, ease: "none" }, 4.05);
+    tl.fromTo("#k-b-x", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.3, ease: "power2.in" }, 4.42);
+    tl.fromTo("#k-b-title", { opacity: 0, scale: 1.4, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.25, ease: "power3.in" }, 4.51);
+    tl.fromTo("#k-b-glow", { opacity: 0 }, { opacity: 0.12, duration: 0.6 }, 4.66);
+    tl.fromTo("#k-b-pill", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, 4.91);
+    window.__timelines["kopf"] = tl;
+  </script>
+</template>

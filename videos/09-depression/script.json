@@ -1,0 +1,23 @@
+{
+ "title": "So fühlt sich Depression an",
+ "mode": "AUFKLÄRUNG",
+ "lines": [
+  { "id": "hook1", "say": "Von außen siehst du ganz normal aus. Du lachst sogar.", "show": "Von außen siehst du ganz *normal* aus. Du *lachst* sogar.", "pause": 0.35 },
+  { "id": "hook2", "say": "Aber innen fühlt sich alles an wie unter Wasser.", "show": "Aber innen fühlt sich alles an wie unter *Wasser.*", "pause": 0.45 },
+  { "id": "s1", "say": "So fühlt sich Depression für viele an.", "show": "So fühlt sich *Depression* für viele an.", "pause": 0.4 },
+  { "id": "s2", "say": "Morgens aufzustehen ist wie einen Berg zu besteigen.", "show": "Morgens aufzustehen ist wie einen *Berg* zu besteigen.", "pause": 0.3 },
+  { "id": "s3", "say": "Dinge, die dir früher Freude gemacht haben, sind dir plötzlich egal.", "show": "Dinge, die dir früher Freude gemacht haben, sind dir plötzlich *egal.*", "pause": 0.3 },
+  { "id": "s4", "say": "Du bist erschöpft, obwohl du lange geschlafen hast.", "show": "Du bist *erschöpft,* obwohl du lange geschlafen hast.", "pause": 0.3 },
+  { "id": "s5", "say": "Nachrichten bleiben unbeantwortet. Nicht, weil du keine Lust hast. Sondern weil dir die Kraft fehlt.", "show": "Nachrichten bleiben unbeantwortet. Nicht, weil du keine Lust hast. Sondern weil dir die *Kraft* fehlt.", "pause": 0.4 },
+  { "id": "s6", "say": "Und im Kopf läuft immer wieder derselbe Satz: Ich bin allen nur eine Last.", "show": "Und im Kopf läuft immer wieder derselbe Satz: Ich bin allen nur eine *Last.*", "pause": 0.5 },
+  { "id": "s7", "say": "Das stimmt nicht. Das ist die Krankheit, die da spricht.", "show": "Das stimmt *nicht.* Das ist die *Krankheit,* die da spricht.", "pause": 0.4 },
+  { "id": "s8", "say": "Depression ist keine Schwäche. Und du bist nicht faul.", "show": "Depression ist keine *Schwäche.* Und du bist nicht *faul.*", "pause": 0.4 },
+  { "id": "fact", "say": "Etwa jeder fünfte Mensch erkrankt einmal im Leben an einer Depression. Und sie ist gut behandelbar.", "show": "Etwa jeder *fünfte* Mensch erkrankt einmal im Leben an einer Depression. Und sie ist gut *behandelbar.*", "pause": 0.45 },
+  { "id": "s9", "say": "Der erste Schritt ist der schwerste: darüber reden.", "show": "Der erste Schritt ist der schwerste: darüber *reden.*", "pause": 0.3 },
+  { "id": "s10", "say": "Mit einem Menschen, dem du vertraust. Mit deiner Hausärztin oder deinem Hausarzt. Oder anonym am Telefon.", "show": "Mit einem Menschen, dem du vertraust. Mit deiner Hausärztin oder deinem Hausarzt. Oder *anonym* am Telefon.", "pause": 0.4 },
+  { "id": "help", "say": "Die Telefonseelsorge ist rund um die Uhr für dich da, kostenlos und anonym: null-achthundert eins-eins-eins null eins-eins-eins.", "show": "Die Telefonseelsorge ist rund um die Uhr für dich da, kostenlos und anonym: 0800 111 0 111.", "pause": 0.45 },
+  { "id": "s11", "say": "Wenn du in akuter Gefahr bist, ruf sofort die eins-eins-zwei an.", "show": "Wenn du in akuter Gefahr bist, ruf sofort die 112 an.", "pause": 0.45 },
+  { "id": "end", "say": "Du bist nicht allein. Und Hilfe wirkt.", "show": "Du bist nicht *allein.* Und Hilfe *wirkt.*", "pause": 0.35 },
+  { "id": "cta", "say": "Schick das jemandem, an den du gerade denkst.", "show": "Schick das jemandem, an den du gerade *denkst.*", "pause": 0.6 }
+ ]
+}

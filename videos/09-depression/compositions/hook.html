@@ -1,0 +1,175 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #0a0e14; }
+    .beat { position: absolute; inset: 0; overflow: hidden; }
+    .lt { font-family: "Montserrat", sans-serif; font-weight: 800; text-transform: uppercase; }
+    .gold { color: #ffd25a; text-shadow: 0 6px 0 #7a4a0a, 0 0 50px rgba(255, 190, 80, 0.45); }
+    .blue { color: #bfe0ff; text-shadow: 0 6px 0 #1a2a40, 0 0 40px rgba(127, 176, 216, 0.4); }
+    .red { color: #e8412f; text-shadow: 0 6px 0 #5a1208, 0 0 40px rgba(232, 65, 47, 0.4); }
+    .green { color: #7fe0a0; text-shadow: 0 6px 0 #10402a, 0 0 40px rgba(127, 224, 160, 0.4); }
+    .pill { position: absolute; left: 0; width: 1080px; text-align: center; }
+    .pill span { display: inline-block; padding: 12px 30px; border-radius: 18px; background: rgba(10, 14, 18, 0.88);
+      border: 3px solid #ffd25a; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 38px; color: #f4f1ea; }
+    .card { position: absolute; left: 80px; width: 920px; padding: 44px 40px; border-radius: 28px; text-align: center;
+      background: rgba(8, 12, 18, 0.9); border: 4px solid #ffd25a; box-shadow: 0 20px 60px rgba(0,0,0,.5);
+      font-family: "Montserrat", sans-serif; font-weight: 800; color: #f4f1ea; }
+    .card .h { font-size: 46px; letter-spacing: 0.04em; text-transform: uppercase; color: #ffd25a; }
+    .card .n { font-size: 104px; line-height: 1.1; margin: 14px 0; letter-spacing: 0.01em; white-space: nowrap; }
+    .card .s { font-size: 36px; color: #c7ccd6; font-weight: 700; }
+    .res { position: absolute; left: 60px; width: 960px; padding: 34px 40px; border-radius: 26px; background: rgba(8, 12, 18, 0.92);
+      border: 4px solid #ffd25a; font-family: "Montserrat", sans-serif; color: #f4f1ea; }
+    .res .t { font-weight: 800; font-size: 42px; text-transform: uppercase; color: #ffd25a; text-align: center; margin-bottom: 18px; }
+    .res .r { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding: 22px 0; border-top: 2px solid rgba(255,255,255,.12); }
+    .res .l { font-weight: 700; font-size: 34px; color: #c7ccd6; }
+    .res .v { font-weight: 800; font-size: 46px; white-space: nowrap; color: #f4f1ea; text-align: right; }
+    .res .v small { display: block; font-size: 30px; color: #c7ccd6; font-weight: 700; }
+
+  </style>
+  <div id="root" data-composition-id="hook" data-width="1080" data-height="1920">
+    <div id="h-a" class="beat clip" data-start="0.00" data-duration="3.38" data-track-index="0">
+      <div id="h-a-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs><radialGradient id="h-a-gl" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffcf8a" stop-opacity="0.45" /><stop offset="1" stop-color="#ff8a3c" stop-opacity="0" /></radialGradient></defs>
+          <rect width="1080" height="1920" fill="#2a2a3a" />
+          <circle cx="540" cy="1050" r="640" fill="url(#h-a-gl)" />
+          <rect y="1800" width="1080" height="120" fill="#1e1e2a" />
+          <!--@person id="h-a-f1" x="200" y="1840" s="0.78" jacket="#e8412f" hair="#1e140c" skin="#c98d62" style="long" mood="happy"-->
+<g id="h-a-f1"><g transform="translate(200.0 1840.0) scale(0.78 0.78)">
+  <ellipse cx="0" cy="0" rx="120" ry="18" fill="#000" opacity=".3"/>
+  <rect x="-70" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <rect x="12" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <ellipse cx="-44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/><ellipse cx="44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/>
+  <g id="h-a-f1-armL" transform="rotate(0 -124 -380)"><rect x="-150" y="-392" width="52" height="200" rx="26" fill="#e8412f" transform="rotate(8 -124 -392)"/>
+    <circle cx="-138" cy="-186" r="26" fill="#c98d62"/></g>
+  <g id="h-a-f1-armR" transform="rotate(0 124 -380)"><rect x="98" y="-392" width="52" height="200" rx="26" fill="#e8412f" transform="rotate(-8 124 -392)"/>
+    <circle cx="138" cy="-186" r="26" fill="#c98d62"/></g>
+  <path d="M-110 -340 q0 -66 60 -66 h100 q60 0 60 66 v150 h-220 z" fill="#e8412f"/>
+  <path d="M-30 -406 l30 60 l30 -60 z" fill="#e9e6da"/>
+  
+  <rect x="-24" y="-436" width="48" height="40" fill="#c98d62"/>
+  <g id="h-a-f1-head">
+    <path d="M-112 -400 q-30 -250 112 -248 q142 -2 112 248 l-40 0 q10 -110 -10 -150 q-60 -30 -124 -24 q-30 40 -20 174 z" fill="#1e140c"/>
+    <circle cx="0" cy="-520" r="102" fill="#c98d62"/>
+    <circle cx="-102" cy="-512" r="18" fill="#c98d62"/><circle cx="102" cy="-512" r="18" fill="#c98d62"/>
+    
+    <ellipse cx="-36" cy="-522" rx="17" ry="19" fill="#fff"/><ellipse cx="36" cy="-522" rx="17" ry="19" fill="#fff"/>
+    <circle id="h-a-f1-eyeL" cx="-34" cy="-520" r="9" fill="#0f1218"/><circle id="h-a-f1-eyeR" cx="34" cy="-520" r="9" fill="#0f1218"/>
+    <path d="M-52 -566 q16 -14 32 -4 M20 -570 q16 -10 32 4" stroke="#1e140c" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <circle cx="-62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/><circle cx="62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/>
+    <path d="M-34 -478 q34 44 68 0 z" fill="#5a2a1e"/><path d="M-22 -466 q22 16 44 0" fill="#e88a7a"/>
+    
+    
+  </g>
+</g></g><!--/@-->
+          <!--@person id="h-a-f2" x="880" y="1840" s="0.78" jacket="#3d7bb3" hair="#6b4330" skin="#f1c7a0" style="spiky" mood="happy"-->
+<g id="h-a-f2"><g transform="translate(880.0 1840.0) scale(0.78 0.78)">
+  <ellipse cx="0" cy="0" rx="120" ry="18" fill="#000" opacity=".3"/>
+  <rect x="-70" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <rect x="12" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <ellipse cx="-44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/><ellipse cx="44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/>
+  <g id="h-a-f2-armL" transform="rotate(0 -124 -380)"><rect x="-150" y="-392" width="52" height="200" rx="26" fill="#3d7bb3" transform="rotate(8 -124 -392)"/>
+    <circle cx="-138" cy="-186" r="26" fill="#f1c7a0"/></g>
+  <g id="h-a-f2-armR" transform="rotate(0 124 -380)"><rect x="98" y="-392" width="52" height="200" rx="26" fill="#3d7bb3" transform="rotate(-8 124 -392)"/>
+    <circle cx="138" cy="-186" r="26" fill="#f1c7a0"/></g>
+  <path d="M-110 -340 q0 -66 60 -66 h100 q60 0 60 66 v150 h-220 z" fill="#3d7bb3"/>
+  <path d="M-30 -406 l30 60 l30 -60 z" fill="#e9e6da"/>
+  
+  <rect x="-24" y="-436" width="48" height="40" fill="#f1c7a0"/>
+  <g id="h-a-f2-head">
+    
+    <circle cx="0" cy="-520" r="102" fill="#f1c7a0"/>
+    <circle cx="-102" cy="-512" r="18" fill="#f1c7a0"/><circle cx="102" cy="-512" r="18" fill="#f1c7a0"/>
+    <path d="M-104 -516 l-10 -70 l40 26 l10 -70 l40 50 l24 -76 l26 76 l40 -52 l8 72 l42 -26 l-12 70 q-40 -50 -104 -54 q-64 4 -104 54 z" fill="#6b4330"/>
+    <ellipse cx="-36" cy="-522" rx="17" ry="19" fill="#fff"/><ellipse cx="36" cy="-522" rx="17" ry="19" fill="#fff"/>
+    <circle id="h-a-f2-eyeL" cx="-34" cy="-520" r="9" fill="#0f1218"/><circle id="h-a-f2-eyeR" cx="34" cy="-520" r="9" fill="#0f1218"/>
+    <path d="M-52 -566 q16 -14 32 -4 M20 -570 q16 -10 32 4" stroke="#6b4330" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <circle cx="-62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/><circle cx="62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/>
+    <path d="M-34 -478 q34 44 68 0 z" fill="#5a2a1e"/><path d="M-22 -466 q22 16 44 0" fill="#e88a7a"/>
+    
+    
+  </g>
+</g></g><!--/@-->
+          <!--@person id="h-a-me" x="540" y="1860" s="0.9" jacket="#5a6a7a" pants="#2a2f3b" hair="#3a2a1e" skin="#e9c0a0" style="short" mood="happy"-->
+<g id="h-a-me"><g transform="translate(540.0 1860.0) scale(0.9 0.9)">
+  <ellipse cx="0" cy="0" rx="120" ry="18" fill="#000" opacity=".3"/>
+  <rect x="-70" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <rect x="12" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <ellipse cx="-44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/><ellipse cx="44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/>
+  <g id="h-a-me-armL" transform="rotate(0 -124 -380)"><rect x="-150" y="-392" width="52" height="200" rx="26" fill="#5a6a7a" transform="rotate(8 -124 -392)"/>
+    <circle cx="-138" cy="-186" r="26" fill="#e9c0a0"/></g>
+  <g id="h-a-me-armR" transform="rotate(0 124 -380)"><rect x="98" y="-392" width="52" height="200" rx="26" fill="#5a6a7a" transform="rotate(-8 124 -392)"/>
+    <circle cx="138" cy="-186" r="26" fill="#e9c0a0"/></g>
+  <path d="M-110 -340 q0 -66 60 -66 h100 q60 0 60 66 v150 h-220 z" fill="#5a6a7a"/>
+  <path d="M-30 -406 l30 60 l30 -60 z" fill="#e9e6da"/>
+  
+  <rect x="-24" y="-436" width="48" height="40" fill="#e9c0a0"/>
+  <g id="h-a-me-head">
+    
+    <circle cx="0" cy="-520" r="102" fill="#e9c0a0"/>
+    <circle cx="-102" cy="-512" r="18" fill="#e9c0a0"/><circle cx="102" cy="-512" r="18" fill="#e9c0a0"/>
+    <path d="M-104 -520 q-6 -110 104 -118 q110 8 104 118 q-30 -56 -104 -60 q-74 4 -104 60 z" fill="#3a2a1e"/>
+    <ellipse cx="-36" cy="-522" rx="17" ry="19" fill="#fff"/><ellipse cx="36" cy="-522" rx="17" ry="19" fill="#fff"/>
+    <circle id="h-a-me-eyeL" cx="-34" cy="-520" r="9" fill="#0f1218"/><circle id="h-a-me-eyeR" cx="34" cy="-520" r="9" fill="#0f1218"/>
+    <path d="M-52 -566 q16 -14 32 -4 M20 -570 q16 -10 32 4" stroke="#3a2a1e" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <circle cx="-62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/><circle cx="62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/>
+    <path d="M-34 -478 q34 44 68 0 z" fill="#5a2a1e"/><path d="M-22 -466 q22 16 44 0" fill="#e88a7a"/>
+    
+    
+  </g>
+</g></g><!--/@-->
+        </svg>
+      </div>
+
+    </div>
+    <div id="h-b" class="beat clip" data-start="3.38" data-duration="2.61" data-track-index="0">
+      <div id="h-b-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs><linearGradient id="h-b-sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a5a7a" /><stop offset="1" stop-color="#06121e" /></linearGradient></defs>
+          <rect width="1080" height="1920" fill="url(#h-b-sea)" />
+          <g fill="#bfe0ff" opacity="0.08"><path d="M200 0 L320 0 L60 1920 L-100 1920 Z" /><path d="M560 0 L680 0 L420 1920 L260 1920 Z" /><path d="M900 0 L1020 0 L760 1920 L600 1920 Z" /></g>
+          <path id="h-b-surf" d="M0 120 q90 -30 180 0 t180 0 t180 0 t180 0 t180 0 t180 0" stroke="#bfe0ff" stroke-width="6" fill="none" opacity="0.4" />
+          <g id="h-b-float"><!--@person id="h-b-me" x="540" y="1860" s="0.9" jacket="#5a6a7a" pants="#2a2f3b" hair="#3a2a1e" skin="#e9c0a0" style="short" mood="sad"-->
+<g id="h-b-me"><g transform="translate(540.0 1860.0) scale(0.9 0.9)">
+  <ellipse cx="0" cy="0" rx="120" ry="18" fill="#000" opacity=".3"/>
+  <rect x="-70" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <rect x="12" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <ellipse cx="-44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/><ellipse cx="44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/>
+  <g id="h-b-me-armL" transform="rotate(0 -124 -380)"><rect x="-150" y="-392" width="52" height="200" rx="26" fill="#5a6a7a" transform="rotate(8 -124 -392)"/>
+    <circle cx="-138" cy="-186" r="26" fill="#e9c0a0"/></g>
+  <g id="h-b-me-armR" transform="rotate(0 124 -380)"><rect x="98" y="-392" width="52" height="200" rx="26" fill="#5a6a7a" transform="rotate(-8 124 -392)"/>
+    <circle cx="138" cy="-186" r="26" fill="#e9c0a0"/></g>
+  <path d="M-110 -340 q0 -66 60 -66 h100 q60 0 60 66 v150 h-220 z" fill="#5a6a7a"/>
+  <path d="M-30 -406 l30 60 l30 -60 z" fill="#e9e6da"/>
+  
+  <rect x="-24" y="-436" width="48" height="40" fill="#e9c0a0"/>
+  <g id="h-b-me-head">
+    
+    <circle cx="0" cy="-520" r="102" fill="#e9c0a0"/>
+    <circle cx="-102" cy="-512" r="18" fill="#e9c0a0"/><circle cx="102" cy="-512" r="18" fill="#e9c0a0"/>
+    <path d="M-104 -520 q-6 -110 104 -118 q110 8 104 118 q-30 -56 -104 -60 q-74 4 -104 60 z" fill="#3a2a1e"/>
+    <ellipse cx="-36" cy="-522" rx="17" ry="19" fill="#fff"/><ellipse cx="36" cy="-522" rx="17" ry="19" fill="#fff"/>
+    <circle id="h-b-me-eyeL" cx="-34" cy="-520" r="9" fill="#0f1218"/><circle id="h-b-me-eyeR" cx="34" cy="-520" r="9" fill="#0f1218"/>
+    <path d="M-52 -552 l32 -10 M20 -562 l32 10" stroke="#3a2a1e" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <circle cx="-62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/><circle cx="62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/>
+    <path d="M-20 -458 q20 -16 40 0" fill="none" stroke="#5a2a1e" stroke-width="7" stroke-linecap="round"/>
+    
+    
+  </g>
+</g></g><!--/@--></g>
+          <circle class="h-b-bub" cx="843" cy="1578" r="12" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="218" cy="1643" r="12" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="941" cy="1571" r="19" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="309" cy="1585" r="22" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="308" cy="1455" r="14" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="648" cy="1364" r="12" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="798" cy="1879" r="16" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="385" cy="1517" r="18" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="300" cy="1613" r="16" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="507" cy="1409" r="17" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="603" cy="1706" r="13" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="498" cy="1843" r="10" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="518" cy="1399" r="25" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="328" cy="1875" r="15" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="194" cy="1855" r="17" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="949" cy="1727" r="11" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="418" cy="1526" r="20" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="559" cy="1748" r="24" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="260" cy="1689" r="11" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="696" cy="1368" r="25" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="897" cy="1629" r="25" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="245" cy="1623" r="21" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="943" cy="1307" r="15" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="914" cy="1346" r="21" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="727" cy="1642" r="20" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" /><circle class="h-b-bub" cx="432" cy="1617" r="10" fill="none" stroke="#bfe0ff" stroke-width="4" opacity="0.6" />
+        </svg>
+      </div>
+      <div id="h-b-title" class="title lt blue" style="top: 330px; font-size: 130px">Unter Wasser</div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#h-a-cam", { scale: 1.0 }, { scale: 1.06, duration: 3.38, ease: "none" }, 0.00);
+    tl.fromTo(["#h-a-f1", "#h-a-f2", "#h-a-me"], { y: 0 }, { y: -18, duration: 0.22, repeat: 15, yoyo: true, ease: "sine.inOut", stagger: 0.07 }, 0.00);
+    tl.fromTo("#h-b-cam", { scale: 1.08 }, { scale: 1.0, duration: 2.61, ease: "power1.out" }, 3.38);
+    tl.fromTo("#h-b-float", { y: 0, rotation: -2, transformOrigin: "50% 50%" }, { y: -30, rotation: 2, duration: 1.2, repeat: 1, yoyo: true, ease: "sine.inOut" }, 3.38);
+    tl.fromTo(".h-b-bub", { y: 0 }, { y: -700, duration: 2.61, ease: "none", stagger: 0.02 }, 3.38);
+    tl.fromTo("#h-b-title", { opacity: 0, scale: 1.4, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.25, ease: "power3.in" }, 5.25);
+    window.__timelines["hook"] = tl;
+  </script>
+</template>

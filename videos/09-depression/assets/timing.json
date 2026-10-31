@@ -1,0 +1,1412 @@
+{
+ "duration": 63.173,
+ "lines": [
+  {
+   "id": "hook1",
+   "start": 0.15,
+   "end": 3.155,
+   "words": [
+    {
+     "text": "Von",
+     "say": "Von",
+     "key": false,
+     "start": 0.17,
+     "end": 0.394
+    },
+    {
+     "text": "außen",
+     "say": "außen",
+     "key": false,
+     "start": 0.394,
+     "end": 0.759
+    },
+    {
+     "text": "siehst",
+     "say": "siehst",
+     "key": false,
+     "start": 0.759,
+     "end": 0.983
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": false,
+     "start": 0.983,
+     "end": 1.207
+    },
+    {
+     "text": "ganz",
+     "say": "ganz",
+     "key": false,
+     "start": 1.207,
+     "end": 1.431
+    },
+    {
+     "text": "normal",
+     "say": "normal",
+     "key": true,
+     "start": 1.431,
+     "end": 1.796
+    },
+    {
+     "text": "aus.",
+     "say": "aus.",
+     "key": false,
+     "start": 1.796,
+     "end": 2.02
+    },
+    {
+     "text": "Du",
+     "say": "Du",
+     "key": false,
+     "start": 2.32,
+     "end": 2.541
+    },
+    {
+     "text": "lachst",
+     "say": "lachst",
+     "key": true,
+     "start": 2.541,
+     "end": 2.761
+    },
+    {
+     "text": "sogar.",
+     "say": "sogar.",
+     "key": false,
+     "start": 2.761,
+     "end": 3.12
+    }
+   ]
+  },
+  {
+   "id": "hook2",
+   "start": 3.505,
+   "end": 5.661,
+   "words": [
+    {
+     "text": "Aber",
+     "say": "Aber",
+     "key": false,
+     "start": 3.525,
+     "end": 3.808
+    },
+    {
+     "text": "innen",
+     "say": "innen",
+     "key": false,
+     "start": 3.808,
+     "end": 4.091
+    },
+    {
+     "text": "fühlt",
+     "say": "fühlt",
+     "key": false,
+     "start": 4.091,
+     "end": 4.265
+    },
+    {
+     "text": "sich",
+     "say": "sich",
+     "key": false,
+     "start": 4.265,
+     "end": 4.439
+    },
+    {
+     "text": "alles",
+     "say": "alles",
+     "key": false,
+     "start": 4.439,
+     "end": 4.721
+    },
+    {
+     "text": "an",
+     "say": "an",
+     "key": false,
+     "start": 4.721,
+     "end": 4.895
+    },
+    {
+     "text": "wie",
+     "say": "wie",
+     "key": false,
+     "start": 4.895,
+     "end": 5.069
+    },
+    {
+     "text": "unter",
+     "say": "unter",
+     "key": false,
+     "start": 5.069,
+     "end": 5.352
+    },
+    {
+     "text": "Wasser.",
+     "say": "Wasser.",
+     "key": true,
+     "start": 5.352,
+     "end": 5.635
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "start": 6.111,
+   "end": 7.881,
+   "words": [
+    {
+     "text": "So",
+     "say": "So",
+     "key": false,
+     "start": 6.111,
+     "end": 6.306
+    },
+    {
+     "text": "fühlt",
+     "say": "fühlt",
+     "key": false,
+     "start": 6.306,
+     "end": 6.501
+    },
+    {
+     "text": "sich",
+     "say": "sich",
+     "key": false,
+     "start": 6.501,
+     "end": 6.696
+    },
+    {
+     "text": "Depression",
+     "say": "Depression",
+     "key": true,
+     "start": 6.696,
+     "end": 7.134
+    },
+    {
+     "text": "für",
+     "say": "für",
+     "key": false,
+     "start": 7.134,
+     "end": 7.329
+    },
+    {
+     "text": "viele",
+     "say": "viele",
+     "key": false,
+     "start": 7.329,
+     "end": 7.646
+    },
+    {
+     "text": "an.",
+     "say": "an.",
+     "key": false,
+     "start": 7.646,
+     "end": 7.841
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "start": 8.281,
+   "end": 11.081,
+   "words": [
+    {
+     "text": "Morgens",
+     "say": "Morgens",
+     "key": false,
+     "start": 8.301,
+     "end": 8.661
+    },
+    {
+     "text": "aufzustehen",
+     "say": "aufzustehen",
+     "key": false,
+     "start": 8.661,
+     "end": 9.297
+    },
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 9.297,
+     "end": 9.519
+    },
+    {
+     "text": "wie",
+     "say": "wie",
+     "key": false,
+     "start": 9.519,
+     "end": 9.74
+    },
+    {
+     "text": "einen",
+     "say": "einen",
+     "key": false,
+     "start": 9.74,
+     "end": 10.1
+    },
+    {
+     "text": "Berg",
+     "say": "Berg",
+     "key": true,
+     "start": 10.1,
+     "end": 10.321
+    },
+    {
+     "text": "zu",
+     "say": "zu",
+     "key": false,
+     "start": 10.321,
+     "end": 10.543
+    },
+    {
+     "text": "besteigen.",
+     "say": "besteigen.",
+     "key": false,
+     "start": 10.543,
+     "end": 11.041
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "start": 11.381,
+   "end": 14.661,
+   "words": [
+    {
+     "text": "Dinge,",
+     "say": "Dinge,",
+     "key": false,
+     "start": 11.401,
+     "end": 11.741
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 11.741,
+     "end": 11.951
+    },
+    {
+     "text": "dir",
+     "say": "dir",
+     "key": false,
+     "start": 11.951,
+     "end": 12.16
+    },
+    {
+     "text": "früher",
+     "say": "früher",
+     "key": false,
+     "start": 12.16,
+     "end": 12.501
+    },
+    {
+     "text": "Freude",
+     "say": "Freude",
+     "key": false,
+     "start": 12.501,
+     "end": 12.841
+    },
+    {
+     "text": "gemacht",
+     "say": "gemacht",
+     "key": false,
+     "start": 12.841,
+     "end": 13.181
+    },
+    {
+     "text": "haben,",
+     "say": "haben,",
+     "key": false,
+     "start": 13.181,
+     "end": 13.521
+    },
+    {
+     "text": "sind",
+     "say": "sind",
+     "key": false,
+     "start": 13.521,
+     "end": 13.731
+    },
+    {
+     "text": "dir",
+     "say": "dir",
+     "key": false,
+     "start": 13.731,
+     "end": 13.94
+    },
+    {
+     "text": "plötzlich",
+     "say": "plötzlich",
+     "key": false,
+     "start": 13.94,
+     "end": 14.281
+    },
+    {
+     "text": "egal.",
+     "say": "egal.",
+     "key": true,
+     "start": 14.281,
+     "end": 14.621
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "start": 14.961,
+   "end": 17.17,
+   "words": [
+    {
+     "text": "Du",
+     "say": "Du",
+     "key": false,
+     "start": 14.981,
+     "end": 15.182
+    },
+    {
+     "text": "bist",
+     "say": "bist",
+     "key": false,
+     "start": 15.182,
+     "end": 15.384
+    },
+    {
+     "text": "erschöpft,",
+     "say": "erschöpft,",
+     "key": true,
+     "start": 15.384,
+     "end": 15.711
+    },
+    {
+     "text": "obwohl",
+     "say": "obwohl",
+     "key": false,
+     "start": 15.841,
+     "end": 16.12
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": false,
+     "start": 16.12,
+     "end": 16.292
+    },
+    {
+     "text": "lange",
+     "say": "lange",
+     "key": false,
+     "start": 16.292,
+     "end": 16.572
+    },
+    {
+     "text": "geschlafen",
+     "say": "geschlafen",
+     "key": false,
+     "start": 16.572,
+     "end": 16.959
+    },
+    {
+     "text": "hast.",
+     "say": "hast.",
+     "key": false,
+     "start": 16.959,
+     "end": 17.131
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "start": 17.47,
+   "end": 22.585,
+   "words": [
+    {
+     "text": "Nachrichten",
+     "say": "Nachrichten",
+     "key": false,
+     "start": 17.49,
+     "end": 18.059
+    },
+    {
+     "text": "bleiben",
+     "say": "bleiben",
+     "key": false,
+     "start": 18.059,
+     "end": 18.47
+    },
+    {
+     "text": "unbeantwortet.",
+     "say": "unbeantwortet.",
+     "key": false,
+     "start": 18.47,
+     "end": 19.198
+    },
+    {
+     "text": "Nicht,",
+     "say": "Nicht,",
+     "key": false,
+     "start": 19.198,
+     "end": 19.451
+    },
+    {
+     "text": "weil",
+     "say": "weil",
+     "key": false,
+     "start": 19.451,
+     "end": 19.704
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": false,
+     "start": 19.704,
+     "end": 19.957
+    },
+    {
+     "text": "keine",
+     "say": "keine",
+     "key": false,
+     "start": 19.957,
+     "end": 20.368
+    },
+    {
+     "text": "Lust",
+     "say": "Lust",
+     "key": false,
+     "start": 20.368,
+     "end": 20.621
+    },
+    {
+     "text": "hast.",
+     "say": "hast.",
+     "key": false,
+     "start": 20.621,
+     "end": 20.874
+    },
+    {
+     "text": "Sondern",
+     "say": "Sondern",
+     "key": false,
+     "start": 20.874,
+     "end": 21.285
+    },
+    {
+     "text": "weil",
+     "say": "weil",
+     "key": false,
+     "start": 21.285,
+     "end": 21.538
+    },
+    {
+     "text": "dir",
+     "say": "dir",
+     "key": false,
+     "start": 21.538,
+     "end": 21.791
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 21.791,
+     "end": 22.044
+    },
+    {
+     "text": "Kraft",
+     "say": "Kraft",
+     "key": true,
+     "start": 22.044,
+     "end": 22.297
+    },
+    {
+     "text": "fehlt.",
+     "say": "fehlt.",
+     "key": false,
+     "start": 22.297,
+     "end": 22.55
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "start": 22.985,
+   "end": 26.535,
+   "words": [
+    {
+     "text": "Und",
+     "say": "Und",
+     "key": false,
+     "start": 23.005,
+     "end": 23.202
+    },
+    {
+     "text": "im",
+     "say": "im",
+     "key": false,
+     "start": 23.202,
+     "end": 23.398
+    },
+    {
+     "text": "Kopf",
+     "say": "Kopf",
+     "key": false,
+     "start": 23.398,
+     "end": 23.595
+    },
+    {
+     "text": "läuft",
+     "say": "läuft",
+     "key": false,
+     "start": 23.595,
+     "end": 23.791
+    },
+    {
+     "text": "immer",
+     "say": "immer",
+     "key": false,
+     "start": 23.791,
+     "end": 24.111
+    },
+    {
+     "text": "wieder",
+     "say": "wieder",
+     "key": false,
+     "start": 24.111,
+     "end": 24.43
+    },
+    {
+     "text": "derselbe",
+     "say": "derselbe",
+     "key": false,
+     "start": 24.43,
+     "end": 24.873
+    },
+    {
+     "text": "Satz:",
+     "say": "Satz:",
+     "key": false,
+     "start": 24.873,
+     "end": 25.07
+    },
+    {
+     "text": "Ich",
+     "say": "Ich",
+     "key": false,
+     "start": 25.07,
+     "end": 25.266
+    },
+    {
+     "text": "bin",
+     "say": "bin",
+     "key": false,
+     "start": 25.266,
+     "end": 25.463
+    },
+    {
+     "text": "allen",
+     "say": "allen",
+     "key": false,
+     "start": 25.463,
+     "end": 25.782
+    },
+    {
+     "text": "nur",
+     "say": "nur",
+     "key": false,
+     "start": 25.782,
+     "end": 25.979
+    },
+    {
+     "text": "eine",
+     "say": "eine",
+     "key": false,
+     "start": 25.979,
+     "end": 26.298
+    },
+    {
+     "text": "Last.",
+     "say": "Last.",
+     "key": true,
+     "start": 26.298,
+     "end": 26.495
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "start": 27.035,
+   "end": 29.675,
+   "words": [
+    {
+     "text": "Das",
+     "say": "Das",
+     "key": false,
+     "start": 27.035,
+     "end": 27.28
+    },
+    {
+     "text": "stimmt",
+     "say": "stimmt",
+     "key": false,
+     "start": 27.28,
+     "end": 27.524
+    },
+    {
+     "text": "nicht.",
+     "say": "nicht.",
+     "key": true,
+     "start": 27.524,
+     "end": 27.769
+    },
+    {
+     "text": "Das",
+     "say": "Das",
+     "key": false,
+     "start": 27.769,
+     "end": 28.014
+    },
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 28.014,
+     "end": 28.259
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 28.259,
+     "end": 28.503
+    },
+    {
+     "text": "Krankheit,",
+     "say": "Krankheit,",
+     "key": true,
+     "start": 28.503,
+     "end": 28.901
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 28.901,
+     "end": 29.146
+    },
+    {
+     "text": "da",
+     "say": "da",
+     "key": false,
+     "start": 29.146,
+     "end": 29.39
+    },
+    {
+     "text": "spricht.",
+     "say": "spricht.",
+     "key": false,
+     "start": 29.39,
+     "end": 29.635
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "start": 30.075,
+   "end": 32.822,
+   "words": [
+    {
+     "text": "Depression",
+     "say": "Depression",
+     "key": false,
+     "start": 30.095,
+     "end": 30.607
+    },
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 30.607,
+     "end": 30.835
+    },
+    {
+     "text": "keine",
+     "say": "keine",
+     "key": false,
+     "start": 30.835,
+     "end": 31.205
+    },
+    {
+     "text": "Schwäche.",
+     "say": "Schwäche.",
+     "key": true,
+     "start": 31.205,
+     "end": 31.575
+    },
+    {
+     "text": "Und",
+     "say": "Und",
+     "key": false,
+     "start": 31.855,
+     "end": 32.043
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": false,
+     "start": 32.043,
+     "end": 32.231
+    },
+    {
+     "text": "bist",
+     "say": "bist",
+     "key": false,
+     "start": 32.231,
+     "end": 32.419
+    },
+    {
+     "text": "nicht",
+     "say": "nicht",
+     "key": false,
+     "start": 32.419,
+     "end": 32.607
+    },
+    {
+     "text": "faul.",
+     "say": "faul.",
+     "key": true,
+     "start": 32.607,
+     "end": 32.795
+    }
+   ]
+  },
+  {
+   "id": "fact",
+   "start": 33.222,
+   "end": 38.372,
+   "words": [
+    {
+     "text": "Etwa",
+     "say": "Etwa",
+     "key": false,
+     "start": 33.242,
+     "end": 33.584
+    },
+    {
+     "text": "jeder",
+     "say": "jeder",
+     "key": false,
+     "start": 33.584,
+     "end": 33.926
+    },
+    {
+     "text": "fünfte",
+     "say": "fünfte",
+     "key": true,
+     "start": 33.926,
+     "end": 34.268
+    },
+    {
+     "text": "Mensch",
+     "say": "Mensch",
+     "key": false,
+     "start": 34.268,
+     "end": 34.479
+    },
+    {
+     "text": "erkrankt",
+     "say": "erkrankt",
+     "key": false,
+     "start": 34.479,
+     "end": 34.821
+    },
+    {
+     "text": "einmal",
+     "say": "einmal",
+     "key": false,
+     "start": 34.821,
+     "end": 35.163
+    },
+    {
+     "text": "im",
+     "say": "im",
+     "key": false,
+     "start": 35.163,
+     "end": 35.374
+    },
+    {
+     "text": "Leben",
+     "say": "Leben",
+     "key": false,
+     "start": 35.374,
+     "end": 35.716
+    },
+    {
+     "text": "an",
+     "say": "an",
+     "key": false,
+     "start": 35.716,
+     "end": 35.926
+    },
+    {
+     "text": "einer",
+     "say": "einer",
+     "key": false,
+     "start": 35.926,
+     "end": 36.268
+    },
+    {
+     "text": "Depression.",
+     "say": "Depression.",
+     "key": false,
+     "start": 36.268,
+     "end": 36.742
+    },
+    {
+     "text": "Und",
+     "say": "Und",
+     "key": false,
+     "start": 36.972,
+     "end": 37.173
+    },
+    {
+     "text": "sie",
+     "say": "sie",
+     "key": false,
+     "start": 37.173,
+     "end": 37.373
+    },
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 37.373,
+     "end": 37.574
+    },
+    {
+     "text": "gut",
+     "say": "gut",
+     "key": false,
+     "start": 37.574,
+     "end": 37.775
+    },
+    {
+     "text": "behandelbar.",
+     "say": "behandelbar.",
+     "key": true,
+     "start": 37.775,
+     "end": 38.352
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "start": 38.822,
+   "end": 41.163,
+   "words": [
+    {
+     "text": "Der",
+     "say": "Der",
+     "key": false,
+     "start": 38.842,
+     "end": 39.053
+    },
+    {
+     "text": "erste",
+     "say": "erste",
+     "key": false,
+     "start": 39.053,
+     "end": 39.396
+    },
+    {
+     "text": "Schritt",
+     "say": "Schritt",
+     "key": false,
+     "start": 39.396,
+     "end": 39.607
+    },
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 39.607,
+     "end": 39.818
+    },
+    {
+     "text": "der",
+     "say": "der",
+     "key": false,
+     "start": 39.818,
+     "end": 40.029
+    },
+    {
+     "text": "schwerste:",
+     "say": "schwerste:",
+     "key": false,
+     "start": 40.029,
+     "end": 40.372
+    },
+    {
+     "text": "darüber",
+     "say": "darüber",
+     "key": false,
+     "start": 40.502,
+     "end": 40.868
+    },
+    {
+     "text": "reden.",
+     "say": "reden.",
+     "key": true,
+     "start": 40.868,
+     "end": 41.132
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "start": 41.463,
+   "end": 47.178,
+   "words": [
+    {
+     "text": "Mit",
+     "say": "Mit",
+     "key": false,
+     "start": 41.493,
+     "end": 41.722
+    },
+    {
+     "text": "einem",
+     "say": "einem",
+     "key": false,
+     "start": 41.722,
+     "end": 42.093
+    },
+    {
+     "text": "Menschen,",
+     "say": "Menschen,",
+     "key": false,
+     "start": 42.093,
+     "end": 42.465
+    },
+    {
+     "text": "dem",
+     "say": "dem",
+     "key": false,
+     "start": 42.465,
+     "end": 42.694
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": false,
+     "start": 42.694,
+     "end": 42.922
+    },
+    {
+     "text": "vertraust.",
+     "say": "vertraust.",
+     "key": false,
+     "start": 42.922,
+     "end": 43.294
+    },
+    {
+     "text": "Mit",
+     "say": "Mit",
+     "key": false,
+     "start": 43.294,
+     "end": 43.523
+    },
+    {
+     "text": "deiner",
+     "say": "deiner",
+     "key": false,
+     "start": 43.523,
+     "end": 43.894
+    },
+    {
+     "text": "Hausärztin",
+     "say": "Hausärztin",
+     "key": false,
+     "start": 43.894,
+     "end": 44.409
+    },
+    {
+     "text": "oder",
+     "say": "oder",
+     "key": false,
+     "start": 44.409,
+     "end": 44.78
+    },
+    {
+     "text": "deinem",
+     "say": "deinem",
+     "key": false,
+     "start": 44.78,
+     "end": 45.152
+    },
+    {
+     "text": "Hausarzt.",
+     "say": "Hausarzt.",
+     "key": false,
+     "start": 45.152,
+     "end": 45.524
+    },
+    {
+     "text": "Oder",
+     "say": "Oder",
+     "key": false,
+     "start": 45.524,
+     "end": 45.895
+    },
+    {
+     "text": "anonym",
+     "say": "anonym",
+     "key": true,
+     "start": 45.895,
+     "end": 46.41
+    },
+    {
+     "text": "am",
+     "say": "am",
+     "key": false,
+     "start": 46.41,
+     "end": 46.638
+    },
+    {
+     "text": "Telefon.",
+     "say": "Telefon.",
+     "key": false,
+     "start": 46.638,
+     "end": 47.153
+    }
+   ]
+  },
+  {
+   "id": "help",
+   "start": 47.578,
+   "end": 53.908,
+   "words": [
+    {
+     "text": "Die",
+     "say": "Die",
+     "key": false,
+     "start": 47.598,
+     "end": 47.83
+    },
+    {
+     "text": "Telefonseelsorge",
+     "say": "Telefonseelsorge",
+     "key": false,
+     "start": 47.83,
+     "end": 48.788
+    },
+    {
+     "text": "ist",
+     "say": "ist",
+     "key": false,
+     "start": 48.788,
+     "end": 49.02
+    },
+    {
+     "text": "rund",
+     "say": "rund",
+     "key": false,
+     "start": 49.02,
+     "end": 49.253
+    },
+    {
+     "text": "um",
+     "say": "um",
+     "key": false,
+     "start": 49.253,
+     "end": 49.485
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 49.485,
+     "end": 49.717
+    },
+    {
+     "text": "Uhr",
+     "say": "Uhr",
+     "key": false,
+     "start": 49.717,
+     "end": 49.949
+    },
+    {
+     "text": "für",
+     "say": "für",
+     "key": false,
+     "start": 49.949,
+     "end": 50.181
+    },
+    {
+     "text": "dich",
+     "say": "dich",
+     "key": false,
+     "start": 50.181,
+     "end": 50.414
+    },
+    {
+     "text": "da,",
+     "say": "da,",
+     "key": false,
+     "start": 50.414,
+     "end": 50.646
+    },
+    {
+     "text": "kostenlos",
+     "say": "kostenlos",
+     "key": false,
+     "start": 50.646,
+     "end": 51.168
+    },
+    {
+     "text": "und",
+     "say": "und",
+     "key": false,
+     "start": 51.168,
+     "end": 51.401
+    },
+    {
+     "text": "anonym:",
+     "say": "anonym:",
+     "key": false,
+     "start": 51.401,
+     "end": 51.923
+    },
+    {
+     "text": "0800",
+     "say": "null-achthundert",
+     "key": false,
+     "start": 51.923,
+     "end": 52.591
+    },
+    {
+     "text": "111",
+     "say": "eins-eins-eins",
+     "key": false,
+     "start": 52.591,
+     "end": 53.113
+    },
+    {
+     "text": "0",
+     "say": "null",
+     "key": false,
+     "start": 53.113,
+     "end": 53.346
+    },
+    {
+     "text": "111.",
+     "say": "eins-eins-eins.",
+     "key": false,
+     "start": 53.346,
+     "end": 53.868
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "start": 54.358,
+   "end": 57.638,
+   "words": [
+    {
+     "text": "Wenn",
+     "say": "Wenn",
+     "key": false,
+     "start": 54.378,
+     "end": 54.596
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": false,
+     "start": 54.596,
+     "end": 54.815
+    },
+    {
+     "text": "in",
+     "say": "in",
+     "key": false,
+     "start": 54.815,
+     "end": 55.033
+    },
+    {
+     "text": "akuter",
+     "say": "akuter",
+     "key": false,
+     "start": 55.033,
+     "end": 55.524
+    },
+    {
+     "text": "Gefahr",
+     "say": "Gefahr",
+     "key": false,
+     "start": 55.524,
+     "end": 55.879
+    },
+    {
+     "text": "bist,",
+     "say": "bist,",
+     "key": false,
+     "start": 55.879,
+     "end": 56.097
+    },
+    {
+     "text": "ruf",
+     "say": "ruf",
+     "key": false,
+     "start": 56.097,
+     "end": 56.315
+    },
+    {
+     "text": "sofort",
+     "say": "sofort",
+     "key": false,
+     "start": 56.315,
+     "end": 56.67
+    },
+    {
+     "text": "die",
+     "say": "die",
+     "key": false,
+     "start": 56.67,
+     "end": 56.889
+    },
+    {
+     "text": "112",
+     "say": "eins-eins-zwei",
+     "key": false,
+     "start": 56.889,
+     "end": 57.38
+    },
+    {
+     "text": "an.",
+     "say": "an.",
+     "key": false,
+     "start": 57.38,
+     "end": 57.598
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "start": 58.088,
+   "end": 60.153,
+   "words": [
+    {
+     "text": "Du",
+     "say": "Du",
+     "key": false,
+     "start": 58.108,
+     "end": 58.307
+    },
+    {
+     "text": "bist",
+     "say": "bist",
+     "key": false,
+     "start": 58.307,
+     "end": 58.506
+    },
+    {
+     "text": "nicht",
+     "say": "nicht",
+     "key": false,
+     "start": 58.506,
+     "end": 58.705
+    },
+    {
+     "text": "allein.",
+     "say": "allein.",
+     "key": true,
+     "start": 58.705,
+     "end": 59.028
+    },
+    {
+     "text": "Und",
+     "say": "Und",
+     "key": false,
+     "start": 59.278,
+     "end": 59.51
+    },
+    {
+     "text": "Hilfe",
+     "say": "Hilfe",
+     "key": false,
+     "start": 59.51,
+     "end": 59.886
+    },
+    {
+     "text": "wirkt.",
+     "say": "wirkt.",
+     "key": true,
+     "start": 59.886,
+     "end": 60.118
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": 60.503,
+   "end": 62.573,
+   "words": [
+    {
+     "text": "Schick",
+     "say": "Schick",
+     "key": false,
+     "start": 60.503,
+     "end": 60.696
+    },
+    {
+     "text": "das",
+     "say": "das",
+     "key": false,
+     "start": 60.696,
+     "end": 60.89
+    },
+    {
+     "text": "jemandem,",
+     "say": "jemandem,",
+     "key": false,
+     "start": 60.89,
+     "end": 61.325
+    },
+    {
+     "text": "an",
+     "say": "an",
+     "key": false,
+     "start": 61.325,
+     "end": 61.518
+    },
+    {
+     "text": "den",
+     "say": "den",
+     "key": false,
+     "start": 61.518,
+     "end": 61.711
+    },
+    {
+     "text": "du",
+     "say": "du",
+     "key": false,
+     "start": 61.711,
+     "end": 61.905
+    },
+    {
+     "text": "gerade",
+     "say": "gerade",
+     "key": false,
+     "start": 61.905,
+     "end": 62.34
+    },
+    {
+     "text": "denkst.",
+     "say": "denkst.",
+     "key": true,
+     "start": 62.34,
+     "end": 62.533
+    }
+   ]
+  }
+ ]
+}

@@ -48,3 +48,11 @@ Bogen-Tür, Laterne, Tasbih, Gebetsteppich, 8-Zack-Stern-Muster, Kette, Sonnenau
 Koran-/Hadith-Zitate nur mit Quelle (Sure:Vers bzw. Sammlung) als Zitatkarte (Playfair Display kursiv), die Zeilen dieser Karten
 bekommen keine Untertitel (`--skip`). Nur gesicherte Zitate verwenden, sinngemäße Übersetzung klar übernehmen, nichts erfinden.
 CTA: „Schick das jemandem, der es heute braucht“.
+
+## Aufklärung über psychische Gesundheit (Video 09, `videos/09-depression/`)
+Einfühlsam in der Du-Form, Farbbogen von kalt/grau zu warm (Sonnenaufgang). Regeln: keine Methoden oder Details zu
+Selbstverletzung, nicht dramatisieren, betonen „keine Schwäche“ und „gut behandelbar“, Fakten nur mit seriöser Quelle.
+Am Ende immer Hilfe-Nummern als große Karte (≥ 6 s zum Screenshotten): TelefonSeelsorge 0800 111 0 111 / 0800 111 0 222 / 116 123
+(24/7, kostenlos, anonym), Info-Telefon Depression 0800 33 44 533, Nummer gegen Kummer 116 111, AT 142, CH 143, Notruf 112.
+Gesprochene Telefonnummern: `say` mit Bindestrichen gruppieren, damit die Wortanzahl zu `show` passt; diese Zeilen ohne Untertitel (`--skip`).
+Nach jedem `gen_scenes.py`-Lauf **immer** `svg_parts.py .` ausführen, sonst fehlen alle Figuren.

@@ -1,0 +1,90 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #0a0e14; }
+    .beat { position: absolute; inset: 0; overflow: hidden; }
+    .lt { font-family: "Montserrat", sans-serif; font-weight: 800; text-transform: uppercase; }
+    .gold { color: #ffd25a; text-shadow: 0 6px 0 #7a4a0a, 0 0 50px rgba(255, 190, 80, 0.45); }
+    .blue { color: #bfe0ff; text-shadow: 0 6px 0 #1a2a40, 0 0 40px rgba(127, 176, 216, 0.4); }
+    .red { color: #e8412f; text-shadow: 0 6px 0 #5a1208, 0 0 40px rgba(232, 65, 47, 0.4); }
+    .green { color: #7fe0a0; text-shadow: 0 6px 0 #10402a, 0 0 40px rgba(127, 224, 160, 0.4); }
+    .pill { position: absolute; left: 0; width: 1080px; text-align: center; }
+    .pill span { display: inline-block; padding: 12px 30px; border-radius: 18px; background: rgba(10, 14, 18, 0.88);
+      border: 3px solid #ffd25a; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 38px; color: #f4f1ea; }
+    .card { position: absolute; left: 80px; width: 920px; padding: 44px 40px; border-radius: 28px; text-align: center;
+      background: rgba(8, 12, 18, 0.9); border: 4px solid #ffd25a; box-shadow: 0 20px 60px rgba(0,0,0,.5);
+      font-family: "Montserrat", sans-serif; font-weight: 800; color: #f4f1ea; }
+    .card .h { font-size: 46px; letter-spacing: 0.04em; text-transform: uppercase; color: #ffd25a; }
+    .card .n { font-size: 104px; line-height: 1.1; margin: 14px 0; letter-spacing: 0.01em; white-space: nowrap; }
+    .card .s { font-size: 36px; color: #c7ccd6; font-weight: 700; }
+    .res { position: absolute; left: 60px; width: 960px; padding: 34px 40px; border-radius: 26px; background: rgba(8, 12, 18, 0.92);
+      border: 4px solid #ffd25a; font-family: "Montserrat", sans-serif; color: #f4f1ea; }
+    .res .t { font-weight: 800; font-size: 42px; text-transform: uppercase; color: #ffd25a; text-align: center; margin-bottom: 18px; }
+    .res .r { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding: 22px 0; border-top: 2px solid rgba(255,255,255,.12); }
+    .res .l { font-weight: 700; font-size: 34px; color: #c7ccd6; }
+    .res .v { font-weight: 800; font-size: 46px; white-space: nowrap; color: #f4f1ea; text-align: right; }
+    .res .v small { display: block; font-size: 30px; color: #c7ccd6; font-weight: 700; }
+
+  </style>
+  <div id="root" data-composition-id="mut" data-width="1080" data-height="1920">
+    <div id="m-a" class="beat clip" data-start="0.00" data-duration="3.15" data-track-index="0">
+      <div id="m-a-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <rect width="1080" height="1920" fill="#1c2430" />
+          <rect y="1800" width="1080" height="120" fill="#151b24" />
+          <!--@person id="m-a-me" x="540" y="1860" s="0.9" jacket="#5a6a7a" pants="#2a2f3b" hair="#3a2a1e" skin="#e9c0a0" style="short" mood="neutral"-->
+<g id="m-a-me"><g transform="translate(540.0 1860.0) scale(0.9 0.9)">
+  <ellipse cx="0" cy="0" rx="120" ry="18" fill="#000" opacity=".3"/>
+  <rect x="-70" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <rect x="12" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <ellipse cx="-44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/><ellipse cx="44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/>
+  <g id="m-a-me-armL" transform="rotate(0 -124 -380)"><rect x="-150" y="-392" width="52" height="200" rx="26" fill="#5a6a7a" transform="rotate(8 -124 -392)"/>
+    <circle cx="-138" cy="-186" r="26" fill="#e9c0a0"/></g>
+  <g id="m-a-me-armR" transform="rotate(0 124 -380)"><rect x="98" y="-392" width="52" height="200" rx="26" fill="#5a6a7a" transform="rotate(-8 124 -392)"/>
+    <circle cx="138" cy="-186" r="26" fill="#e9c0a0"/></g>
+  <path d="M-110 -340 q0 -66 60 -66 h100 q60 0 60 66 v150 h-220 z" fill="#5a6a7a"/>
+  <path d="M-30 -406 l30 60 l30 -60 z" fill="#e9e6da"/>
+  
+  <rect x="-24" y="-436" width="48" height="40" fill="#e9c0a0"/>
+  <g id="m-a-me-head">
+    
+    <circle cx="0" cy="-520" r="102" fill="#e9c0a0"/>
+    <circle cx="-102" cy="-512" r="18" fill="#e9c0a0"/><circle cx="102" cy="-512" r="18" fill="#e9c0a0"/>
+    <path d="M-104 -520 q-6 -110 104 -118 q110 8 104 118 q-30 -56 -104 -60 q-74 4 -104 60 z" fill="#3a2a1e"/>
+    <ellipse cx="-36" cy="-522" rx="17" ry="19" fill="#fff"/><ellipse cx="36" cy="-522" rx="17" ry="19" fill="#fff"/>
+    <circle id="m-a-me-eyeL" cx="-34" cy="-520" r="9" fill="#0f1218"/><circle id="m-a-me-eyeR" cx="34" cy="-520" r="9" fill="#0f1218"/>
+    <path d="M-50 -556 l30 -4 M20 -560 l30 4" stroke="#3a2a1e" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <circle cx="-62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/><circle cx="62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/>
+    <path d="M-16 -468 q16 8 32 0" fill="none" stroke="#5a2a1e" stroke-width="7" stroke-linecap="round"/>
+    
+    
+  </g>
+</g></g><!--/@-->
+          <g transform="translate(540 1000) scale(1.0)"><g id="m-a-cl"><g fill="#7a8290"><circle cx="-70" cy="0" r="56" /><circle cx="0" cy="-30" r="76" /><circle cx="74" cy="0" r="58" /><rect x="-126" y="0" width="256" height="56" rx="28" /></g></g></g>
+        </svg>
+      </div>
+      <div id="m-a-title" class="title lt gold" style="top: 330px; font-size: 110px">Keine Schwäche</div>
+    </div>
+    <div id="m-b" class="beat clip" data-start="3.15" data-duration="5.60" data-track-index="0">
+      <div id="m-b-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <rect width="1080" height="1920" fill="#141c26" />
+          <g transform="translate(140 1240)"><g class="m-b-i" id="m-b-i0"><circle cx="0" cy="-200" r="56" fill="#4a5666" /><path d="M-80 0 q0 -110 80 -110 q80 0 80 110 z" fill="#4a5666" /></g></g><g transform="translate(340 1240)"><g class="m-b-i" id="m-b-i1"><circle cx="0" cy="-200" r="56" fill="#4a5666" /><path d="M-80 0 q0 -110 80 -110 q80 0 80 110 z" fill="#4a5666" /></g></g><g transform="translate(540 1240)"><g class="m-b-i" id="m-b-i2"><circle cx="0" cy="-200" r="56" fill="#ffd25a" /><path d="M-80 0 q0 -110 80 -110 q80 0 80 110 z" fill="#ffd25a" /></g></g><g transform="translate(740 1240)"><g class="m-b-i" id="m-b-i3"><circle cx="0" cy="-200" r="56" fill="#4a5666" /><path d="M-80 0 q0 -110 80 -110 q80 0 80 110 z" fill="#4a5666" /></g></g><g transform="translate(940 1240)"><g class="m-b-i" id="m-b-i4"><circle cx="0" cy="-200" r="56" fill="#4a5666" /><path d="M-80 0 q0 -110 80 -110 q80 0 80 110 z" fill="#4a5666" /></g></g>
+        </svg>
+      </div>
+      <div id="m-b-title" class="title lt " style="top: 330px; font-size: 170px">1 von <span class="gold">5</span></div>
+      <div id="m-b-chip" class="pill" style="top: 1420px"><span style="border-color: #7fe0a0; font-size: 52px">Gut behandelbar ✓</span></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#m-a-cam", { scale: 1.0 }, { scale: 1.05, duration: 3.15, ease: "none" }, 0.00);
+    tl.fromTo("#m-a-cl", { scale: 1, opacity: 1, transformOrigin: "50% 50%" }, { scale: 0.55, opacity: 0.4, duration: 3.15, ease: "power1.inOut" }, 0.00);
+    tl.fromTo("#m-a-title", { opacity: 0, scale: 1.4, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.25, ease: "power3.in" }, 1.10);
+    tl.fromTo("#m-b-cam", { scale: 1.0 }, { scale: 1.04, duration: 5.60, ease: "none" }, 3.15);
+    tl.fromTo(".m-b-i", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.25, stagger: 0.12 }, 3.25);
+    tl.fromTo("#m-b-i2", { scale: 1, transformOrigin: "50% 100%" }, { scale: 1.15, duration: 0.3, repeat: 3, yoyo: true }, 3.98);
+    tl.fromTo("#m-b-title", { opacity: 0, scale: 1.4, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.25, ease: "power3.in" }, 3.83);
+    tl.fromTo("#m-b-chip", { opacity: 0, scale: 0.5, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1, duration: 0.25, ease: "back.out(2)" }, 7.72);
+    window.__timelines["mut"] = tl;
+  </script>
+</template>

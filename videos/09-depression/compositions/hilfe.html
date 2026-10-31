@@ -1,0 +1,121 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #0a0e14; }
+    .beat { position: absolute; inset: 0; overflow: hidden; }
+    .lt { font-family: "Montserrat", sans-serif; font-weight: 800; text-transform: uppercase; }
+    .gold { color: #ffd25a; text-shadow: 0 6px 0 #7a4a0a, 0 0 50px rgba(255, 190, 80, 0.45); }
+    .blue { color: #bfe0ff; text-shadow: 0 6px 0 #1a2a40, 0 0 40px rgba(127, 176, 216, 0.4); }
+    .red { color: #e8412f; text-shadow: 0 6px 0 #5a1208, 0 0 40px rgba(232, 65, 47, 0.4); }
+    .green { color: #7fe0a0; text-shadow: 0 6px 0 #10402a, 0 0 40px rgba(127, 224, 160, 0.4); }
+    .pill { position: absolute; left: 0; width: 1080px; text-align: center; }
+    .pill span { display: inline-block; padding: 12px 30px; border-radius: 18px; background: rgba(10, 14, 18, 0.88);
+      border: 3px solid #ffd25a; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 38px; color: #f4f1ea; }
+    .card { position: absolute; left: 80px; width: 920px; padding: 44px 40px; border-radius: 28px; text-align: center;
+      background: rgba(8, 12, 18, 0.9); border: 4px solid #ffd25a; box-shadow: 0 20px 60px rgba(0,0,0,.5);
+      font-family: "Montserrat", sans-serif; font-weight: 800; color: #f4f1ea; }
+    .card .h { font-size: 46px; letter-spacing: 0.04em; text-transform: uppercase; color: #ffd25a; }
+    .card .n { font-size: 104px; line-height: 1.1; margin: 14px 0; letter-spacing: 0.01em; white-space: nowrap; }
+    .card .s { font-size: 36px; color: #c7ccd6; font-weight: 700; }
+    .res { position: absolute; left: 60px; width: 960px; padding: 34px 40px; border-radius: 26px; background: rgba(8, 12, 18, 0.92);
+      border: 4px solid #ffd25a; font-family: "Montserrat", sans-serif; color: #f4f1ea; }
+    .res .t { font-weight: 800; font-size: 42px; text-transform: uppercase; color: #ffd25a; text-align: center; margin-bottom: 18px; }
+    .res .r { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding: 22px 0; border-top: 2px solid rgba(255,255,255,.12); }
+    .res .l { font-weight: 700; font-size: 34px; color: #c7ccd6; }
+    .res .v { font-weight: 800; font-size: 46px; white-space: nowrap; color: #f4f1ea; text-align: right; }
+    .res .v small { display: block; font-size: 30px; color: #c7ccd6; font-weight: 700; }
+
+  </style>
+  <div id="root" data-composition-id="hilfe" data-width="1080" data-height="1920">
+    <div id="r-a" class="beat clip" data-start="0.00" data-duration="2.64" data-track-index="0">
+      <div id="r-a-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <defs><radialGradient id="r-a-gl" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffcf8a" stop-opacity="0.35" /><stop offset="1" stop-color="#ff8a3c" stop-opacity="0" /></radialGradient></defs>
+          <rect width="1080" height="1920" fill="#1e2632" />
+          <circle cx="540" cy="1200" r="600" fill="url(#r-a-gl)" />
+          <rect y="1800" width="1080" height="120" fill="#161c24" />
+          <!--@person id="r-a-me" x="380" y="1860" s="0.85" jacket="#5a6a7a" pants="#2a2f3b" hair="#3a2a1e" skin="#e9c0a0" style="short" mood="sad"-->
+<g id="r-a-me"><g transform="translate(380.0 1860.0) scale(0.85 0.85)">
+  <ellipse cx="0" cy="0" rx="120" ry="18" fill="#000" opacity=".3"/>
+  <rect x="-70" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <rect x="12" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <ellipse cx="-44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/><ellipse cx="44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/>
+  <g id="r-a-me-armL" transform="rotate(0 -124 -380)"><rect x="-150" y="-392" width="52" height="200" rx="26" fill="#5a6a7a" transform="rotate(8 -124 -392)"/>
+    <circle cx="-138" cy="-186" r="26" fill="#e9c0a0"/></g>
+  <g id="r-a-me-armR" transform="rotate(0 124 -380)"><rect x="98" y="-392" width="52" height="200" rx="26" fill="#5a6a7a" transform="rotate(-8 124 -392)"/>
+    <circle cx="138" cy="-186" r="26" fill="#e9c0a0"/></g>
+  <path d="M-110 -340 q0 -66 60 -66 h100 q60 0 60 66 v150 h-220 z" fill="#5a6a7a"/>
+  <path d="M-30 -406 l30 60 l30 -60 z" fill="#e9e6da"/>
+  
+  <rect x="-24" y="-436" width="48" height="40" fill="#e9c0a0"/>
+  <g id="r-a-me-head">
+    
+    <circle cx="0" cy="-520" r="102" fill="#e9c0a0"/>
+    <circle cx="-102" cy="-512" r="18" fill="#e9c0a0"/><circle cx="102" cy="-512" r="18" fill="#e9c0a0"/>
+    <path d="M-104 -520 q-6 -110 104 -118 q110 8 104 118 q-30 -56 -104 -60 q-74 4 -104 60 z" fill="#3a2a1e"/>
+    <ellipse cx="-36" cy="-522" rx="17" ry="19" fill="#fff"/><ellipse cx="36" cy="-522" rx="17" ry="19" fill="#fff"/>
+    <circle id="r-a-me-eyeL" cx="-34" cy="-520" r="9" fill="#0f1218"/><circle id="r-a-me-eyeR" cx="34" cy="-520" r="9" fill="#0f1218"/>
+    <path d="M-52 -552 l32 -10 M20 -562 l32 10" stroke="#3a2a1e" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <circle cx="-62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/><circle cx="62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/>
+    <path d="M-20 -458 q20 -16 40 0" fill="none" stroke="#5a2a1e" stroke-width="7" stroke-linecap="round"/>
+    
+    
+  </g>
+</g></g><!--/@-->
+          <!--@person id="r-a-fr" x="700" y="1860" s="0.85" jacket="#5f8f5c" hair="#1e140c" skin="#c98d62" style="long" mood="neutral"-->
+<g id="r-a-fr"><g transform="translate(700.0 1860.0) scale(0.85 0.85)">
+  <ellipse cx="0" cy="0" rx="120" ry="18" fill="#000" opacity=".3"/>
+  <rect x="-70" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <rect x="12" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <ellipse cx="-44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/><ellipse cx="44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/>
+  <g id="r-a-fr-armL" transform="rotate(0 -124 -380)"><rect x="-150" y="-392" width="52" height="200" rx="26" fill="#5f8f5c" transform="rotate(8 -124 -392)"/>
+    <circle cx="-138" cy="-186" r="26" fill="#c98d62"/></g>
+  <g id="r-a-fr-armR" transform="rotate(0 124 -380)"><rect x="98" y="-392" width="52" height="200" rx="26" fill="#5f8f5c" transform="rotate(-8 124 -392)"/>
+    <circle cx="138" cy="-186" r="26" fill="#c98d62"/></g>
+  <path d="M-110 -340 q0 -66 60 -66 h100 q60 0 60 66 v150 h-220 z" fill="#5f8f5c"/>
+  <path d="M-30 -406 l30 60 l30 -60 z" fill="#e9e6da"/>
+  
+  <rect x="-24" y="-436" width="48" height="40" fill="#c98d62"/>
+  <g id="r-a-fr-head">
+    <path d="M-112 -400 q-30 -250 112 -248 q142 -2 112 248 l-40 0 q10 -110 -10 -150 q-60 -30 -124 -24 q-30 40 -20 174 z" fill="#1e140c"/>
+    <circle cx="0" cy="-520" r="102" fill="#c98d62"/>
+    <circle cx="-102" cy="-512" r="18" fill="#c98d62"/><circle cx="102" cy="-512" r="18" fill="#c98d62"/>
+    
+    <ellipse cx="-36" cy="-522" rx="17" ry="19" fill="#fff"/><ellipse cx="36" cy="-522" rx="17" ry="19" fill="#fff"/>
+    <circle id="r-a-fr-eyeL" cx="-34" cy="-520" r="9" fill="#0f1218"/><circle id="r-a-fr-eyeR" cx="34" cy="-520" r="9" fill="#0f1218"/>
+    <path d="M-50 -556 l30 -4 M20 -560 l30 4" stroke="#1e140c" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <circle cx="-62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/><circle cx="62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/>
+    <path d="M-16 -468 q16 8 32 0" fill="none" stroke="#5a2a1e" stroke-width="7" stroke-linecap="round"/>
+    
+    
+  </g>
+</g></g><!--/@-->
+          <rect x="140" y="1640" width="800" height="40" rx="10" fill="#6b4a2a" /><rect x="180" y="1680" width="24" height="140" fill="#4a3220" /><rect x="876" y="1680" width="24" height="140" fill="#4a3220" />
+          <g id="r-a-b1"><path d="M560 760 h300 q30 0 30 30 v90 q0 30 -30 30 h-200 l-50 46 l8 -46 h-58 q-30 0 -30 -30 v-90 q0 -30 30 -30 z" fill="#f4efe4" /><g fill="#8d93a1"><rect x="600" y="800" width="220" height="16" rx="8" /><rect x="600" y="836" width="160" height="16" rx="8" /></g></g>
+          <g id="r-a-b2"><path d="M200 900 h280 q30 0 30 30 v80 q0 30 -30 30 h-180 l-50 46 l8 -46 h-58 q-30 0 -30 -30 v-80 q0 -30 30 -30 z" fill="#bfe0ff" /><g fill="#5a7a9a"><rect x="236" y="936" width="200" height="16" rx="8" /><rect x="236" y="970" width="140" height="16" rx="8" /></g></g>
+        </svg>
+      </div>
+      <div id="r-a-title" class="title lt gold" style="top: 330px; font-size: 170px">Reden</div>
+    </div>
+    <div id="r-b" class="beat clip" data-start="2.64" data-duration="6.12" data-track-index="0">
+      <div id="r-b-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <rect width="1080" height="1920" fill="#141a22" />
+          <g class="r-b-row" id="r-b-row0" transform="translate(0 -200)"><rect x="120" y="620" width="840" height="240" rx="30" fill="#1a222e" stroke="#3a4a5a" stroke-width="4" /><g transform="translate(260 740)"><path d="M0 50 l-70 -70 a40 40 0 0 1 70 -50 a40 40 0 0 1 70 50 z" fill="#e8412f" /></g><text x="400" y="760" font-family="Montserrat" font-weight="800" font-size="46" fill="#f4f1ea">Vertrauensperson</text></g><g class="r-b-row" id="r-b-row1" transform="translate(0 60)"><rect x="120" y="620" width="840" height="240" rx="30" fill="#1a222e" stroke="#3a4a5a" stroke-width="4" /><g transform="translate(260 740)"><path d="M-50 -60 v50 q0 50 50 50 q50 0 50 -50 v-50" stroke="#7fb0d8" stroke-width="16" fill="none" stroke-linecap="round" /><path d="M0 40 v30 q0 40 50 40 q40 0 40 -40" stroke="#7fb0d8" stroke-width="16" fill="none" /><circle cx="90" cy="60" r="22" fill="#7fb0d8" /></g><text x="400" y="760" font-family="Montserrat" font-weight="800" font-size="46" fill="#f4f1ea">Hausarzt / Hausärztin</text></g><g class="r-b-row" id="r-b-row2" transform="translate(0 320)"><rect x="120" y="620" width="840" height="240" rx="30" fill="#1a222e" stroke="#3a4a5a" stroke-width="4" /><g transform="translate(260 740)"><path d="M-60 -60 q-20 20 0 70 q40 80 120 120 q50 20 70 0 l14 -30 l-50 -40 l-30 26 q-50 -24 -80 -80 l26 -30 l-40 -50 z" fill="#7fe0a0" /></g><text x="400" y="760" font-family="Montserrat" font-weight="800" font-size="46" fill="#f4f1ea">Anonym am Telefon</text></g>
+        </svg>
+      </div>
+
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#r-a-cam", { scale: 1.0 }, { scale: 1.05, duration: 2.64, ease: "none" }, 0.00);
+    tl.fromTo("#r-a-b1", { opacity: 0, scale: 0.5, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1, duration: 0.25, ease: "back.out(2)" }, 0.40);
+    tl.fromTo("#r-a-b2", { opacity: 0, scale: 0.5, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1, duration: 0.25, ease: "back.out(2)" }, 1.10);
+    tl.fromTo("#r-a-title", { opacity: 0, scale: 1.4, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.25, ease: "power3.in" }, 2.02);
+    tl.fromTo("#r-b-cam", { scale: 1.0 }, { scale: 1.04, duration: 6.12, ease: "none" }, 2.64);
+    tl.fromTo("#r-b-row0", { opacity: 0, x: -80 }, { opacity: 1, x: 0, duration: 0.3, ease: "power3.out" }, 2.74);
+    tl.fromTo("#r-b-row1", { opacity: 0, x: -80 }, { opacity: 1, x: 0, duration: 0.3, ease: "power3.out" }, 4.54);
+    tl.fromTo("#r-b-row2", { opacity: 0, x: -80 }, { opacity: 1, x: 0, duration: 0.3, ease: "power3.out" }, 6.77);
+    window.__timelines["hilfe"] = tl;
+  </script>
+</template>
