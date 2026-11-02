@@ -5,7 +5,7 @@
 
   </style>
   <div id="root" data-composition-id="day5" data-width="1080" data-height="1920">
-    <div id="d5-a" class="beat clip" data-start="0.00" data-duration="0.88" data-track-index="0">
+    <div id="d5-a" class="beat clip" data-start="0.00" data-duration="1.10" data-track-index="0">
       <div id="d5-a-cam" class="cam">
         <svg class="full" viewBox="0 0 1080 1920">
           <rect width="1080" height="1920" fill="#1a1f2b" />
@@ -15,7 +15,7 @@
       <div id="d5-a-day" class="title" style="top: 520px; font-size: 270px"><span class="o">Day 5</span></div>
       <div id="d5-a-chip" class="chip-row" style="top: 850px"><span class="chip " style="font-size: 60px">Radio</span></div>
     </div>
-    <div id="d5-b" class="beat clip" data-start="0.88" data-duration="3.57" data-track-index="0">
+    <div id="d5-b" class="beat clip" data-start="1.10" data-duration="3.43" data-track-index="0">
       <div id="d5-b-cam" class="cam">
         <svg class="full" viewBox="0 0 1080 1920">
           <rect width="1080" height="1920" fill="#141a22" />
@@ -28,7 +28,7 @@
       </div>
       <div id="d5-b-title" class="title" style="top: 400px; font-size: 150px"><span style="color: #7fe0a0">Safe Zone</span></div>
     </div>
-    <div id="d5-c" class="beat clip" data-start="4.45" data-duration="1.70" data-track-index="0">
+    <div id="d5-c" class="beat clip" data-start="4.53" data-duration="2.23" data-track-index="0">
       <div id="d5-c-cam" class="cam">
         <svg class="full" viewBox="0 0 1080 1920">
           <defs><linearGradient id="d5-c-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a2030" /><stop offset="1" stop-color="#c26a4a" /></linearGradient></defs>
@@ -49,12 +49,12 @@
     const tl = gsap.timeline({ paused: true });
     tl.fromTo("#d5-a-day", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 0.06);
     tl.fromTo("#d5-a-chip", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 0.22);
-    tl.fromTo("#d5-b-cam", { scale: 1.0 }, { scale: 1.08, duration: 3.57, ease: "none" }, 0.88);
-    tl.fromTo(".d5-b-w", { opacity: 0 }, { opacity: 0.8, duration: 0.25, repeat: 7, yoyo: true, stagger: 0.12 }, 0.88);
-    tl.fromTo("#d5-b-needle", { x: -60 }, { x: 100, duration: 1.2, ease: "power2.inOut" }, 0.98);
-    tl.fromTo("#d5-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 2.97);
-    tl.fromTo("#d5-c-cam", { scale: 1.0 }, { scale: 1.1, duration: 1.70, ease: "none" }, 4.45);
-    tl.fromTo("#d5-c-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 5.52);
+    tl.fromTo("#d5-b-cam", { scale: 1.0 }, { scale: 1.08, duration: 3.43, ease: "none" }, 1.10);
+    tl.fromTo(".d5-b-w", { opacity: 0 }, { opacity: 0.8, duration: 0.25, repeat: 7, yoyo: true, stagger: 0.12 }, 1.10);
+    tl.fromTo("#d5-b-needle", { x: -60 }, { x: 100, duration: 1.2, ease: "power2.inOut" }, 1.20);
+    tl.fromTo("#d5-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 3.18);
+    tl.fromTo("#d5-c-cam", { scale: 1.0 }, { scale: 1.1, duration: 2.23, ease: "none" }, 4.53);
+    tl.fromTo("#d5-c-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 6.04);
     window.__timelines["day5"] = tl;
   </script>
 </template>

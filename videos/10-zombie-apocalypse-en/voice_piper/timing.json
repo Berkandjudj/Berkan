@@ -1,0 +1,1468 @@
+{
+ "duration": 65.025,
+ "lines": [
+  {
+   "id": "hook1",
+   "start": 0.15,
+   "end": 3.401,
+   "words": [
+    {
+     "text": "Imagine",
+     "say": "Imagine",
+     "key": false,
+     "start": 0.15,
+     "end": 0.692
+    },
+    {
+     "text": "waking",
+     "say": "waking",
+     "key": false,
+     "start": 0.692,
+     "end": 0.998
+    },
+    {
+     "text": "up",
+     "say": "up",
+     "key": false,
+     "start": 0.998,
+     "end": 1.186
+    },
+    {
+     "text": "to",
+     "say": "to",
+     "key": false,
+     "start": 1.186,
+     "end": 1.375
+    },
+    {
+     "text": "a",
+     "say": "a",
+     "key": false,
+     "start": 1.375,
+     "end": 1.563
+    },
+    {
+     "text": "city",
+     "say": "city",
+     "key": false,
+     "start": 1.563,
+     "end": 1.869
+    },
+    {
+     "text": "that",
+     "say": "that",
+     "key": false,
+     "start": 1.869,
+     "end": 2.058
+    },
+    {
+     "text": "has",
+     "say": "has",
+     "key": false,
+     "start": 2.058,
+     "end": 2.246
+    },
+    {
+     "text": "gone",
+     "say": "gone",
+     "key": false,
+     "start": 2.246,
+     "end": 2.552
+    },
+    {
+     "text": "completely",
+     "say": "completely",
+     "key": false,
+     "start": 2.552,
+     "end": 3.094
+    },
+    {
+     "text": "silent.",
+     "say": "silent.",
+     "key": true,
+     "start": 3.094,
+     "end": 3.4
+    }
+   ]
+  },
+  {
+   "id": "hook2",
+   "start": 3.701,
+   "end": 7.455,
+   "words": [
+    {
+     "text": "No",
+     "say": "No",
+     "key": false,
+     "start": 3.701,
+     "end": 4.056
+    },
+    {
+     "text": "cars.",
+     "say": "cars.",
+     "key": false,
+     "start": 4.056,
+     "end": 4.411
+    },
+    {
+     "text": "No",
+     "say": "No",
+     "key": false,
+     "start": 4.601,
+     "end": 4.936
+    },
+    {
+     "text": "sirens.",
+     "say": "sirens.",
+     "key": false,
+     "start": 4.936,
+     "end": 5.481
+    },
+    {
+     "text": "Just",
+     "say": "Just",
+     "key": false,
+     "start": 5.751,
+     "end": 5.968
+    },
+    {
+     "text": "something",
+     "say": "something",
+     "key": false,
+     "start": 5.968,
+     "end": 6.457
+    },
+    {
+     "text": "scratching",
+     "say": "scratching",
+     "key": true,
+     "start": 6.457,
+     "end": 6.81
+    },
+    {
+     "text": "at",
+     "say": "at",
+     "key": false,
+     "start": 6.81,
+     "end": 7.027
+    },
+    {
+     "text": "your",
+     "say": "your",
+     "key": false,
+     "start": 7.027,
+     "end": 7.244
+    },
+    {
+     "text": "door.",
+     "say": "door.",
+     "key": false,
+     "start": 7.244,
+     "end": 7.461
+    }
+   ]
+  },
+  {
+   "id": "fact",
+   "start": 7.855,
+   "end": 14.644,
+   "words": [
+    {
+     "text": "And",
+     "say": "And",
+     "key": false,
+     "start": 7.855,
+     "end": 8.082
+    },
+    {
+     "text": "this",
+     "say": "this",
+     "key": false,
+     "start": 8.082,
+     "end": 8.308
+    },
+    {
+     "text": "isn't",
+     "say": "isn't",
+     "key": false,
+     "start": 8.308,
+     "end": 8.535
+    },
+    {
+     "text": "just",
+     "say": "just",
+     "key": false,
+     "start": 8.535,
+     "end": 8.762
+    },
+    {
+     "text": "fiction.",
+     "say": "fiction.",
+     "key": false,
+     "start": 8.762,
+     "end": 9.13
+    },
+    {
+     "text": "In",
+     "say": "In",
+     "key": false,
+     "start": 9.13,
+     "end": 9.357
+    },
+    {
+     "text": "2011,",
+     "say": "twenty-eleven,",
+     "key": true,
+     "start": 9.357,
+     "end": 10.008
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 10.008,
+     "end": 10.235
+    },
+    {
+     "text": "CDC",
+     "say": "CDC",
+     "key": true,
+     "start": 10.235,
+     "end": 10.462
+    },
+    {
+     "text": "actually",
+     "say": "actually",
+     "key": false,
+     "start": 10.462,
+     "end": 10.972
+    },
+    {
+     "text": "published",
+     "say": "published",
+     "key": false,
+     "start": 10.972,
+     "end": 11.482
+    },
+    {
+     "text": "a",
+     "say": "a",
+     "key": false,
+     "start": 11.482,
+     "end": 11.708
+    },
+    {
+     "text": "guide",
+     "say": "guide",
+     "key": false,
+     "start": 11.708,
+     "end": 12.077
+    },
+    {
+     "text": "on",
+     "say": "on",
+     "key": false,
+     "start": 12.077,
+     "end": 12.303
+    },
+    {
+     "text": "how",
+     "say": "how",
+     "key": false,
+     "start": 12.303,
+     "end": 12.53
+    },
+    {
+     "text": "to",
+     "say": "to",
+     "key": false,
+     "start": 12.53,
+     "end": 12.757
+    },
+    {
+     "text": "survive",
+     "say": "survive",
+     "key": false,
+     "start": 12.757,
+     "end": 13.267
+    },
+    {
+     "text": "a",
+     "say": "a",
+     "key": false,
+     "start": 13.267,
+     "end": 13.493
+    },
+    {
+     "text": "zombie",
+     "say": "zombie",
+     "key": false,
+     "start": 13.493,
+     "end": 13.862
+    },
+    {
+     "text": "apocalypse.",
+     "say": "apocalypse.",
+     "key": false,
+     "start": 13.862,
+     "end": 14.655
+    }
+   ]
+  },
+  {
+   "id": "fact2",
+   "start": 14.844,
+   "end": 17.34,
+   "words": [
+    {
+     "text": "Their",
+     "say": "Their",
+     "key": false,
+     "start": 14.844,
+     "end": 15.126
+    },
+    {
+     "text": "advice:",
+     "say": "advice:",
+     "key": false,
+     "start": 15.126,
+     "end": 15.759
+    },
+    {
+     "text": "water,",
+     "say": "water,",
+     "key": true,
+     "start": 15.759,
+     "end": 16.217
+    },
+    {
+     "text": "food,",
+     "say": "food,",
+     "key": true,
+     "start": 16.217,
+     "end": 16.499
+    },
+    {
+     "text": "and",
+     "say": "and",
+     "key": false,
+     "start": 16.499,
+     "end": 16.781
+    },
+    {
+     "text": "a",
+     "say": "a",
+     "key": false,
+     "start": 16.781,
+     "end": 17.062
+    },
+    {
+     "text": "plan.",
+     "say": "plan.",
+     "key": true,
+     "start": 17.062,
+     "end": 17.344
+    }
+   ]
+  },
+  {
+   "id": "d1_mark",
+   "start": 17.69,
+   "end": 18.818,
+   "words": [
+    {
+     "text": "Day",
+     "say": "Day",
+     "key": false,
+     "start": 17.69,
+     "end": 17.877
+    },
+    {
+     "text": "1.",
+     "say": "one.",
+     "key": false,
+     "start": 17.877,
+     "end": 18.18
+    },
+    {
+     "text": "6",
+     "say": "Six",
+     "key": false,
+     "start": 18.34,
+     "end": 18.56
+    },
+    {
+     "text": "AM.",
+     "say": "AM.",
+     "key": false,
+     "start": 18.56,
+     "end": 18.78
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "start": 19.068,
+   "end": 25.004,
+   "words": [
+    {
+     "text": "Your",
+     "say": "Your",
+     "key": false,
+     "start": 19.068,
+     "end": 19.331
+    },
+    {
+     "text": "phone",
+     "say": "phone",
+     "key": false,
+     "start": 19.331,
+     "end": 19.757
+    },
+    {
+     "text": "has",
+     "say": "has",
+     "key": false,
+     "start": 19.757,
+     "end": 20.02
+    },
+    {
+     "text": "no",
+     "say": "no",
+     "key": true,
+     "start": 20.02,
+     "end": 20.282
+    },
+    {
+     "text": "signal.",
+     "say": "signal.",
+     "key": true,
+     "start": 20.282,
+     "end": 20.709
+    },
+    {
+     "text": "On",
+     "say": "On",
+     "key": false,
+     "start": 20.709,
+     "end": 20.971
+    },
+    {
+     "text": "TV,",
+     "say": "TV,",
+     "key": false,
+     "start": 20.971,
+     "end": 21.234
+    },
+    {
+     "text": "one",
+     "say": "one",
+     "key": false,
+     "start": 21.234,
+     "end": 21.661
+    },
+    {
+     "text": "sentence",
+     "say": "sentence",
+     "key": false,
+     "start": 21.661,
+     "end": 22.251
+    },
+    {
+     "text": "repeats:",
+     "say": "repeats:",
+     "key": false,
+     "start": 22.251,
+     "end": 22.678
+    },
+    {
+     "text": "Stay",
+     "say": "Stay",
+     "key": false,
+     "start": 22.678,
+     "end": 22.94
+    },
+    {
+     "text": "inside.",
+     "say": "inside.",
+     "key": true,
+     "start": 22.94,
+     "end": 23.531
+    },
+    {
+     "text": "Do",
+     "say": "Do",
+     "key": false,
+     "start": 23.531,
+     "end": 23.794
+    },
+    {
+     "text": "not",
+     "say": "not",
+     "key": false,
+     "start": 23.794,
+     "end": 24.056
+    },
+    {
+     "text": "open",
+     "say": "open",
+     "key": false,
+     "start": 24.056,
+     "end": 24.483
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 24.483,
+     "end": 24.745
+    },
+    {
+     "text": "door.",
+     "say": "door.",
+     "key": false,
+     "start": 24.745,
+     "end": 25.008
+    }
+   ]
+  },
+  {
+   "id": "d1b",
+   "start": 25.254,
+   "end": 30.276,
+   "words": [
+    {
+     "text": "Outside,",
+     "say": "Outside,",
+     "key": false,
+     "start": 25.254,
+     "end": 25.914
+    },
+    {
+     "text": "your",
+     "say": "your",
+     "key": false,
+     "start": 26.034,
+     "end": 26.259
+    },
+    {
+     "text": "neighbor",
+     "say": "neighbor",
+     "key": true,
+     "start": 26.259,
+     "end": 26.626
+    },
+    {
+     "text": "is",
+     "say": "is",
+     "key": false,
+     "start": 26.626,
+     "end": 26.851
+    },
+    {
+     "text": "standing",
+     "say": "standing",
+     "key": false,
+     "start": 26.851,
+     "end": 27.218
+    },
+    {
+     "text": "in",
+     "say": "in",
+     "key": false,
+     "start": 27.218,
+     "end": 27.443
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 27.443,
+     "end": 27.669
+    },
+    {
+     "text": "street.",
+     "say": "street.",
+     "key": false,
+     "start": 27.669,
+     "end": 27.894
+    },
+    {
+     "text": "Perfectly",
+     "say": "Perfectly",
+     "key": false,
+     "start": 28.064,
+     "end": 28.646
+    },
+    {
+     "text": "still.",
+     "say": "still.",
+     "key": false,
+     "start": 28.646,
+     "end": 28.904
+    },
+    {
+     "text": "Staring",
+     "say": "Staring",
+     "key": false,
+     "start": 29.064,
+     "end": 29.442
+    },
+    {
+     "text": "at",
+     "say": "at",
+     "key": false,
+     "start": 29.442,
+     "end": 29.674
+    },
+    {
+     "text": "your",
+     "say": "your",
+     "key": false,
+     "start": 29.674,
+     "end": 29.906
+    },
+    {
+     "text": "window.",
+     "say": "window.",
+     "key": true,
+     "start": 29.906,
+     "end": 30.284
+    }
+   ]
+  },
+  {
+   "id": "d2_mark",
+   "start": 30.626,
+   "end": 31.323,
+   "words": [
+    {
+     "text": "Day",
+     "say": "Day",
+     "key": false,
+     "start": 30.626,
+     "end": 30.971
+    },
+    {
+     "text": "2.",
+     "say": "two.",
+     "key": false,
+     "start": 30.971,
+     "end": 31.316
+    }
+   ]
+  },
+  {
+   "id": "d2",
+   "start": 31.573,
+   "end": 38.011,
+   "words": [
+    {
+     "text": "The",
+     "say": "The",
+     "key": false,
+     "start": 31.573,
+     "end": 31.819
+    },
+    {
+     "text": "power",
+     "say": "power",
+     "key": true,
+     "start": 31.819,
+     "end": 32.22
+    },
+    {
+     "text": "is",
+     "say": "is",
+     "key": false,
+     "start": 32.22,
+     "end": 32.467
+    },
+    {
+     "text": "out.",
+     "say": "out.",
+     "key": false,
+     "start": 32.467,
+     "end": 32.713
+    },
+    {
+     "text": "You",
+     "say": "You",
+     "key": false,
+     "start": 32.873,
+     "end": 33.13
+    },
+    {
+     "text": "hear",
+     "say": "hear",
+     "key": false,
+     "start": 33.13,
+     "end": 33.387
+    },
+    {
+     "text": "glass",
+     "say": "glass",
+     "key": false,
+     "start": 33.387,
+     "end": 33.644
+    },
+    {
+     "text": "breaking",
+     "say": "breaking",
+     "key": true,
+     "start": 33.644,
+     "end": 34.061
+    },
+    {
+     "text": "two",
+     "say": "two",
+     "key": false,
+     "start": 34.061,
+     "end": 34.318
+    },
+    {
+     "text": "floors",
+     "say": "floors",
+     "key": false,
+     "start": 34.318,
+     "end": 34.575
+    },
+    {
+     "text": "below.",
+     "say": "below.",
+     "key": false,
+     "start": 34.575,
+     "end": 34.993
+    },
+    {
+     "text": "Then",
+     "say": "Then",
+     "key": false,
+     "start": 35.203,
+     "end": 35.459
+    },
+    {
+     "text": "footsteps",
+     "say": "footsteps",
+     "key": false,
+     "start": 35.459,
+     "end": 35.875
+    },
+    {
+     "text": "on",
+     "say": "on",
+     "key": false,
+     "start": 35.875,
+     "end": 36.131
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 36.131,
+     "end": 36.387
+    },
+    {
+     "text": "stairs.",
+     "say": "stairs.",
+     "key": false,
+     "start": 36.387,
+     "end": 36.643
+    },
+    {
+     "text": "Slow.",
+     "say": "Slow.",
+     "key": false,
+     "start": 36.883,
+     "end": 37.273
+    },
+    {
+     "text": "Dragging.",
+     "say": "Dragging.",
+     "key": true,
+     "start": 37.533,
+     "end": 38.013
+    }
+   ]
+  },
+  {
+   "id": "d3_mark",
+   "start": 38.361,
+   "end": 39.115,
+   "words": [
+    {
+     "text": "Day",
+     "say": "Day",
+     "key": false,
+     "start": 38.361,
+     "end": 38.736
+    },
+    {
+     "text": "3.",
+     "say": "three.",
+     "key": false,
+     "start": 38.736,
+     "end": 39.111
+    }
+   ]
+  },
+  {
+   "id": "d3",
+   "start": 39.365,
+   "end": 45.492,
+   "words": [
+    {
+     "text": "Your",
+     "say": "Your",
+     "key": false,
+     "start": 39.365,
+     "end": 39.602
+    },
+    {
+     "text": "water",
+     "say": "water",
+     "key": true,
+     "start": 39.602,
+     "end": 39.988
+    },
+    {
+     "text": "is",
+     "say": "is",
+     "key": false,
+     "start": 39.988,
+     "end": 40.225
+    },
+    {
+     "text": "almost",
+     "say": "almost",
+     "key": false,
+     "start": 40.225,
+     "end": 40.611
+    },
+    {
+     "text": "gone.",
+     "say": "gone.",
+     "key": false,
+     "start": 40.611,
+     "end": 40.996
+    },
+    {
+     "text": "The",
+     "say": "The",
+     "key": false,
+     "start": 40.996,
+     "end": 41.234
+    },
+    {
+     "text": "nearest",
+     "say": "nearest",
+     "key": false,
+     "start": 41.234,
+     "end": 41.619
+    },
+    {
+     "text": "store",
+     "say": "store",
+     "key": false,
+     "start": 41.619,
+     "end": 42.005
+    },
+    {
+     "text": "is",
+     "say": "is",
+     "key": false,
+     "start": 42.005,
+     "end": 42.242
+    },
+    {
+     "text": "400",
+     "say": "four-hundred",
+     "key": false,
+     "start": 42.242,
+     "end": 42.776
+    },
+    {
+     "text": "meters",
+     "say": "meters",
+     "key": false,
+     "start": 42.776,
+     "end": 43.162
+    },
+    {
+     "text": "away.",
+     "say": "away.",
+     "key": false,
+     "start": 43.162,
+     "end": 43.547
+    },
+    {
+     "text": "Between",
+     "say": "Between",
+     "key": false,
+     "start": 43.547,
+     "end": 43.933
+    },
+    {
+     "text": "you",
+     "say": "you",
+     "key": false,
+     "start": 43.933,
+     "end": 44.17
+    },
+    {
+     "text": "and",
+     "say": "and",
+     "key": false,
+     "start": 44.17,
+     "end": 44.408
+    },
+    {
+     "text": "it:",
+     "say": "it:",
+     "key": false,
+     "start": 44.408,
+     "end": 44.645
+    },
+    {
+     "text": "dozens",
+     "say": "dozens",
+     "key": true,
+     "start": 44.645,
+     "end": 45.03
+    },
+    {
+     "text": "of",
+     "say": "of",
+     "key": false,
+     "start": 45.03,
+     "end": 45.268
+    },
+    {
+     "text": "them.",
+     "say": "them.",
+     "key": false,
+     "start": 45.268,
+     "end": 45.505
+    }
+   ]
+  },
+  {
+   "id": "d5_mark",
+   "start": 45.842,
+   "end": 46.468,
+   "words": [
+    {
+     "text": "Day",
+     "say": "Day",
+     "key": false,
+     "start": 45.842,
+     "end": 46.078
+    },
+    {
+     "text": "5.",
+     "say": "five.",
+     "key": false,
+     "start": 46.078,
+     "end": 46.462
+    }
+   ]
+  },
+  {
+   "id": "d5",
+   "start": 46.718,
+   "end": 51.639,
+   "words": [
+    {
+     "text": "A",
+     "say": "A",
+     "key": false,
+     "start": 46.718,
+     "end": 46.924
+    },
+    {
+     "text": "voice",
+     "say": "voice",
+     "key": false,
+     "start": 46.924,
+     "end": 47.26
+    },
+    {
+     "text": "on",
+     "say": "on",
+     "key": false,
+     "start": 47.26,
+     "end": 47.467
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 47.467,
+     "end": 47.673
+    },
+    {
+     "text": "radio:",
+     "say": "radio:",
+     "key": false,
+     "start": 47.673,
+     "end": 48.009
+    },
+    {
+     "text": "There",
+     "say": "There",
+     "key": false,
+     "start": 48.009,
+     "end": 48.344
+    },
+    {
+     "text": "is",
+     "say": "is",
+     "key": false,
+     "start": 48.344,
+     "end": 48.551
+    },
+    {
+     "text": "a",
+     "say": "a",
+     "key": false,
+     "start": 48.551,
+     "end": 48.757
+    },
+    {
+     "text": "safe",
+     "say": "safe",
+     "key": true,
+     "start": 48.757,
+     "end": 49.093
+    },
+    {
+     "text": "zone",
+     "say": "zone",
+     "key": true,
+     "start": 49.093,
+     "end": 49.428
+    },
+    {
+     "text": "across",
+     "say": "across",
+     "key": false,
+     "start": 49.428,
+     "end": 49.764
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 49.764,
+     "end": 49.97
+    },
+    {
+     "text": "river.",
+     "say": "river.",
+     "key": false,
+     "start": 49.97,
+     "end": 50.306
+    },
+    {
+     "text": "One",
+     "say": "One",
+     "key": false,
+     "start": 50.306,
+     "end": 50.641
+    },
+    {
+     "text": "bridge.",
+     "say": "bridge.",
+     "key": false,
+     "start": 50.641,
+     "end": 50.977
+    },
+    {
+     "text": "One",
+     "say": "One",
+     "key": false,
+     "start": 50.977,
+     "end": 51.312
+    },
+    {
+     "text": "chance.",
+     "say": "chance.",
+     "key": true,
+     "start": 51.312,
+     "end": 51.648
+    }
+   ]
+  },
+  {
+   "id": "d7_mark",
+   "start": 51.989,
+   "end": 52.581,
+   "words": [
+    {
+     "text": "Day",
+     "say": "Day",
+     "key": false,
+     "start": 51.989,
+     "end": 52.214
+    },
+    {
+     "text": "7.",
+     "say": "seven.",
+     "key": false,
+     "start": 52.214,
+     "end": 52.579
+    }
+   ]
+  },
+  {
+   "id": "d7",
+   "start": 52.831,
+   "end": 58.779,
+   "words": [
+    {
+     "text": "You",
+     "say": "You",
+     "key": false,
+     "start": 52.831,
+     "end": 53.051
+    },
+    {
+     "text": "reach",
+     "say": "reach",
+     "key": false,
+     "start": 53.051,
+     "end": 53.27
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 53.27,
+     "end": 53.49
+    },
+    {
+     "text": "bridge.",
+     "say": "bridge.",
+     "key": false,
+     "start": 53.49,
+     "end": 53.847
+    },
+    {
+     "text": "It's",
+     "say": "It's",
+     "key": false,
+     "start": 53.847,
+     "end": 54.067
+    },
+    {
+     "text": "packed",
+     "say": "packed",
+     "key": false,
+     "start": 54.067,
+     "end": 54.424
+    },
+    {
+     "text": "with",
+     "say": "with",
+     "key": false,
+     "start": 54.424,
+     "end": 54.644
+    },
+    {
+     "text": "survivors.",
+     "say": "survivors.",
+     "key": false,
+     "start": 54.644,
+     "end": 55.138
+    },
+    {
+     "text": "Then",
+     "say": "Then",
+     "key": false,
+     "start": 55.138,
+     "end": 55.358
+    },
+    {
+     "text": "you",
+     "say": "you",
+     "key": false,
+     "start": 55.358,
+     "end": 55.578
+    },
+    {
+     "text": "see",
+     "say": "see",
+     "key": false,
+     "start": 55.578,
+     "end": 55.797
+    },
+    {
+     "text": "it:",
+     "say": "it:",
+     "key": false,
+     "start": 55.797,
+     "end": 56.017
+    },
+    {
+     "text": "a",
+     "say": "a",
+     "key": false,
+     "start": 56.017,
+     "end": 56.237
+    },
+    {
+     "text": "bite",
+     "say": "bite",
+     "key": true,
+     "start": 56.237,
+     "end": 56.594
+    },
+    {
+     "text": "mark",
+     "say": "mark",
+     "key": true,
+     "start": 56.594,
+     "end": 56.813
+    },
+    {
+     "text": "on",
+     "say": "on",
+     "key": false,
+     "start": 56.813,
+     "end": 57.033
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 57.033,
+     "end": 57.253
+    },
+    {
+     "text": "arm",
+     "say": "arm",
+     "key": false,
+     "start": 57.253,
+     "end": 57.473
+    },
+    {
+     "text": "of",
+     "say": "of",
+     "key": false,
+     "start": 57.473,
+     "end": 57.692
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 57.692,
+     "end": 57.912
+    },
+    {
+     "text": "man",
+     "say": "man",
+     "key": false,
+     "start": 57.912,
+     "end": 58.132
+    },
+    {
+     "text": "next",
+     "say": "next",
+     "key": false,
+     "start": 58.132,
+     "end": 58.352
+    },
+    {
+     "text": "to",
+     "say": "to",
+     "key": false,
+     "start": 58.352,
+     "end": 58.571
+    },
+    {
+     "text": "you.",
+     "say": "you.",
+     "key": false,
+     "start": 58.571,
+     "end": 58.791
+    }
+   ]
+  },
+  {
+   "id": "frage",
+   "start": 59.179,
+   "end": 61.269,
+   "words": [
+    {
+     "text": "Do",
+     "say": "Do",
+     "key": false,
+     "start": 59.179,
+     "end": 59.365
+    },
+    {
+     "text": "you",
+     "say": "you",
+     "key": false,
+     "start": 59.365,
+     "end": 59.551
+    },
+    {
+     "text": "warn",
+     "say": "warn",
+     "key": true,
+     "start": 59.551,
+     "end": 59.736
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 59.736,
+     "end": 59.922
+    },
+    {
+     "text": "others,",
+     "say": "others,",
+     "key": false,
+     "start": 59.922,
+     "end": 60.224
+    },
+    {
+     "text": "or",
+     "say": "or",
+     "key": false,
+     "start": 60.224,
+     "end": 60.41
+    },
+    {
+     "text": "do",
+     "say": "do",
+     "key": false,
+     "start": 60.41,
+     "end": 60.596
+    },
+    {
+     "text": "you",
+     "say": "you",
+     "key": false,
+     "start": 60.596,
+     "end": 60.781
+    },
+    {
+     "text": "keep",
+     "say": "keep",
+     "key": false,
+     "start": 60.781,
+     "end": 60.967
+    },
+    {
+     "text": "walking?",
+     "say": "walking?",
+     "key": true,
+     "start": 60.967,
+     "end": 61.269
+    }
+   ]
+  },
+  {
+   "id": "cta1",
+   "start": 61.469,
+   "end": 62.513,
+   "words": [
+    {
+     "text": "Tell",
+     "say": "Tell",
+     "key": false,
+     "start": 61.469,
+     "end": 61.654
+    },
+    {
+     "text": "me",
+     "say": "me",
+     "key": false,
+     "start": 61.654,
+     "end": 61.839
+    },
+    {
+     "text": "in",
+     "say": "in",
+     "key": false,
+     "start": 61.839,
+     "end": 62.024
+    },
+    {
+     "text": "the",
+     "say": "the",
+     "key": false,
+     "start": 62.024,
+     "end": 62.209
+    },
+    {
+     "text": "comments.",
+     "say": "comments.",
+     "key": true,
+     "start": 62.209,
+     "end": 62.509
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": 62.713,
+   "end": 64.525,
+   "words": [
+    {
+     "text": "Follow",
+     "say": "Follow",
+     "key": false,
+     "start": 62.723,
+     "end": 63.107
+    },
+    {
+     "text": "so",
+     "say": "so",
+     "key": false,
+     "start": 63.107,
+     "end": 63.343
+    },
+    {
+     "text": "you",
+     "say": "you",
+     "key": false,
+     "start": 63.343,
+     "end": 63.579
+    },
+    {
+     "text": "don't",
+     "say": "don't",
+     "key": false,
+     "start": 63.579,
+     "end": 63.815
+    },
+    {
+     "text": "miss",
+     "say": "miss",
+     "key": false,
+     "start": 63.815,
+     "end": 64.051
+    },
+    {
+     "text": "part",
+     "say": "part",
+     "key": false,
+     "start": 64.051,
+     "end": 64.287
+    },
+    {
+     "text": "2.",
+     "say": "two.",
+     "key": true,
+     "start": 64.287,
+     "end": 64.523
+    }
+   ]
+  }
+ ]
+}

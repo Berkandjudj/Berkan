@@ -89,6 +89,11 @@ Pro Video eine passende deutsche Stimme, `generations_count=1`, Modell `eleven_v
 | Islamische Erinnerung | Daniel `DZnfoUf7B8QPXH9qyPtm` |
 | Aufklärung / psychische Gesundheit | Ben `lJ5clA8ifnZiUXuhPMTe` |
 
+Englisch: Erzähler Joey Patel `1FICyb1ofi71ENYIn6V2` (amerikanisch, tief, Spannung). `place_voice.py --lang en`, `TT_LANG=en transcribe.py`,
+in `hud.json` `"day_label": "DAY"`. ElevenLabs spricht langsam: vor `place_voice` mit `ffmpeg -af atempo=1.07` leicht straffen,
+`--max-gap 0.2 --max-line-gap 0.28`.
+Download: Berkan lädt die Aufnahme selbst herunter (Safari → elevenlabs.io → Seitenleiste → **Assets** bzw. **Flows** → „Untitled flow“)
+und schickt die MP3 in den Chat; App-Links öffnen nur den leeren Editor.
 Ablauf: ganzes Skript (nur `say`-Texte) als ein Prompt → Download von `elevenlabsusercontent.com` (muss in den
 Allowed domains der Umgebung stehen) → `place_voice.py` natürlich → `gen_scenes.py`-Kette. Download-Links laufen nach Stunden ab.
 

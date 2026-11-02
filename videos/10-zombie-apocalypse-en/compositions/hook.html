@@ -5,7 +5,7 @@
 
   </style>
   <div id="root" data-composition-id="hook" data-width="1080" data-height="1920">
-    <div id="h-a" class="beat clip" data-start="0.00" data-duration="3.60" data-track-index="0">
+    <div id="h-a" class="beat clip" data-start="0.00" data-duration="3.90" data-track-index="0">
       <div id="h-a-cam" class="cam">
         <svg class="full" viewBox="0 0 1080 1920">
           <defs><linearGradient id="h-a-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1a22" /><stop offset="0.7" stop-color="#2a4a4a" /><stop offset="1" stop-color="#6a7a5a" /></linearGradient></defs>
@@ -60,7 +60,7 @@
       </div>
       <div id="h-a-title" class="title" style="top: 330px; font-size: 150px">Zombie<br /><span class="r">Apocalypse</span></div>
     </div>
-    <div id="h-b" class="beat clip" data-start="3.60" data-duration="4.16" data-track-index="0">
+    <div id="h-b" class="beat clip" data-start="3.90" data-duration="4.95" data-track-index="0">
       <div id="h-b-cam" class="cam">
         <svg class="full" viewBox="0 0 1080 1920">
           <rect width="1080" height="1920" fill="#14100c" />
@@ -79,16 +79,16 @@
   </div>
   <script>
     const tl = gsap.timeline({ paused: true });
-    tl.fromTo("#h-a-cam", { scale: 1.0 }, { scale: 1.08, duration: 3.60, ease: "none" }, 0.00);
+    tl.fromTo("#h-a-cam", { scale: 1.0 }, { scale: 1.08, duration: 3.90, ease: "none" }, 0.00);
     tl.fromTo(".h-a-rg-c", { scale: 0.7, opacity: 0.9, transformOrigin: "50% 50%" }, { scale: 1.25, opacity: 0, duration: 0.9, repeat: 3, stagger: 0.2, ease: "none" }, 0.20);
-    tl.fromTo("#h-a-smoke", { y: 0 }, { y: -120, duration: 3.60, ease: "none" }, 0.00);
-    tl.fromTo(".h-a-paper", { x: 0, rotation: 0 }, { x: 120, rotation: 40, duration: 3.60, ease: "none" }, 0.00);
-    tl.fromTo("#h-b-cam", { scale: 1.1 }, { scale: 1.0, duration: 4.16, ease: "power1.out" }, 3.60);
-    tl.fromTo(".h-b-sc", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.25, stagger: 0.12, ease: "power2.in" }, 6.36);
-    tl.fromTo("#h-b-handle", { rotation: 0, transformOrigin: "80% 50%" }, { rotation: -14, duration: 0.12, repeat: 5, yoyo: true }, 6.76);
-    tl.fromTo("#h-b-shadow", { x: -40 }, { x: 40, duration: 0.5, repeat: 3, yoyo: true }, 3.60);
-    tl.fromTo("#h-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 6.41);
-    tl.fromTo("#h-b-cam", { x: 0 }, { x: 14, duration: 0.04, repeat: 5, yoyo: true }, 6.56);
+    tl.fromTo("#h-a-smoke", { y: 0 }, { y: -120, duration: 3.90, ease: "none" }, 0.00);
+    tl.fromTo(".h-a-paper", { x: 0, rotation: 0 }, { x: 120, rotation: 40, duration: 3.90, ease: "none" }, 0.00);
+    tl.fromTo("#h-b-cam", { scale: 1.1 }, { scale: 1.0, duration: 4.95, ease: "power1.out" }, 3.90);
+    tl.fromTo(".h-b-sc", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.25, stagger: 0.12, ease: "power2.in" }, 7.24);
+    tl.fromTo("#h-b-handle", { rotation: 0, transformOrigin: "80% 50%" }, { rotation: -14, duration: 0.12, repeat: 5, yoyo: true }, 7.64);
+    tl.fromTo("#h-b-shadow", { x: -40 }, { x: 40, duration: 0.5, repeat: 3, yoyo: true }, 3.90);
+    tl.fromTo("#h-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 7.29);
+    tl.fromTo("#h-b-cam", { x: 0 }, { x: 14, duration: 0.04, repeat: 5, yoyo: true }, 7.44);
     window.__timelines["hook"] = tl;
   </script>
 </template>

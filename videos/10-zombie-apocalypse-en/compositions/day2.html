@@ -5,7 +5,7 @@
 
   </style>
   <div id="root" data-composition-id="day2" data-width="1080" data-height="1920">
-    <div id="d2-a" class="beat clip" data-start="0.00" data-duration="0.94" data-track-index="0">
+    <div id="d2-a" class="beat clip" data-start="0.00" data-duration="0.91" data-track-index="0">
       <div id="d2-a-cam" class="cam">
         <svg class="full" viewBox="0 0 1080 1920">
           <rect width="1080" height="1920" fill="#1a1f2b" />
@@ -15,7 +15,7 @@
       <div id="d2-a-day" class="title" style="top: 520px; font-size: 270px"><span class="o">Day 2</span></div>
       <div id="d2-a-chip" class="chip-row" style="top: 850px"><span class="chip " style="font-size: 60px">Power out</span></div>
     </div>
-    <div id="d2-b" class="beat clip" data-start="0.94" data-duration="3.61" data-track-index="0">
+    <div id="d2-b" class="beat clip" data-start="0.91" data-duration="4.37" data-track-index="0">
       <div id="d2-b-cam" class="cam">
         <svg class="full" viewBox="0 0 1080 1920">
           <defs><linearGradient id="d2-b-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a2838" /><stop offset="1" stop-color="#3a4a5a" /></linearGradient></defs>
@@ -45,7 +45,7 @@
       </div>
       <div id="d2-b-title" class="title" style="top: 400px; font-size: 140px"><span class="r">Power Out</span></div>
     </div>
-    <div id="d2-c" class="beat clip" data-start="4.55" data-duration="3.18" data-track-index="0">
+    <div id="d2-c" class="beat clip" data-start="5.28" data-duration="3.13" data-track-index="0">
       <div id="d2-c-cam" class="cam">
         <svg class="full" viewBox="0 0 1080 1920">
           <rect width="1080" height="1920" fill="#06080b" />
@@ -87,20 +87,20 @@
     const tl = gsap.timeline({ paused: true });
     tl.fromTo("#d2-a-day", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 0.06);
     tl.fromTo("#d2-a-chip", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 0.22);
-    tl.fromTo("#d2-b-cam", { scale: 1.0 }, { scale: 1.08, duration: 3.61, ease: "none" }, 0.94);
-    tl.fromTo(".d2-b-sk-win", { opacity: 1 }, { opacity: 0, duration: 0.05, stagger: { each: 0.01, from: "start" } }, 1.19);
-    tl.fromTo("#d2-b-dark", { opacity: 0 }, { opacity: 0.5, duration: 0.3 }, 1.29);
-    tl.fromTo("#d2-b-glow", { opacity: 1 }, { opacity: 0, duration: 0.06, repeat: 3, yoyo: true }, 0.94);
-    tl.to("#d2-b-glow", { opacity: 0, duration: 0.05 }, 1.29);
-    tl.fromTo("#d2-b-bulb", { fill: "#fff2c4" }, { fill: "#3a3f4b", duration: 0.05 }, 1.29);
-    tl.fromTo("#d2-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 1.24);
-    tl.fromTo("#d2-b-crash", { opacity: 0, scale: 0.5, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1.3, duration: 0.25, ease: "power3.out" }, 3.06);
-    tl.fromTo("#d2-b-cam", { x: 0 }, { x: 14, duration: 0.04, repeat: 5, yoyo: true }, 3.11);
-    tl.fromTo("#d2-c-cam", { scale: 1.0 }, { scale: 1.12, duration: 3.18, ease: "power1.in" }, 4.55);
-    tl.fromTo("#d2-c-zw", { y: -260, scale: 0.7, transformOrigin: "50% 100%" }, { y: 120, scale: 1.15, duration: 3.18, ease: "none" }, 4.55);
-    tl.fromTo("#d2-c-z-head", { rotation: -6, transformOrigin: "50% 90%" }, { rotation: 6, duration: 0.5, repeat: 5, yoyo: true, ease: "sine.inOut" }, 4.55);
-    tl.fromTo("#d2-c-light", { opacity: 1 }, { opacity: 0.3, duration: 0.15, repeat: 7, yoyo: true }, 5.05);
-    tl.fromTo("#d2-c-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 6.95);
+    tl.fromTo("#d2-b-cam", { scale: 1.0 }, { scale: 1.08, duration: 4.37, ease: "none" }, 0.91);
+    tl.fromTo(".d2-b-sk-win", { opacity: 1 }, { opacity: 0, duration: 0.05, stagger: { each: 0.01, from: "start" } }, 1.25);
+    tl.fromTo("#d2-b-dark", { opacity: 0 }, { opacity: 0.5, duration: 0.3 }, 1.35);
+    tl.fromTo("#d2-b-glow", { opacity: 1 }, { opacity: 0, duration: 0.06, repeat: 3, yoyo: true }, 1.00);
+    tl.to("#d2-b-glow", { opacity: 0, duration: 0.05 }, 1.35);
+    tl.fromTo("#d2-b-bulb", { fill: "#fff2c4" }, { fill: "#3a3f4b", duration: 0.05 }, 1.35);
+    tl.fromTo("#d2-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 1.30);
+    tl.fromTo("#d2-b-crash", { opacity: 0, scale: 0.5, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1.3, duration: 0.25, ease: "power3.out" }, 3.56);
+    tl.fromTo("#d2-b-cam", { x: 0 }, { x: 14, duration: 0.04, repeat: 5, yoyo: true }, 3.61);
+    tl.fromTo("#d2-c-cam", { scale: 1.0 }, { scale: 1.12, duration: 3.13, ease: "power1.in" }, 5.28);
+    tl.fromTo("#d2-c-zw", { y: -260, scale: 0.7, transformOrigin: "50% 100%" }, { y: 120, scale: 1.15, duration: 3.13, ease: "none" }, 5.28);
+    tl.fromTo("#d2-c-z-head", { rotation: -6, transformOrigin: "50% 90%" }, { rotation: 6, duration: 0.5, repeat: 5, yoyo: true, ease: "sine.inOut" }, 5.28);
+    tl.fromTo("#d2-c-light", { opacity: 1 }, { opacity: 0.3, duration: 0.15, repeat: 7, yoyo: true }, 5.78);
+    tl.fromTo("#d2-c-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 7.61);
     window.__timelines["day2"] = tl;
   </script>
 </template>
