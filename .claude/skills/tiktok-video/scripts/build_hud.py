@@ -64,7 +64,7 @@ def main():
     for i, d in enumerate(days):
         ds, de = L(d["t"]), L(days[i + 1]["t"]) if i + 1 < len(days) else L(t1)
         hidden = '' if i == 0 else ' style="opacity: 0"'
-        day_spans.append(f'<span id="hud-d{i}"{hidden}>TAG {d["day"]}</span>')
+        day_spans.append(f'<span id="hud-d{i}"{hidden}>{cfg.get("day_label", "TAG")} {d["day"]}</span>')
         pct_spans.append(f'<span id="hud-p{i}"{hidden}>{d["pct"]} %</span>')
         n, t = 0, ds
         while t < de - 0.05:

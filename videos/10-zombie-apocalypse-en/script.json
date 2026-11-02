@@ -1,0 +1,27 @@
+{
+ "title": "What would you do in a zombie apocalypse?",
+ "series": "ZOMBIE APOCALYPSE",
+ "mode": "SZENARIO",
+ "lang": "en",
+ "part": 1,
+ "lines": [
+  { "id": "hook1", "say": "Imagine waking up to a city that has gone completely silent.", "show": "Imagine waking up to a city that has gone completely *silent.*", "pause": 0.3 },
+  { "id": "hook2", "say": "No cars. No sirens. Just something scratching at your door.", "show": "No cars. No sirens. Just something *scratching* at your door.", "pause": 0.4 },
+  { "id": "fact", "say": "And this isn't just fiction. In twenty-eleven, the CDC actually published a guide on how to survive a zombie apocalypse.", "show": "And this isn't just fiction. In *2011,* the *CDC* actually published a guide on how to survive a zombie apocalypse.", "pause": 0.2 },
+  { "id": "fact2", "say": "Their advice: water, food, and a plan.", "show": "Their advice: *water,* *food,* and a *plan.*", "pause": 0.35 },
+  { "id": "d1_mark", "say": "Day one. Six AM.", "show": "Day 1. 6 AM.", "pause": 0.25 },
+  { "id": "d1", "say": "Your phone has no signal. On TV, one sentence repeats: Stay inside. Do not open the door.", "show": "Your phone has *no* *signal.* On TV, one sentence repeats: Stay *inside.* Do not open the door.", "pause": 0.25 },
+  { "id": "d1b", "say": "Outside, your neighbor is standing in the street. Perfectly still. Staring at your window.", "show": "Outside, your *neighbor* is standing in the street. Perfectly still. Staring at your *window.*", "pause": 0.35 },
+  { "id": "d2_mark", "say": "Day two.", "show": "Day 2.", "pause": 0.25 },
+  { "id": "d2", "say": "The power is out. You hear glass breaking two floors below. Then footsteps on the stairs. Slow. Dragging.", "show": "The *power* is out. You hear glass *breaking* two floors below. Then footsteps on the stairs. Slow. *Dragging.*", "pause": 0.35 },
+  { "id": "d3_mark", "say": "Day three.", "show": "Day 3.", "pause": 0.25 },
+  { "id": "d3", "say": "Your water is almost gone. The nearest store is four-hundred meters away. Between you and it: dozens of them.", "show": "Your *water* is almost gone. The nearest store is 400 meters away. Between you and it: *dozens* of them.", "pause": 0.35 },
+  { "id": "d5_mark", "say": "Day five.", "show": "Day 5.", "pause": 0.25 },
+  { "id": "d5", "say": "A voice on the radio: There is a safe zone across the river. One bridge. One chance.", "show": "A voice on the radio: There is a *safe* *zone* across the river. One bridge. One *chance.*", "pause": 0.35 },
+  { "id": "d7_mark", "say": "Day seven.", "show": "Day 7.", "pause": 0.25 },
+  { "id": "d7", "say": "You reach the bridge. It's packed with survivors. Then you see it: a bite mark on the arm of the man next to you.", "show": "You reach the bridge. It's packed with survivors. Then you see it: a *bite* *mark* on the arm of the man next to you.", "pause": 0.4 },
+  { "id": "frage", "say": "Do you warn the others, or do you keep walking?", "show": "Do you *warn* the others, or do you keep *walking?*", "pause": 0.2 },
+  { "id": "cta1", "say": "Tell me in the comments.", "show": "Tell me in the *comments.*", "pause": 0.2 },
+  { "id": "cta", "say": "Follow so you don't miss part two.", "show": "Follow so you don't miss part *2.*", "pause": 0.5 }
+ ]
+}

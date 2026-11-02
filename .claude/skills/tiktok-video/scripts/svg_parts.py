@@ -356,7 +356,45 @@ def potato(id, x=540, y=1600, s=1.0, color="#c9955a", shade="#a8743e", mood="hap
 </g></g>'''
 
 
-PARTS = {"person": person, "shelf": shelf, "skyline": skyline, "embers": embers, "fog": fog, "player": player, "man": man, "hippo": hippo, "potato": potato}
+def zombie(id, x=540, y=1600, s=1.0, skin="#8fae7a", shirt="#5a4a6a", pants="#2a2f3b", hair="#2a2018", flip="0", pose="reach", **_):
+    """Zombie (Frontansicht, nicht blutig), Füße auf (x, y), Höhe ≈ 640*s. pose: reach (Arme vorgestreckt) | hang (Arme hängen).
+    Armgruppen {id}-armL/{id}-armR, Kopf {id}-head (zum Wackeln animierbar)."""
+    x, y, s = _f(x, 540), _f(y, 1600), _f(s, 1.0)
+    sx = -1 if str(flip) == "1" else 1
+    if pose == "reach":
+        arms = ("M-104 -380 q-80 -10 -150 10", "M104 -390 q80 0 150 -20")
+        hands = ((-262, -364), (262, -404))
+    else:
+        arms = ("M-104 -380 q-30 90 -40 190", "M104 -380 q30 90 34 190")
+        hands = ((-146, -186), (140, -186))
+    return f'''<g id="{id}"><g transform="translate({x} {y}) scale({s * sx} {s})">
+  <ellipse cx="0" cy="0" rx="120" ry="18" fill="#000" opacity=".35"/>
+  <path d="M-66 -200 h56 l6 190 h-58 z" fill="{pants}"/><path d="M12 -200 h56 l-4 120 l18 70 h-56 l-14 -60 z" fill="{pants}"/>
+  <path d="M-62 -40 l-8 30 h-8 M30 -36 l12 26" stroke="#1a1d24" stroke-width="5" fill="none"/>
+  <ellipse cx="-38" cy="-6" rx="42" ry="18" fill="#3a3a32"/><ellipse cx="50" cy="-6" rx="42" ry="18" fill="#3a3a32"/>
+  <g id="{id}-armL"><path d="{arms[0]}" stroke="{shirt}" stroke-width="50" stroke-linecap="round" fill="none" stroke-dasharray="70 400"/>
+    <path d="{arms[0]}" stroke="{skin}" stroke-width="40" stroke-linecap="round" fill="none" stroke-dasharray="0 70 400"/>
+    <circle cx="{hands[0][0]}" cy="{hands[0][1]}" r="24" fill="{skin}"/></g>
+  <g id="{id}-armR"><path d="{arms[1]}" stroke="{shirt}" stroke-width="50" stroke-linecap="round" fill="none" stroke-dasharray="70 400"/>
+    <path d="{arms[1]}" stroke="{skin}" stroke-width="40" stroke-linecap="round" fill="none" stroke-dasharray="0 70 400"/>
+    <circle cx="{hands[1][0]}" cy="{hands[1][1]}" r="24" fill="{skin}"/></g>
+  <path d="M-110 -340 q0 -66 60 -66 h100 q60 0 60 66 v130 l-24 26 l-20 -22 l-28 30 l-24 -26 l-30 24 l-26 -24 l-30 26 l-38 -30 z" fill="{shirt}"/>
+  <path d="M-40 -330 l20 40 l-30 30 M50 -300 l-20 50" stroke="#000" stroke-width="5" opacity=".25" fill="none"/>
+  <rect x="-24" y="-436" width="48" height="40" fill="{skin}"/>
+  <g id="{id}-head"><g transform="rotate(-10 0 -440)">
+    <circle cx="0" cy="-520" r="100" fill="{skin}"/>
+    <path d="M-100 -540 q-6 -100 100 -104 q90 2 104 90 l-20 -24 l-14 30 l-26 -40 l-20 34 l-30 -40 l-24 36 l-30 -34 l-20 40 z" fill="{hair}"/>
+    <ellipse cx="-38" cy="-520" rx="26" ry="24" fill="#4a5a44" opacity=".55"/><ellipse cx="38" cy="-524" rx="26" ry="24" fill="#4a5a44" opacity=".55"/>
+    <circle cx="-38" cy="-520" r="18" fill="#f4f1d0"/><circle cx="38" cy="-524" r="18" fill="#f4f1d0"/>
+    <circle cx="-44" cy="-516" r="5" fill="#1a1a14"/><circle cx="44" cy="-530" r="5" fill="#1a1a14"/>
+    <path d="M-34 -462 q34 -20 70 6 l-6 18 q-30 -10 -58 0 z" fill="#2a1a1a"/>
+    <path d="M-24 -458 v10 M-4 -464 v12 M16 -462 v10" stroke="#e9e6c8" stroke-width="6"/>
+    <path d="M56 -580 l20 26 M62 -574 l-10 8 M70 -566 l-10 8" stroke="#4a5a44" stroke-width="4"/>
+  </g></g>
+</g></g>'''
+
+
+PARTS = {"person": person, "shelf": shelf, "skyline": skyline, "embers": embers, "fog": fog, "player": player, "man": man, "hippo": hippo, "potato": potato, "zombie": zombie}
 PAT = re.compile(r'(<!--@(\w+)((?:\s+[\w-]+="[^"]*")*)\s*-->)(\n<g .*?<!--/@-->)?', re.S)
 
 

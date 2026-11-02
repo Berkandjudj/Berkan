@@ -61,6 +61,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("audio"); ap.add_argument("script"); ap.add_argument("out")
     ap.add_argument("--match")
+    ap.add_argument("--lang", default="de", help="Sprache der Aufnahme für Whisper (de, en, …)")
     ap.add_argument("--max-tempo", type=float, default=1.10)
     ap.add_argument("--lead", type=float, default=0.15)
     ap.add_argument("--skip", type=float, default=0.0, help="Sekunden am Anfang verwerfen (z. B. mitgesprochene Anweisung)")
@@ -78,7 +79,7 @@ def main():
     M = os.path.join(ASR, "sherpa-onnx-whisper-small")
     rec = sherpa_onnx.OfflineRecognizer.from_whisper(
         encoder=f"{M}/small-encoder.int8.onnx", decoder=f"{M}/small-decoder.int8.onnx",
-        tokens=f"{M}/small-tokens.txt", language="de", task="transcribe", num_threads=8)
+        tokens=f"{M}/small-tokens.txt", language=a.lang, task="transcribe", num_threads=8)
     # erkannte Wörter mit grober Zeit (gleichmäßig im Abschnitt verteilt, nach Zeichenlänge)
     hyp = []  # (norm_word, t_start, t_end)
     for s, e in segs:
