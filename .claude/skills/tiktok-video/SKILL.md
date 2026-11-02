@@ -77,6 +77,21 @@ Länge an das Ziel anpassen über `--speed` (1.0–1.15), Pausen oder Textkürzu
 Whisper lässt kurze Einleitungen („Tag 2.“) gern aus – dann den Ausschnitt einzeln prüfen, bevor man die Stimme verdächtigt. Zielt das Video auf 30 s,
 endet die Stimme bei ~28,5 s; der Rest gehört der Outro-Karte.
 
+### Neue Videos: ElevenLabs direkt (ab November 2026, Berkan hat Starter gebucht)
+
+Für **neue** Videos die Stimme selbst über den ElevenLabs-Konnektor erzeugen (fertige Videos nicht neu vertonen).
+Pro Video eine passende deutsche Stimme, `generations_count=1`, Modell `eleven_v4` (≈ 1 Credit pro Zeichen, 60 s ≈ 1.100 Credits):
+
+| Format | Stimme (voice_id) |
+|---|---|
+| LEGENDE | Amadeus `t7N67yv6R8AKFjJI6K7I` · bei Crime/Thriller Anton `Ay1WwRHxUsu3hEeAp8JZ` |
+| SZENARIO ernst | Amadeus · lustig: Timon `0i5UT3fATBWphA0jBZug` |
+| Islamische Erinnerung | Daniel `DZnfoUf7B8QPXH9qyPtm` |
+| Aufklärung / psychische Gesundheit | Ben `lJ5clA8ifnZiUXuhPMTe` |
+
+Ablauf: ganzes Skript (nur `say`-Texte) als ein Prompt → Download von `elevenlabsusercontent.com` (muss in den
+Allowed domains der Umgebung stehen) → `place_voice.py` natürlich → `gen_scenes.py`-Kette. Download-Links laufen nach Stunden ab.
+
 ### Beste Stimme: Gemini (AI Studio) – Berkans bevorzugter Weg
 
 Berkan erzeugt die Stimme selbst auf aistudio.google.com → „Generate speech“ (tiefe Männerstimme, z. B. Charon/Fenrir)
