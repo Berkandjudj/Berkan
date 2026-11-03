@@ -5,7 +5,7 @@
 
   </style>
   <div id="root" data-composition-id="fact" data-width="1080" data-height="1920">
-    <div id="f-a" class="beat clip" data-start="0.00" data-duration="5.68" data-track-index="0">
+    <div id="f-a" class="beat clip" data-start="0.00" data-duration="6.44" data-track-index="0">
       <div id="f-a-cam" class="cam">
         <svg class="full" viewBox="0 0 1080 1920">
           <rect width="1080" height="1920" fill="#0c1016" />
@@ -18,7 +18,7 @@
       <div id="f-a-title" class="title" style="top: 330px; font-size: 150px"><span class="o">Isolation</span></div>
       <div id="f-a-chip" class="chip-row" style="top: 520px"><span class="chip r" style="font-size: 60px">Wenige Tage</span></div>
     </div>
-    <div id="f-b" class="beat clip" data-start="5.68" data-duration="1.66" data-track-index="0">
+    <div id="f-b" class="beat clip" data-start="6.44" data-duration="1.81" data-track-index="0">
       <div id="f-b-cam" class="cam">
         <svg class="full" viewBox="0 0 1080 1920">
           <rect width="1080" height="1920" fill="#141a22" />
@@ -59,12 +59,12 @@
   </div>
   <script>
     const tl = gsap.timeline({ paused: true });
-    tl.fromTo("#f-a-cam", { scale: 1.0 }, { scale: 1.08, duration: 5.68, ease: "none" }, 0.00);
-    tl.fromTo("#f-a-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 0.27);
-    tl.fromTo("#f-a-chip", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 3.45);
+    tl.fromTo("#f-a-cam", { scale: 1.0 }, { scale: 1.08, duration: 6.44, ease: "none" }, 0.00);
+    tl.fromTo("#f-a-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 0.29);
+    tl.fromTo("#f-a-chip", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 3.76);
     tl.fromTo(".f-a-w", { opacity: 0.1 }, { opacity: 0.8, duration: 0.35, repeat: 9, yoyo: true, stagger: 0.12 }, 0.00);
-    tl.fromTo("#f-b-cam", { scale: 1.0 }, { scale: 1.1, duration: 1.66, ease: "none" }, 5.68);
-    tl.fromTo("#f-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 6.62);
+    tl.fromTo("#f-b-cam", { scale: 1.0 }, { scale: 1.1, duration: 1.81, ease: "none" }, 6.44);
+    tl.fromTo("#f-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 7.55);
     window.__timelines["fact"] = tl;
   </script>
 </template>

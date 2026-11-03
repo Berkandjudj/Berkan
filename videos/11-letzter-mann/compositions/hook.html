@@ -5,7 +5,7 @@
 
   </style>
   <div id="root" data-composition-id="hook" data-width="1080" data-height="1920">
-    <div id="h-a" class="beat clip" data-start="0.00" data-duration="4.65" data-track-index="0">
+    <div id="h-a" class="beat clip" data-start="0.00" data-duration="5.35" data-track-index="0">
       <div id="h-a-cam" class="cam">
         <svg class="full" viewBox="0 0 1080 1920">
           <defs><linearGradient id="h-a-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0f18" /><stop offset="1" stop-color="#2a3448" /></linearGradient></defs>
@@ -657,7 +657,7 @@
       </div>
       <div id="h-a-title" class="title" style="top: 200px; font-size: 140px">Der letzte<br /><span class="r">Mann</span></div>
     </div>
-    <div id="h-b" class="beat clip" data-start="4.65" data-duration="3.02" data-track-index="0">
+    <div id="h-b" class="beat clip" data-start="5.35" data-duration="3.44" data-track-index="0">
       <div id="h-b-cam" class="cam">
         <svg class="full" viewBox="0 0 1080 1920">
           <rect width="1080" height="1920" fill="#10141c" />
@@ -756,14 +756,14 @@
   </div>
   <script>
     const tl = gsap.timeline({ paused: true });
-    tl.fromTo("#h-a-cam", { scale: 1.0 }, { scale: 1.08, duration: 4.65, ease: "none" }, 0.00);
+    tl.fromTo("#h-a-cam", { scale: 1.0 }, { scale: 1.08, duration: 5.35, ease: "none" }, 0.00);
     tl.fromTo(".h-a-rg-c", { scale: 0.7, opacity: 0.9, transformOrigin: "50% 50%" }, { scale: 1.25, opacity: 0, duration: 0.9, repeat: 4, stagger: 0.2, ease: "none" }, 0.20);
     tl.fromTo("#h-a-win", { opacity: 1 }, { opacity: 0.6, duration: 0.3, repeat: 5, yoyo: true }, 0.40);
     tl.fromTo(".h-a-c", { y: 0 }, { y: -6, duration: 1.2, repeat: 3, yoyo: true, stagger: 0.05, ease: "sine.inOut" }, 0.00);
-    tl.fromTo("#h-b-cam", { scale: 1.0 }, { scale: 1.12, duration: 3.02, ease: "power1.in" }, 4.65);
-    tl.fromTo(["#h-b-o0-head", "#h-b-o1-head", "#h-b-o2-head"], { rotation: -8, transformOrigin: "50% 90%" }, { rotation: 0, duration: 0.6, ease: "power2.out", stagger: 0.15 }, 4.85);
-    tl.fromTo("#h-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 6.94);
-    tl.fromTo("#h-b-cam", { x: 0 }, { x: 14, duration: 0.04, repeat: 5, yoyo: true }, 7.09);
+    tl.fromTo("#h-b-cam", { scale: 1.0 }, { scale: 1.12, duration: 3.44, ease: "power1.in" }, 5.35);
+    tl.fromTo(["#h-b-o0-head", "#h-b-o1-head", "#h-b-o2-head"], { rotation: -8, transformOrigin: "50% 90%" }, { rotation: 0, duration: 0.6, ease: "power2.out", stagger: 0.15 }, 5.55);
+    tl.fromTo("#h-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 7.98);
+    tl.fromTo("#h-b-cam", { x: 0 }, { x: 14, duration: 0.04, repeat: 5, yoyo: true }, 8.13);
     window.__timelines["hook"] = tl;
   </script>
 </template>

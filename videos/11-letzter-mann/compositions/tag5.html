@@ -5,7 +5,7 @@
 
   </style>
   <div id="root" data-composition-id="tag5" data-width="1080" data-height="1920">
-    <div id="t5-a" class="beat clip" data-start="0.00" data-duration="0.91" data-track-index="0">
+    <div id="t5-a" class="beat clip" data-start="0.00" data-duration="1.02" data-track-index="0">
       <div id="t5-a-cam" class="cam">
         <svg class="full" viewBox="0 0 1080 1920">
           <rect width="1080" height="1920" fill="#1a1f2b" />
@@ -15,7 +15,7 @@
       <div id="t5-a-day" class="title" style="top: 520px; font-size: 270px"><span class="o">Tag 5</span></div>
       <div id="t5-a-chip" class="chip-row" style="top: 850px"><span class="chip " style="font-size: 60px">Keller</span></div>
     </div>
-    <div id="t5-b" class="beat clip" data-start="0.91" data-duration="6.89" data-track-index="0">
+    <div id="t5-b" class="beat clip" data-start="1.02" data-duration="7.98" data-track-index="0">
       <div id="t5-b-cam" class="cam">
         <svg class="full" viewBox="0 0 1080 1920">
           <rect width="1080" height="1920" fill="#06080b" />
@@ -63,12 +63,12 @@
     const tl = gsap.timeline({ paused: true });
     tl.fromTo("#t5-a-day", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 0.06);
     tl.fromTo("#t5-a-chip", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 0.22);
-    tl.fromTo("#t5-b-cam", { scale: 1.0 }, { scale: 1.06, duration: 6.89, ease: "none" }, 0.91);
-    tl.fromTo(".t5-b-s", { opacity: 0, x: -200 }, { opacity: 1, x: 0, duration: 0.6, stagger: 0.15, ease: "power1.out" }, 4.52);
-    tl.fromTo(".t5-b-d", { y: 0, opacity: 1 }, { y: 500, opacity: 0, duration: 1.4, stagger: 0.08, ease: "power1.in" }, 6.19);
-    tl.fromTo("#t5-b-me", { y: 0 }, { y: 6, duration: 0.08, repeat: 9, yoyo: true }, 6.19);
-    tl.fromTo("#t5-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 7.14);
-    tl.fromTo("#t5-b-cam", { x: 0 }, { x: 14, duration: 0.04, repeat: 5, yoyo: true }, 7.24);
+    tl.fromTo("#t5-b-cam", { scale: 1.0 }, { scale: 1.06, duration: 7.98, ease: "none" }, 1.02);
+    tl.fromTo(".t5-b-s", { opacity: 0, x: -200 }, { opacity: 1, x: 0, duration: 0.6, stagger: 0.15, ease: "power1.out" }, 4.85);
+    tl.fromTo(".t5-b-d", { y: 0, opacity: 1 }, { y: 500, opacity: 0, duration: 1.4, stagger: 0.08, ease: "power1.in" }, 6.60);
+    tl.fromTo("#t5-b-me", { y: 0 }, { y: 6, duration: 0.08, repeat: 9, yoyo: true }, 6.60);
+    tl.fromTo("#t5-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 8.20);
+    tl.fromTo("#t5-b-cam", { x: 0 }, { x: 14, duration: 0.04, repeat: 5, yoyo: true }, 8.30);
     window.__timelines["tag5"] = tl;
   </script>
 </template>

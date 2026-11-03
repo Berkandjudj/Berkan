@@ -92,6 +92,9 @@ Pro Video eine passende deutsche Stimme, `generations_count=1`, Modell `eleven_v
 Englisch: Erzähler Joey Patel `1FICyb1ofi71ENYIn6V2` (amerikanisch, tief, Spannung). `place_voice.py --lang en`, `TT_LANG=en transcribe.py`,
 in `hud.json` `"day_label": "DAY"`. ElevenLabs spricht langsam: vor `place_voice` mit `ffmpeg -af atempo=1.07` leicht straffen,
 `--max-gap 0.2 --max-line-gap 0.28`.
+Nach dem Rendern Lautheit prüfen; liegt sie unter −15 LUFS, Audio nachnormalisieren (Video bleibt unangetastet):
+`ffmpeg -i in.mp4 -c:v copy -af "loudnorm=I=-14:TP=-1.5:LRA=11" -c:a aac -b:a 192k -ar 48000 out.mp4`.
+Person mit leeren, leuchtenden Augen (Horror): `person … eyes="blank" mood="happy"`.
 Download: Berkan lädt die Aufnahme selbst herunter (Safari → elevenlabs.io → Seitenleiste → **Assets** bzw. **Flows** → „Untitled flow“)
 und schickt die MP3 in den Chat; App-Links öffnen nur den leeren Editor.
 Ablauf: ganzes Skript (nur `say`-Texte) als ein Prompt → Download von `elevenlabsusercontent.com` (muss in den
