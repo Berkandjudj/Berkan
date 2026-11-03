@@ -1,0 +1,61 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #131824; }
+    .beat { position: absolute; inset: 0; overflow: hidden; }
+    .q-choice { position: absolute; top: 980px; width: 300px; text-align: center; }
+    .q-choice .chip { font-size: 92px; padding: 6px 44px 10px; }
+  </style>
+  <div id="root" data-composition-id="frage" data-width="1080" data-height="1920">
+    <div id="q-a" class="beat clip" data-start="0.00" data-duration="2.92" data-track-index="0">
+      <div id="q-a-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <rect width="1080" height="1920" fill="#14100c" />
+          <rect x="590" y="520" width="440" height="1180" rx="10" fill="#3a2616" /><rect x="590" y="1700" width="440" height="10" fill="#bfe8ff" opacity="0.5" />
+          <rect y="1720" width="1080" height="200" fill="#1a1410" />
+          <!--@person id="q-me" x="320" y="1760" s="1.0" jacket="#3a5a4a" pants="#2a2f3b" hair="#2a1a10" skin="#e9c0a0" style="short" beard="full" mood="worried"-->
+<g id="q-me"><g transform="translate(320.0 1760.0) scale(1.0 1.0)">
+  <ellipse cx="0" cy="0" rx="120" ry="18" fill="#000" opacity=".3"/>
+  <rect x="-70" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <rect x="12" y="-200" width="58" height="196" rx="20" fill="#2a2f3b"/>
+  <ellipse cx="-44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/><ellipse cx="44" cy="-6" rx="46" ry="20" fill="#d9d4c7"/>
+  <g id="q-me-armL" transform="rotate(0 -124 -380)"><rect x="-150" y="-392" width="52" height="200" rx="26" fill="#3a5a4a" transform="rotate(8 -124 -392)"/>
+    <circle cx="-138" cy="-186" r="26" fill="#e9c0a0"/></g>
+  <g id="q-me-armR" transform="rotate(0 124 -380)"><rect x="98" y="-392" width="52" height="200" rx="26" fill="#3a5a4a" transform="rotate(-8 124 -392)"/>
+    <circle cx="138" cy="-186" r="26" fill="#e9c0a0"/></g>
+  <path d="M-110 -340 q0 -66 60 -66 h100 q60 0 60 66 v150 h-220 z" fill="#3a5a4a"/>
+  <path d="M-30 -406 l30 60 l30 -60 z" fill="#e9e6da"/>
+  
+  <rect x="-24" y="-436" width="48" height="40" fill="#e9c0a0"/>
+  <g id="q-me-head">
+    
+    <circle cx="0" cy="-520" r="102" fill="#e9c0a0"/>
+    <circle cx="-102" cy="-512" r="18" fill="#e9c0a0"/><circle cx="102" cy="-512" r="18" fill="#e9c0a0"/>
+    <path d="M-104 -520 q-6 -110 104 -118 q110 8 104 118 q-30 -56 -104 -60 q-74 4 -104 60 z" fill="#2a1a10"/>
+    <ellipse cx="-36" cy="-522" rx="17" ry="19" fill="#fff"/><ellipse cx="36" cy="-522" rx="17" ry="19" fill="#fff"/>
+    <circle id="q-me-eyeL" cx="-34" cy="-520" r="9" fill="#0f1218"/><circle id="q-me-eyeR" cx="34" cy="-520" r="9" fill="#0f1218"/>
+    
+    <path d="M-52 -548 l32 -12 M20 -560 l32 12" stroke="#2a1a10" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <circle cx="-62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/><circle cx="62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/>
+    <path d="M-18 -462 q18 -12 36 0" fill="none" stroke="#5a2a1e" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-100 -520 q0 120 100 122 q100 -2 100 -122 q-20 60 -40 66 q-60 -26 -120 0 q-20 -6 -40 -66 z" fill="#2a1a10"/><path d="M-46 -486 q22 -20 46 -8 q24 -12 46 8 q-10 18 -46 10 q-36 8 -46 -10 z" fill="#2a1a10"/>
+    
+  </g>
+</g></g><!--/@-->
+        </svg>
+      </div>
+      <div id="q-title" class="title" style="top: 210px; font-size: 130px">Würdest du<br /><span class="r">öffnen?</span></div>
+      <div id="q-yes" class="q-choice" style="left: 40px"><span class="chip o">Auf</span></div>
+      <div id="q-no" class="q-choice" style="left: 740px"><span class="chip r">Zu</span></div>
+      <div id="q-com" class="chip-row" style="top: 640px"><span class="chip o" style="font-size: 56px">In die Kommentare →</span></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#q-a-cam", { scale: 1.0 }, { scale: 1.06, duration: 2.92, ease: "none" }, 0.00);
+    tl.fromTo("#q-title", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.2, ease: "power3.out" }, 0.04);
+    tl.fromTo("#q-yes", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 0.75);
+    tl.fromTo("#q-no", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 0.93);
+    tl.fromTo("#q-com", { opacity: 0, x: -80 }, { opacity: 1, x: 0, duration: 0.25, ease: "power3.out" }, 1.46);
+    window.__timelines["frage"] = tl;
+  </script>
+</template>

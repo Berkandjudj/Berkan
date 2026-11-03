@@ -1,0 +1,116 @@
+{
+ "title": "Der letzte Mann auf der Welt",
+ "series": "DER LETZTE MANN",
+ "mode": "SZENARIO",
+ "part": 1,
+ "lines": [
+  {
+   "id": "hook1",
+   "say": "Stell dir vor, du bist der letzte Mann auf dieser Welt. Und alle anderen suchen dich.",
+   "show": "Stell dir vor, du bist der *letzte* *Mann* auf dieser Welt. Und alle anderen *suchen* dich.",
+   "pause": 0.3
+  },
+  {
+   "id": "hook2",
+   "say": "Sie sehen aus wie Menschen. Aber sie sind es nicht mehr.",
+   "show": "Sie sehen aus wie Menschen. Aber sie sind es *nicht* *mehr.*",
+   "pause": 0.4
+  },
+  {
+   "id": "fact",
+   "say": "In Isolations-Experimenten sahen und hörten manche Teilnehmer schon nach wenigen Tagen Dinge, die gar nicht da waren.",
+   "show": "In Isolations-Experimenten sahen und hörten manche Teilnehmer schon nach wenigen Tagen *Dinge,* die gar nicht da waren.",
+   "pause": 0.2
+  },
+  {
+   "id": "fact2",
+   "say": "Doch du bildest dir nichts ein.",
+   "show": "Doch du bildest dir *nichts* ein.",
+   "pause": 0.35
+  },
+  {
+   "id": "t1_mark",
+   "say": "Tag, eins, sechs Uhr.",
+   "show": "Tag 1, 6 Uhr.",
+   "pause": 0.2
+  },
+  {
+   "id": "t1",
+   "say": "Die Straßen sind voll. Tausende Menschen stehen still. Alle schauen in dieselbe Richtung. Zu deinem Fenster.",
+   "show": "Die Straßen sind voll. *Tausende* Menschen stehen still. Alle schauen in dieselbe Richtung. Zu deinem *Fenster.*",
+   "pause": 0.3
+  },
+  {
+   "id": "t1b",
+   "say": "Du ziehst die Vorhänge zu. Und hörst, wie unten jemand deinen Namen flüstert.",
+   "show": "Du ziehst die Vorhänge zu. Und hörst, wie unten jemand deinen *Namen* *flüstert.*",
+   "pause": 0.35
+  },
+  {
+   "id": "t2_mark",
+   "say": "Tag, zwei.",
+   "show": "Tag 2.",
+   "pause": 0.2
+  },
+  {
+   "id": "t2",
+   "say": "Nachts schleichst du dich raus. Keiner schläft. Sie stehen nur da, mit offenen Augen. Und lächeln.",
+   "show": "Nachts schleichst du dich raus. *Keiner* schläft. Sie stehen nur da, mit offenen Augen. Und *lächeln.*",
+   "pause": 0.35
+  },
+  {
+   "id": "t3_mark",
+   "say": "Tag, drei.",
+   "show": "Tag 3.",
+   "pause": 0.2
+  },
+  {
+   "id": "t3",
+   "say": "Im Supermarkt liegt ein Zettel an der Kasse. In deiner Handschrift steht darauf: Bleib nicht hier.",
+   "show": "Im Supermarkt liegt ein *Zettel* an der Kasse. In deiner *Handschrift* steht darauf: Bleib nicht hier.",
+   "pause": 0.35
+  },
+  {
+   "id": "t5_mark",
+   "say": "Tag, fünf.",
+   "show": "Tag 5.",
+   "pause": 0.2
+  },
+  {
+   "id": "t5",
+   "say": "Du versteckst dich im Keller. Kein Licht. Kein Handy. Über dir Schritte. Dutzende. Und sie bleiben genau über dir stehen.",
+   "show": "Du versteckst dich im *Keller.* Kein Licht. Kein Handy. Über dir *Schritte.* Dutzende. Und sie bleiben genau über dir *stehen.*",
+   "pause": 0.4
+  },
+  {
+   "id": "t7_mark",
+   "say": "Tag, sieben.",
+   "show": "Tag 7.",
+   "pause": 0.2
+  },
+  {
+   "id": "t7",
+   "say": "Es klopft. Dreimal. Und eine Stimme, die genau wie deine klingt, sagt: Mach auf. Ich bin's.",
+   "show": "Es *klopft.* Dreimal. Und eine Stimme, die genau wie *deine* klingt, sagt: Mach auf. Ich *bin's.*",
+   "pause": 0.4
+  },
+  {
+   "id": "frage",
+   "say": "Würdest du die Tür öffnen?",
+   "show": "Würdest du die Tür *öffnen?*",
+   "pause": 0.2
+  },
+  {
+   "id": "cta1",
+   "say": "Schreib es in die Kommentare.",
+   "show": "Schreib es in die *Kommentare.*",
+   "pause": 0.2
+  },
+  {
+   "id": "cta",
+   "say": "Folge mir, damit du Teil zwei nicht verpasst.",
+   "show": "Folge mir, damit du Teil *2* nicht verpasst.",
+   "pause": 0.5
+  }
+ ]
+}

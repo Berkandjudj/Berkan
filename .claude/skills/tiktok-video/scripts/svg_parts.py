@@ -19,9 +19,9 @@ def _f(v, d):
 
 
 def person(id, x=540, y=1500, s=1.0, jacket="#2f6f8f", pants="#2a2f3b", hair="#5a3a22", skin="#f1c7a0",
-           style="short", mood="neutral", flip="0", hat="", vest="", arms="down", beard="", **_):
+           style="short", mood="neutral", flip="0", hat="", vest="", arms="down", beard="", eyes="", **_):
     """Figur, Füße auf (x, y). Höhe ≈ 640*s. mood: neutral|worried|shocked|sad|happy.
-    style: short|spiky|long|bald|curly. arms: down|up (jubeln). beard: ""|mustache|full."""
+    style: short|spiky|long|bald|curly. arms: down|up (jubeln). beard: ""|mustache|full. eyes: ""|blank (leere, leuchtende Augen)."""
     x, y, s = _f(x, 540), _f(y, 1500), _f(s, 1.0)
     sx = -1 if str(flip) == "1" else 1
     dark = "#0f1218"
@@ -86,7 +86,8 @@ def person(id, x=540, y=1500, s=1.0, jacket="#2f6f8f", pants="#2a2f3b", hair="#5
     <circle cx="-102" cy="-512" r="18" fill="{skin}"/><circle cx="102" cy="-512" r="18" fill="{skin}"/>
     {hair_svg if style != "long" else ""}
     <ellipse cx="-36" cy="-522" rx="17" ry="19" fill="#fff"/><ellipse cx="36" cy="-522" rx="17" ry="19" fill="#fff"/>
-    <circle id="{id}-eyeL" cx="-34" cy="-520" r="9" fill="{dark}"/><circle id="{id}-eyeR" cx="34" cy="-520" r="9" fill="{dark}"/>
+    <circle id="{id}-eyeL" cx="-34" cy="-520" r="9" fill="{dark if eyes != 'blank' else '#e9fbff'}"/><circle id="{id}-eyeR" cx="34" cy="-520" r="9" fill="{dark if eyes != 'blank' else '#e9fbff'}"/>
+    {'<ellipse cx="-36" cy="-522" rx="17" ry="19" fill="#dff6ff"/><ellipse cx="36" cy="-522" rx="17" ry="19" fill="#dff6ff"/><ellipse cx="-36" cy="-522" rx="24" ry="26" fill="#bfe8ff" opacity=".35"/><ellipse cx="36" cy="-522" rx="24" ry="26" fill="#bfe8ff" opacity=".35"/>' if eyes == 'blank' else ''}
     <path d="{brows}" stroke="{hair if style != 'bald' else '#6b5a4a'}" stroke-width="9" stroke-linecap="round" fill="none"/>
     <circle cx="-62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/><circle cx="62" cy="-482" r="14" fill="#e88a7a" opacity=".35"/>
     {mouth}

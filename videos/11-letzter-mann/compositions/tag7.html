@@ -1,0 +1,62 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #131824; }
+    .beat { position: absolute; inset: 0; overflow: hidden; }
+
+  </style>
+  <div id="root" data-composition-id="tag7" data-width="1080" data-height="1920">
+    <div id="t7-a" class="beat clip" data-start="0.00" data-duration="0.97" data-track-index="0">
+      <div id="t7-a-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <rect width="1080" height="1920" fill="#1a1f2b" />
+          <circle cx="540" cy="760" r="420" fill="#232a3a" />
+        </svg>
+      </div>
+      <div id="t7-a-day" class="title" style="top: 520px; font-size: 270px"><span class="o">Tag 7</span></div>
+      <div id="t7-a-chip" class="chip-row" style="top: 850px"><span class="chip " style="font-size: 60px">Es klopft</span></div>
+    </div>
+    <div id="t7-b" class="beat clip" data-start="0.97" data-duration="1.00" data-track-index="0">
+      <div id="t7-b-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <rect width="1080" height="1920" fill="#0c0a08" />
+          <g id="t7-b-door"><rect x="210" y="520" width="660" height="1120" rx="12" fill="#4a3220" />
+          <rect x="260" y="580" width="250" height="420" rx="10" fill="#3a2616" /><rect x="570" y="580" width="250" height="420" rx="10" fill="#3a2616" />
+          <rect x="260" y="1060" width="250" height="520" rx="10" fill="#3a2616" /><rect x="570" y="1060" width="250" height="520" rx="10" fill="#3a2616" />
+          <g transform="translate(790 1080)"><rect x="-10" y="-60" width="40" height="120" rx="12" fill="#8d93a1" /><rect x="-110" y="-16" width="130" height="34" rx="16" fill="#b8892e" /></g>
+          <rect x="210" y="1640" width="660" height="12" fill="#bfe8ff" opacity="0.5" /></g>
+          <g transform="translate(540 900)"><g id="t7-b-rg"><circle class="t7-b-rg-c" r="120" fill="none" stroke="#e8412f" stroke-width="12" opacity="0.8" /><circle class="t7-b-rg-c" r="190" fill="none" stroke="#e8412f" stroke-width="12" opacity="0.8" /><circle class="t7-b-rg-c" r="260" fill="none" stroke="#e8412f" stroke-width="12" opacity="0.8" /></g></g>
+        </svg>
+      </div>
+      <div id="t7-b-title" class="title" style="top: 390px; font-size: 140px"><span class="r">3× Klopfen</span></div>
+    </div>
+    <div id="t7-c" class="beat clip" data-start="1.97" data-duration="4.81" data-track-index="0">
+      <div id="t7-c-cam" class="cam">
+        <svg class="full" viewBox="0 0 1080 1920">
+          <rect width="1080" height="1920" fill="#0c0a08" />
+          <rect x="210" y="520" width="660" height="1120" rx="12" fill="#4a3220" />
+          <rect x="260" y="580" width="250" height="420" rx="10" fill="#3a2616" /><rect x="570" y="580" width="250" height="420" rx="10" fill="#3a2616" />
+          <rect x="260" y="1060" width="250" height="520" rx="10" fill="#3a2616" /><rect x="570" y="1060" width="250" height="520" rx="10" fill="#3a2616" />
+          <g transform="translate(790 1080)"><rect x="-10" y="-60" width="40" height="120" rx="12" fill="#8d93a1" /><rect x="-110" y="-16" width="130" height="34" rx="16" fill="#b8892e" /></g>
+          <rect x="210" y="1640" width="660" height="12" fill="#bfe8ff" opacity="0.5" />
+          <g transform="translate(540 1500)"><g id="t7-c-wave" fill="#bfe8ff"><rect class="t7-c-b" x="-260" y="-60" width="22" height="120" rx="11" /><rect class="t7-c-b" x="-220" y="-60" width="22" height="120" rx="11" /><rect class="t7-c-b" x="-180" y="-60" width="22" height="120" rx="11" /><rect class="t7-c-b" x="-140" y="-60" width="22" height="120" rx="11" /><rect class="t7-c-b" x="-100" y="-60" width="22" height="120" rx="11" /><rect class="t7-c-b" x="-60" y="-60" width="22" height="120" rx="11" /><rect class="t7-c-b" x="-20" y="-60" width="22" height="120" rx="11" /><rect class="t7-c-b" x="20" y="-60" width="22" height="120" rx="11" /><rect class="t7-c-b" x="60" y="-60" width="22" height="120" rx="11" /><rect class="t7-c-b" x="100" y="-60" width="22" height="120" rx="11" /><rect class="t7-c-b" x="140" y="-60" width="22" height="120" rx="11" /><rect class="t7-c-b" x="180" y="-60" width="22" height="120" rx="11" /><rect class="t7-c-b" x="220" y="-60" width="22" height="120" rx="11" /><rect class="t7-c-b" x="260" y="-60" width="22" height="120" rx="11" /></g></g>
+        </svg>
+      </div>
+      <div id="t7-c-title" class="title" style="top: 330px; font-size: 110px">„Mach auf.<br /><span class="r">Ich bin's.“</span></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#t7-a-day", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 0.06);
+    tl.fromTo("#t7-a-chip", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)" }, 0.22);
+    tl.fromTo("#t7-b-cam", { scale: 1.0 }, { scale: 1.06, duration: 1.00, ease: "none" }, 0.97);
+    tl.fromTo("#t7-b-door", { x: 0 }, { x: 10, duration: 0.05, repeat: 1, yoyo: true }, 1.30);
+    tl.to("#t7-b-door", { x: 10, duration: 0.05, repeat: 1, yoyo: true }, 1.80);
+    tl.to("#t7-b-door", { x: 10, duration: 0.05, repeat: 1, yoyo: true }, 2.25);
+    tl.fromTo(".t7-b-rg-c", { scale: 0.7, opacity: 0.9, transformOrigin: "50% 50%" }, { scale: 1.25, opacity: 0, duration: 0.9, repeat: 2, stagger: 0.2, ease: "none" }, 1.35);
+    tl.fromTo("#t7-b-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 1.75);
+    tl.fromTo("#t7-c-cam", { scale: 1.0 }, { scale: 1.15, duration: 4.81, ease: "power1.in" }, 1.97);
+    tl.fromTo(".t7-c-b", { scaleY: 0.2, transformOrigin: "50% 50%" }, { scaleY: 1, duration: 0.18, repeat: 26, yoyo: true, stagger: { each: 0.05, from: "center" } }, 1.97);
+    tl.fromTo("#t7-c-title", { opacity: 0, scale: 1.8, filter: "blur(8px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.in" }, 5.27);
+    window.__timelines["tag7"] = tl;
+  </script>
+</template>
